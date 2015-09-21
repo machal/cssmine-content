@@ -7,7 +7,7 @@ Beware of faux bold and faux italics
 Are you using your own font files on a website? In other words: are you not
 using cloud solutions such as Google Fonts? Then it is good to know that if you
 want to use fonts in various sizes and variants, you have to make appropriate
-CSS declarations and have files with appropriate cuts ready.
+CSS declarations and have files with appropriate font cuts ready.
 
 This applies primarily to the italic and bold cut. If you declare the font like
 this…
@@ -26,19 +26,17 @@ this…
 … and then you apply it in HTML like this…
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<p>Grumpy wizards make toxic brew for the <b>evil</b>
+<p>Grumpy wizards make toxic brew for the <b>evil</b> Queen and Jack.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Queen and Jack.
 
 … the word „evil” will be rendered as bold at first sight, as well as the word
 „Jack” will be rendered as italic thanks to the italic cut of the `WebFont`
-family. But don't be fooled - this is the case of faux italics and bold cut that
-the browser tried to render from a normal cut of the font.
+family. But don't be fooled - this is the case of faux italics and bold cuts
+that the browser tried to render from a normal cut of the font.
 
-Pokud všechny tři řezy potřebujete, jediná správná cesta je dodat prohlížeči tři
-řezy – „normální“, kurzívu a tučný řez — a v CSS deklaraci mu oznámit, který
-soubor ke které variantě patří.
+If you need all three font cuts, i.e. normal, bold and italic, the only way to
+achieve this is to declare all three of them — and set a CSS declaration to tell
+the browser which file is connected to particular font variant.
 
 Zjednodušeně by to mohlo vypadat takto:
 
@@ -65,23 +63,23 @@ Zjednodušeně by to mohlo vypadat takto:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Více na
+Find more at
 [css-snippets.com/web-fonts-faux-bold-and-italic/](<http://css-snippets.com/web-fonts-faux-bold-and-italic/>).
 
-Načítání fontů z jiných domén v Internet Exploreru
---------------------------------------------------
+Cross-origin web font in Internet Explorer
+------------------------------------------
 
-Díky bezpečnostnímu pravidlu o servírování fontů ze stejného původu (same origin
-policy) je v IE všech verzí (ale i starých Chrome a Firefoxech) zakázáno načítat
-soubory s fonty z jiné domény. Dozvíte se to, když vám Explorer do konzole
-nahlásí:
+Thanks to the "same origin policy", it is not permitted to load font files from
+another domain. This applies to all Internet Explorer versions and some older
+versions of Chrome and Firefox as well. You can see this problem in the console
+of your browser:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CSS3117: @font-face failed cross-origin request. Resource access is restricted.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Řešením je správně nastavit `.htaccess` na doméně, z níž servírujete soubory s
-písmy:
+The solution to this si to set your `.htaccess` on a domain where your font
+files are located:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <IfModule mod_headers.c>
@@ -91,34 +89,34 @@ písmy:
 </IfModule>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Nastavení pro jiné servery než Apache hledejte v `server-configs` repozitářích u
-HTML5Boilerplate — [github.com/h5bp](<https://github.com/h5bp>).
+If you do not use an Apache server, you will have to take a look in
+`server-configs` repositories — see
+[github.com/h5bp](<https://github.com/h5bp>).
 
 Fontokuk
 --------
 
-Chamurappiho užitečný nástroj na testování přítomnosti (nejen) českých znaků v
-souborech v písmech. Vyberete font z operačního systému, z Google Fonts nebo
-přilinkujete vlastní a také vyberete text, který v něm chcete vysázet. Ten vám
-pak Fontokuk vykreslí ve vybraném písmu –
+This is Chamurappi's very useful tool for testing the presence of special
+characters in font files. Just choose either a system font, a Google Font or
+insert your own code and then enter the line of text you want to see. Fontokuk
+will then display the text using the desired font. See
 [fontokuk.webylon.info](<http://fontokuk.webylon.info>).
 
-Ikonfonty
----------
+Font icons
+----------
 
-Zajímavý způsob využití webových fontů představují tzv. „ikonfonty“. Namísto
-běžných znaků jsou v nich uložené ikonky.
+Font icons are a convenient way of using web fonts. They contain icons instead
+of regular characters.
 
-Výhodou je vektorový formát, který vám umožní mít jednu verzi ikony pro všechny
-velikosti rodičovského prvku nebo pro všechny možné varianty vysokokapacitních
-displejů.
+The indisputable advantage of using font icons is the vector format which allows
+you to use one icon for all sizes of a parent element and all high-resolution
+displays.
 
-Aplikace IcoMoon vám vygeneruje fonty s ikonami na míru –
+The IcoMoon app will generate fonts with custom icons –
 [icomoon.io](<http://icomoon.io>).
 
-Hezké využití ikonfontů je vektorová mapa Česka –
+A nice example of using font incons is a vector map of the Czech Republic –
 [cezetmap.cz](<http://cezetmap.cz>).
 
-Než se do používání ikonfontů pustíte, zvažte, zda pro vás není lepší použít
-rovnou vektorový formát SVG –
+However, before looking into font icons, consider using the SVG vector format –
 [css-tricks.com/icon-fonts-vs-svg/](<http://css-tricks.com/icon-fonts-vs-svg/>).

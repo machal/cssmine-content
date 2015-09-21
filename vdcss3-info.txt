@@ -1,0 +1,35 @@
+Kde se objevil název příručky (v budoucnu bude třeba změnit na finální název): 
+kapitola-2-perex.md
+
+
+Možné názvy příručky: 
+33 shades of CSS3
+CSS3 BYOD - be your own developer
+CSS3 for Masterminds
+
+
+Poznámky k souborům: 
+
+css3-font-face.md 
+- přidal jsem (embedding permissions in the font's header), což v CZ textu nebylo
+**TTF/OTF** (TrueType/OpenType) – these are two formats which are supported by almost all modern browsers, however MSIE supports them from version 9. Furthemore, you have to set the so called „embeding bits“ (embedding permissions in the font's header) to „installable“. [caniuse.com/ttf] (poked to nechceš, dám pryč)
+
+font-face-tipy.md 
+- dal jsem slova "Queen and Jack" do ukázky kódu - předtím byla mimo a bylo to samozřejmě v ČJ, takže tam bylo "úpěl ďábelské ódy" - přišlo mi to matoucí, když to bylo mimo (pokud to byl záměr, tak promiň a vrátím to zpět)
+
+- je tam reference na fontokuk (primárně CZ nástroj)
+
+- co zmínit Font Awesome nebo Black Tie? (pouze nápad)
+
+- ukázka http://cezetmap.cz - otázka, jestli pro AJ verzi nedat jinou ukázku...? 
+
+
+font-face-netechnicke.md 
+- reference na typomil.com - je to CZ web
+
+- suitcasetype.com or stormtype.com - jsou to CZ weby
+
+
+Další poznámky: 
+
+- u některých nadpisů máš v dovětku český ekvivalent, např "CSS3 Background Size – velikost obrázku na pozadí". V angličtině to někdy pozbývá smyslu, tzn. např. v tomto případě jsem ten dovětek vynechal, protože by to byla jen duplicita a nenapadlo mě nic vtipného :-)
