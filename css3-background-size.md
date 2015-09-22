@@ -56,38 +56,41 @@ background-size: 100% 50%;
 Take a look at a live example at
 [codepen.io/machal/pen/cmpjE](<http://codepen.io/machal/pen/cmpjE>).
 
-Nezapomeňte, že šířka nebo výška pozadí vychází z nastavení vlastnosti
-[background-origin](<css3-background-origin.md>). Standardně se tedy
-`padding-box` a `background-size` počítá z vnitřního okraje a obsahu elementu.
+And do not forget that background width or height comes from the setting of the
+[background-origin](<css3-background-origin.md>) property. Thus, by default the
+`padding-box` and `background-size` properties are calculated either from the
+inner edge or from the content of an element.
 
-### Více obrázků na pozadí
+### Multiple background images
 
-Pokud používáme [více obrázků na pozadí](<css3-multiple-backgrounds.md>),
-specifikace změn jejich velikostí opět oddělujeme čárkou:
+If you are using [multiple background images](<css3-multiple-backgrounds.md>),
+simply use a comma-separated list of values:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 background-size: 50% auto, auto;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Podpora v prohlížečích
-----------------------
+Browser support
+---------------
 
-`background-size` zvládají všechny dnešní prohlížeče kromě IE8 –
+The `background-size` property is supported by all contemporary browsers except
+IE8 –
 [caniuse.com/background-img-opts](<http://caniuse.com/background-img-opts>).
 
-### `background-size` v IE8
+### `background-size` in IE8
 
-Univerzální řešení neexistuje, na míru své situace si můžete vybrat z těchto
-čtyř:
+There is no universal solution, however, depending on the particular situation,
+you can choose from these four solutions:
 
-Nedělat nic. Pokud obrázek dobře vyberete, nemusíte se v některých situacích
-trápit tím, že se v IE8– nezmenší.
+Do nothing. If you choose the image well, you will not have to bother with the
+fact that it will not be resized in IE8 and lower. This does not apply to all
+situations.
 
-Detekce vlastností. Poskytnout alternativní verzi stylování pomocí Modernizru –
-`.no-backgroundsize .element { … }`.
+Detect properties and supply the browser with alternative styles using Modernizr
+– `.no-backgroundsize .element { … }`.
 
-Využít parametru `filter`. Hodí se jen pro situace, kdy obrázek na pozadí máte
-ve stejném poměru stran a zároveň stejně velký nebo větší než rodičovský objekt:
+Use the `filter` parameter. It can be only used if the background image has the
+same aspect ratio and if it is the same size or larger than the parent element:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {
@@ -98,6 +101,6 @@ ve stejném poměru stran a zároveň stejně velký nebo větší než rodičov
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Využít polyfill. Jen pozor, využívá `.htc` soubory, takže může nepřiměřeně
-zhoršovat výkon –
+Use a polyfill. Just be careful - the polyfill is using `.htc` files so it may
+lower the website performace –
 [github.com/louisremi/background-size-polyfill](<https://github.com/louisremi/background-size-polyfill>).
