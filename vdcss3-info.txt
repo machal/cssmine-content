@@ -29,6 +29,12 @@ font-face-netechnicke.md
 
 - suitcasetype.com or stormtype.com - jsou to CZ weby
 
+css3-transitions.md
+
+- [preset values](<http://www.w3.org/TR/css3-transitions/#animatable-properties>) - přijde mi, že na tom odkazu nejsou ty presety. 
+- větu: "Animaci můžete spustit o chvíli později, než nastane změna vlastností" jsem přeložil jako "A transition can be delayed, causing the property change to be executed a specified time after the request." - vůbec ti to nechci přepisovat - chraň bůh -> můj CSS level je o značnou část níž :-), ale přijde mi, že ten český text je v této formulaci trochu zavádějící… Pokud se nemýlím, tak změna vlastností nastane se zpožděním právě kvůli "transition". Čili se nečeká na změnu vlastností (což z té CZ formulace vyplývá), ale na délku té "transition"… Je to tak? 
+
+
 
 Další poznámky: 
 

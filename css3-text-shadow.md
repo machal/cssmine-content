@@ -5,10 +5,10 @@ Textu shadowing effect.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 text-shadow:
-    _horizontal_distance_
-    _vertical_distance_
+    _horizontal_offset_
+    _vertical_offset_
     (_blur_)
-    _colour_,
+    _color_,
     (_other_shadows_);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
