@@ -38,6 +38,10 @@ css3-transitions.md
 css3-animations.md
 u `animation-timing-function` by šel dát ten anglický dovětek, ale nedal jsem ho tam, protože u ostatních vlastností jsem ho taky vymazal. V Aj jsou ty vlastnosti samovysvětlující...
 
+flexbox-reference.md
+byla tam deklarace `flex-direction: column`, která nebyla formátovaná jako kód, tak jsem to dal jako kód. A nakonec jich tam bylo víc - někde to bylo jako kód, někde ne. Tak jsem to sjednotil. 
+
+
 
 Další poznámky: 
 
