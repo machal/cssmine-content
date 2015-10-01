@@ -41,6 +41,22 @@ u `animation-timing-function` by šel dát ten anglický dovětek, ale nedal jse
 flexbox-reference.md
 byla tam deklarace `flex-direction: column`, která nebyla formátovaná jako kód, tak jsem to dal jako kód. A nakonec jich tam bylo víc - někde to bylo jako kód, někde ne. Tak jsem to sjednotil. 
 
+zaver.md
+smazal jsem -   Školení „Dnešní webový frontend“ – [vzhurudolu.cz/kurzy/webovy-frontend](<http://www.vzhurudolu.cz/kurzy/webovy-frontend>)
+
+uvod.md
+je zde odkaz na zakoupení ebooku. Zatím jsem tam dal [www.cssmine.com/ebook]
+e-mail jsem unravel na martin@cssmine.com
+celý dokument uvod.md jsem pojal volně, jelikož je tam spousta odkazů na český web apod. Kdyžtak doděláme / předěláme - nechtěl jsem to mazat. 
+
+zmeny-1.md
+- zmínka o ČR a 15% přístupů z mobilu + další zmínky o ČR. Bude nutné dát mi text, který bude aplikovatelný na svět. 
+
+různé soubory - ke konci referenční příručky a na začátku e-booku narážím na spojení ve 3. osobě "Autor něco…". Nebylo by do AJ verze lepší dát "Martin něco…"? - bude to osobnější. 
+
+zmeny-3.md
+výskyt statistiky návštěvnosti na CZ webech
+odkazy na CZ weby smazány, ale nehal jsem tam text, aby se vědělo co se má předělat. 
 
 
 Další poznámky: 
