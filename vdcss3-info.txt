@@ -58,6 +58,16 @@ zmeny-3.md
 výskyt statistiky návštěvnosti na CZ webech
 odkazy na CZ weby smazány, ale nehal jsem tam text, aby se vědělo co se má předělat. 
 
+zmeny-5.md
+- smazán odkaz na vzhurudolu u `srcset`
+
+zmeny-7.md
+ - zmínka o ČR, nut no předělat na světotovu: The pioneers of this approach in the Czech Republic are [Jobs UI](<http://www.jobs.cz/ui/>) or GoodData
+
+zmeny.md
+- 8 bodů jsem nazval stejně jako titlky souborů zmeny-1 až 8.md. Pokud bys chtěl zachovat původní text, dám UNDO své "kretivitě" :-)
+
+
 
 Další poznámky: 
 
