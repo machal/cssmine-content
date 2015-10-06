@@ -105,61 +105,63 @@ Mixins can also have parameters and that's where the fin starts!
 
 ### @import
 
-Pokud importujete parciální komponentu napsanou v preprocesoru, nechová se
-`@import` tak, jak jste zvyklí z CSS, kde vytváří requesty navíc. A requesty
-bolí, protože zpomalují načítání stránky, hlavně na mobilních zařízeních.
+If you import a partial component written in a preprocessor, the `@import`
+at-rule will not behave as you might expect in CSS where it creates additional
+requests. Moreover, these requests are a pain in the butt because they slow down
+the page load, especially on mobile devices.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @import "module.less";
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Pokud importujeme běžný CSS soubor, preprocesory ve zkompilovaném kódu zachovají
-direktivu @import. Toto chování můžeme změnit nastavením vlastnosti LESS:
+If you import a standard CSS file, the preprocessors will keep the @import
+directive in the compiled code. You can change this behavior by setting the LESS
+property:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @import (less) "fancybox.css";
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### Další vlastnosti
+### Additional Features
 
-Preprocesory mají mnoho a mnoho dalších vlastností. Podívejte se na ně:
+Preprocesors have plenty of additional features. Let's take a look at them:
 
 -   [lesscss.org/features/](<http://lesscss.org/features/>)
 
 -   [sass-lang.com/guide](<http://sass-lang.com/guide>)
 
-Každá složitější vlastnost ale komplikuje srozumitelnost CSS kódu. Autorovi se
-osvědčilo trvat na jednodušším kódu a z preprocesorů si brát jen ty
-nejdůležitější vlastnosti. Pokud pracujete v týmu, je jednoduchost CSS obzvlášť
-důležitá.
+However, every complex feature makes the code a little less comprehensive. Out
+of my experience, I tend to make simpler code and use the most important
+features of a preprocessor. If you work in a team, simplicity of the CSS code is
+of great importance.
 
-### Jaký preprocesor zvolit?
+### Which Preprocessor to Choose?
 
-Když to hodně zjednoduším, mám dvě rady:
+If I make it simple, I will give you two recommendations:
 
--   Pokud s preprocesory začínáte nebo jste kodér a píšete hlavně CSS, zvolte
-    LESS.
+-   If you are a novice or a coder mainly dealing with CSS, choose LESS.
 
--   Pokud jste programátor a píšete i JavaScript nebo třeba PHP, zvolte SASS.
+-   If you are a programmer and you are familiar with Javascript or PHP, choose
+    SASS.
 
-Složitější text o výběru jsem dříve sepisoval na blog –
+There is a complex text on this topic on my blog –
 [vzhurudolu.cz/blog/15-css-preprocesory-4](<http://www.vzhurudolu.cz/blog/15-css-preprocesory-4>).
 
-Není ovšem potřeba výběr příliš prožívat. Přechod od jednoho preprocesoru k
-druhému většinou moc bolestivý není.
+You do not have to take this decision too seriously though. Switching from one
+preprocessor to another will not give you a headache.
 
-Nevýhody CSS preprocesorů
--------------------------
+The Disadcantages of CSS Preprocessors
+--------------------------------------
 
--   Až moc silný nástroj – odklon od tuposti CSS a příliš mnoho abstrakce sice
-    vede k propracovanému, někdy až imperativnímu kódu, zároveň ale často špatně
-    čitelnému a spravovatelnému. Znáte to přísloví o dobrém sluhovi, ale špatném
-    pánu, že ano?
+-   It's too powerful – stepping away from a dumb CSS leads to elaborated and
+    sometimes imperative code, however it tends to be incomprehensive and hard
+    to maintain. You know what they say about the "good servant but a bad
+    master", don't you?
 
--   Proprietární kód – pokud preprocesory využíváte „tupě“, jsou zaučení nového
-    člověka nebo přechod na jiný preprocesor relativně jednoduché; horší je to
-    ovšem v kombinaci v prvním bodem.
+-   The code is proprietary – if you use preprocessors bluntly, teaching a
+    novice or swithing to another preprocessor is a piece of cake. However, it
+    gets worse when you combine it with the previous point.
 
-Myslím, že minimálně některé z úkolů, jež nyní řeší preprocesory, časem přejdou
-do následného zpracování kódu. V dalším textu si proto nenechte ujít kapitolu o
-postprocesingu.
+I think that some problems that are now solved by preprocessors will be
+addressed in the postprocessing phase in the near future. So let's dig into the
+Node.js chapter, shall we?

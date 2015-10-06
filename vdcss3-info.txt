@@ -67,6 +67,11 @@ zmeny-7.md
 zmeny.md
 - 8 bodů jsem nazval stejně jako titlky souborů zmeny-1 až 8.md. Pokud bys chtěl zachovat původní text, dám UNDO své "kretivitě" :-)
 
+nastroje-preprocesory.md
+-  odkaz na CZ blog: [vzhurudolu.cz/blog/15-css-preprocesory-4](<http://www.vzhurudolu.cz/blog/15-css-preprocesory-4>).
+
+nastroje-node-js.md
+- odstraněn odkaz na CS Wiki
 
 
 Další poznámky: 
