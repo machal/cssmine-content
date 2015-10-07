@@ -73,6 +73,10 @@ nastroje-preprocesory.md
 nastroje-node-js.md
 - odstraněn odkaz na CS Wiki
 
+nastroje-buildovani.md
+- typy buildovacích nástrojů jsem přeložil jako simplified a full-featured. Ale nejsem si jistý - toto rozdělení neznám a nikde jsem to nenašel. Tak jen prosím zkontroluj, jestli to nemá nějaké zaběhlé označení. Díky. 
+
+- vymazán odkaz na vzhurudolu.cz
 
 Další poznámky: 
 
