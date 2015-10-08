@@ -78,6 +78,32 @@ nastroje-buildovani.md
 
 - vymazán odkaz na vzhurudolu.cz
 
+nastroje-oocss.md
+- vymazána věta, kde se odkazuje na BEM - vuhurudolu.cz
+- v bodu 5) je: To ensure the lowest specificity possible, we will avoid using:
+
+-   child selector (do not use `.button .button-icon`, just `.button-icon`) - neměl by ten popis být obráceně, tedy nepoužíváme selektor rodiče (parent selector)?
+
+nastroje-bootstrap.md
+- odstraněn odkaz [vzhurudolu.cz/blog/11-bootstrap-pomuze]
+
+-odstraněny věty:
+* Zmíněné typografické principy Bootstrapu jsem popsal zde: [vzhurudolu.cz/prirucka/bootstrap-typografie](<http://www.vzhurudolu.cz/prirucka/bootstrap-typografie>).
+
+
+* Správnou práci s Bootstrapem jako systémem komponent ukazujeme na Bootstrap školení: [vzhurudolu.cz/kurzy/bootstrap](<http://vzhurudolu.cz/kurzy/bootstrap>).
+
+nastroje-browserstack.md
+odstraněno: Více najdete na blogu: <http://www.vzhurudolu.cz/prirucka/jak-testovat-responzivni-weby>.
+
+nastroje-atd.md
+odstraněno: Část obsahu tohoto e-booku najdete na webu autora v CSS3 příručce – [vzhurudolu.cz/prirucka/css3](<http://www.vzhurudolu.cz/prirucka/css3>).
+
+
+
 Další poznámky: 
 
 - u některých nadpisů máš v dovětku český ekvivalent, např "CSS3 Background Size – velikost obrázku na pozadí". V angličtině to někdy pozbývá smyslu, tzn. např. v tomto případě jsem ten dovětek vynechal, protože by to byla jen duplicita a nenapadlo mě nic vtipného :-)
+
+Soubory, které nejsou v TOC: 
+nastroje-atd.md

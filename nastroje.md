@@ -27,9 +27,9 @@ the past few years.
 
 6.  Sustainable Code Using OOCSS
 
-7.  Bootstrap and Read-made UI Libraries
+7.  Bootstrap and ready-made UI Libraries
 
-8.  Alternative Browser testing: Browserstack and Co.
+8.  Alternative Browser testing: Browserstack & Co.
 
 9.  PSD-to-HTML Effectivity: Avocode, CSSHat…
 
