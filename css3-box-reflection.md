@@ -37,7 +37,7 @@ CSS units – `px`, `em` and others.
 
 A mask defines the reflection overlay effect. A [CSS
 gradient](<css3-gradients.md>) is a commonly used tool for achieving the mirror
-effect, however it can also be done using an image. The balck area of a mask is
+effect, however it can also be done using an image. The black area of a mask is
 visible, the transparent one is hidden.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -50,10 +50,10 @@ Browser Support
 ---------------
 
 This is supported just by Webkit browsers. Nowdays, it works in all versions of
-Safari and even Android Browser. It works even in Chrome which has its own Blink
-core. See [caniuse.com/box-reflect](<http://caniuse.com/box-reflect>)
+Safari and even in Android Browser. It works even in Chrome which has its own
+Blink core. See [caniuse.com/box-reflect](<http://caniuse.com/box-reflect>)
 
-In Firefoxu, we can achieve a reflection effect by using the `-moz-element()`
+In Firefox, we can achieve a reflection effect by using the `-moz-element()`
 property. See
 [lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/](<http://lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/>)
 

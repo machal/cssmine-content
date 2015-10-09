@@ -1,8 +1,8 @@
-CSS3 Background Clip – the visible range of background
+CSS3 Background Clip – The Visible Range of Background
 ======================================================
 
 The background-clip property specifies the painting area of the background image
-or background colour.
+or background color.
 
 The default value is:
 
@@ -11,7 +11,7 @@ background-clip: border-box;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This means that the background is clipped to the border box, i.e. the background
-is visible under the element border.
+is visible under the element's border.
 
 Other values for background clipping:
 
@@ -22,12 +22,12 @@ padding, i.e. the background is not visible under the elements border
 not apply the padding or border
 
 If you are still not sure how to use the `border-`, `padding-` and `content-box`
-values, take a look at a [box-sizing](<css3-box-sizing.md>) property example.
+values, take a look at the [box-sizing](<css3-box-sizing.md>) property example.
 
 See a live example at
 [codepen.io/machal/pen/yamFI](<http://codepen.io/machal/pen/yamFI>).
 
-Browser support
+Browser Support
 ---------------
 
 Let's put it simply: IE9+. Polyfills for IE8 do not even exists and there is no

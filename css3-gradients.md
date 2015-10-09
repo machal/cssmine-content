@@ -1,10 +1,10 @@
 CSS3 Gradients
 ==============
 
-A gradient lets you display transition between two and more colors. Not long
-ago, we used an external image to achieve such an effect.
+A gradient lets you display a transition between two and more colors. Not long
+ago, we used external images to achieve such an effect.
 
-Linear gradient
+Linear Gradient
 ---------------
 
 A uniform gradient from top to bottom can be achieved like this:
@@ -13,15 +13,15 @@ A uniform gradient from top to bottom can be achieved like this:
 background: linear-gradient(lightgreen, darkgreen);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### Gradient axis
+### Gradient Axis
 
-You can either use **key words** representing the direcion of a gradient (`to
+You can either use **key words** representing the direction of a gradient (`to
 bottom right`, `to right`) or **angles**. An angle of 0° goes from bottom to
 top, an angle of 90° from right to left and so forth clockwise. The default
 gradient is 90° going from top to bottom (`180deg`).
 
-Například tento gradient ze světle do tmavě zelené povede z levého dolního rohu
-směrem k pravému hornímu:
+For example, this gradient from light to dark green will go from the top left
+corner to the bottom right:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 background:
@@ -30,9 +30,9 @@ background:
 
 ### Color-stops
 
-You can define how colors are distributed along the axis. That is why we use
-color-stops that a definable in standard CSS units (`%`, `px`, `em`…). It is the
-same stop you may know from graphic editors but expressed in a code.
+You can define how colors are distributed along an axis. That is why we use
+color-stops that are definable in standard CSS units (`%`, `px`, `em`…). It is
+the same stop you may know from graphic editors but this one is written in code.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 background:
@@ -61,7 +61,7 @@ will take up one quarter of an element and a gradient from light to dark green
 will take up the area from one quarter to one half of an element. This time we
 used the RGB color model.
 
-Circle gradient
+Circle Gradient
 ---------------
 
 A simple circle (radial) gradient can be created like this:
@@ -73,14 +73,14 @@ A simple circle (radial) gradient can be created like this:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### Shape and size
+### Shape and Size
 
 The default shape is a `circle` and it can be changed to `ellipse`.
 
 Right after the shape, you can define the size of the gradient The first option
 is to define the **size as a radius**. When using a circle, one number will do,
-when using an ellipse, you will need two. The first number indicates height, the
-scone one width of the ellipse.
+when using an ellipse, you will need two. The first number indicates the height,
+the second one the width of the ellipse.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .box-2 {
@@ -90,8 +90,8 @@ scone one width of the ellipse.
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Comment: the current specification does not allow usage of percentage for
-dimensions of a circle. See
+Comment: the current specification does not allow usage of percentage for circle
+size. See
 [dev.w3.org/csswg/css-images-3/\#radial-size-circle](<http://dev.w3.org/csswg/css-images-3/#radial-size-circle>)
 
 The second option is to define the **size using key words**:
@@ -106,10 +106,10 @@ The second option is to define the **size using key words**:
 -   `farthest-corner` – the gradient will meet the farthest corner of an element
     (opposite of closest-corner)
 
-### Center position
+### Center Position
 
 The center position of a radial gradient is similar to the `background-position`
-property.  You just need to add an `at` key word:
+property. You just need to add an `at` key word:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .box-3 {
@@ -120,7 +120,7 @@ property.  You just need to add an `at` key word:
 
 ### Color-stops
 
-Color-stops work smilar to the linear gradient. The browser will render a color
+Color-stops work similar to the linear gradient. The browser will render a color
 gradient from light green which will take up one quarter of an element and a
 gradient from light to dark green which will take up the area from one quarter
 to one half of the element. The rest of the circle will be filled with dark
@@ -136,11 +136,11 @@ green:
 And here is a live example which contains all four options of the radial
 gradient: [cdpn.io/e/cdyfx](<http://cdpn.io/e/cdyfx>).
 
-Repeating gradients
+Repeating Gradients
 -------------------
 
-The repeating gradients are declared the same way as normal gradients except we
-will use the `repeating-linear-gradient()` or `repeating-radial-gradient()`
+Repeating gradients are declared the same way as normal gradients except we will
+use the `repeating-linear-gradient()` or `repeating-radial-gradient()`
 functions. Unlike normal gradients, the browser will not render a color when it
 hits the last color-stop but it will repeat the defined gradient instead.
 
@@ -174,10 +174,10 @@ pattern. But watch out here! Some browsers such as Chrome or Firefox are
 currently not able to render these complicated gradients smoothly. As a result,
 the circle will be „pixelated“.
 
-Browser support
+Browser Support
 ---------------
 
-Radial gradients are not compatible with IE in version 8 and 9 and Opera Mini.
+Radial gradients are not compatible with IE in versions 8 and 9 and Opera Mini.
 Android Browser 2.3 is not able to render radial gradients at all and other
 browsers still have issues. See
 [caniuse.com/gradients](<http://caniuse.com/gradients>)
@@ -193,7 +193,7 @@ background-image:
   linear-gradient(lightgreen, darkgreen);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### Gradient, formerly known as a thing from "prefix" hell
+### Gradient, Formerly Known as a Thing From "prefix" Hell
 
 Nowdays, it is not a big deal. However, browsers in various stages of
 specification development have implemented various stages of the actual
@@ -201,10 +201,10 @@ specification… Or their own syntax for that matter. So if you want to support
 older versions of contemporary browsers, pay close attention to vendor-prefixed
 variants.
 
-### Older syntax of WebKit-based browsers
+### Older Syntax of WebKit-based Browsers
 
 If you want to fully support older Chrome, Safari up to version 5, iOS Safari up
-to version 4, Android Browser up to version 3 a a few other browsers, you have
+to version 4, Android Browser up to version 3 and a few other browsers, you have
 to use an older syntax. Just watch out, the difference is not only in the prefix
 but in the code as well. For example, the axis direction is defined by the side
 or the corner where you want the gradient to start:
@@ -214,10 +214,10 @@ background-image:
   -webkit-linear-gradient(top, lightgreen, green);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is most likely not going to be a big deal for most websites and you will
+It is most likely not going to be a big deal for most web sites and you will
 settle for a fallback using a background color. The latest versions of all
-browsers comply W3C syntax that we are using in our examples. And without
-prefixes, i might add!
+browsers comply with the W3C syntax we are using in our examples. And without
+prefixes, I might add!
 
 ### `filter` in IE8 and IE9
 
@@ -234,7 +234,7 @@ In the `GradientType` parameter you can set vertical (`0`) or horizontal (`1`)
 direction of a gradient. Just bear in mind that filters can render slowly and
 when using the `background-image` property, the filter will not apply.
 
-Tips and tricks
+Tips and Tricks
 ---------------
 
 Remember that a gradient is actually a **background image of an element** so it
@@ -245,7 +245,7 @@ The most common use of non trivial gradients is when creating **graphic
 buttons** through CSS. See
 [cubiq.org/dropbox/cssgrad.html](<http://cubiq.org/dropbox/cssgrad.html>)
 
-This is almost a **scientific essay on gradients**. In the following link, Ana
+This is almost a **scientific essay on gradients**: in the following link, Ana
 Tudor goes really deep into this topic and explains it using math. See
 [hugogiraudel.com/2013/02/04/css-gradients/](<http://hugogiraudel.com/2013/02/04/css-gradients/>)
 
@@ -253,8 +253,8 @@ Tudor goes really deep into this topic and explains it using math. See
 to older browsers including a fallback for IE8 and IE9. See
 [colorzilla.com/gradient-editor/](<http://colorzilla.com/gradient-editor/>)
 
-Lea Verou has a nice gallery of **color patterns** created using gradients only.
-But think of it rather jus as a showcase of options. See
+Lea Verou has a nice gallery of **color patterns** created using CSS gradients
+only. But think of it rather just as a showcase of options. See
 [lea.verou.me/css3patterns](<http://lea.verou.me/css3patterns>)
 
 The above mentioned color patters make use of the so called **sharp transition**

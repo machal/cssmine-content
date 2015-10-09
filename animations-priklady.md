@@ -1,5 +1,5 @@
-Examples of CSS3 Animation
-==========================
+Examples of CSS3 Animations
+===========================
 
 First: Blinking Box
 -------------------
@@ -18,11 +18,11 @@ First, define the progress of the animation using `@keyframes`:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We have just defined a `my_blink_animation` which will set a full opacity at the
-beginning of the animation (`opacity`).  In one half of the duration time
-(`50%`) the element will be fully transparent (invisible) and at the end of the
+beginning of the animation (`opacity`). In one half of the duration time (`50%`)
+the element will be fully transparent (invisible) and at the end of the
 animation, it will be fully opaque. In other words, the element will blink.
 
-The animation will apply if a user hovers over the element with a mouse. Or
+The animation will be applied if a user hovers over the element with a mouse. Or
 using alternative ways for that matter:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

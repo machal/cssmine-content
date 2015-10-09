@@ -29,13 +29,13 @@ There are four available functions: skew, rotate, translate and scale:
 
 Try it at <http://cdpn.io/e/wxoil>.
 
-All four functions transform an element around the corresponding axis. For
-example `skewX()`, `skewY()`.
+All four functions transform an element around a corresponding axis. For example
+`skewX()`, `skewY()`.
 
 Combination of Transformations
 ------------------------------
 
-Remember that combinations of tranformations are not separated by a comma:
+Remember that combinations of transformations are not separated by a comma:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 transform: scale(1.5) skew(-15deg);
@@ -56,7 +56,7 @@ point:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[cdpn.io/e/brBgk](<http://cdpn.io/e/brBgk>)
+See more at [cdpn.io/e/brBgk](<http://cdpn.io/e/brBgk>)
 
 Browser Support
 ---------------

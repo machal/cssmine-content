@@ -5,7 +5,7 @@ It is a change in calculating the width and height of an element or the
 box-model.
 
 You will learn why developers who make fluid layouts just love the `box-sizing:
-border-box` property. And you will also learn why people who hate math live it.
+border-box` property. And you will also learn why people who hate math love it.
 Just go on.
 
 Syntax
@@ -40,7 +40,7 @@ calculated when using the `box-sizing: padding-box` declaration. It is in fact a
 `border-box` value where the width of the `border` property is not added in the
 calculation.
 
-Good, but how can we make use of it?  Let's take a look at a few scenaios.
+Good, but how can we make use of it? Let's take a look at a few scenarios.
 
 Examples of Use
 ---------------
@@ -53,12 +53,12 @@ developers, and therefore they let browsers calculate all sizes using the
 border-box value. A similar approach can be found in modern front-end frameworks
 such as Bootstrap or Foundation.
 
-### Fluid layout
+### Fluid Layout
 
 This property is vastly used in responsive web design, especially when working
 with layouts that are percentage based. Just imagine navigation with more than 5
-items and each item being 20% of the width. The item separator is done using a
-fixed with border:
+items and each item being 20% of the width. Plus the item separator is done
+using a fixed with border:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .nav li {
@@ -102,5 +102,5 @@ IE7+ and all modern browsers. If you previously did not know about this
 property, you will be surprised how well it is supported:
 [caniuse.com/box-sizing](<http://caniuse.com/box-sizing>).
 
-On the other hand, it is good to know that the not so common `padding-box`
+On the other hand, it is good to know that the not-so-common `padding-box`
 property is supported by Firefox only.

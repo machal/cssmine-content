@@ -1,8 +1,8 @@
 CSS3 Font Face – BYOF (bring your own font...)
 ==============================================
 
-Web fonts a.k.a. "your own fonts in a website"? The `@font-face` property is now
-days a standard technique with almost full compatibility with all browsers so
+Web fonts a.k.a. "your own fonts in a website"? The `@font-face` property is
+nowdays a standard technique with almost full compatibility with all browsers so
 there is no need to fear it from the technological point of view.
 
 Syntax
@@ -18,7 +18,7 @@ First declare the font family and path to a file using the `@font-face` at-rule:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Then you simlpy call the font family in the standard CSS:
+Then simply call the font family in the standard CSS:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {
@@ -26,7 +26,7 @@ Then you simlpy call the font family in the standard CSS:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-File formats of web fonts
+File Formats of Web Fonts
 -------------------------
 
 If you are not using cloud solution such as Typekit or Google Fonts and you are
@@ -39,7 +39,7 @@ formats:
 
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
     by almost all modern browsers, however MSIE supports them from version 9.
-    Furthemore, you have to set the so called „embeding bits“ (embedding
+    Furthermore, you have to set the so called „embedding bits“ (embedding
     permissions in the font's header) to „installable“.
     [caniuse.com/ttf](<http://caniuse.com/ttf>)
 
@@ -51,7 +51,7 @@ formats:
     from version 4. You will need it if you want to support IE8 and lower.
     [caniuse.com/eot](<http://caniuse.com/eot>)
 
-### Syntax that will maximize compatibility
+### Syntax That Will Maximize Compatibility
 
 If you need to support all browsers, the code is a little more complicated:
 
@@ -72,11 +72,11 @@ If you need to support all browsers, the code is a little more complicated:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These days, we will most like need just WOFF and TTF formats (due to older
+These days, we will most likely need just the WOFF and TTF formats (due to older
 Androids) and EOT (due to IE8−). But there is a bright future ahead of us. It is
 call WOFF.
 
-### WOFF is our future
+### WOFF Is Our Future
 
 In a few years, or months for that matter, WOFF format will be the only thing we
 will need:
@@ -88,13 +88,13 @@ will need:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-But becareful. There will always be browsers (or situations) that are not
+But be careful. There will always be browsers (or situations) that are not
 compatible with any of these web font formats. Opera Mini is a good example. Or
-imagine a situation where a modern browser does not load a web font – due to a
-slow mobile internet connection.
+imagine a situation where a modern browser does not load a web font – let's say
+due to a slow mobile internet connection.
 
-Bear in mind that these scenarios might happen and do not forget to define a
-fallback system font. Here is an exmaple:
+Remember that these scenarios might happen and do not forget to define a
+fallback system font. Here is an example:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {

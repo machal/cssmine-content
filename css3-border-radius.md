@@ -1,7 +1,7 @@
 CSS3 Border Radius
 ==================
 
-Rendering rounded and elliptical corners.
+Rendering rounded and elliptical corners...
 
 Syntax
 ------
@@ -37,10 +37,10 @@ radius od 15% and horizontal radius of 30%:
 border-radius: 15% 15% 0 0 / 30% 15% 0 0;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The following scheme shows how the ellipse rounding works in practise:
+The following scheme shows how the ellipse rounding works in practice:
 
 It is good to know that `border-radius` is in fact a shorthand property for
-setting four `border-radius`properties **individually**:
+setting four `border-radius` properties **individually**:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 border-top-left-radius: 4em;
@@ -54,7 +54,7 @@ See a live border-radius example at [cdpn.io/e/EljFa](<http://cdpn.io/e/EljFa>).
 Tips and Tricks
 ---------------
 
-How to do **rounded avatars** using `border-radius`? See
+How to create **rounded avatars** using `border-radius`? See
 [trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/](<http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/>)
 
 How to tackle **tables with rounded corners**? When dealing with tables that
@@ -65,9 +65,9 @@ in it, it is necessary to apply `overflow: hidden`. See
 Browser Support
 ---------------
 
-There is abolutely no problem in modern browsers. If you need rounded corners in
-IE8, just use [css3pie.com](<http://css3pie.com/>) but watch out - it is going
-to slow down your website.
+There is absolutely no problem in modern browsers. If you need rounded corners
+in IE8, just use [css3pie.com](<http://css3pie.com/>) but watch out - it is
+going to slow down your web site.
 
 Therefore, I strongly recommend a zero fallback strategy. As a result, users
 with older browsers simply will not see rounded corners. And what the eye

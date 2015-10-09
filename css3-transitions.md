@@ -1,7 +1,7 @@
 CSS3 Transitions – Simple Transition Animations
 ===============================================
 
-Animate property changes.
+It helps you animate property changes.
 
 It may sound complicated, however just imagine this situation:
 
@@ -30,7 +30,7 @@ And that is what transitions are for. They animate property changes.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 CSS transitions are usually triggered on mouse hover but you can also trigger
-them by adding a class using javascript and clicking on an element:
+them by adding a class using Javascript and clicking on the element:
 `.box.clicked { background: blue; }`.
 
 Try an example at [cdpn.io/e/hJljB](<http://cdpn.io/e/hJljB>).
@@ -42,7 +42,8 @@ This way, we can animate almost any CSS property including positioning or
 [transformation](<css3-transforms.md>).
 
 You can actually have a lot of fun using transitions. You can animate borders or
-create [wild hover animations].
+create [wild hover
+animations](<http://tympanus.net/Tutorials/OriginalHoverEffects/>).
 
 However, it is not a fully-fledged animation tool. If you want to have the
 progress of an animation completely under control, take a look at [CSS3
@@ -88,7 +89,8 @@ Example:
 
 It comes in handy to know that animated transitions cannot be applied on all CSS
 properties. For instance, animating the `display` property would be absolutely
-useless. Here is [list of animatable properties].
+useless. Here is [list of animatable
+properties](<http://www.w3.org/TR/css3-transitions/#animatable-properties>).
 
 ### Transition Timing Function
 
@@ -118,16 +120,16 @@ transition: transform 200ms,
   background-color 200ms 1s;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Take a look at the example in a browser at
+Take a look at the following example in a browser at
 [cdpn.io/e/vIGAk](<http://cdpn.io/e/vIGAk>).
 
 Browser Support
 ---------------
 
-IE10+. If you use CSS `transition` just as an eye candy effect (not as a
-function), you can pull it off much easier than by using Javascript plus no one
-will miss it in older browsers.
+IE10+. If you use CSS `transition` for eye candy effects (not as a function),
+you can pull it off much easier than by using Javascript plus no one will miss
+it in older browsers.
 
-On the other hand, if you are creating a functional animation (i.e. a progress
+On the other hand, if you are creating a functional animation (e.g. a progress
 bar), make an alternative fallback solution for older browsers using feature
 detection.

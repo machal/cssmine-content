@@ -20,10 +20,10 @@ Example
 -------
 
 Let's define a column width using the `column-width: 15em` declaration and a gap
-between columns using the `column-gap: 2em` declaration.
+between columns using `column-gap: 2em`.
 
-You will also find a vertical line example at the following link – `column-rule:
-1px dotted #ddd`.
+You can see a vertical line example – `column-rule: 1px dotted #ddd` at the link
+below.
 
 If you resize the browser window and there is not enough space for multiple
 columns, the browser itself will lose the multi-column layout.

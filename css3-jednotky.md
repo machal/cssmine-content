@@ -54,7 +54,7 @@ font-size: 24px;
 font-size: 1.5rem;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Its is better to have a fallback generated automatically using a CSS
+It is better to have a fallback generated automatically using a CSS
 preprocessor.
 
 Here is more about browser support: [caniuse.com/rem](<http://caniuse.com/rem>)
@@ -63,7 +63,7 @@ Viewport Units: `vw`, `vh`, `vmin`, `vmax`
 ------------------------------------------
 
 They allow us to define CSS sizes relative to the viewport size - in other words
-"to the width or height of the window".
+"the width or height of the window".
 
 -   `vw` – stands for „viewport width“ – `1vw` is 1% of the viewport width
 
@@ -72,14 +72,14 @@ They allow us to define CSS sizes relative to the viewport size - in other words
 -   `vmin` – stands for „viewport minimum“ – represents the shortest dimension
     (`1vw` or `1vh`)
 
--   `vmax` – zkratka pro „viewport maximum“ – represents the longest dimension
+-   `vmax` – stands for „viewport maximum“ – represents the longest dimension
     (`1vw` or `1vh`)
 
 ### Practical Example
 
 Unlike percentage, viewport units do not relate to the size of a direct parent,
-but to the width and heigth of the browser window instead. We can literally do
-magic which was once possible just using CSS hacks or Javascript.
+but to the width and height of the browser window instead. We can literally do
+magic that was once possible just by using CSS hacks or Javascript.
 
 Let's show it on a simple example - stretching the height of a layout to the
 full height of the browser window:
@@ -97,7 +97,7 @@ units: [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>)
 
 But don't celebrate just yet:
 
--   IE9 uses `vm` instead if `vmin`.
+-   IE9 uses `vm` instead of `vmin`.
 
 -   IE10 does not understand `vmax`.
 

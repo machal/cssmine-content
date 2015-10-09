@@ -1,22 +1,23 @@
-CSS3 Text Overflow – the way to wrap text
-=========================================
+CSS3 Text Overflow – A Way To Wrap Text
+=======================================
 
-Limiting text that exceed the width of an element and inserting 3 dots.
+This is a way of limiting text that exceed the width of an element and inserting
+3 dots.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 text-overflow: ( clip | ellipsis | <_string_> );
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When showing `text-overflow: ellipsis` in my lectures, I always get two kinds of
-reactions. One half of the audience is bored saying: „Hm, I have been using this
-for two years…“ And the other half? Enthusiastically taking notes: „I must use
-this first thing tomorrow!“
+reactions. One half of the audience is bored, saying: „Hm, I have been using
+this for two years already…“ And the other half? Enthusiastically taking notes:
+„I must use this first thing tomorrow!“
 
 However, the catch when using the `ellipsis` value is that it will apply to a
 single line of text in block elements and 3 dots ("…") will be shown if the line
 is overflown. Nevertheless, it is still a time saver.
 
-Navigation example
+Navigation Example
 ------------------
 
 Imagine a navigation bar where you do not want the text to be broken onto the
@@ -35,7 +36,7 @@ white-space: nowrap;
 Try resizing the browser window at this example URL:
 [cdpn.io/e/FeLkJ](<http://cdpn.io/e/FeLkJ>).
 
-Browser support
+Browser Support
 ---------------
 
 `text-overflow: ellipsis` is supported in all browsers, even in IE6, so there is

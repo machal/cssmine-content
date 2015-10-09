@@ -7,11 +7,11 @@ reason for not using it right away.
 
 ### Three Types of Syntax in Modern Browsers
 
-A well-configured Autoprefixer which we mentioned at the begginning of this
+A well-configured Autoprefixer which we mentioned at the beginning of this
 e-book, will definitely guarantee full modern browser compatibility. So read on
 if you are into details.
 
-There are three types of flexbox syntax in modern broswers.
+There are three types of flexbox syntax in modern browsers.
 
 -   **New syntax.** `display: flex` and other properties shown in the e-book. It
     is supported by the latest versions of all browsers, including IE11 and
@@ -20,7 +20,7 @@ There are three types of flexbox syntax in modern broswers.
 -   **Tweener syntax from 2012.** `display: flexbox`. Nowdays required just by
     IE10.
 
--   **Legacy syntax from 2009.** Whereever you see `display: box` or
+-   **Legacy syntax from 2009.** Wherever you see `display: box` or
     `-webkit-display: box`. Webkit prior to version 20, i.e. iOS6 or older
     Androids.
 
@@ -32,7 +32,7 @@ visitors use these older browsers.
 #### Zero fallback – We Do Not Care About Support
 
 It is good to realize and test in practice what it truly means „not to bother
-with older browsers flexbox support“.
+with flex box support in older browsers“.
 
 You can see it in the following picture where the form makes use of flexbox. In
 Safari, the form is displayed as planned. In IE8, the text input will not fill
@@ -108,7 +108,7 @@ As you may have noticed, flexbox is a relatively new and complex standard which
 is causing a number of minor bugs in browsers.
 
 Apart from looking up bugs at Google or StackOverflow, you can take a look at
-the **flexbugs** project. This Phillip Walton project is gathering, documenting
-and finding solutions to the most common bugs.
+the **flexbugs** project. This Phillip Walton's project is gathering,
+documenting and finding solutions to the most common bugs.
 
 See <https://github.com/philipwalton/flexbugs>

@@ -7,10 +7,11 @@ Flexbox Autopsy — Reference Guide
     properties such as `display: block`, `inline` or `inline-block` to the
     parent element or its children. Nor can we apply `float`, `clear` or
     `vertical-align`. To be precise, we can apply these properties, however they
-    will not have any effect when displaying a website in a browser with flexbox
-    support. But it is useful when creating fallbacks for older browsers.
+    will not have any effect when displaying a web site in a browser without
+    flexbox support. But it is useful when creating fallbacks for older
+    browsers.
 
-2.  In relation to the previous point,  `margins` of adjacent items will not be
+2.  In relation to the previous point, `margins` of adjacent items will not be
     collapsed, unlike using block elements.
 
 3.  Element positioning (`position: absolute|relative|fixed`) can be applied
@@ -18,20 +19,20 @@ Flexbox Autopsy — Reference Guide
 
 4.  When dealing with flex items, we can apply `visibility: collapse` the same
     way we would apply it when dealing with the `display: table-row` or
-    `table-column` properties of an element. An element will then take up space
-    in the DOM, however it will not be visible.
+    `table-column` properties. An element will then take up space in the DOM,
+    however it will not be visible.
 
 5.  The direction of the main axis of a flex container is always based on the
-    `writing-mode` property. Therefore, if we created a layout of a Japanese
-    page using flex box, all values would change their order.
+    `writing-mode`. Therefore, if we created a layout of a Japanese page using
+    flex box, all values would change their order.
 
 Now let's dig into the "Reference Guide". We already know that there are two
-types of flex elements  – flex container and flex item. Therefore, we also
-divide the properties according to the element type.
+types of flex elements – flex container and flex item. Therefore, we also divide
+the properties according to the element types.
 
 ### Flex Container Properties
 
-#### flex-direction – Direction of flexible items
+#### flex-direction – Direction of Flexible Items
 
 This property will set the direction of the main flexbox axis.
 
@@ -58,14 +59,14 @@ flex-wrap: nowrap | wrap | wrap-reverse
 The default `nowrap` value tells us that all elements will stay on a single line
 next to each other (or under each other when using `flex-direction: column`).
 
-Then there is the `wrap` vaule. This value will wrap the items onto multiple
+Then there is the `wrap` value. This value will wrap the items onto multiple
 lines if the items' content can't fit into a single line. The last flex item on
 the first line will break onto the next line and align under the first item.
 
 The `wrap-reverse` value does the opposite - the last item will jump onto the
 previous line and align over the first item.
 
-#### flex-flow, A Shorthand for flex-direction and flex-wrap
+#### flex-flow, A Shorthand for Flex-direction and Flex-wrap
 
 Let's explain this in examples:
 
@@ -91,8 +92,8 @@ grow.
 
 How much will the flex item shrink relative to other items when there is not
 enough space in the parent element? When a user resizes the browser window or a
-new item is added for example? The values can only be positive integers,
-defaulting in 1 which means that items will reduced their width equally.
+new item is added for example. The values can only be positive integers,
+defaulting in 1 which means that items will reduced their widths equally.
 
 #### `flex-basis` – Default Item Size
 
@@ -104,23 +105,21 @@ column`).
     properties will then affect just the extra space that is taken up by items
     beyond their initial size - so called relative flex model.
 
--   `0` – size of teh content is not an issue. The distribution of free space
+-   `0` – size of the content is not an issue. The distribution of free space
     using the `flex-grow/flex-basis` properties will then affect the whole width
     of an item – absolute flex model.
 
--   Any CSS size, i.e. `100px`, `15em` or `50%`.
+-   Any CSS size, e.g. `100px`, `15em` or `50%`.
 
-#### `flex` – Overall item Flexibility
+#### `flex` – Overall Item Flexibility
 
 This is a shorthand for all properties that define the flexibility of an item –
 `flex-grow`, `flex-shrink` and `flex-basis`. It sets the default element size
-and tells us how an element can grow and
+and tells us how an element can grow and shrink.
 
 It is good to know that authors of the specification recommend to use the `flex`
-shorthand rather than particular properties which it represents.  Je dobré
-vědět, že autoři specifikace doporučují upřednostňovat zkratku `flex` proti
-konkrétním vlastnostem, které zastupuje. This is because the shorthand can set
-default values.
+shorthand rather than particular properties which it represents. This is because
+the shorthand itself can set default values.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 flex: <flex-grow> <flex-shrink> <flex-basis>
@@ -147,7 +146,7 @@ like this:
 flex: 1 1 150px
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-However, I think you are more likely to use pre-defined "„intelligent“ values:
+However, I think you are more likely to use pre-defined „intelligent“ values:
 
 -   `flex: auto`  
     It corresponds to `flex: 1 1 auto` and the items in question will become
@@ -160,7 +159,7 @@ However, I think you are more likely to use pre-defined "„intelligent“ value
 
 -   `flex: initial`  
     It resets the values to default, i.e. to `flex: 0 1 auto`. If there is not
-    enough space, the items will shrik, however they will not expand beyond the
+    enough space, the items will shrink, however they will not expand beyond the
     size of their contents.
 
 -   `flex: <positive-number>`  
@@ -172,7 +171,7 @@ However, I think you are more likely to use pre-defined "„intelligent“ value
 
 It is also good to know that flex items will never shrink below their minimum
 content size. This size is defined by the length of the longest word or
-fixed-size element – i.e. an image. It can be changed by setting the `min-width`
+fixed-size element – e.g. an image. It can be changed by setting the `min-width`
 or `min-height` properties to a low value.
 
 #### `order` – Change of the Order of Elements
@@ -196,7 +195,7 @@ as the first one:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-But remember that you cannot use `order` on other elements of the page except
+But remember that you can't use `order` on other elements of the page except
 direct children of the flex container.
 
 ### Aligning Flex Items
@@ -215,7 +214,7 @@ with left margin and pinning the item to the right. You can use it instead of
 the `float` property.
 
 All other „alignment properties“ have similar values, however they apply to
-different sets of flex items or different container axis.
+different sets of flex items or different container axes.
 
 #### `justify-content` – Aligning Main Axis Items Within a Container
 
@@ -223,8 +222,8 @@ different sets of flex items or different container axis.
 justify-content: flex-start | flex-end | center | space-between | space-around
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let's will apply the `justify-content` property to the flex container, saying
-how flex items will be aligned along the main axis. The default value is
+Let's apply the `justify-content` property to the flex container, saying how
+flex items will be aligned along the main axis. The default value is
 `flex-start`, aligning the items to the start of the main axis.
 
 ![justify-content](<images/flexbox-justify-content.jpg>)
@@ -235,7 +234,7 @@ how flex items will be aligned along the main axis. The default value is
 align-items: stretch | flex-start | flex-end | center | baseline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The `align-items`  property can also be applied to the flex container.  The
+The `align-items` property can also be applied to the flex container. The
 default value is `stretch` which stretches the item to the full width of the
 cross axis.
 
@@ -256,14 +255,11 @@ exceptions. The default value is `auto`.
 #### Note: Baseline Alignment
 
 Notice the alignment at the `baseline` of the first line. An item with the
-greatest size between the baseline and the upper edge (the heights one) will be
+greatest size between the baseline and the upper edge (the highest one) will be
 pinned to the upper edge of the flex container. You can see it in the previous
 image or at <http://cdpn.io/e/QwobXz>.
 
-K horní hraně flex kontejneru se přilepí položka s největší vzdáleností mezi
-baseline a horní hranou boxu. Vidět je na předchozím obrázku nebo na
-<http://cdpn.io/e/QwobXz>. See that flexbox will not corrupt the upper pixel
-padding.
+See that flexbox will not corrupt the upper pixel padding.
 
 #### align-content – Aligning Main Axis Items Within a Multiple Line Container
 
@@ -271,7 +267,7 @@ padding.
 align-content: stretch, flex-start, flex-end, center, space-between, space-around
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An here is another alignment property. This time it applies only to flex
+And here is another alignment property. This time it applies only to flex
 containers whose items are wrapped onto multiple lines.
 
 ![align-content.jpg](<images/flexbox-align-content.jpg>)

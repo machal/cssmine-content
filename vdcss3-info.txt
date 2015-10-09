@@ -96,8 +96,30 @@ nastroje-bootstrap.md
 nastroje-browserstack.md
 odstraněno: Více najdete na blogu: <http://www.vzhurudolu.cz/prirucka/jak-testovat-responzivni-weby>.
 
-nastroje-atd.md
-odstraněno: Část obsahu tohoto e-booku najdete na webu autora v CSS3 příručce – [vzhurudolu.cz/prirucka/css3](<http://www.vzhurudolu.cz/prirucka/css3>).
+fallback-strategie.md
+odstraněno – Honza Sládek, [Graceful degradation vs. progressive enhancement, Zdroják.cz](<http://www.zdrojak.cz/clanky/graceful-degradation-vs-progressive-enhancement/>) --> nechal jsem jen jméno
+
+uvod.md
+odstranil jsem odkaz – [www.vzhurudolu.cz/kurzy]
+
+zmeny-3.md
+smazáno: You can find out more about particular mobile browsers at vzhurudolu.cz/blog/18-mobilni-prohlizece.
+
+
+
+Poznámky po korektuře: 
+
+font-face-tipy.md
+- je tam vysvětleno, že slovo „Jack” bude kurzívou --> není mi zcela jasné proč. Tak jen upozorňuju, jestli tam nechybí <em> tag…
+
+font-face-tipy.md 
+odstraněn odkaz na CZ mapu: A nice example of using font icons is a vector map of the Czech Republic – [cezetmap.cz](<http://cezetmap.cz>).
+
+font-face-netechnicke.md
+- NEodstranil jsem odkaz na [typomil.com](<http://typomil.com/>) - je o tom celý odstavec: potřeba odstavec přepsat a změnit odkaz
+
+font-face-netechnicke.md
+smazána věta odkazující na CZ web: Visiting typographers' websites directly is not a bad choice either. In the Czech Republic, great typography can be found at [suitcasetype.com](<http://www.suitcasetype.com/>) or [stormtype.com](<http://www.stormtype.com/>).
 
 
 
@@ -106,4 +128,29 @@ Další poznámky:
 - u některých nadpisů máš v dovětku český ekvivalent, např "CSS3 Background Size – velikost obrázku na pozadí". V angličtině to někdy pozbývá smyslu, tzn. např. v tomto případě jsem ten dovětek vynechal, protože by to byla jen duplicita a nenapadlo mě nic vtipného :-)
 
 Soubory, které nejsou v TOC: 
+bootstrap-typografie.md
 nastroje-atd.md
+bem.md
+bower.md (prázdný soubor)
+css-preprocesory-srovnani.md
+fallback.md
+grunt-pluginy.md
+grunt.md
+html5-history.md
+jak-testovat-responzivni-weby.md
+lazy-loading.md
+LICENSE.md
+oocss.md
+picture.md
+picturefill.md
+polyfill.md
+prefix.md
+responzivni-obrazky.md
+rich-snippets.md
+smacss.md
+srcset-sizes.md
+viewport-windows.md
+webovy-koder.md
+
+
+„evil”

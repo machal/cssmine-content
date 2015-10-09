@@ -1,16 +1,16 @@
-Responsive Webdesign = Webdesign
-================================
+Responsive Web Design = Web Design
+==================================
 
-![Responsive design = webdesign.](<images/prokop-webdesign.jpg>)
+![Responsive design = web design.](<images/prokop-webdesign.jpg>)
 
-You can face the advent of mobile phone by creating a special mobile website —
+You can face the advent of mobile phone by creating a special mobile web site —
 „m dot“ with separate style templates. However, many of us have already found
 out, this approach presents a longterm disadvantage both for the user and for
-the website operator.
+the web site operator.
 
-Therefore the author dares to say that sooner or later, we will all end up
-creating one website version - a responsive website. The „responsive“ attribute
-will then eventually lose its meaning.
+Therefore, I dare to say that sooner or later, we will all end up creating one
+web site version - a responsive web site. The „responsive“ attribute will then
+eventually lose its meaning.
 
 Taken from a certain point of view, „responsive“ is just an indication of a
 temporary web design phase.

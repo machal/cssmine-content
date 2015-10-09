@@ -1,11 +1,11 @@
 Tips & Tricks & Links
 =====================
 
-If animations seem slow or you experience a blinking effect of the whole page,
-force **hardware acceleration**: Example: `.animated_element { transform:
+If an animations seem slow or you experience a blinking effect of the whole
+page, force **hardware acceleration**: Example: `.animated_element { transform:
 translate3d(0, 0, 0); }`
 
-A newer (and more "by the book") way of solving this issue is using the
+A newer (and more "by-the-book") way of solving this issue is using the
 `will-change: transform` declaration — see
 [dev.opera.com/articles/css-will-change-property/](<https://dev.opera.com/articles/css-will-change-property/>).
 

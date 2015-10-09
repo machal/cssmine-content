@@ -1,15 +1,15 @@
-CSS3 Flexbox – A layout Made of Flexible Boxes
+CSS3 Flexbox – A Layout Made of Flexible Boxes
 ==============================================
 
 What is Flexbox?
 ----------------
 
-It is a approach to layout creation, aligning elements and extra space
-distribution.
+It is an approach to layout creation, aligning elements and distributing extra
+space.
 
 *Flex* stands for *flexible*, *adaptive*. Flexboxes are thus *flexible* elements
-of the layout. One of the main advantages of flexboxu is the ability to fill
-extra space with the need of using javascript.
+of the layout. One of the main advantages of flexbox is the ability to fill
+extra space without the need of using Javascript.
 
 ### The Very Basics Shown in an Example
 
@@ -33,8 +33,8 @@ what? Let's see how to meet them using flexbox.
 2.  **One fifth grid**. The first and third column should take up one fifth –
     `.mandatory-1, .mandatory-2 { flex: 1; }`. The second column should take up
     three fifths – `.content { flex: 3 }`. Did you notice that we do not operate
-    with percentage or that we do calculate the dimensions again when adding a
-    new column?
+    with percentage or that we do not calculate the dimensions again when adding
+    a new column?
 
 3.  **Change element order on lower resolution screens.** Simply add the
     `.content { order: -1; }` declaration to your media query and `.content`
@@ -56,7 +56,7 @@ Let me ask you a question first. How do we handle layouts in CSS?
 Using floats, inline-blocks, absolute positioning or `display: table`. And do
 you know what these terms all have in common? Not a single one of them was meant
 for today's layouts. Yes, flexbox is truly the first CSS layout tool. And our
-grouch might add: „The first one in twenty years“.
+grouch might add: „The first one in twenty years...“.
 
 Floats, tables and all other *layout techniques soon to be dead* will still come
 in handy over the next few years. Every member of this "layout tools family" has
@@ -70,7 +70,7 @@ pages. To be precise: for navigations, forms, paginations, etc.
 
 When dealing with full page layouts, its is better to use a CSS3 Grid Layout
 which unfortunately has little browser support. However, using flexbox for full
-page payouts is possible - you just need to watch out for slow devices or
+page layouts is possible - you just need to watch out for slow devices or
 internet connections where it is not going to render optimally. See
 <http://jakearchibald.com/2014/dont-use-flexbox-for-page-layout/>
 
@@ -104,13 +104,13 @@ illustrate this in a simple scheme:
 
 -   flex container – parent element
 
--   flex item – all direct childs of a flex container
+-   flex item – all direct children of a flex container
 
 -   main axis – horizontal is default but can be changed
 
--   cross axis – perpendicular to the main-axis, os it is similar to the main
+-   cross axis – perpendicular to the main-axis, so it is similar to the main
     axis when default
 
--   main size  – width is default but is dependent on the main axis setting
+-   main size – width is default but is dependent on the main axis setting
 
 -   cross size – width is default

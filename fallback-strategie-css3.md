@@ -1,5 +1,5 @@
-A Bulletproof CSS3 Technical Solution
-=====================================
+A Dinosaur-resistant CSS3 Technical Solution
+============================================
 
 There are five available strategies: zero or defined fallback, feature detection
 or polyfills, and a special category of a so called generated fallback.
@@ -150,7 +150,7 @@ See more at [developer.mozilla.org/en-US/docs/Web/CSS/
 
 An interesting use of feature detection (and a by-the-book example of
 Progressive Enhancement!) is an empty media query. Older browsers like IE8 and
-other "pre-historic dinosaurs"  will simply not recognize this part of the code.
+other "pre-historic dinosaurs" will simply not recognize this part of the code.
 It is suitable if you want to declare layout for modern browsers only:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -177,27 +177,28 @@ Let's remember this motto:
 4. Polyfills
 ------------
 
-These are Javascript libraries which simulate the support of new features in the
-browser that do not support them. Jsou velmi populární ve světě javascriptových
-vývojářů, pomohou ale i HTML/CSS kodérům. Příkladem budiž Respond.js, který
-zapne podporu CSS3 Media Queries i ve starších Explorerech, nebo Picturefill,
-který zase rozchodí responzivní obrázky – `<img srcset sizes>` a `<picture>`.
+These are Javascript libraries simulating the support of new features in
+browsers that do not support them. They are very popular among Javascript
+developers but will sure help even HTML/CSS coders. A perfect example of this is
+Respond.js which turns on CSS3 Media Queries support in older Internet Explorers
+or Picturefill which will make responsive images work – `<img srcset sizes>` a
+`<picture>`.
 
-Kromě ověřeného [Respond.js](<https://github.com/scottjehl/Respond>) ale autor
-nedoporučuje polyfilly u CSS3 vlastností nasazovat. Obvykle zhoršují výkonnost
-stránky a činí vzhled závislým na Javascriptu.
+However, apart from a proven
+[Respond.js](<https://github.com/scottjehl/Respond>) I do not recommend to use
+CSS3 polyfills. They usually deteriorate performance of the website and the
+visual part is dependent on Javascript.
 
-5. Generovaný fallback
-----------------------
+5. Generated Fallback
+---------------------
 
-Zmiňovali jsme cssnext a postprocessing, musíme to proto ještě jednou udělat v
-kapitole o vytváření fallbacků.
+We have already mentioned cssnext and postprocessing but since we are dealing
+with fallbacks, we have to do it one more time.
 
-Alternativou k Respond.js, která zajistí fungování stránky i v prohlížečích bez
-podpory Media Queries, je zmíněný
-[grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>), který
-vygeneruje verzi CSS bez dotazů na média.
+A good alternative to Respond.js which will provide you with a functional web
+site even in browsers without Media Queries support, is
+[grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>) which
+generates a CSS version without media queries.
 
-Generovaný fallback ovšem většinou jen automatizuje už zmíněný definovaný
-fallback jako v případě
-[grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>).
+Generated fallback is just an automated way of a defined fallback as illustrated
+in the [grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>) example.

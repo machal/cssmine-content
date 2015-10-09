@@ -6,7 +6,7 @@ How to layer multiple images or colors in one element.
 In fact, multiple backgrounds are not a CSS property - just a new way of using
 the existing `background` property.
 
-What is the syntax? Simply divide the layer using a comma:
+And what is the syntax? Simply divide the layer using a comma:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 background:
@@ -29,10 +29,10 @@ background-repeat:
     repeat;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Try it yourself
+Try it Yourself
 ---------------
 
-Remember that an image can also be repredsented by a [CSS3
+Remember that an image can also be represented by a [CSS3
 gradient](<css3-gradients.md>) with a semi-transparent background. You can make
 use of this effect to cover an image even if you do not know the height of the
 element:
@@ -45,7 +45,7 @@ background:
 
 See a live example at [cdpn.io/e/lvKkC](<http://cdpn.io/e/lvKkC>).
 
-Browser support
+Browser Support
 ---------------
 
 IE9+. Be careful - the `background` property with multiple values is ignored if

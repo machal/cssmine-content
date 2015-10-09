@@ -1,10 +1,10 @@
-Font Face – non-technical aspects
+Font Face – Non-technical Aspects
 =================================
 
 Two things to be cautious with if you are a web font newbie:
 
-1.  **Coypright (license).** Not all fonts and typefaces are usable on a website
-    free of charge.
+1.  **Copyright (license).** Not all fonts and typefaces are usable on a web
+    site free of charge.
 
 2.  **Font rendering in older systems.** You have to check whether a font you
     are using is rendered nicely in the given size in Windows XP (mainly in
@@ -12,7 +12,7 @@ Two things to be cautious with if you are a web font newbie:
     this problem, go to
     [blog.typekit.com/2010/10/15/type-rendering-operating-systems/](<http://blog.typekit.com/2010/10/15/type-rendering-operating-systems/>)
 
-Learn typography
+Learn Typography
 ----------------
 
 If you are choosing fonts for your websites, do not forget about the
@@ -26,25 +26,22 @@ If you are looking for study recourses, I recommend these:
     by Martin T. Pecina.
 
 -   On Web Typography - it is an impeccable book by Jason Santa Maria,
-    especially if want to understand this tops in the broader context. See more
-    at
+    especially if you want to understand this topic in the broader context. See
+    more at
     [abookapart.com/products/on-web-typography](<http://abookapart.com/products/on-web-typography>)
 
-Where to look for  fonts?
--------------------------
+Where To Look For Fonts?
+------------------------
 
-### Ideal choice: Typekit.com, Fonts.com, font foundries
+### Ideal choice: Typekit.com, Fonts.com, Font Foundries
 
-Typekit.com, Fonts.com and other companies are employing top notch typographers
-and technicians and have their own licensing of good and well-known fonts. Sure,
+Typekit.com, Fonts.com and other companies employ top notch typographers and
+technicians and have their own licensing of good and well-known fonts. Sure,
 they will charge you for their services but you will avoid a lot of problems.
 
-Visiting directly typographers' websites is not a bad choice either. In the
-Czech Republic, great typography can be found at
-[suitcasetype.com](<http://www.suitcasetype.com/>) or
-[stormtype.com](<http://www.stormtype.com/>).
+Visiting typographers' websites directly is not a bad choice either.
 
-### Good alternatives: Google Fonts, Fontsquirrel, ...
+Good alternatives: Google Fonts, Fontsquirrel, etc.
 
 **Google Fonts** is a good service offering a large number of font families for
 free. However, not all of them are good and not all of the support languages
@@ -53,19 +50,19 @@ with special characters. For more information go to
 
 **Fontsquirrel** not only have their own database of fonts with similar
 advantages and disadvantages like Google does but a well-known font generator
-that will make a web font out of your OTF format or other non-web format.
+that will make a web font out of your OTF format or other non-web formats.
 
 -   [fontsquirrel.com](<http://www.fontsquirrel.com/>)
 
 -   [fontsquirrel.com/tools/webfont-generator](<http://www.fontsquirrel.com/tools/webfont-generator>)
 
-### Beware of free fonts
+### Beware of Free Fonts
 
 There are literally hundreds of free fonts scattered around the internet. But
-there is little high quality ones. A high quality font should have some
-essential parameters such as: technical (i.e. file size), typographical (i.e.
-optimized web font rendering and readability) and aesthetic.
+there are very few good ones. A high quality font should have some essential
+parameters such as: technical (i.e. file size), typographical (i.e. optimized
+web font rendering and readability) and aesthetic.
 
-If you do not have a technician and a typographer at your disposal (or your own
+If you do not have a technician or a typographer at your disposal (or your own
 knowledge for that matter), you can spoil your website. There is no shame in
 using system fonts.

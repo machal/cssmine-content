@@ -30,12 +30,12 @@ Thanks to this value we can slice the source image so the browser knows where
 all four cut-outs for all four corners are. Plus the browser will know where the
 cut-outs for the horizontal and vertical sides are.
 
-The vaulue consists of one, two or four numbers. Two numbers represent the
+The value consists of one, two or four numbers. Two numbers represent the
 horizontal and vertical slice and four numbers represent the top, right, bottom
 and left slices. The value can be defined in pixels or as percentage of the
 source image size. The default value is `border-image-slice: 100%`.
 
-If the `fill` keyword is used, the browser will apply the center part of the
+If the `fill` key word is used, the browser will apply the center part of the
 image to the element's background.
 
 ### Border Width
@@ -68,8 +68,8 @@ by using the `border-image-repeat` property. There are four values available:
     empty area is evenly distributed among all repetitions (space is added to
     each repetition)
 
-Remember that it is possbile to set various values for the horizontal and
-vertical parts of the border. See an exmaple:
+Remember that it is possible to set various values for the horizontal and
+vertical parts of the border. See an example:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 border-image-repeat: stretch repeat;
@@ -96,10 +96,10 @@ A Simple Example with a Color Gradient
 --------------------------------------
 
 [CSS gradients](<css3-gradients.md>) count as images, therefore you can use a
-color gradient as a border.
+color gradient as border.
 
 But remember that you always have to define a native image border. First for
-handling sizes, second for creating a fallback for browser not supporting
+handling sizes, second for creating a fallback for browsers not supporting
 `border-image`. So, for the sake of this example, let's create a 20 pixel border
 around an element:
 
@@ -114,7 +114,7 @@ a color gradient:
 border-image-source: linear-gradient(lightgreen, darkgreen);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To our suprise, the browser will render the gradient in the corners of the
+To our surprise, the browser will render the gradient in the corners of the
 border only. The reason for that is the slice default value:
 `border-image-slice: 100%`. It means the image will be used just in the four
 corners. Therefore, we will set it so it corresponds with the width of our

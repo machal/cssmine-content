@@ -13,7 +13,7 @@ box-shadow:
     _horizontal_offset_
     _vertical_offset_
     (_blur_)
-    (_roztazeni_)
+    (_spread_)
     _color_,
     (_other_shadows_);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -35,7 +35,7 @@ the shadow:
 box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Add one more and you will define a **spread distance**:
+One more number and you will define a **spread distance**:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .5);
@@ -70,7 +70,7 @@ from the top and bottom:
 box-shadow: 5px 0 5px -2px rgba(0,0,0,.5);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See alive example at [cdpn.io/e/JnGyb](<http://cdpn.io/e/JnGyb>).
+See a live example at [cdpn.io/e/JnGyb](<http://cdpn.io/e/JnGyb>).
 
 ### Shadow as a Copy of an Object
 
@@ -87,7 +87,7 @@ Browser Support
 IE9+. There is almost no problem in modern browsers:
 [caniuse.com/box-shadow](<http://caniuse.com/box-shadow>)
 
-### Older Webkit Browsers sometimes Ignore the Spread
+### Older Webkit Browsers Sometimes Ignore the Spread
 
 A slight problem in older webkit browsers is that if a value for blur is
 missing, they ignore the null value of the spread. Therefore, this notation will

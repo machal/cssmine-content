@@ -1,7 +1,7 @@
 The Arrival of Smartphones
 ==========================
 
-This is without doubt the most significat change. In a way, the mother of all
+This is without doubt the most significant change. In a way, the mother of all
 changes. I certainly hope there is no doubt about the importance of mobile
 devices in the work of a web developer.
 

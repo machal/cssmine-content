@@ -9,16 +9,16 @@ Interesting Links to Flexbox
     A user friendly tool for generating flex box layouts and "playing around".
     <http://the-echoplex.net/flexyboxes/>
 
--   **flexbox in 5 minutes**  
-    Was the e-booknot enough? Here you can find the principles of flexbox from
+-   **Flexbox in 5 minutes**  
+    Was the e-book not enough? Here you can find the principles of flexbox from
     another point of view. <http://flexboxin5.com/>
 
 -   **Flexbox demos**  
-    A collection of flexboxu examples. It supplements this e-book.
+    A collection of flexbox examples. It supplements this e-book.
     <http://codepen.io/collection/Dmrzxz/>
 
 -   **Solved by Flexbox**  
-    Common problems of the layout solved using Flexboxu.
+    Common problems of the layout solved using Flexbox.
     <http://philipwalton.github.io/solved-by-flexbox/>
 
 -   **CSS Flexible Box Layout**  

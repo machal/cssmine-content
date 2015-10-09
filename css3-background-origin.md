@@ -13,19 +13,19 @@ particular element:
 -   `border-box` – starts from the element padding edge but counts with the
     element `border` as well
 
-Tip: The difference among the `content-box`, `padding-box` and `border-box`
-values is illustrated in the [box-sizing](<css3-box-sizing.md>) section.
+Tip: The differences among the `content-box`, `padding-box` and `border-box`
+values are illustrated in the [box-sizing](<css3-box-sizing.md>) section.
 
 Caution! The `background-origin` property is ignored by the browser if the
 `background-attachment: fixed` declaration is used as well.
 
-Background Clip versus Background Origin
-----------------------------------------
+Background Clip vs Background Origin
+------------------------------------
 
 Everyone gets confused by that so let's shed some light on it:
 
 [Background Clip](<css3-background-clip.md>) determines if a background color or
-image is visible under the border (`border-box`) or around the content only
+image is visible under a border (`border-box`) or around the content only
 (`content-box`).
 
 Background Origin does not do anything on its own - it just defines an area

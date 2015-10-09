@@ -22,14 +22,14 @@ if _conditions_are_met_ */
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Or into HTML where reference to CSS file is:
+Or into HTML where reference to a CSS file is:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 <link rel="stylesheet"
 href="mobile.css" media="max-width: 480px">
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-### Minimal/maximal height/width
+### Minimal/maximal Height/width
 
 A typical media query looks like this:
 
@@ -80,7 +80,7 @@ The `not` operator is used to negate the result.
 
 ### Additional Properties for Querying
 
-**Detekce vysokokapacitních displejů** typu Retina, Amoled a dalších:
+**Detection of high-resolution displays** such as Retina, Amoled and other:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @media
@@ -90,7 +90,7 @@ The `not` operator is used to negate the result.
     }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If the device-pixel-ratio is 1.5 or greater, the  `image_hd.png` will be loaded.
+If the device-pixel-ratio is 1.5 or greater, the `image_hd.png` will be loaded.
 
 There are numerous pixel aspect ratios available (1.25, 1.5, 2, 3, 4).
 Therefore, I recommend to use a SVG vector format instead of bitmap images where
@@ -109,13 +109,13 @@ possible.
 @media screen and (device-aspect-ratio: 16/9) { ... }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-So these were the most common types of queries. However, there are [a lot more
-of them](<http://www.opera.com/docs/specs/presto26/css/mediaqueries/>).
+So these were the most common types of queries. However, there are [a lot
+more](<http://www.opera.com/docs/specs/presto26/css/mediaqueries/>).
 
 Browser Support
 ---------------
 
-IE8 does not support even the simpliest media queries. Fortunately, there are
+IE8 does not support even the simplest media query. Fortunately, there are
 several strategies how to handle it and not be discouraged. But for those
 strategies, responsive web design could not have come to life in the first
 place. So if you got scared, pull yourself together and move on.

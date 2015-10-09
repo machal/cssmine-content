@@ -1,7 +1,7 @@
 CSS3 Text Shadow
 ================
 
-Textu shadowing effect.
+This is a text shadowing effect.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 text-shadow:
@@ -15,14 +15,14 @@ text-shadow:
 Let's take a look at a live example at
 [cdpn.io/e/aDLCl](<http://cdpn.io/e/aDLCl>).
 
-the `text-shadow` property has a twin — [box-shadow](<css3-box-shadow.md>). Go
+The `text-shadow` property has a twin — [box-shadow](<css3-box-shadow.md>). Go
 to the [box-shadow] page to see a detailed description of the syntax. It is very
 similar.
 
 Tip – you can use multiple text shadow values to create a [pseudo-3D
 effect](<http://markdotto.com/playground/3d-text/>).
 
-Browser support
+Browser Support
 ---------------
 
 IE10+. In older browsers, you can use a fallback without a shadow (preferred) or

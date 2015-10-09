@@ -1,5 +1,5 @@
 This knowledge will do for now. Now, let's dig into the problem a little deeper
-and make several practical examples. I have chosen them carefully so you can you
+and make several practical examples. I have chosen them carefully so you can use
 them in your next project.
 
 Flexbox – Practical Examples
@@ -22,8 +22,8 @@ your client:
 ![Unaligned text](<images/flexbox-priklady-1.jpg>)
 
 We do not want the text to overflow the radio button. It can be done without
-using flex box, however if we use it, it will be almost ridiculously simple. All
-you red is the following declaration:
+using flex box, however if we use flexbox, it will be almost ridiculously
+simple. All you need is the following declaration:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 label { display: flex }
@@ -35,7 +35,7 @@ flex box items.
 You can clearly see that an empty text node (i.e. text not wrapped in a div) can
 be considered a flexbox item. In our case, it is the „Really long caption…".
 
-Now let's show this situation in an image:
+Now let's display this situation in an image:
 
 ![flexible button](<images/flexbox-priklady-2.jpg>)
 
@@ -45,7 +45,7 @@ is a shorthand for additional properties. The `initial` value means that an item
 can shrink when there is not enough space, however it will not extend when there
 is extra space.
 
-You can try an example at CodePenu: <http://cdpn.io/e/raqXZX>.
+You can try an example at CodePen: <http://cdpn.io/e/raqXZX>.
 
 ### Second Example: Combining Units
 
@@ -64,19 +64,19 @@ The browser will handle the combination of units.
 
 Notice that we set `flex: none` for the radio button and text because we do not
 want them to shrink or extend. They simply keep the width at all cost. On the
-other hand, using `flex: auto`, we forced the textfield to shrink and extend
-based on the parer width.
+other hand, by using `flex: auto`, we forced the textfield to shrink and extend
+based on the parent width.
 
 Try an example at CodePen: <http://cdpn.io/e/jEJbmg>.
 
-### Third Example: Verctical Centering of a Box with Unknown Height
+### Third Example: Vertical Centering of a Box with Unknown Height
 
 ![centering](<images/flexbox-priklady-5.jpg>)
 
-Did you struggle with this problem too? No more struggling with flexbox. We will
-turn `<body>` into a flex container and using a new `vh` unit, we will resize it
-to 100 % of the browser window. Then all you need to do is tell the flex item to
-center itself using the `align-self` property.
+Have you struggled with this problem too? No more struggling with flexbox. We
+will turn `<body>` into a flex container and using a new `vh` unit, we will
+resize it to 100 % of the browser window. Then all you need to do is tell the
+flex item to center itself using the `align-self` property.
 
 Both vertical and horizontal centering using flexbox is literally trouble-free.
 In addition to the `align-self` property, also take a look at the
@@ -88,7 +88,7 @@ Try an example at CodePen: <http://cdpn.io/e/zxydom>.
 ### Fourth Example: Changing the Visual Order of Items
 
 If you need to set an order of items in HTML one way and display it another way,
-flexbox will help you.  Just remember the `order` property which is used to
+flexbox will help you. Just remember the `order` property which is used to
 change the order of flex items.
 
 ![order change](<images/flexbox-priklady-6.jpg>)
@@ -135,7 +135,7 @@ Without flexbox, we can solve this by using `display: table`. However, there are
 certain disadvantages such as the need of adding a `display: table-row` element
 or inability of using absolute positioning within the „table cells".
 
-We know enough about flexbox so the following solution will not suprice us:
+We know enough about flexbox so the following solution will not surprise us:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .nav ul {
