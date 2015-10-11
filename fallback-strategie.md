@@ -1,7 +1,7 @@
 Fallback Strategy For Older Browsers
 ====================================
 
-One of the nice features of HTML and CSS is *dinosaur-resistance*. You can use
+One of the nicer features of HTML and CSS is *dinosaur-resistance*. You can use
 awesome CSS3 or HTML5 features and you will not break the basic principle of a
 web site in older browsers.
 
@@ -17,13 +17,13 @@ old browsers.
 
 It is not just about accessibility and "fair play" towards these disadvantaged
 users. It is also about contemporary mobile browsers. Just take a wide range of
-Android Browser versions (and supplier modifications),  Opera Mini or e-reader
+Android Browser versions (and supplier modifications), Opera Mini or e-reader
 browsers... It is not humanly possible to test them all. But a bulletproof
 solution will do it for you.
 
-And now, imagine browsers that are yet to come, browsers in smart watch, cars,
+And now, imagine browsers that are yet to come - browsers in smart watch, cars,
 TVs, or... well, in fridges. You say people will not use them? It might be
-possible but thought the same about iPhone browser.
+possible but we thought the same about the iPhone browser.
 
 Therefore, using a "*dinosaur-resistant*" technical solution with respect to the
 lowest common denominator will pay off in the future.

@@ -12,8 +12,8 @@ Therefore, we will not plunge into the knowledge pool. A lumberjack can get
 along with an older chainsaw, if it's maintained properly and he knows how to
 use it.
 
-Let's create an overview of new stuff that have the "CSS chainsaws" brought over
-the past few years.
+Let's create an overview of new stuff that has CSS brought over the past few
+years.
 
 1.  CSS Preprocessors
 

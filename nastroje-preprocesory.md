@@ -1,16 +1,16 @@
-CSS Preprocessors
-=================
+CSS Preprocessors 
+==================
 
 LESS, SASS and other preprocessors make a front-end developer's life a little
 easier. Preprocessors precede CSS. They add new properties and simplify the
-code. Then they are complied into CSS so all web browsers can understand.
+code. Then they are complied into CSS so all web browsers can understand it.
 
 Preprocessor Features
 ---------------------
 
 ### Variables
 
-You sure know them from imperative programming language and you would not
+You sure know them from imperative programming languages and you would not
 believe how handy they might come when writing CSS.
 
 I can change the primary color of my Bootstrap implementation simply by changing
@@ -56,10 +56,10 @@ This will be compiled into:
 
 It seems useless but this is one of the reasons I started to use CSS
 preprocessors. When using CSS, most browsers will not understand nested Media
-Queries and you tend to organize your code using Media Queries. Component
-organization is more favorable though. In the above example, the `.nav` module
-will be the main organizational unit and Media Queries will be nested in it.
-That is what we want.
+Queries and as a result, you tend to organize your code using Media Queries.
+Component organization is more favorable though. In the above example, the
+`.nav` module will be the main organizational unit and Media Queries will be
+nested in it. That is what we want.
 
 ### Mixins
 
@@ -101,7 +101,7 @@ This will be compiled into:
 }   
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Mixins can also have parameters and that's where the fin starts!
+Mixins can also have parameters and that's where the fun starts!
 
 ### @import
 
@@ -124,7 +124,7 @@ property:
 
 ### Additional Features
 
-Preprocesors have plenty of additional features. Let's take a look at them:
+Preprocessors have plenty of additional features. Let's take a look at them:
 
 -   [lesscss.org/features/](<http://lesscss.org/features/>)
 
@@ -144,24 +144,21 @@ If I make it simple, I will give you two recommendations:
 -   If you are a programmer and you are familiar with Javascript or PHP, choose
     SASS.
 
-There is a complex text on this topic on my blog –
-[vzhurudolu.cz/blog/15-css-preprocesory-4](<http://www.vzhurudolu.cz/blog/15-css-preprocesory-4>).
-
 You do not have to take this decision too seriously though. Switching from one
 preprocessor to another will not give you a headache.
 
-The Disadcantages of CSS Preprocessors
+The Disadvantages of CSS Preprocessors
 --------------------------------------
 
 -   It's too powerful – stepping away from a dumb CSS leads to elaborated and
-    sometimes imperative code, however it tends to be incomprehensive and hard
+    sometimes imperative code, however it tends to be in-comprehensive and hard
     to maintain. You know what they say about the "good servant but a bad
     master", don't you?
 
 -   The code is proprietary – if you use preprocessors bluntly, teaching a
-    novice or swithing to another preprocessor is a piece of cake. However, it
+    novice or switching to another preprocessor is a piece of cake. However, it
     gets worse when you combine it with the previous point.
 
 I think that some problems that are now solved by preprocessors will be
-addressed in the postprocessing phase in the near future. So let's dig into the
+addressed in the post processing phase in the near future. So let's dig into the
 Node.js chapter, shall we?

@@ -2,12 +2,12 @@ Transformations in the Coding Business
 ======================================
 
 Like any profession, development of web interfaces reflects changes of the
-environment it opperates in. Recent changes of the coding environment can be
+environment it operates in. Recent changes of the coding environment can be
 summed up in eight points.
 
 1.  The Arrival of Smartphones
 
-2.  Responsive Web design = Webdesign
+2.  Responsive Web design = Web design
 
 3.  Too Many Browsers Will Give You a Headache
 

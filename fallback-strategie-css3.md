@@ -11,7 +11,7 @@ Number of fallback characters: zero... You simply do not write any alternative
 code provided you know exactly what you are doing.
 
 The zero fallback make use of smart HTML and CSS features — ignoring the
-unknown. Browser have always processed both languages in this way: if they
+unknown. Browsers have always processed both languages in this way: if they
 encounter a tag, attribute, property or value they do not recognize, the simply
 ignore it and continue rendering the code.
 
@@ -28,10 +28,10 @@ ignore it and continue rendering the code.
 
 In this example, we do not worry with the fact that older browsers do not render
 transitions. Their only purpose is to enhance user experience in modern
-broswers.
+browsers.
 
-If, however, a transition carries information (i.g. a file upload indication),
-we will have to provide a way so that older browsers understand that.
+If, however, a transition carries information (e.g. a file upload indication),
+we will have to provide a way so that older browsers understand it.
 
 Therefore, the zero fallback presents a solution for getting away with
 animations, rounded corners, shadows, custom fonts and many other CSS3
@@ -41,8 +41,8 @@ properties in older browsers.
 -------------------
 
 This is a fallback that takes advantage of the fact that a browser applies the
-last know declaration. Just recall the grunt-pixrem post processor from previous
-chapters:
+last known declaration. Just recall the grunt-pixrem post processor from
+previous chapters:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {
@@ -70,7 +70,7 @@ with prefixed variants of CSS properties:
 3. Detecting CSS Properties Support
 -----------------------------------
 
-Unfortunately, it is not possible to use a natural fallback for some proeprties.
+Unfortunately, it is not possible to use a natural fallback for some properties.
 The solution for older browsers is either to create a different user interface
 or apply a different code structure.
 
@@ -84,9 +84,9 @@ Internet Explorer.
 Nowdays, every CSS3 property is supported (or not supported) by a different
 group of browsers. Sometimes, it is just Internet Explorer prior to version 8,
 sometimes Internet Explorer 9 and lower, sometimes Opera Mini… Sometimes even
-older Android browsers join the group… Who know what will come in a year.
-Therefore, it is much easier to detect feature support, not browser support. We
-can then forget the broswers.
+older Android browsers join the group… Who knows what will come in a year's
+time. Therefore, it is much easier to detect feature support, not browser
+support. We can then forget the browsers.
 
 Feature detection is useful when using SVG vector format which I have already
 mentioned:
@@ -101,8 +101,8 @@ mentioned:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When it somes to CSS3 propeties, it is useful for layout related ones. Let's
-make a flex box example:
+When it comes to CSS3 properties, it is useful for the layout related ones.
+Let's make a flex box example:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .component {
@@ -143,8 +143,7 @@ query the availability of a particular CSS property:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See more at [developer.mozilla.org/en-US/docs/Web/CSS/
-@supports](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports).
+See more at <https://developer.mozilla.org/en-US/docs/Web/CSS/@supports>.
 
 ### Empty Media Query
 
@@ -172,7 +171,7 @@ Let's remember this motto:
 -   In older browsers, the key thing is the availability of the main content,
     not following the graphic design to the letter.
 
--   Linear dislpay is better than a broken site layout.
+-   Linear display is better than a broken site layout.
 
 4. Polyfills
 ------------
@@ -186,13 +185,13 @@ or Picturefill which will make responsive images work – `<img srcset sizes>` a
 
 However, apart from a proven
 [Respond.js](<https://github.com/scottjehl/Respond>) I do not recommend to use
-CSS3 polyfills. They usually deteriorate performance of the website and the
+CSS3 polyfills. They usually deteriorate performance of the web site and the
 visual part is dependent on Javascript.
 
 5. Generated Fallback
 ---------------------
 
-We have already mentioned cssnext and postprocessing but since we are dealing
+We have already mentioned cssnext and post processing but since we are dealing
 with fallbacks, we have to do it one more time.
 
 A good alternative to Respond.js which will provide you with a functional web

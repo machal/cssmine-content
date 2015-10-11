@@ -1,15 +1,15 @@
-Building stuff: Prepros, Grunt, Gulp
+Building Stuff: Prepros, Grunt, Gulp
 ====================================
 
 It almost always come in handy to be able to execute certain operations that
 affect the source code in general. We want to compile CSS from a preprocessor,
 minify it, minify Javascript files and merge them - to name just a few
-operations. We also want to reduce size of images and merge them into a [CSS
-sprite](<http://jecas.cz/css-sprite>).
+operations. We also want to reduce size of images and merge them into a CSS
+sprite.
 
-Therefore, a direct link to the source fiels in the HTML was replaced by
-optimized distribution versions. And now we're getting there: to make these
-distribution versions, we need building tools.
+Therefore, a direct link to source files in the HTML was replaced by optimized
+distribution versions. And now we're getting there: to make these distribution
+versions, we need building tools.
 
 The building tools for front-end come in two types:
 
@@ -51,8 +51,8 @@ CSS:
 npm install grunt-contrib-less --save-dev
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Using plugins, namely using `Gruntfile.js`, you can create Grunt tasks. This is
-a simplified example of the file:
+By using plugins, namely using `Gruntfile.js`, you can create Grunt tasks. This
+is a simplified example of the file:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 module.exports = function(grunt) {
@@ -89,7 +89,7 @@ module.exports = function(grunt) {
 };
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-First, you need to confiugure `less`, `cssmin` and `watch` plugins in order to
+First, you need to configure `less`, `cssmin` and `watch` plugins in order to
 create `css` and `default` „task aliases“. Then you can add a queue of other
 tasks.
 

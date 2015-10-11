@@ -2,7 +2,7 @@ Package Managers: npm and Bower
 ===============================
 
 Two package managers? This might be a pretty pickle for novices. In the
-following paragraphs, you will find out when to use nom and when Bower.
+following paragraphs, you will find out when to use npm and when Bower.
 
 When dealing with UI, you can use these two managers for installing two types of
 packages:
@@ -79,8 +79,8 @@ npm|bower install jquery
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Using `--save-dev` will save the library into the project's dependencies in a
-`bower.json` or `package.json` config files. On the other hand, jQuery is a user
-dependency so it is better to use `--save` when developing a website.
+`bower.json` or `package.json` config file. However, jQuery is a user dependency
+so it is better to use `--save` when developing a website.
 
 Let's move on: updating jQuery:
 

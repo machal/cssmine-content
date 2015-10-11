@@ -2,8 +2,8 @@ Vendor-Prefixed Pain in the Butt
 ================================
 
 Browser developers have been implementing properties that have incomplete
-standardization procedures. Therefore, they are beta versions. To distinguish
-them from the final release, they introduced *vendor prefixes*. Fortunately,
+standardization procedures, in other words: beta versions. To distinguish them
+from the final release, they have introduced *vendor prefixes*. Fortunately,
 using vendor prefixes is not as necessary as it used to be one or two years ago.
 
 For example, if you want to declare a CSS transformation so all browsers will
@@ -20,7 +20,7 @@ understand it, you have to declare it multiple times:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If we choose to leave out browsers that have minimal usage, we can drop `-moz`,
-`-o` and sometimes even `-ms` prefixes. However, out is reasonable to generate
+`-o` and sometimes even `-ms` prefixes. However, it is reasonable to generate
 these vendor prefixes automatically, using a tool meant just for that.
 
 To avoid declaring all properties manually, in the past we used CSS preprocessor
@@ -29,7 +29,7 @@ libraries such as LESShat or Compass.
 Autoprefixer
 ------------
 
-This problem has nowday a rather elegant solution - an Autoprefixer:
+This problem has nowdays a rather elegant solution - an Autoprefixer:
 [github.com/postcss/autoprefixer](<http://github.com/postcss/autoprefixer>).
 
 You will simply write the CSS code as if all browsers could operate with

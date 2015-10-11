@@ -1,12 +1,12 @@
 Post-processing: Autoprefixer, Pixrem and Other
 ===============================================
 
-Post processing or a or subsequent processing of the CSS code is an interesting
-trend in the world of CSS.
+Post processing or subsequent processing of the CSS code is an interesting trend
+in the world of CSS.
 
 It usually stands for adding code to fallbacks for older browsers but it could
-partialy replace preprocessors in a few year's time. Let's demonstrate the usage
-on some post processing tools.
+partially replace preprocessors in a few year's time. Let's demonstrate the
+usage on some post processing tools.
 
 Autoprefixer: Adding Prefixed Declarations
 ------------------------------------------
@@ -53,8 +53,8 @@ pixrem
 If you decide to use the `rem` unit (which I strongly recommend), you will be
 faced with a compatibility problem in older browsers.
 
-By using a pixrem plugin, you can define conversion between `rem` and `px`, thus
-adding fallbacks to your CSS code:
+By using a pixrem plugin, you can define conversions between `rem` and `px`,
+thus adding fallbacks to your CSS code:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .box {

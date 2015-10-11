@@ -1,11 +1,11 @@
 Alternative Browser testing: Browserstack & Co.
 ===============================================
 
-When it comes to rendering CSS code, there not many difference among modern
+When it comes to rendering CSS code, there are not many differences among modern
 browsers.
 
-Unfortunately, there tons of browsers plus new arrivals on the mobile field. And
-then there are "retired" browsers such as Internet Explorer 8.
+Unfortunately, there are tons of browsers plus new arrivals on the mobile field.
+And then there are "retired" browsers such as Internet Explorer 8.
 
 Therefore, a coder won't do without alternative browser testing.
 

@@ -16,6 +16,6 @@ editor which is a direct competitor of Photoshop and contains lots of plugins
 with an export option
 ([bohemiancoding.com/sketch](<http://bohemiancoding.com/sketch/>)).
 
-And finally there are tools which connect the world of graphic designers and
+And finally, there are tools which connect the world of graphic designers and
 coders. Let's mention Avocode ([avocode.com](<http://avocode.com/>)) or Brackets
 by Adobe ([brackets.io](<http://brackets.io/>)).

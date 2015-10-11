@@ -1,7 +1,7 @@
 Node.js Invasion
 ================
 
-Node.js tools were originaly meant for development of javascript apps on a
+Node.js tools were originally meant for development of Javascript apps on a
 server. But… Javascript is needed on front-end as well. You do not have to write
 hundreds of lines of code but once in a while you will need to, let's say,
 install a jQuery plugin.

@@ -4,7 +4,7 @@ Sustainable Code Using OOCSS
 OOCSS stands for „Object Oriented CSS”. It is code organization system by Nicole
 Sullivan.
 
-A CSS object is a repeating visual component  which can be expressed as a piece
+A CSS object is a repeating visual component which can be expressed as a piece
 of HTML and CSS / Javascript. Also, it is reusable on various places in your
 code and across multiple projects.
 
@@ -62,10 +62,10 @@ We have three types of elements:
 -   element – an entity inside an object or a sub-object (`.button-icon`
     representing an icon within a button)
 
--   modifier – objectu property (`.button-primary` representing the main
+-   modifier – object property (`.button-primary` representing the main
     call-to-action button)
 
-It might come in handy to visualy distinguis these three element types when
+It might come in handy to visually distinguish these three element types when
 dealing with bigger projects.
 
 5) The Lowest Specificity
