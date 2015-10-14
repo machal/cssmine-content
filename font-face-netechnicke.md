@@ -40,8 +40,9 @@ technicians and have their own licensing of good and well-known fonts. Sure,
 they will charge you for their services but you will avoid a lot of problems.
 
 Visiting typographers' websites directly is not a bad choice either.
+Even here, in the Czech Republic, we have several good typographers. For example – Tomas Brousil ([suitcasetype.com](<http://suitcasetype.com>)) or Frantisek Storm ([stormtype.com](<http://stormtype.com>)).
 
-Good alternatives: Google Fonts, Fontsquirrel, etc.
+### Good alternatives: Google Fonts, Fontsquirrel, etc.
 
 **Google Fonts** is a good service offering a large number of font families for
 free. However, not all of them are good and not all of the support languages
