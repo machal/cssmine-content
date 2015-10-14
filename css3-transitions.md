@@ -96,7 +96,7 @@ properties](<http://www.w3.org/TR/css3-transitions/#animatable-properties>).
 
 A separate declaration would look like this: `transition-timing-function: ease`.
 You can choose from [preset
-values](<http://www.w3.org/TR/css3-transitions/#animatable-properties>) or you
+values](<http://www.w3.org/TR/css3-transitions/#transition-timing-function>) or you
 can define [your own](<http://matthewlein.com/ceaser/>).
 
 ### Transition Delay
