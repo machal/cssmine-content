@@ -26,7 +26,8 @@ this…
 … and then you apply it in HTML like this…
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-<p>Grumpy wizards make toxic brew for the <b>evil</b> Queen and Jack.
+<p>Grumpy wizards make toxic brew for 
+the <b>evil</b> Queen and <i>Jack</i>.</p>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 … the word „evil” will be rendered as bold at first sight, as well as the word
