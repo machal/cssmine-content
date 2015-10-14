@@ -21,9 +21,9 @@ suitable for every website, as well as not all font pairs work together.
 
 If you are looking for study recourses, I recommend these:
 
--   [typomil.com](<http://typomil.com/>) – it is an older website, but still a
+-   [webtypography.net](<http://webtypography.net/>) – it is an older website, but still a
     valid guide to type, typesetting and font composition on a website, written
-    by Martin T. Pecina.
+    by Robert Bringhurst.
 
 -   On Web Typography - it is an impeccable book by Jason Santa Maria,
     especially if you want to understand this topic in the broader context. See
