@@ -21,19 +21,6 @@ I have to optimize for all these browsers? Do not worry. Ensuring availability
 of the main content in all browsers is possible even if you are using CSS3
 technologies described in this text.
 
-Now let's take a look at usage share of web browsers of big Czech websites
-according to Gemius (rankings.cz):
-
-![Desktop browsers stats](<images/statistiky-prohlizece-desktop.jpg>)
-
-The mobile stats are as follows:
-
-![Mobile browsers stats](<images/statistiky-prohlizece-mobil.jpg>)
-
-It is necessary to put Internet Explorer aside because it behaves a little
-different when it comes to some CSS3 properties. The second reason is the
-missing automatic update which most other browsers have.
-
 Now, let's make an exception and focus on one of them.
 
 Mobile Chrome
