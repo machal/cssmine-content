@@ -94,15 +94,6 @@ If you do not use an Apache server, you will have to take a look in
 `server-configs` repositories — see
 [github.com/h5bp](<https://github.com/h5bp>).
 
-Fontokuk
---------
-
-This is Chamurappi's very useful tool for testing the presence of special
-characters in font files. Just choose either a system font, a Google Font or
-insert your own code, and then enter the line of text you want to see. Fontokuk
-will then render the text using the desired font. See
-[fontokuk.webylon.info](<http://fontokuk.webylon.info>).
-
 Font Icons
 ----------
 
