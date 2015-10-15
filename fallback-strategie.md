@@ -31,11 +31,10 @@ lowest common denominator will pay off in the future.
 Progressive Enhancement
 -----------------------
 
->   Progressive enhancement is an approach where you start with the basic
->   functionality and then improve user experience step by step, always making
->   sure that these enhancements are supported.
+> When an elevator fails, it’s useless. When an escalator fails, it becomes 
+> stairs. We should be building escalators, not elevators.
 
-*Jan Sladek*
+*Jeremy Keith*
 
 The aim of progressive enhancement is to guarantee content or main function
 accessibility, regardless of the user's technological equipment.
