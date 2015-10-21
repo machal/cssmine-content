@@ -1,0 +1,2 @@
+nastroje-preprocessory.md
+- změnil jsem proměnnou $small-up na &medium-up, aby to korespondovalo s příkladem

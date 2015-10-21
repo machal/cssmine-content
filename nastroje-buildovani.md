@@ -7,9 +7,9 @@ minify it, minify Javascript files and merge them - to name just a few
 operations. We also want to reduce size of images and merge them into a CSS
 sprite.
 
-Therefore, a direct link to source files in the HTML was replaced by optimized
-distribution versions. And now we're getting there: to make these distribution
-versions, we need building tools.
+Therefore, a direct link to source files in the HTML has been replaced by
+optimized distribution versions. And now we're getting there: to make these
+distribution versions, we need building tools.
 
 The building tools for front-end come in two types:
 
@@ -28,15 +28,15 @@ user interfaces.
 
 ![Prepros](<images/prepros.jpg>)
 
-Apart from all basic CSS, Javascript and image tasks, it also has an FTP
-deployment feature and synchronized website testing on multiple devices.
+Apart from all basic CSS, Javascript and image tasks it also has an FTP
+deployment feature and synchronized website testing tool for multiple devices.
 
 Grunt
 -----
 
-It is necessary to mention that to use Grunt, you have to be familiar with the
-command line. No other advanced knowledge is needed. To be honest, I tiptoe
-around the command line, however me and Grunt have become buddies quite fast.
+It is necessary to mention that in order to use Grunt, you have to be familiar
+with the command line. No other advanced knowledge is needed. To be honest, I
+tiptoe around the command line, however Grunt has become my "buddy" quite fast.
 
 Grunt can be installed using npm…
 
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, you need to configure `less`, `cssmin` and `watch` plugins in order to
-create `css` and `default` „task aliases“. Then you can add a queue of other
+create `css` and `default` „task aliases". Then you can add a queue of other
 tasks.
 
 At the beginning of a project, you just run a `default` task using the `grunt`

@@ -7,7 +7,7 @@ summed up in eight points.
 
 1.  The Arrival of Smartphones
 
-2.  Responsive Web design = Web design
+2.  Responsive Web Design = Web Design
 
 3.  Too Many Browsers Will Give You a Headache
 

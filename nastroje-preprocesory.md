@@ -1,9 +1,10 @@
-CSS Preprocessors 
-==================
+CSS Preprocessors
+=================
 
 LESS, SASS and other preprocessors make a front-end developer's life a little
 easier. Preprocessors precede CSS. They add new properties and simplify the
-code. Then they are complied into CSS so all web browsers can understand it.
+code. Then they are complied into CSS so all web browsers can understand it. It
+is as simple as that.
 
 Preprocessor Features
 ---------------------
@@ -11,19 +12,21 @@ Preprocessor Features
 ### Variables
 
 You sure know them from imperative programming languages and you would not
-believe how handy they might come when writing CSS.
+believe how handy they might come in when writing CSS.
 
-I can change the primary color of my Bootstrap implementation simply by changing
-it on another level. The LESS notation looks like this:
+For example, I can change the primary color of a Bootstrap implementation (using
+LESS) simply by changing it on another level - using a preprocessor. The LESS
+notation looks like this:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @brand-primary: #428bca;
 @import "bootstrap/bootstrap";
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The rival Foundation framework can operate with variable queries. The
-`$small-up` variable has an entire media query in it so you do not have to write
-it again and again. The SASS notation looks like this:
+The rival Foundation framework (using SASS) can operate with variable queries.
+Let's explain it, shall we? The Foundation framework can operate with a
+`$medium-up` variable which contains an entire media query so you do not have to
+write it again and again. The SASS notation looks like this:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $medium-up: "only screen and (min-width: 40em)";
@@ -59,15 +62,16 @@ preprocessors. When using CSS, most browsers will not understand nested Media
 Queries and as a result, you tend to organize your code using Media Queries.
 Component organization is more favorable though. In the above example, the
 `.nav` module will be the main organizational unit and Media Queries will be
-nested in it. That is what we want.
+nested in it. That's what we want.
 
 ### Mixins
 
 Your CSS code tends to repeat itself… Therefore, mixins are the basic building
-blocks of CSS, i.e. properties that can used in various other rule-sets, just by
-calling a class.
+blocks of CSS, i.e. properties that can be used in various other rule-sets, just
+by calling a class.
 
-A typical use of a non-parametric mixin to force element to self-clear (LESS):
+This is a typical use of a non-parametric mixin to force an element to
+self-clear (LESS):
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .clearfix() {
@@ -150,14 +154,14 @@ preprocessor to another will not give you a headache.
 The Disadvantages of CSS Preprocessors
 --------------------------------------
 
--   It's too powerful – stepping away from a dumb CSS leads to elaborated and
-    sometimes imperative code, however it tends to be in-comprehensive and hard
-    to maintain. You know what they say about the "good servant but a bad
+-   They are too powerful – stepping away from a dumb CSS leads to elaborated
+    and sometimes imperative code, however it tends to be in-comprehensive and
+    hard to maintain. You know what they say about the "good servant but a bad
     master", don't you?
 
 -   The code is proprietary – if you use preprocessors bluntly, teaching a
     novice or switching to another preprocessor is a piece of cake. However, it
-    gets worse when you combine it with the previous point.
+    gets worse if you combine it with the previous point.
 
 I think that some problems that are now solved by preprocessors will be
 addressed in the post processing phase in the near future. So let's dig into the

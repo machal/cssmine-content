@@ -21,7 +21,7 @@ the best way is to use CSS3 or alternatively SVG.
 Content Images: Photos
 ----------------------
 
-You can export images in huge resolutions (i.e. four times higher) and reduce
+You can export images in huge resolutions (e.g. four times higher) and reduce
 their sizes in HTML.
 
 This way, you will solve the `device-pixel-ratio` problem, however the file size
@@ -29,8 +29,8 @@ of your web site will be so high, the users will track you down and beat you to
 death with their mobile phones.
 
 Just a reminder: an image optimized for Retina displays (2x) does not contain
-twice the number of pixels (2x) but four times the number of pixels (4x). So its
-file size can also be four times the size.
+twice the number of pixels but four times the number of pixels (4x). So its file
+size can also be four times the size.
 
 Therefore, I recommend to use new attributes of the `<img>` tag — `srcset` and
 `sizes`.

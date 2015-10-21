@@ -10,9 +10,9 @@ debugging tools.
 
 Therefore, we will not plunge into the knowledge pool. A lumberjack can get
 along with an older chainsaw, if it's maintained properly and he knows how to
-use it.
+use it. Right?
 
-Let's create an overview of new stuff that has CSS brought over the past few
+Let's create an overview of new stuff that CSS has brought over the past few
 years.
 
 1.  CSS Preprocessors
@@ -29,7 +29,7 @@ years.
 
 7.  Bootstrap and ready-made UI Libraries
 
-8.  Alternative Browser testing: Browserstack & Co.
+8.  Alternative Browser Testing: Browserstack & Co.
 
 9.  PSD-to-HTML Effectivity: Avocode, CSSHat…
 
