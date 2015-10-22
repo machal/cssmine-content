@@ -1,4 +1,4 @@
-Alternative Browser testing: Browserstack & Co.
+Alternative Browser Testing: Browserstack & Co.
 ===============================================
 
 When it comes to rendering CSS code, there are not many differences among modern
@@ -7,7 +7,7 @@ browsers.
 Unfortunately, there are tons of browsers plus new arrivals on the mobile field.
 And then there are "retired" browsers such as Internet Explorer 8.
 
-Therefore, a coder won't do without alternative browser testing.
+Therefore, a coder will not do without alternative browser testing.
 
 You can download alternative operating systems using VirtualBox or similar
 programs and then test mobile browsers in emulators and simulators.

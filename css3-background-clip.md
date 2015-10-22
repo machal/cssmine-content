@@ -16,7 +16,7 @@ is visible under the element's border.
 Other values for background clipping:
 
 `padding-box` – clips the background at the outside edge of the element's
-padding, i.e. the background is not visible under the elements border
+padding, i.e. the background is not visible under the element's border
 
 `content-box` – clips the background at the edge of the content box, i.e. does
 not apply the padding or border

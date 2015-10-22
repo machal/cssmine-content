@@ -1,7 +1,7 @@
 Font Face – Non-technical Aspects
 =================================
 
-Two things to be cautious with if you are a web font newbie:
+There are two things to be cautious with if you are a web font newbie:
 
 1.  **Copyright (license).** Not all fonts and typefaces are usable on a web
     site free of charge.
@@ -21,9 +21,9 @@ suitable for every website, as well as not all font pairs work together.
 
 If you are looking for study recourses, I recommend these:
 
--   [webtypography.net](<http://webtypography.net/>) – it is an older website, but still a
-    valid guide to type, typesetting and font composition on a website, written
-    by Robert Bringhurst.
+-   [webtypography.net](<http://webtypography.net/>) – it is an older web site,
+    but still a valid guide to type, typesetting and font composition on a web
+    site, written by Robert Bringhurst.
 
 -   On Web Typography - it is an impeccable book by Jason Santa Maria,
     especially if you want to understand this topic in the broader context. See
@@ -36,13 +36,15 @@ Where To Look For Fonts?
 ### Ideal choice: Typekit.com, Fonts.com, Font Foundries
 
 Typekit.com, Fonts.com and other companies employ top notch typographers and
-technicians and have their own licensing of good and well-known fonts. Sure,
+technicians and have their own licensing of great and well-known fonts. Sure,
 they will charge you for their services but you will avoid a lot of problems.
 
-Visiting typographers' websites directly is not a bad choice either.
-Even here, in the Czech Republic, we have several good typographers. For example – Tomas Brousil ([suitcasetype.com](<http://suitcasetype.com>)) or Frantisek Storm ([stormtype.com](<http://stormtype.com>)).
+Visiting typographers' web sites directly is not a bad choice either. Even here,
+in the Czech Republic, we have several good typographers. For example – Tomas
+Brousil ([suitcasetype.com](<http://suitcasetype.com>)) or Frantisek Storm
+([stormtype.com](<http://stormtype.com>)).
 
-### Good alternatives: Google Fonts, Fontsquirrel, etc.
+### Good Alternatives: Google Fonts, Fontsquirrel, etc.
 
 **Google Fonts** is a good service offering a large number of font families for
 free. However, not all of them are good and not all of the support languages
@@ -51,7 +53,7 @@ with special characters. For more information go to
 
 **Fontsquirrel** not only have their own database of fonts with similar
 advantages and disadvantages like Google does but a well-known font generator
-that will make a web font out of your OTF format or other non-web formats.
+that will make a web font out of your OTF format or any other non-web formats.
 
 -   [fontsquirrel.com](<http://www.fontsquirrel.com/>)
 
@@ -65,5 +67,5 @@ parameters such as: technical (i.e. file size), typographical (i.e. optimized
 web font rendering and readability) and aesthetic.
 
 If you do not have a technician or a typographer at your disposal (or your own
-knowledge for that matter), you can spoil your website. There is no shame in
-using system fonts.
+knowledge for that matter), you can spoil your website. Therefore, there is no
+shame in using system fonts.

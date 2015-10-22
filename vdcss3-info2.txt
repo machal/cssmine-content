@@ -1,2 +1,8 @@
 nastroje-preprocessory.md
 - změnil jsem proměnnou $small-up na &medium-up, aby to korespondovalo s příkladem
+
+css3-text-shadow.md
+- Go to the [box-shadow]: jsou tam hranaté závorky - asi chybí odkaz
+
+css3-border-image-md
+-[border-image.com]: jsou tam hranaté závorky - asi chybí odkaz 

@@ -1,17 +1,17 @@
 CSS3 Text Overflow – A Way To Wrap Text
 =======================================
 
-This is a way of limiting text that exceed the width of an element and inserting
-3 dots.
+This is a way of limiting text that exceeds the width of the element and
+inserting 3 dots.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 text-overflow: ( clip | ellipsis | <_string_> );
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When showing `text-overflow: ellipsis` in my lectures, I always get two kinds of
-reactions. One half of the audience is bored, saying: „Hm, I have been using
-this for two years already…“ And the other half? Enthusiastically taking notes:
-„I must use this first thing tomorrow!“
+reactions. One half of the audience is bored, saying: "Hm, I have been using
+this for two years already…" And the other half? Enthusiastically taking notes:
+"I must use this first thing tomorrow!"
 
 However, the catch when using the `ellipsis` value is that it will apply to a
 single line of text in block elements and 3 dots ("…") will be shown if the line

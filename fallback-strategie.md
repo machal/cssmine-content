@@ -1,9 +1,10 @@
 Fallback Strategy For Older Browsers
 ====================================
 
-One of the nicer features of HTML and CSS is *dinosaur-resistance*. You can use
-awesome CSS3 or HTML5 features and you will not break the basic principle of a
-web site in older browsers.
+One of the nice features of HTML and CSS is *dinosaur-resistance* as I like to
+call it. You can use awesome CSS3 or HTML5 features and you will not break the
+basic principle of a web site in older browsers because they will simply ignore
+them.
 
 Well, if you try at least a little.
 
@@ -11,13 +12,13 @@ Main Content and Functionality Should Be Available In All Browsers
 ------------------------------------------------------------------
 
 If you break some irrelevant parts of a web site in older browsers, it does not
-matter. However, if you do not have your own reasons for that, it is almost
-always possible to provide users with a fully functional website even in very
-old browsers.
+matter. However, unless you have very good reasons for not doing so, it is
+almost always possible to provide users with a fully functional website even in
+very old browsers.
 
 It is not just about accessibility and "fair play" towards these disadvantaged
-users. It is also about contemporary mobile browsers. Just take a wide range of
-Android Browser versions (and supplier modifications), Opera Mini or e-reader
+users. It is also about contemporary mobile browsers. Just take the wide range
+of Android Browser versions (and supplier modifications), Opera Mini or e-reader
 browsers... It is not humanly possible to test them all. But a bulletproof
 solution will do it for you.
 
@@ -31,8 +32,8 @@ lowest common denominator will pay off in the future.
 Progressive Enhancement
 -----------------------
 
-> When an elevator fails, it’s useless. When an escalator fails, it becomes 
-> stairs. We should be building escalators, not elevators.
+>   When an elevator fails, it’s useless. When an escalator fails, it becomes
+>   stairs. We should be building escalators, not elevators.
 
 *Jeremy Keith*
 

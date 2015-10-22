@@ -8,7 +8,7 @@ Bootstrap made it easy for programmers who sometimes need to create user
 interfaces and are not good at it. If you use Bootstrap this way, all you need
 to know is HTML and you can avoid CSS and Javascript.
 
-Another and more interesting way to use Bootstrap is taking it s a starting
+Another and more interesting way to use Bootstrap is taking it as a starting
 point of your custom code. I use it this way and I can't speak highly enough of
 it.
 
@@ -19,12 +19,11 @@ What Does Bootstrap Offer?
 
 -   Fully responsive grid for creating layout
 
--   Advanced styling of basic component of the web site: forms, buttons,
-    tables...
+-   Advanced styling of basic web site components: forms, buttons, tables...
 
 -   UI components such as navigation tabs, accordions, modal windows…
 
--   jQuery plugins to support the functionality of the above mentioned UI
+-   jQuery plugins to support the functionality of the above-mentioned UI
     components
 
 -   The ability to change the look and behavior of components using LESS

@@ -30,13 +30,13 @@ this…
 the <b>evil</b> Queen and <i>Jack</i>.</p>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-… the word „evil” will be rendered as bold at first sight, as well as the word
-„Jack” will be rendered as italic thanks to the italic cut of the `WebFont`
+… the word "evil" will be rendered as bold at first sight, as well as the word
+"Jack" will be rendered as italic thanks to the italic cut of the `WebFont`
 family. But don't be fooled - this is the case of faux italics and bold cuts
 that the browser tried to render from a normal cut of the font.
 
 If you need all three font cuts, i.e. normal, bold and italic, the only way to
-achieve this is to declare all three of them — and set a CSS declaration to tell
+achieve this is to declare all three of them - and set a CSS declaration to tell
 the browser which file is connected to a particular font variant.
 
 Take a look at a simplified example:
@@ -70,7 +70,7 @@ See more at
 Cross-origin Web Font in Internet Explorer
 ------------------------------------------
 
-Thanks to the "same origin policy”, it is not permitted to load font files from
+Thanks to the "same origin policy", it is not permitted to load font files from
 another domain. This applies to all Internet Explorer versions and some older
 versions of Chrome and Firefox as well. You can see this problem in the console
 of your browser:
@@ -91,7 +91,7 @@ located:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you do not use an Apache server, you will have to take a look in
-`server-configs` repositories — see
+`server-configs` repositories - see
 [github.com/h5bp](<https://github.com/h5bp>).
 
 Font Icons
@@ -101,10 +101,10 @@ Font icons are a convenient way of using web fonts. They contain icons instead
 of regular characters.
 
 The indisputable advantage of using font icons is the vector format which allows
-you to use one icon for all sizes of a parent element and all high-resolution
+you to use one icon for all sizes of the parent element and all high-resolution
 displays.
 
-The IcoMoon app will generate fonts with custom icons – see
+The IcoMoon app will generate fonts with custom icons - see
 [icomoon.io](<http://icomoon.io>).
 
 However, before looking into font icons, consider using the SVG vector format –

@@ -5,7 +5,7 @@ OOCSS stands for „Object Oriented CSS”. It is code organization system by Ni
 Sullivan.
 
 A CSS object is a repeating visual component which can be expressed as a piece
-of HTML and CSS / Javascript. Also, it is reusable on various places in your
+of HTML and CSS / Javascript. Also, it is reusable in various places in your
 code and across multiple projects.
 
 The objective of OOCSS is to provide developers with reusable code, improve its
@@ -59,7 +59,7 @@ We have three types of elements:
 
 -   object – i.e. a component or a block (`.button`)
 
--   element – an entity inside an object or a sub-object (`.button-icon`
+-   element – an entity inside the object or a sub-object (`.button-icon`
     representing an icon within a button)
 
 -   modifier – object property (`.button-primary` representing the main
@@ -81,5 +81,5 @@ To ensure the lowest specificity possible, avoid using:
 -   combined selectors (do not use `.button.button-primary`, just
     `.button-primary`)
 
-More on CSS specificity at
+Find more on CSS specificity at
 [specificity.keegan.st](<http://specificity.keegan.st/>).

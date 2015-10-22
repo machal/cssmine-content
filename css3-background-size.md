@@ -1,7 +1,7 @@
 CSS3 Background Size
 ====================
 
-It specifies the size of background within an element.
+It specifies the size of the background within an element.
 
 Syntax
 ------
@@ -56,10 +56,10 @@ background-size: 100% 50%;
 Take a look at a live example at
 [codepen.io/machal/pen/cmpjE](<http://codepen.io/machal/pen/cmpjE>).
 
-And do not forget that background width or height is based on the setting of the
-[background-origin](<css3-background-origin.md>) property. Thus, by default the
-`padding-box` and `background-size` properties are calculated either from the
-inner edge or from the content of an element.
+And do not forget that background width and height are based on the setting of
+the [background-origin](<css3-background-origin.md>) property. Thus, by default
+the `padding-box` and `background-size` properties are calculated either from
+the inner edge or from the content of the element.
 
 ### Multiple Background Images
 
@@ -79,7 +79,7 @@ see[caniuse.com/background-img-opts](<http://caniuse.com/background-img-opts>).
 
 ### `background-size` in IE8
 
-There is no universal solution, however, depending on a particular situation,
+There is no universal solution, however, depending on the particular situation,
 you can choose from these four approaches:
 
 Do nothing. If you choose the image well, you will not have to bother with the

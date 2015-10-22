@@ -18,7 +18,7 @@ First declare the font family and path to a file using the `@font-face` at-rule:
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Then simply call the font family in the standard CSS:
+Then simply call the font family in standard CSS:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {
@@ -29,9 +29,9 @@ Then simply call the font family in the standard CSS:
 File Formats of Web Fonts
 -------------------------
 
-If you are not using cloud solution such as Typekit or Google Fonts and you are
-using your own font files, you need to have at least a minimum knowledge of file
-formats:
+If you are not using a cloud solution such as Typekit or Google Fonts and you
+are using your own font files, you need to have at least a minimum knowledge of
+file formats:
 
 -   **WOFF** (Web Open Font Format) – it is the predominant file format.
     However, it is supported by MSIE from version 9 and by Android Browser from
@@ -39,8 +39,8 @@ formats:
 
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
     by almost all modern browsers, however MSIE supports them from version 9.
-    Furthermore, you have to set the so called „embedding bits“ (embedding
-    permissions in the font's header) to „installable“.
+    Furthermore, you have to set the so called "embedding bits" (embedding
+    permissions in the font's header) to "installable".
     [caniuse.com/ttf](<http://caniuse.com/ttf>)
 
 -   **SVG** (SVG vector format defined fonts) – you will need it if you want to
@@ -78,8 +78,8 @@ call WOFF.
 
 ### WOFF Is Our Future
 
-In a few years, or months for that matter, WOFF format will be the only thing we
-will need:
+In a few years, or months for that matter, the WOFF format will be the only
+thing we will need:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 @font-face {
@@ -90,8 +90,8 @@ will need:
 
 But be careful. There will always be browsers (or situations) that are not
 compatible with any of these web font formats. Opera Mini is a good example. Or
-imagine a situation where a modern browser does not load a web font – let's say
-due to a slow mobile internet connection.
+imagine a situation where a modern browser does not load the web font – let's
+say due to a slow mobile internet connection.
 
 Remember that these scenarios might happen and do not forget to define a
 fallback system font. Here is an example:

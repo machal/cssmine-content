@@ -6,7 +6,7 @@ you to sync file changes with a browser preview and browsing websites using
 connected devices.
 
 If you modify a CSS or HTML file, you will se the changes in a browser… you
-guessed it... without a page reload. But most of us are familiar with this
+guessed it... without the page reload. But most of us are familiar with this
 anyway.
 
 You can also display a local version of your website in a mobile browser.
@@ -36,7 +36,7 @@ browserSync: {
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-And when you run the task, your command line will look something like this:
+And when you run a task, your command line will look something like this:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 $ grunt browserSync

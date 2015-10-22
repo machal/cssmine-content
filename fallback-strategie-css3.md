@@ -10,7 +10,7 @@ or polyfills, and a special category of a so called generated fallback.
 Number of fallback characters: zero... You simply do not write any alternative
 code provided you know exactly what you are doing.
 
-The zero fallback make use of smart HTML and CSS features — ignoring the
+The zero fallback makes use of smart HTML and CSS features — ignoring the
 unknown. Browsers have always processed both languages in this way: if they
 encounter a tag, attribute, property or value they do not recognize, the simply
 ignore it and continue rendering the code.
@@ -41,8 +41,8 @@ properties in older browsers.
 -------------------
 
 This is a fallback that takes advantage of the fact that a browser applies the
-last known declaration. Just recall the grunt-pixrem post processor from
-previous chapters:
+last known declaration. Just recall the grunt-pixrem post processor from one of
+the chapters:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .element {
@@ -77,14 +77,14 @@ or apply a different code structure.
 Here feature detection comes into play. However, I would like to express a mild
 outrage over using browser detection. You may ask: "What the hell is browser
 detection"? In the past, by using CSS hacks or detecting User Agent signature we
-were able to detect a particular browser that does not understand certain
+were able to pinpoint a particular browser that does not understand certain
 properties. That was OK to do when there were two or three older versions of
 Internet Explorer.
 
 Nowdays, every CSS3 property is supported (or not supported) by a different
 group of browsers. Sometimes, it is just Internet Explorer prior to version 8,
 sometimes Internet Explorer 9 and lower, sometimes Opera Mini… Sometimes even
-older Android browsers join the group… Who knows what will come in a year's
+older Android browsers join the group… Who knows what will come in one year's
 time. Therefore, it is much easier to detect feature support, not browser
 support. We can then forget the browsers.
 
@@ -102,7 +102,7 @@ mentioned:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 When it comes to CSS3 properties, it is useful for the layout related ones.
-Let's make a flex box example:
+Let's make a flexbox example:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .component {
@@ -180,7 +180,7 @@ These are Javascript libraries simulating the support of new features in
 browsers that do not support them. They are very popular among Javascript
 developers but will sure help even HTML/CSS coders. A perfect example of this is
 Respond.js which turns on CSS3 Media Queries support in older Internet Explorers
-or Picturefill which will make responsive images work – `<img srcset sizes>` a
+or Picturefill which makes responsive images work – `<img srcset sizes>` a
 `<picture>`.
 
 However, apart from a proven

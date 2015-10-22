@@ -1,7 +1,7 @@
 CSS3 Multiple Backgrounds
 =========================
 
-How to layer multiple images or colors in one element.
+How to layer multiple images or colors in one element?
 
 In fact, multiple backgrounds are not a CSS property - just a new way of using
 the existing `background` property.
@@ -34,7 +34,7 @@ Try it Yourself
 
 Remember that an image can also be represented by a [CSS3
 gradient](<css3-gradients.md>) with a semi-transparent background. You can make
-use of this effect to cover an image even if you do not know the height of the
+use of this effect to cover the image even if you do not know the height of the
 element:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

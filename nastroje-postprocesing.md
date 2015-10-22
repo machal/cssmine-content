@@ -11,13 +11,13 @@ usage on some post processing tools.
 Autoprefixer: Adding Prefixed Declarations
 ------------------------------------------
 
-Write the code according to W3C syntax …
+Write code according to W3C syntax …
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 transform: scale(1.1);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-… and the Autoprefixer will then add prefixed variants into your CSS:
+… and the Autoprefixer will then add prefixed variants to your CSS:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -webkit-transform: scale(1.1);
@@ -47,7 +47,7 @@ autoprefixer: {
 See more at
 [github.com/postcss/autoprefixer](<https://github.com/postcss/autoprefixer>).
 
-pixrem
+Pixrem
 ------
 
 If you decide to use the `rem` unit (which I strongly recommend), you will be
@@ -66,7 +66,7 @@ thus adding fallbacks to your CSS code:
 See more at
 [github.com/robwierzbowski/grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>).
 
-legaccsy
+Legaccsy
 --------
 
 This is a plugin by Robin Pokorny that is able to create a version of your CSS
@@ -76,7 +76,7 @@ life saver for IE8 or IE9.
 See ore at
 [github.com/robinpokorny/grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>).
 
-postcss
+Postcss
 -------
 
 As I have already mentioned, in time, postcss can replace LESS, SASS and other

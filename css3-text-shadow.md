@@ -27,4 +27,4 @@ Browser Support
 
 IE10+. In older browsers, you can use a fallback without a shadow (preferred) or
 simply create an IE8 version: by using Modernizr conditions or IE conditional
-comments create a DropShadow (using a Microsoft filter).
+comments you can create a DropShadow (using a Microsoft filter).

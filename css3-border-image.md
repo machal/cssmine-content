@@ -5,7 +5,7 @@ This is a way which allows you to create custom boxes around elements instead of
 using the native ones.
 
 Take any image that contains a border and tell the browser how to slice it. Then
-there is the "magic" part - the border will adapt to the width and height of an
+there is the "magic" part - the border will adapt to the width and height of the
 element, whatever it may be.
 
 Syntax
@@ -96,7 +96,7 @@ A Simple Example with a Color Gradient
 --------------------------------------
 
 [CSS gradients](<css3-gradients.md>) count as images, therefore you can use a
-color gradient as border.
+color gradient as a border.
 
 But remember that you always have to define a native image border. First for
 handling sizes, second for creating a fallback for browsers not supporting
@@ -124,7 +124,7 @@ border:
 border-image-slice: 20;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-And that's it. You can try the example at
+And that's it. You can try an example at
 [codepen.io/machal/pen/zdyIJ](<http://codepen.io/machal/pen/zdyIJ>).
 
 An Example with a Bitmap Image as a Background
@@ -164,5 +164,5 @@ Now, let's try a shorthand notation of the last three declarations:
 border-image: url(border-image-source.png) 21 23 repeat;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Done. You can try the example at
+Done. You can try an example at
 [codepen.io/machal/pen/DLkjm](<http://codepen.io/machal/pen/DLkjm>).
