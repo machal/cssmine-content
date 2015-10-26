@@ -1,7 +1,7 @@
 CSS3 RGBa Color – Semi-transparent Color
 ========================================
 
-It is a RGB color with a fourth parameter (a number) which is an alpha
+It is a RGB color with a fourth parameter (a number) which is the alpha
 transparency channel.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18,8 +18,8 @@ A Comparison With `opacity`
 `opacity: 0.5` will make an element and all its children semi-transparent.
 
 RGBa is a color that can be applied to any element without influencing the rest
-of it. In other words, you can use it for background color `background:
-rgba(20%, 100%, 20%, .5)`.
+of it (e.g. its children). In other words, you can use it for background color
+like this: `background: rgba(20%, 100%, 20%, .5)`.
 
 Take a look at [cdpn.io/e/HrBsD](<http://cdpn.io/e/HrBsD>).
 
@@ -27,7 +27,8 @@ Browser Support
 ---------------
 
 All browsers except IE8 and older versions have no problem with rendering RGBa.
-However, using a defined fallback, you can respectfully deal with "the elderly":
+However, by using a defined fallback, you can respectfully deal with "the
+elderly":
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 color: rgb(128, 0, 0);

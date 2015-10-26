@@ -16,8 +16,8 @@ Take this HTML:
 </label>
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It will not be aligned in a browser so do not expect a pat on the shoulder from
-your client:
+This will not be nicely aligned in a browser so do not expect a pat on the
+shoulder from your client:
 
 ![Unaligned text](<images/flexbox-priklady-1.jpg>)
 
@@ -33,7 +33,7 @@ This turned our `<label>` into a flexbox container and its direct children into
 flex box items.
 
 You can clearly see that an empty text node (i.e. text not wrapped in a div) can
-be considered a flexbox item. In our case, it is the „Really long caption…".
+be considered a flexbox item. In our case, it is the "Really long caption…".
 
 Now let's display this situation in an image:
 
@@ -57,15 +57,15 @@ combine various units.
 We want to define the width of the radio button in pixels, however the width of
 the caption depends mainly on the font size so we want to use `em` units. Also,
 we want the text input to take up the rest of the space. At the same time, we do
-not want to change the size of the caption. This is easy when using flex box.
-The browser will handle the combination of units.
+not want to change the size of the caption. This is easy when using flexbox. The
+browser will handle the combination of units.
 
 ![combining units using different window sizes](<images/flexbox-priklady-4.jpg>)
 
 Notice that we set `flex: none` for the radio button and text because we do not
 want them to shrink or extend. They simply keep the width at all cost. On the
 other hand, by using `flex: auto`, we forced the textfield to shrink and extend
-based on the parent width.
+based on the parent's width.
 
 Try an example at CodePen: <http://cdpn.io/e/jEJbmg>.
 
@@ -73,7 +73,7 @@ Try an example at CodePen: <http://cdpn.io/e/jEJbmg>.
 
 ![centering](<images/flexbox-priklady-5.jpg>)
 
-Have you struggled with this problem too? No more struggling with flexbox. We
+Have you struggled with this problem too? No more struggling, use flexbox. We
 will turn `<body>` into a flex container and using a new `vh` unit, we will
 resize it to 100 % of the browser window. Then all you need to do is tell the
 flex item to center itself using the `align-self` property.
@@ -133,7 +133,7 @@ And we want it to look like this:
 
 Without flexbox, we can solve this by using `display: table`. However, there are
 certain disadvantages such as the need of adding a `display: table-row` element
-or inability of using absolute positioning within the „table cells".
+or the inability of using absolute positioning within the "table cells".
 
 We know enough about flexbox so the following solution will not surprise us:
 
@@ -163,4 +163,5 @@ between the content and the total with of a parent container.
 
 ![navigation with an extra item](<images/flexbox-priklady-9.jpg>)
 
-This makes us happy. You can try a live example at <http://cdpn.io/e/NPevjg>.
+This makes us happy, right? You can try a live example at
+<http://cdpn.io/e/NPevjg>.

@@ -3,10 +3,10 @@ New CSS3 Units – `rem`, `vw`, `vh`
 
 ### `rem`
 
-This is a size that corresponds with the `font-size` value at the root.
-Therefore, `<html>`. *„root-em“* is just a variant of the well-known `em` unit.
-Unlike the standard `em` units, `rem` units are not based on the font size of
-the parent element.
+This is a size that corresponds with the `font-size` value at the root, i.e the
+`<html>` element. The *"root-em"* is thus just a variant of the well-known `em`
+unit. Unlike the standard `em` units, `rem` units are not based on the font size
+of the parent element.
 
 Font size of the `<html>` element is usually set in browsers to correspond with
 `16px`.
@@ -65,19 +65,19 @@ Viewport Units: `vw`, `vh`, `vmin`, `vmax`
 They allow us to define CSS sizes relative to the viewport size - in other words
 "the width or height of the window".
 
--   `vw` – stands for „viewport width“ – `1vw` is 1% of the viewport width
+-   `vw` – stands for "viewport width" – `1vw` is 1% of the viewport width
 
--   `vh` – stands for „viewport height“ – `1vh` is 1% of the viewport height
+-   `vh` – stands for "viewport height" – `1vh` is 1% of the viewport height
 
--   `vmin` – stands for „viewport minimum“ – represents the shortest dimension
+-   `vmin` – stands for "viewport minimum" – represents the shortest dimension
     (`1vw` or `1vh`)
 
--   `vmax` – stands for „viewport maximum“ – represents the longest dimension
+-   `vmax` – stands for "viewport maximum" – represents the longest dimension
     (`1vw` or `1vh`)
 
 ### Practical Example
 
-Unlike percentage, viewport units do not relate to the size of a direct parent,
+Unlike percentage, viewport units do not relate to the size of the direct parent
 but to the width and height of the browser window instead. We can literally do
 magic that was once possible just by using CSS hacks or Javascript.
 
@@ -101,8 +101,10 @@ But don't celebrate just yet:
 
 -   IE10 does not understand `vmax`.
 
--   Safari on iOS6 and 7 experiences several viewport unit bugs. Take a look at
+-   Safari on iOS6 and 7 experience several viewport unit bugs. Take a look at
     [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>).
 
 -   IE8, Android Browser up to version 4.3 and Opera Mini do not support these
     units at all.
+
+So be careful when using these units.

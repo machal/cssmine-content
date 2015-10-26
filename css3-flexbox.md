@@ -37,7 +37,7 @@ what? Let's see how to meet them using flexbox.
     a new column?
 
 3.  **Change element order on lower resolution screens.** Simply add the
-    `.content { order: -1; }` declaration to your media query and `.content`
+    `.content { order: -1; }` declaration to your media query and the `.content`
     column will appear first. That's a real stunner for responsive design, isn't
     it?
 
@@ -56,7 +56,7 @@ Let me ask you a question first. How do we handle layouts in CSS?
 Using floats, inline-blocks, absolute positioning or `display: table`. And do
 you know what these terms all have in common? Not a single one of them was meant
 for today's layouts. Yes, flexbox is truly the first CSS layout tool. And our
-grouch might add: „The first one in twenty years...“.
+grouch might add: "The first one in twenty years…".
 
 Floats, tables and all other *layout techniques soon to be dead* will still come
 in handy over the next few years. Every member of this "layout tools family" has
@@ -106,7 +106,7 @@ illustrate this in a simple scheme:
 
 -   flex item – all direct children of a flex container
 
--   main axis – horizontal is default but can be changed
+-   main axis – horizontal is default but it can be changed
 
 -   cross axis – perpendicular to the main-axis, so it is similar to the main
     axis when default

@@ -22,7 +22,7 @@ The basic shadow can be created in a jiffy. The first number indicates the
 **horizontal offset, the second one the vertical one** - a positive value
 offsets the shadow down, a negative one up. The third value is color and believe
 it or not, the best practice is to use a semi-transparent [RGBa
-color](<css3-rgba.md>):
+color](<css3-rgba.md>). Let's show this on several examples.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 box-shadow: 5px 5px rgba(0, 0, 0, .5);
@@ -35,7 +35,7 @@ the shadow:
 box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-One more number and you will define a **spread distance**:
+One more number and you will define the **spread distance**:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .5);
@@ -62,9 +62,9 @@ Tips and Tricks
 
 ### One Side Shadow
 
-If we want to create a shadow on one side only, it is very simple – just set the
-horizontal shadow to `0`. But thanks to using blur, the shadow will be leaking
-from the top and bottom:
+If we want to create a shadow on one side only, just simply set the horizontal
+shadow to `0`. However, bear in mind that thanks to using blur, the shadow will
+be leaking from the top and bottom:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 box-shadow: 5px 0 5px -2px rgba(0,0,0,.5);
@@ -74,7 +74,7 @@ See a live example at [cdpn.io/e/JnGyb](<http://cdpn.io/e/JnGyb>).
 
 ### Shadow as a Copy of an Object
 
-Drawing a Microsoft logo using a shadow may be impractical but it also
+Drawing a Microsoft logo using a shadow may be rather impractical but it also
 demonstrates the power of using multiple shadows without blurring. See an
 example at [cdpn.io/e/qJuzw](<http://cdpn.io/e/qJuzw>).
 
@@ -90,8 +90,8 @@ IE9+. There is almost no problem in modern browsers:
 ### Older Webkit Browsers Sometimes Ignore the Spread
 
 A slight problem in older webkit browsers is that if a value for blur is
-missing, they ignore the null value of the spread. Therefore, this notation will
-not work in iOS6 Safari or Android Browser 2.3:
+missing, they ignore the null value of the spread. Therefore, this notation
+won't work in iOS6 Safari or Android Browser 2.3:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 box-shadow: 5px 5px 0 rgba(0, 0, 0, .5);
@@ -117,6 +117,5 @@ filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=145,
 However, not all types of shadows can be substituted like this.
 
 In older versions of Internet Explorer, a shadow can be rendered using a
-[css3pie.com](<http://css3pie.com/>) polyfill.
-
-But usually, you will get away with this using the zero fallback strategy.
+[css3pie.com](<http://css3pie.com/>) polyfill but usually, you will get away
+with this using the zero fallback strategy.

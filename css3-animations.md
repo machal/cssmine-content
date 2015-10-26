@@ -6,11 +6,11 @@ surprising? All existing animation methods are either encapsulated in their own
 technological framework (Gif, Flash, Silverlight, etc.) or they animate using a
 method that was not designed for such a purpose - by Javascript.
 
-So what is the difference between an animation and a transition? You can
-basically control the particular event much better when using (`animation`).
+So what is the difference between an animation and a transition? When using
+(`animation`), you can basically control the particular event much better.
 Moreover, you are not limited by CSS properties that the animated object has
 before the animation has started. Transitions (`transition`), on the other hand,
-are meant for simple animated transitions from one state to another.
+are meant for simple animated transitions which go from one state to another.
 
 Syntax
 ------
@@ -37,9 +37,11 @@ can call it anywhere and adjust it to your needs.
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Now, let's explain all properties:
+
 ### `animation-name`
 
-Can be used separately as `animation-name: my_animation`.
+It can be used separately as `animation-name: my_animation`.
 
 ### `animation-duration`
 
@@ -54,13 +56,13 @@ value looks like this: `animation-timing-function: ease`.
 
 ### `animation-delay`
 
-It is a specified time the animation will wait before it is executed. The value
-is defined in seconds and milliseconds and the default value is null:
+This is a specified time the animation will wait before it is executed. The
+value is defined in seconds and milliseconds and the default value is null:
 `animation-delay: 0`.
 
 ### `animation-iteration-count`
 
-The interaction can be set as a number or an infinite number using the
+The interaction can be set as a number or an "infinite number" using the
 `infinite` key word. The default value is `animation-iteration-count: 1`.
 
 ### `animation-direction`
@@ -82,13 +84,13 @@ Four properties can be applied:
 
 -   `none` — the default value.
 
--   `backwards` — this value will apply the values defined in the keyframe 0%
-    even if the element has different property settings.
+-   `backwards` — this value will apply values defined in the keyframe 0% even
+    if the element has different property settings.
 
--   `forwards` — after an iteration of an animation ends, an object will remain
-    in the same state as in keyframe 100% and will not go back.
+-   `forwards` — after the iteration of an animation ends, the object will
+    remain in the same state as in keyframe 100% and will not go back.
 
--   `both` — will apply both `forwards` and `backwards`.
+-   `both` — this will apply both `forwards` and `backwards`.
 
 ### `animation-play-state`
 
@@ -99,10 +101,10 @@ separately. You can temporarily stop the animation by using the
 
 ### `@keyframes` – Frames of the Animation Sequence
 
-Keyframes define the animation start (using `from` key word or `0%`), progress
-(using percentage of the duration) and end (using `to` key word or `100%`). The
-change between keyframes is defined by the browser and you only have to set the
-start and end. The number of keyframes is not limited.
+Keyframes define the animation start (using the `from` key word or `0%`),
+progress (using percentage of the duration) and end (using the `to` key word or
+`100%`). The change between keyframes is defined by the browser and you only
+have to set the start and end. The number of keyframes is not limited.
 
 Browser Support
 ---------------

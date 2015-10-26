@@ -1,47 +1,47 @@
 Browser Support
 ---------------
 
-The browser support is not bad. At the time of writing this e-book, the support
-is 92–95 % and when using reasonable fallbacks for older browsers, there so no
-reason for not using it right away.
+The browser support is not bad. At the time of writing, the support was 92–95 %
+and when using reasonable fallbacks for older browsers, there so no reason for
+not using it right away.
 
 ### Three Types of Syntax in Modern Browsers
 
-A well-configured Autoprefixer which we mentioned at the beginning of this
+A well-configured Autoprefixer, which we mentioned at the beginning of this
 e-book, will definitely guarantee full modern browser compatibility. So read on
 if you are into details.
 
 There are three types of flexbox syntax in modern browsers.
 
--   **New syntax.** `display: flex` and other properties shown in the e-book. It
+-   **New syntax:** `display: flex` and other properties shown in the e-book. It
     is supported by the latest versions of all browsers, including IE11 and
     Opera Mini.
 
--   **Tweener syntax from 2012.** `display: flexbox`. Nowdays required just by
+-   **Tweener syntax from 2012:** `display: flexbox`. Nowdays required just by
     IE10.
 
--   **Legacy syntax from 2009.** Wherever you see `display: box` or
+-   **Legacy syntax from 2009:** Wherever you see `display: box` or
     `-webkit-display: box`. Webkit prior to version 20, i.e. iOS6 or older
     Androids.
 
 ### How to Handle Browsers With No Support?
 
-It applies to IE9 and older. Take a look at your project stats to see how many
-visitors use these older browsers.
+It applies to IE9 and older. Just take a look at your project stats to see how
+many visitors use these older browsers and address the issue accordingly:
 
 #### Zero fallback – We Do Not Care About Support
 
-It is good to realize and test in practice what it truly means „not to bother
-with flex box support in older browsers“.
+It is good to realize and test in practice what it truly means "not to bother
+with flex box support in older browsers".
 
 You can see it in the following picture where the form makes use of flexbox. In
 Safari, the form is displayed as planned. In IE8, the text input will not fill
-the whole area and the „Other“ caption will not grow in size with increasing
+the whole area and the "Other" caption will not grow in size with increasing
 font size:
 
 ![Fallback for IE8](<images/flexbox-ie8-fallback.jpg>)
 
-This is an example we already know from
+This is an example we already have already seen:
 [cdpn.io/e/jEJbmg](<http://cdpn.io/e/jEJbmg>).
 
 The form is still available, yet some features are not user friendly. Sure, why
@@ -88,8 +88,8 @@ top of each other like in mobile device browsers.
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A `float` fallback is very simple to use because it will not apply to flexbox
-items:
+A `float` fallback is very simple to use because it will not apply to flex box
+items in modern browsers:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .container {

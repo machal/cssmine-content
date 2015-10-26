@@ -8,14 +8,14 @@ can use the following selectors:
 IE8+
 ----
 
--   `span[att^="val"]` – the `attr` attribute value that starts with a „val“
+-   `span[att^="val"]` – the `attr` attribute value that starts with a "val"
     string. Is is widely used by CSS frameworks for making grids. Classes such
     as `.span1`, `.span2` etc. are targeted like this: `span[class^="span"]`
 
--   `span[att$="val"]` – the `attr` attribute value that ends with a „val“
+-   `span[att$="val"]` – the `attr` attribute value that ends with a "val"
     string.
 
--   `span[att*="val"]` – the `attr` attribute value that contains a „val“
+-   `span[att*="val"]` – the `attr` attribute value that contains a "val"
     string.
 
 -   `p ~ ul` – unlike `p + ul`, they both have the same parent but are
@@ -36,7 +36,7 @@ IE9+
 
 -   `*::selection` – styling of selected text.
 
--   `span:not(.blue)` – targets all spans except the ones with a `blue` class.
+-   `span:not(.blue)` – targets all spans except the ones with the `blue` class.
 
 -   `:first-child`, `:last-child`, `:only-child` – targets the first, last or
     the only child of a parent.

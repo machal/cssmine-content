@@ -6,3 +6,6 @@ css3-text-shadow.md
 
 css3-border-image-md
 -[border-image.com]: jsou tam hranaté závorky - asi chybí odkaz 
+
+zaver.md
+- tady bych navrhoval nějaké shrnutí e-booku, co to mělo čtenáři dát a nějaký follow-up jako přihlášení k newsletteru nebo odkaz na blog. 

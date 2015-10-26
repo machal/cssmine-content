@@ -1,7 +1,7 @@
 Tips & Tricks & Links
 =====================
 
-If an animations seem slow or you experience a blinking effect of the whole
+If the animations seem slow or you experience a blinking effect of the whole
 page, force **hardware acceleration**: Example: `.animated_element { transform:
 translate3d(0, 0, 0); }`
 

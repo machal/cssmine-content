@@ -4,7 +4,7 @@ Examples of CSS3 Animations
 First: Blinking Box
 -------------------
 
-This simple example will teach you the absolute basics of CSS animation. The
+This simple example will teach you the absolute basics of CSS animations. The
 elements opacity will be changed in an infinite loop on mouse hover.
 
 First, define the progress of the animation using `@keyframes`:
@@ -22,7 +22,7 @@ beginning of the animation (`opacity`). In one half of the duration time (`50%`)
 the element will be fully transparent (invisible) and at the end of the
 animation, it will be fully opaque. In other words, the element will blink.
 
-The animation will be applied if a user hovers over the element with a mouse. Or
+The animation will be applied if a user hovers over the element with a mouse or
 using alternative ways for that matter:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -83,5 +83,5 @@ previous one.
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can try the example at
+You can try an example at
 [cdpn.io/e/xipAj](<http://codepen.io/machal/pen/xipAj>).

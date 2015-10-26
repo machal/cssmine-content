@@ -21,9 +21,10 @@ Evenly rounded corners with a 10 pixel radius can be pulled off like this:
 border-radius: 10px;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We can also round corners using a percentage of the width of an element or using
-other units that are available in CSS. However, you can round **each corner
-separately**. You always start from the top left corner and proceed clockwise:
+We can also round corners using a percentage of the width of the element or
+using other units that are available in CSS. However, you can round **each
+corner separately**. You always start from the top left corner and proceed
+clockwise:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 border-radius: 15% 15% 0 0;
@@ -31,7 +32,7 @@ border-radius: 15% 15% 0 0;
 
 If you add a forward slash, the element will have an **elliptical shape**, not a
 circle shape. The first corner will be rounded in an ellipse with a vertical
-radius od 15% and horizontal radius of 30%:
+radius of 15% and horizontal radius of 30%:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 border-radius: 15% 15% 0 0 / 30% 15% 0 0;
@@ -59,7 +60,7 @@ How to create **rounded avatars** using `border-radius`? See
 
 How to tackle **tables with rounded corners**? When dealing with tables that
 have the `border-collapse: collapse` property or a parent element with an image
-in it, it is necessary to apply `overflow: hidden`. See
+in it, it is necessary to apply `overflow: hidden`. See more at
 [cdpn.io/e/jpdFm](<http://cdpn.io/e/jpdFm>)
 
 Browser Support
@@ -67,7 +68,7 @@ Browser Support
 
 There is absolutely no problem in modern browsers. If you need rounded corners
 in IE8, just use [css3pie.com](<http://css3pie.com/>) but watch out - it is
-going to slow down your web site.
+going to slow your web site down.
 
 Therefore, I strongly recommend a zero fallback strategy. As a result, users
 with older browsers simply will not see rounded corners. And what the eye

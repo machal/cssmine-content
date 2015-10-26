@@ -7,7 +7,7 @@ Flexbox Autopsy — Reference Guide
     properties such as `display: block`, `inline` or `inline-block` to the
     parent element or its children. Nor can we apply `float`, `clear` or
     `vertical-align`. To be precise, we can apply these properties, however they
-    will not have any effect when displaying a web site in a browser without
+    will not have any effect when displaying the web site in a browser without
     flexbox support. But it is useful when creating fallbacks for older
     browsers.
 
@@ -27,8 +27,8 @@ Flexbox Autopsy — Reference Guide
     flex box, all values would change their order.
 
 Now let's dig into the "Reference Guide". We already know that there are two
-types of flex elements – flex container and flex item. Therefore, we also divide
-the properties according to the element types.
+types of flex elements – a flex container and a flex item. Therefore, we also
+divide the properties according to the element types.
 
 ### Flex Container Properties
 
@@ -46,7 +46,7 @@ make a vertical oriented layout, use the `column` value.
 The order of items will correspond with the HTML order. If you want to reverse
 the order, just use the `row-reverse` or `column-reverse` values. This will only
 affect the visual rendering of the items, not the actual order - i.e. when
-rendering a site or going through a navigation using `Tab`. Some of you might
+rendering a site or going through the navigation using `Tab`. Some of you might
 have noticed that we can use this property when changing the order of list
 items.
 
@@ -70,8 +70,8 @@ previous line and align over the first item.
 
 Let's explain this in examples:
 
--   `flex-flow: row` – the default value. Items are placed in a single line and
-    do not break.
+-   `flex-flow: row` – this is the default value. Items are placed in a single
+    line and do not break.
 
 -   `flex-flow: column wrap` – items are placed in a column and break.
 
@@ -82,7 +82,7 @@ as there is more to explain.
 
 #### `flex-grow` – The Ability To Grow
 
-How much can an item grow relative to the rest of the flexible items when there
+How much can the item grow relative to the rest of the flexible items when there
 is free space? When a user resizes the browser window for example? The items
 will distribute the newly gained space beyond their default width. The values
 can only be positive integers, defaulting in 0 which means that items will not
@@ -97,17 +97,17 @@ defaulting in 1 which means that items will reduced their widths equally.
 
 #### `flex-basis` – Default Item Size
 
-This is the default width of an item (or height when using `flex-direction:
+This is the default width of the item (or height when using `flex-direction:
 column`).
 
 -   `auto` (default) – the width is defined by the content, similar to width:
     auto. The distribution of free space using the `flex-grow/flex-basis`
     properties will then affect just the extra space that is taken up by items
-    beyond their initial size - so called relative flex model.
+    beyond their initial size - the so called relative flex model.
 
 -   `0` – size of the content is not an issue. The distribution of free space
     using the `flex-grow/flex-basis` properties will then affect the whole width
-    of an item – absolute flex model.
+    of the item – absolute flex model.
 
 -   Any CSS size, e.g. `100px`, `15em` or `50%`.
 
@@ -146,7 +146,7 @@ like this:
 flex: 1 1 150px
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-However, I think you are more likely to use pre-defined „intelligent“ values:
+However, I think you are more likely to use pre-defined "intelligent" values:
 
 -   `flex: auto`  
     It corresponds to `flex: 1 1 auto` and the items in question will become
@@ -154,18 +154,18 @@ However, I think you are more likely to use pre-defined „intelligent“ values
     probably the most common case.
 
 -   `flex: none`  
-    It corresponds to `flex: 0 0 auto` and cancels the flexibility of an item.
+    It corresponds to `flex: 0 0 auto` and cancels the flexibility of the item.
     This is the second most common case.
 
 -   `flex: initial`  
-    It resets the values to default, i.e. to `flex: 0 1 auto`. If there is not
+    It resets values to default, i.e. to `flex: 0 1 auto`. If there is not
     enough space, the items will shrink, however they will not expand beyond the
     size of their contents.
 
 -   `flex: <positive-number>`  
     Watch out if you use a single number! The `flex: 1` declaration stands for
-    `flex: 1 1 0` so the default size of an item and flex model will be changed.
-    I have already mentioned it in the `flex-basis` property section.
+    `flex: 1 1 0` so the default size of the item and flex model will be
+    changed. I have already mentioned it in the `flex-basis` property section.
 
 ![flex property](<images/flexbox-reference-flex.jpg>)
 
@@ -181,10 +181,10 @@ that using the `order` property.
 
 A change of the order affects the visual position of an element rendered by a
 browser. It does not affect the actual order of items, i.e. when using a
-document reader or going through a navigation using the `Tab` key.
+document reader or going through the navigation using the `Tab` key.
 
 The default value is `0` which basically means that it will correspond with the
-„actual HTML order“.
+"actual HTML order".
 
 When using the following notation, you can make the third item visually appear
 as the first one:
@@ -213,7 +213,7 @@ This allows you to set `margin-left: auto`, filling the left side of an element
 with left margin and pinning the item to the right. You can use it instead of
 the `float` property.
 
-All other „alignment properties“ have similar values, however they apply to
+All other "alignment properties" have similar values, however they apply to
 different sets of flex items or different container axes.
 
 #### `justify-content` – Aligning Main Axis Items Within a Container
@@ -254,7 +254,7 @@ exceptions. The default value is `auto`.
 
 #### Note: Baseline Alignment
 
-Notice the alignment at the `baseline` of the first line. An item with the
+Notice the alignment at the `baseline` of the first line. The item with the
 greatest size between the baseline and the upper edge (the highest one) will be
 pinned to the upper edge of the flex container. You can see it in the previous
 image or at <http://cdpn.io/e/QwobXz>.
@@ -271,3 +271,5 @@ And here is another alignment property. This time it applies only to flex
 containers whose items are wrapped onto multiple lines.
 
 ![align-content.jpg](<images/flexbox-align-content.jpg>)
+
+So, is that clear now? Ok, now let's move to browser support.

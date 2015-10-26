@@ -1,7 +1,7 @@
 CSS3 Media Queries – Conditional Directives for Different Media Types
 =====================================================================
 
-The principle is simple. A certain part of CSS declarations will apply only if
+The principle is simple: a certain part of CSS declarations will apply only if
 Media Queries conditions have been met.
 
 Together with fluid layout and fluid media, media queries form one of the three
@@ -109,19 +109,19 @@ possible.
 @media screen and (device-aspect-ratio: 16/9) { ... }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-So these were the most common types of queries. However, there are [a lot
-more](<http://www.opera.com/docs/specs/presto26/css/mediaqueries/>).
+So these were the most common types of queries, however, there are [a lot
+more](<http://www.opera.com/docs/specs/presto26/css/mediaqueries/>) of them.
 
 Browser Support
 ---------------
 
 IE8 does not support even the simplest media query. Fortunately, there are
-several strategies how to handle it and not be discouraged. But for those
+several strategies on how to handle it and not be discouraged. And but for those
 strategies, responsive web design could not have come to life in the first
-place. So if you got scared, pull yourself together and move on.
+place. So if you got scared already, pull yourself together and move on.
 
-Below are three strategies how to deal with the fact that IE8 does not support
-Media Queries.
+Below are three strategies on how to deal with the fact that IE8 does not
+support Media Queries.
 
 1.  Use a [Respond.js](<https://github.com/scottjehl/Respond>) polyfill. It is
     well tested and fast enough. Plus it is used by a very popular framework -

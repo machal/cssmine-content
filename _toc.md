@@ -61,7 +61,7 @@ Vlastnosti rámečků
 ------------------
 
 prirucka/css3-border-image.md  
-**prirucka/css3-border-radius.md**
+prirucka/css3-border-radius.md
 
 Vlastnosti boxu
 ---------------

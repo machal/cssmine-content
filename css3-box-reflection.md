@@ -1,7 +1,7 @@
 Box Reflection
 ==============
 
-The browser will render a reflection of an element under or next to it.
+The browser will render a reflection of the element under or next to it.
 
 Syntax
 ------
@@ -26,8 +26,8 @@ This is a required value with four possible choices: `above`, `below`, `left` or
 
 ### Offset
 
-It defines the distance of a reflection from the original object, using standard
-CSS units – `px`, `em` and others.
+This defines the distance of a reflection from the original object, using
+standard CSS units – `px`, `em` and others.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -webkit-box-reflect: below 5px;
@@ -58,4 +58,5 @@ property. See
 [lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/](<http://lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/>)
 
 This property is therefore not reliable when dealing with a big target group,
-however, it might come in handy for internal apps with a limited target group.
+however, it might come in handy for internal apps with a limited target
+audience.

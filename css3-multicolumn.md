@@ -13,7 +13,7 @@ column-gap: _gap_between_columns_;
 column-rule: _property_of_vertical_line_between_columns_;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Apart from the „newspaper typesetting“, this module is also applicable to list
+Apart from the "newspaper typesetting", this module is also applicable to list
 items, image thumbnails or online store items.
 
 Example
@@ -33,5 +33,5 @@ You can try it at [cdpn.io/e/ohLgJ](<http://cdpn.io/e/ohLgJ>).
 Browser Support
 ---------------
 
-IE10+. I recommend to tackle older browsers using a hard fallback – text will
+IE10+. I recommend to handle older browsers using a hard fallback – text will
 simply not form columns.
