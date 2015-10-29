@@ -16,8 +16,8 @@ Let's take a look at a live example at
 [cdpn.io/e/aDLCl](<http://cdpn.io/e/aDLCl>).
 
 The `text-shadow` property has a twin — [box-shadow](<css3-box-shadow.md>). Go
-to the [box-shadow] page to see a detailed description of the syntax. It is very
-similar.
+to the [box-shadow](<css3-box-shadow.md>) page to see a detailed description of
+the syntax. It is very similar.
 
 Tip – you can use multiple text shadow values to create a [pseudo-3D
 effect](<http://markdotto.com/playground/3d-text/>).

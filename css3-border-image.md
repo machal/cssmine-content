@@ -78,8 +78,8 @@ border-image-repeat: stretch repeat;
 Useful Tips
 -----------
 
-[border-image.com] — a very nice generator which will make your life easier
-especially when looking for size of the slices.
+[border-image.com](<http://border-image.com/>) - a very nice generator which
+will make your life easier especially when looking for size of the slices.
 
 -   Attention! According to the latest specification, the `border-image`
     property will not work if you forget to declare `border-style` and
