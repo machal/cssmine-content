@@ -1,112 +1,112 @@
-Na úvod
+Introduction
 =======
 
-exclusive/uvod.md  
-exclusive/pred-uvod.md
+intro.md
+before-intro.md
 
-O dnešním kódování webů
------------------------
+On today's frontend UI development
+----------------------------------
 
-exclusive/kapitola-1-perex.md
+chapter-1-perex.md
 
-exclusive/zmeny.md  
-exclusive/zmeny-1.md  
-exclusive/zmeny-2.md  
-exclusive/zmeny-3.md  
-exclusive/zmeny-4.md  
-exclusive/zmeny-5.md  
-exclusive/zmeny-6.md  
-exclusive/zmeny-7.md  
-exclusive/zmeny-8.md
+transformations.md
+transformations-1.md
+transformations-2.md
+transformations-3.md
+transformations-4.md
+transformations-5.md
+transformations-6.md
+transformations-7.md
+transformations-8.md
 
-exclusive/nastroje.md  
-exclusive/nastroje-preprocesory.md  
-exclusive/nastroje-node-js.md  
-exclusive/nastroje-npm-bower.md  
-exclusive/nastroje-buildovani.md  
-exclusive/nastroje-postprocesing.md  
-exclusive/nastroje-oocss.md  
-exclusive/nastroje-bootstrap.md  
-exclusive/nastroje-browserstack.md  
-exclusive/nastroje-efektivita-prevodu.md  
-exclusive/nastroje-browsersync.md
+tools.md
+preprocessors.md
+node-js.md
+npm-bower.md
+building.md
+postprocessing.md
+oocss.md
+bootstrap.md
+browserstack.md
+psd-to-html.md
+browsersync.md
 
-exclusive/fallback-strategie.md  
-exclusive/fallback-strategie-css3.md
+fallback-strategy.md
+fallback-strategy-css3.md
 
-Referenční příručka CSS3
-========================
+CSS3 reference guide
+====================
 
-exclusive/kapitola-2-perex.md
+chapter-2-perex.md
 
-Vlastnosti textu
-----------------
-
-prirucka/css3-text-overflow.md  
-prirucka/css3-text-shadow.md  
-prirucka/css3-font-face.md  
-exclusive/font-face-tipy.md  
-exclusive/font-face-netechnicke.md
-
-Vlastnosti pozadí
------------------
-
-prirucka/css3-background-clip.md  
-prirucka/css3-background-origin.md  
-prirucka/css3-background-size.md  
-prirucka/css3-gradients.md  
-prirucka/css3-multiple-backgrounds.md
-
-Vlastnosti rámečků
-------------------
-
-prirucka/css3-border-image.md  
-prirucka/css3-border-radius.md
-
-Vlastnosti boxu
+Text properties
 ---------------
 
-prirucka/css3-box-shadow.md  
-prirucka/css3-box-sizing.md
+css3-text-overflow.md
+css3-text-shadow.md
+css3-font-face.md
+font-face-tips.md
+font-face-non-technical.md
 
-prirucka/css3-media-queries.md
+Background properties
+---------------------
 
-CSS transformace
-----------------
+css3-background-clip.md
+css3-background-origin.md
+css3-background-size.md
+css3-gradients.md
+css3-multiple-backgrounds.md
 
-prirucka/css3-transforms.md
+Border properties
+-----------------
 
-CSS animace
+css3-border-image.md
+css3-border-radius.md
+
+Box properties
+--------------
+
+css3-box-shadow.md
+css3-box-sizing.md
+
+css3-media-queries.md
+
+CSS transforms
+--------------
+
+css3-transforms.md
+
+CSS animations
+--------------
+
+css3-transitions.md
+css3-animations.md
+animations-tips.md
+animations-examples.md
+
+CSS3 Layout
 -----------
 
-prirucka/css3-transitions.md  
-prirucka/css3-animations.md  
-exclusive/animations-tipy.md  
-exclusive/animations-priklady.md
+css3-multicolumn.md
+css3-flexbox.md
+flexbox-examples.md
+flexbox-reference.md
+flexbox-browsers.md
+flexbox-links.md
 
-Layout v CSS3
--------------
+Selected other CSS3 properties
+------------------------------
 
-prirucka/css3-multicolumn.md  
-prirucka/css3-flexbox.md  
-exclusive/flexbox-priklady.md  
-exclusive/flexbox-reference.md  
-exclusive/flexbox-prohlizece.md  
-exclusive/flexbox-odkazy.md
+css3-units.md
+css3-rgba.md
+css3-selectors.md
 
-Vybrané další CSS3 vlastnosti
------------------------------
-
-prirucka/css3-jednotky.md  
-prirucka/css3-rgba.md  
-prirucka/css3-selektory.md
-
-Nestandardní vlastnosti
+Non-standard properties
 -----------------------
 
-prirucka/css3-box-reflection.md
+css3-box-reflection.md
 
-Na závěr
---------
+Final word
+----------
 
-exclusive/zaver.md
+end.md
