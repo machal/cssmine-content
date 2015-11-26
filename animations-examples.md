@@ -9,13 +9,13 @@ elements opacity will be changed in an infinite loop on mouse hover.
 
 First, define the progress of the animation using `@keyframes`:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @keyframes my_blink_animation {
     0% { opacity: 1; }
     50% { opacity: 0; }
     100% { opacity: 1; }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 We have just defined a `my_blink_animation` which will set a full opacity at the
 beginning of the animation (`opacity`). In one half of the duration time (`50%`)
@@ -25,13 +25,13 @@ animation, it will be fully opaque. In other words, the element will blink.
 The animation will be applied if a user hovers over the element with a mouse or
 using alternative ways for that matter:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .example:hover,
 .example:focus,
 .example:active {
     animation: my_blink_animation 1s infinite;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In this example, an animation called `my_blink_animation` will last for one
 second and will iterate an infinite (`infinite`) number of times.
@@ -49,7 +49,7 @@ before.
 
 First, let's define both animations:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @keyframes rotate {
     to {
         transform: rotate(45deg);
@@ -61,7 +61,7 @@ First, let's define both animations:
         transform: scale(1.2);  
     }       
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If you have already read about [transformations](<css3-transforms.md>), you know
 that a `rotate` animation will rotate an element by 45 degrees to the right and
@@ -73,7 +73,7 @@ The animation will be applied if a user takes action: first the `move` animation
 will be executed, then the `pulse` animation with a 1 second delay from the
 previous one.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .element:hover,
 .element:focus,
 .element:active {
@@ -81,7 +81,7 @@ previous one.
         rotate 250ms, 
         pulse 500ms 1s infinite;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 You can try an example at
 [cdpn.io/e/xipAj](<http://codepen.io/machal/pen/xipAj>).

@@ -20,7 +20,7 @@ BrowserSync and Grunt
 BrowserSync is fully compatible with both Grunt and Gulp so all you need to do
 is install it and add the following configuration:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```javascript
 browserSync: {
   dev: {
     bsFiles: {
@@ -34,11 +34,11 @@ browserSync: {
     }
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And when you run a task, your command line will look something like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 $ grunt browserSync
 Running "browserSync:dev" (browserSync) task
 [BS] Proxying: http://project.localhost
@@ -51,7 +51,7 @@ Running "browserSync:dev" (browserSync) task
  UI External: http://192.168.0.104:3001
  --------------------------------------
 [BS] Watching files...
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This way BrowserSync will run your project at `http://localhost:3000` as a proxy
 for you local URL `project.localhost`.

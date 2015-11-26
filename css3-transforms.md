@@ -5,7 +5,7 @@ It can be a transformation of a shape, position or element size.
 
 There are four available functions: skew, rotate, translate and scale:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 /* Skew */
 .skew {
   transform: skew(-15deg);
@@ -25,7 +25,7 @@ There are four available functions: skew, rotate, translate and scale:
 .scale {
     transform: scale(1.5);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Try it at <http://cdpn.io/e/wxoil>.
 
@@ -37,9 +37,9 @@ Combination of Transformations
 
 Remember that combinations of transformations are not separated by a comma:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 transform: scale(1.5) skew(-15deg);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Transformation Origin
 ---------------------
@@ -49,12 +49,12 @@ the center of an element: `transform-origin: center center`. If we set the
 origin to the top left corner, it will cause the element to scale from that
 point:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .scale-2 {
   transform: scale(1.5);
   transform-origin: top left;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at [cdpn.io/e/brBgk](<http://cdpn.io/e/brBgk>)
 

@@ -15,7 +15,7 @@ unknown. Browsers have always processed both languages in this way: if they
 encounter a tag, attribute, property or value they do not recognize, the simply
 ignore it and continue rendering the code.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
   color: red;
   transition: .5ms;
@@ -24,7 +24,7 @@ ignore it and continue rendering the code.
 .box:hover {
   color: darkred;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In this example, we do not worry with the fact that older browsers do not render
 transitions. Their only purpose is to enhance user experience in modern
@@ -44,28 +44,28 @@ This is a fallback that takes advantage of the fact that a browser applies the
 last known declaration. Just recall the grunt-pixrem post processor from one of
 the chapters:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .element {
   font-size: 16px; /* Dinosaur browsers */
   font-size: 1rem; /* Modern browsers */
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This is a good solution for all new CSS3 units, RGBa values or flexbox layouts.
 
 You will most certainly remember that we use a defined fallback when dealing
 with prefixed variants of CSS properties:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .element {
-/* Chrome, Safari, Android:  */
+  /* Chrome, Safari, Android:  */
   -webkit-column-count: 2;
-/* Firefox: */
+  /* Firefox: */
   -moz-column-count: 2;
-/* IE 10, Op 11.1+: */
+  /* IE 10, Op 11.1+: */
   column-count: 2;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 3. Detecting CSS Properties Support
 -----------------------------------
@@ -91,7 +91,7 @@ support. We can then forget the browsers.
 Feature detection is useful when using SVG vector format which I have already
 mentioned:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .icon {
   background-image: url(icon.svg);
 }
@@ -99,12 +99,12 @@ mentioned:
 .no-svg .icon {
   background-image: url(icon.png);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 When it comes to CSS3 properties, it is useful for the layout related ones.
 Let's make a flexbox example:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .component {
   display: flex;
 }
@@ -112,11 +112,11 @@ Let's make a flexbox example:
 .no-flexbox .component {
   display: table;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Or a multi-column layout:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .text {
   columns: 2;
 }
@@ -125,7 +125,7 @@ Or a multi-column layout:
   float: left;
   width: 50%;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Feature Queries
 
@@ -133,7 +133,7 @@ Modernizr is currently *sort of* natively supported by W3C. This support comes
 in a form of CSS Feature Queries. Thanks to the `@supports` at-rule, you can
 query the availability of a particular CSS property:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .component {
   display: table;
 }
@@ -141,7 +141,7 @@ query the availability of a particular CSS property:
 @supports (display: flex) {
   display: flex;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at <https://developer.mozilla.org/en-US/docs/Web/CSS/@supports>.
 
@@ -152,7 +152,7 @@ Progressive Enhancement!) is an empty media query. Older browsers like IE8 and
 other "pre-historic dinosaurs" will simply not recognize this part of the code.
 It is suitable if you want to declare layout for modern browsers only:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .component {
   /* Basic rules for 
 typography and linear design */
@@ -164,13 +164,12 @@ typography and linear design */
   non-trivial rules */
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Let's remember this motto:
 
 -   In older browsers, the key thing is the availability of the main content,
     not following the graphic design to the letter.
-
 -   Linear display is better than a broken site layout.
 
 4. Polyfills

@@ -10,18 +10,14 @@ Flexbox Autopsy — Reference Guide
     will not have any effect when displaying the web site in a browser without
     flexbox support. But it is useful when creating fallbacks for older
     browsers.
-
 2.  In relation to the previous point, `margins` of adjacent items will not be
     collapsed, unlike using block elements.
-
 3.  Element positioning (`position: absolute|relative|fixed`) can be applied
     when using flex items, unlike using the `float` property.
-
 4.  When dealing with flex items, we can apply `visibility: collapse` the same
     way we would apply it when dealing with the `display: table-row` or
     `table-column` properties. An element will then take up space in the DOM,
     however it will not be visible.
-
 5.  The direction of the main axis of a flex container is always based on the
     `writing-mode`. Therefore, if we created a layout of a Japanese page using
     flex box, all values would change their order.
@@ -36,9 +32,9 @@ divide the properties according to the element types.
 
 This property will set the direction of the main flexbox axis.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 flex-direction: row | row-reverse | column | column-reverse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The default (`row`) value will place all flex items in a row. If you want to
 make a vertical oriented layout, use the `column` value.
@@ -52,9 +48,9 @@ items.
 
 #### flex-wrap – Forcing Items to Break
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 flex-wrap: nowrap | wrap | wrap-reverse
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The default `nowrap` value tells us that all elements will stay on a single line
 next to each other (or under each other when using `flex-direction: column`).
@@ -72,7 +68,6 @@ Let's explain this in examples:
 
 -   `flex-flow: row` – this is the default value. Items are placed in a single
     line and do not break.
-
 -   `flex-flow: column wrap` – items are placed in a column and break.
 
 We have explained the flex container properties. Now, let's explain flex items
@@ -104,11 +99,9 @@ column`).
     auto. The distribution of free space using the `flex-grow/flex-basis`
     properties will then affect just the extra space that is taken up by items
     beyond their initial size - the so called relative flex model.
-
 -   `0` – size of the content is not an issue. The distribution of free space
     using the `flex-grow/flex-basis` properties will then affect the whole width
     of the item – absolute flex model.
-
 -   Any CSS size, e.g. `100px`, `15em` or `50%`.
 
 #### `flex` – Overall Item Flexibility
@@ -121,20 +114,18 @@ It is good to know that authors of the specification recommend to use the `flex`
 shorthand rather than particular properties which it represents. This is because
 the shorthand itself can set default values.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 flex: <flex-grow> <flex-shrink> <flex-basis>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The default value is:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 flex: 0 1 auto
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 -   `flex-grow: 0` – it will not expand to fill free space.
-
 -   `flex-shrink: 1` – it will shrink just as all other items.
-
 -   `flex-basis: auto` – it will take up space defined by its own content.
 
 Let's assume you want your items to take up a minimum of `150px` and if there is
@@ -142,9 +133,9 @@ free space available, you want them to expand equally. On the other hand, if
 there is not enough free space, you want them to shrink equally. You will do it
 like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 flex: 1 1 150px
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 However, I think you are more likely to use pre-defined "intelligent" values:
 
@@ -152,16 +143,13 @@ However, I think you are more likely to use pre-defined "intelligent" values:
     It corresponds to `flex: 1 1 auto` and the items in question will become
     fully flexible, having the default width based on their contents. This is
     probably the most common case.
-
 -   `flex: none`  
     It corresponds to `flex: 0 0 auto` and cancels the flexibility of the item.
     This is the second most common case.
-
 -   `flex: initial`  
     It resets values to default, i.e. to `flex: 0 1 auto`. If there is not
     enough space, the items will shrink, however they will not expand beyond the
     size of their contents.
-
 -   `flex: <positive-number>`  
     Watch out if you use a single number! The `flex: 1` declaration stands for
     `flex: 1 1 0` so the default size of the item and flex model will be
@@ -189,11 +177,11 @@ The default value is `0` which basically means that it will correspond with the
 When using the following notation, you can make the third item visually appear
 as the first one:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .flex-item-third {
   order: -1;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 But remember that you can't use `order` on other elements of the page except
 direct children of the flex container.
@@ -218,9 +206,9 @@ different sets of flex items or different container axes.
 
 #### `justify-content` – Aligning Main Axis Items Within a Container
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 justify-content: flex-start | flex-end | center | space-between | space-around
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Let's apply the `justify-content` property to the flex container, saying how
 flex items will be aligned along the main axis. The default value is
@@ -230,9 +218,9 @@ flex items will be aligned along the main axis. The default value is
 
 #### `align-items` – Aligning Cross Axis Items Within a Container
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 align-items: stretch | flex-start | flex-end | center | baseline
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The `align-items` property can also be applied to the flex container. The
 default value is `stretch` which stretches the item to the full width of the
@@ -245,9 +233,9 @@ axis is defined. In other words, if `height` is set, it will not work.
 
 #### `align-self` – Aligning Cross Axis Items Within an Item
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 align-self: auto | flex-start | flex-end | center | baseline | stretch
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This property is applied to each item so it is suitable for creating alignment
 exceptions. The default value is `auto`.
@@ -263,9 +251,9 @@ See that flexbox will not corrupt the upper pixel padding.
 
 #### align-content – Aligning Main Axis Items Within a Multiple Line Container
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 align-content: stretch, flex-start, flex-end, center, space-between, space-around
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And here is another alignment property. This time it applies only to flex
 containers whose items are wrapped onto multiple lines.

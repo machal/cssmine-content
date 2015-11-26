@@ -9,7 +9,7 @@ using vendor prefixes is not as necessary as it used to be one or two years ago.
 For example, if you want to declare a CSS transformation so all browsers will
 understand it, you have to declare it multiple times:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
   -webkit-transform: rotate(7.5deg);  /* Chrome, Safari 3.1+ */
      -moz-transform: rotate(7.5deg);  /* Firefox 3.5-15 */
@@ -17,7 +17,7 @@ understand it, you have to declare it multiple times:
        -o-transform: rotate(7.5deg);  /* Opera 10.50-12.00 */
           transform: rotate(7.5deg);  /* Firefox 16+, IE 10+, Opera 12.10+, Chrome 36+ */
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If we choose to leave out browsers that have minimal usage, we can drop the
 `-moz`, `-o` and sometimes even `-ms` prefixes. The bottom line is that it is

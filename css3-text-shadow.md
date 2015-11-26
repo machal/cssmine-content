@@ -3,14 +3,14 @@ CSS3 Text Shadow
 
 This is a text shadowing effect.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 text-shadow:
     _horizontal_offset_
     _vertical_offset_
     (_blur_)
     _color_,
     (_other_shadows_);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Let's take a look at a live example at
 [cdpn.io/e/aDLCl](<http://cdpn.io/e/aDLCl>).

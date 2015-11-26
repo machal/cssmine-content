@@ -18,7 +18,7 @@ Syntax
 First, you have to define an animation using the `@keyframes` at-rule. Then you
 can call it anywhere and adjust it to your needs.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @keyframes _animation_name_ {
     _duration_ { _property_declaration_ }
     _duration_ { _property_declaration_ }
@@ -35,7 +35,7 @@ can call it anywhere and adjust it to your needs.
         _animation_fill_mode_
         (,_additional_animations_);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Now, let's explain all properties:
 
@@ -83,13 +83,10 @@ animation keyframes are applied to the animated element. However, using the
 Four properties can be applied:
 
 -   `none` — the default value.
-
 -   `backwards` — this value will apply values defined in the keyframe 0% even
     if the element has different property settings.
-
 -   `forwards` — after the iteration of an animation ends, the object will
     remain in the same state as in keyframe 100% and will not go back.
-
 -   `both` — this will apply both `forwards` and `backwards`.
 
 ### `animation-play-state`

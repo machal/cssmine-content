@@ -5,12 +5,12 @@ Flexbox – Practical Examples
 
 Take this HTML:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```html
 <label>
   <input type="radio"> Really long caption which will make
   the line break.
 </label>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This will not be nicely aligned in a browser so do not expect a pat on the
 shoulder from your client:
@@ -21,9 +21,9 @@ We do not want the text to overflow the radio button. It can be done without
 using flex box, however if we use flexbox, it will be almost ridiculously
 simple. All you need is the following declaration:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 label { display: flex }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This turned our `<label>` into a flexbox container and its direct children into
 flex box items.
@@ -93,9 +93,9 @@ Let's define the HTML order: A) C) B). And let's assume we want to change that
 order on small screens and B) will be followed by C). Since the order property
 counts from zero, we will do it this way:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .item-C { order: 2 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Try a live example at <http://cdpn.io/e/JoqxJe>.
 
@@ -110,7 +110,7 @@ quite frankly, do not image a long navigation as you might get a headache.
 
 This is the HTML:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```html
 <div class="nav">
   <ul>
     <li><a href="/products">Products</a></li>
@@ -121,7 +121,7 @@ This is the HTML:
     added in a CMS… -->
   </ul>
 </div>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And we want it to look like this:
 
@@ -133,7 +133,7 @@ or the inability of using absolute positioning within the "table cells".
 
 We know enough about flexbox so the following solution will not surprise us:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .nav ul {
   display: flex;
 }
@@ -141,7 +141,7 @@ We know enough about flexbox so the following solution will not surprise us:
 .nav li {
   flex: auto;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 However, if we add another "exceptionally" long item, it will take up a lot of
 space. This is due to relative distribution of extra space when using

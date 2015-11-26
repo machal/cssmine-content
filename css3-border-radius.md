@@ -6,49 +6,49 @@ Rendering rounded and elliptical corners...
 Syntax
 ------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-radius:
     _top_right_radius_
     _bottom_right_radius_
     _bottom_left_radius_
     _top_left_radius_
     (/ _elliptical_variations_);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Evenly rounded corners with a 10 pixel radius can be pulled off like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-radius: 10px;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 We can also round corners using a percentage of the width of the element or
 using other units that are available in CSS. However, you can round **each
 corner separately**. You always start from the top left corner and proceed
 clockwise:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-radius: 15% 15% 0 0;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If you add a forward slash, the element will have an **elliptical shape**, not a
 circle shape. The first corner will be rounded in an ellipse with a vertical
 radius of 15% and horizontal radius of 30%:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-radius: 15% 15% 0 0 / 30% 15% 0 0;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The following scheme shows how the ellipse rounding works in practice:
 
 It is good to know that `border-radius` is in fact a shorthand property for
 setting four `border-radius` properties **individually**:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-top-left-radius: 4em;
 border-top-right-radius: 4em;
 border-bottom-right-radius: 4em;
 border-bottom-left-radius: 4em;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See a live border-radius example at [cdpn.io/e/EljFa](<http://cdpn.io/e/EljFa>).
 

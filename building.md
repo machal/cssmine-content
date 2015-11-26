@@ -15,7 +15,6 @@ The building tools for front-end come in two types:
 
 -   simplified – they are simple to use, yet their functions are limited
     (Prepros, CodeKit and other)
-
 -   full-featured – their functions are almost unlimited but they are hard to
     tackle for beginners or non-programmers (Grunt, Gulp and other)
 
@@ -40,21 +39,21 @@ tiptoe around the command line, however Grunt has become my "buddy" quite fast.
 
 Grunt can be installed using npm…
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm install -g grunt-cli
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … and then you install one of the plugins, e.g. a plugin for compiling LESS to
 CSS:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm install grunt-contrib-less --save-dev
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 By using plugins, namely using `Gruntfile.js`, you can create Grunt tasks. This
 is a simplified example of the file:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```javascript
 module.exports = function(grunt) {
   "use strict";
   grunt.initConfig({
@@ -87,7 +86,7 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['less', 'cssmin']);
   grunt.registerTask('default', ['watch']);
 };
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 First, you need to configure `less`, `cssmin` and `watch` plugins in order to
 create `css` and `default` „task aliases". Then you can add a queue of other

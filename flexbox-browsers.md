@@ -16,10 +16,8 @@ There are three types of flexbox syntax in modern browsers.
 -   **New syntax:** `display: flex` and other properties shown in the e-book. It
     is supported by the latest versions of all browsers, including IE11 and
     Opera Mini.
-
 -   **Tweener syntax from 2012:** `display: flexbox`. Nowdays required just by
     IE10.
-
 -   **Legacy syntax from 2009:** Wherever you see `display: box` or
     `-webkit-display: box`. Webkit prior to version 20, i.e. iOS6 or older
     Androids.
@@ -61,7 +59,7 @@ As mentioned in the first chapter, the Modernizr feature detection using the
 
 The solution would look like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .vertical-centered {
   /* Flexbox centering */
 }
@@ -69,7 +67,7 @@ The solution would look like this:
 .no-brainer .vertical-centered {
   /* No flexbox centering */
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This way, you can make an alternative layout using `display:
 table|table-row|table-cell`.
@@ -81,17 +79,17 @@ we want the former `inline` or `inline-block` elements to stack on top of each
 other. If a browser does not support flexbox, the elements will simply stack on
 top of each other like in mobile device browsers.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
   display: block;
   display: flexbox;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 A `float` fallback is very simple to use because it will not apply to flex box
 items in modern browsers:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .container {
    display: flexbox;
 }
@@ -100,7 +98,7 @@ items in modern browsers:
   display: block;
   float: left;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 #### Flexbugs – The Most Common Bugs of Browsers
 

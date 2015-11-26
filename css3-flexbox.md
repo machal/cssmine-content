@@ -15,13 +15,13 @@ extra space without the need of using Javascript.
 
 Lets imagine a simple 3-column layout:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 <div class="container">
   <p class="mandatory-1">One</p>
   <p class="content">Two<br/>…<br/>…</p>
   <p class="mandatory-2">Three </p>
 </div>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The simpler the HTML the stricter design requirements there are. And you know
 what? Let's see how to meet them using flexbox.
@@ -80,20 +80,20 @@ Let's Get Down To Basic Terms — Flex Container and Flex Item, Main Axis and Cr
 Flexbox contains two inseparable types of elements – flex container and flex
 item. A flex item is a direct child of a container.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```html
 <ul class="flex-container">
   <li>…</li>
   <li>…</li>
 </ul>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Flexbox can be defined just by using a flex container:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .flex-container {
   display: flex;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 All `<li>` items are thus flex items.
 
@@ -103,14 +103,9 @@ illustrate this in a simple scheme:
 ![flexbox scheme](<content/schemes/flexbox-schema.jpg>)
 
 -   flex container – parent element
-
 -   flex item – all direct children of a flex container
-
 -   main axis – horizontal is default but it can be changed
-
 -   cross axis – perpendicular to the main-axis, so it is similar to the main
     axis when default
-
 -   main size – width is default but is dependent on the main axis setting
-
 -   cross size – width is default

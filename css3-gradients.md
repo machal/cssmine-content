@@ -9,9 +9,9 @@ Linear Gradient
 
 A uniform gradient from top to bottom can be achieved like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background: linear-gradient(lightgreen, darkgreen);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Gradient Axis
 
@@ -23,10 +23,10 @@ gradient is 180° going from top to bottom (`180deg`).
 For example, this gradient from light to dark green will go from the bottom left
 corner to the top right:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background:
   linear-gradient(45deg, lightgreen, darkgreen);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Color-stops
 
@@ -35,10 +35,10 @@ color-stops that are definable in standard CSS units (`%`, `px`, `em`…). These
 are the same stops you may know from graphic editors but these are written in
 code.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background:
   linear-gradient(45deg, lightgreen, darkgreen 33%);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In this example, the dark green color-stop starts at in one third of the way
 along of the gradient axis. You can see and try a live example at
@@ -50,11 +50,11 @@ A color gradient can be defined between two or multiple colors. And remember
 that you can use all color definitions including [rgba](<css3-rgba.md>) or
 `transparent`.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background:
   linear-gradient(to bottom right, transparent,
     lightgreen 25%, rgb(0, 127, 0) 50%);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This CSS code will render a color gradient from the top left corner to the
 bottom right corner like this: a gradient from transparent color to light green
@@ -67,12 +67,12 @@ Circle Gradient
 
 A simple circle (radial) gradient can be created like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box-1 {
     background:
       radial-gradient(lightgreen, darkgreen);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Shape and Size
 
@@ -83,13 +83,13 @@ is to define the **size by the radius of the circle**. When using a circle, one
 number will do, when using an ellipse, you will need two. The first number
 indicates the height, the second one the width of the ellipse.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box-2 {
   background:
     radial-gradient(ellipse 50px 30px,
       lightgreen, darkgreen);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Comment: the current specification does not allow usage of percentage to define
 circle size. See
@@ -98,12 +98,9 @@ circle size. See
 The second option is to define the **size using key words**:
 
 -   `closest-side` – the gradient will meet the closest side of an element
-
 -   `farthest-side` – the gradient will meet the farthest side of an element
     (opposite of closest-side)
-
 -   `closest-corner` – the gradient will meet the closest corner of an element
-
 -   `farthest-corner` – the gradient will meet the farthest corner of an element
     (opposite of closest-corner)
 
@@ -112,12 +109,12 @@ The second option is to define the **size using key words**:
 The center position of a radial gradient is similar to the `background-position`
 property. You just need to add an `at` key word:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box-3 {
     background:
       radial-gradient(at top left, lightgreen, darkgreen);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Color-stops
 
@@ -127,12 +124,12 @@ quarter of the element and a gradient from light to dark green which will take
 up the area from one quarter to one half of the element. The rest of the circle
 will be filled with dark green:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box-4 {
     background:
       radial-gradient(lightgreen 25%, darkgreen 50%);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And here is a live example which contains all four options of the radial
 gradient: [cdpn.io/e/cdyfx](<http://cdpn.io/e/cdyfx>).
@@ -145,13 +142,13 @@ use the `repeating-linear-gradient()` or `repeating-radial-gradient()`
 functions. Unlike normal gradients, the browser will not render a color when it
 hits the last color-stop but it will repeat the defined gradient instead.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .repeating-linear {
     background:
       repeating-linear-gradient(to bottom right,
         transparent, transparent 10%, green 10%, green 20%);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In this example we will outline a colored "zebra" using transparent color and
 green.
@@ -162,13 +159,13 @@ displayed without any blending.
 
 Now, let's try a repeating radial gradient:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .repeating-radial {
     background:
       repeating-radial-gradient(transparent, transparent 10%,
         green 10%, green 20%);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 By defining repeating green stripes we are able to create a "target-like"
 pattern. But watch out here! Some browsers such as Chrome or Firefox are
@@ -187,12 +184,12 @@ Therefore, do not forget to define a fallback. A gradient is considered a
 background image so a fallback can be easily pulled off using a standard
 background color:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 color: #fff;
 background-color: green;
 background-image:
   linear-gradient(lightgreen, darkgreen);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Gradient, Formerly Known as the Thing From "prefix" Hell
 
@@ -210,10 +207,10 @@ to use an older syntax. Just watch out, the difference is not only in the prefix
 but in the code as well. For example, the axis direction is defined by the side
 or the corner where you want the gradient to start:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background-image:
   -webkit-linear-gradient(top, lightgreen, green);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This is not likely to be a big deal for most web sites and you will settle for a
 fallback using a background color. The latest versions of all browsers comply
@@ -225,11 +222,11 @@ add!
 This is very simple: two-color linear gradients can be achieved in older
 Internet Explorers by using the proprietary filter property:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 -ms-filter:
   "progid:DXImageTransform.Microsoft.gradient(
     GradientType=0, startColorstr=#00ff00, endColorstr=#008800)";
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In the `GradientType` parameter you can set a vertical (`0`) or horizontal (`1`)
 direction of the gradient. Just bear in mind that filters can render slowly and

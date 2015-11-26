@@ -5,7 +5,7 @@ This will help you animate property changes.
 
 It may sound complicated but just imagine this situation:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
     background: green;
 }
@@ -13,12 +13,12 @@ It may sound complicated but just imagine this situation:
 .box:hover {
     background: blue;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Not a big deal. Now imagine you want to animate the color change on mouse hover.
 And that is what transitions are for. They animate property changes.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
     background: green;
     transition: 300ms;
@@ -27,7 +27,7 @@ And that is what transitions are for. They animate property changes.
 .box:hover {
     background: blue;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 CSS transitions are usually triggered on mouse hover but you can also trigger
 them by adding a class using Javascript and clicking on the element:
@@ -54,14 +54,14 @@ But that does not mean you can't steal the show using transitions. Just read on.
 Syntax
 ------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 transition:
     (_transition_property_)
     _transition_duration_
     (_transition_timing_function_)
     (_transition_delay_)
     (, _additional_transition_);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Transition Duration
 
@@ -75,7 +75,7 @@ Not all element properties can be animated, leaving the rest without animation.
 A separate declaration would look like this: `transition-property: none`.
 Example:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 .box {
     background: green;
     transition: margin 300ms;
@@ -85,7 +85,7 @@ Example:
     background: blue;
     margin-left: 200px;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 As mentioned before, animated transitions cannot be applied on all CSS
 properties. For instance, animating the `display` property would be absolutely
@@ -115,10 +115,10 @@ Both transitions in the following example last 200 milliseconds. However, the
 second one which animates the `background-color` property is executed 1s after
 the first one has ended:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 transition: transform 200ms, 
   background-color 200ms 1s;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Take a look at the following example at
 [cdpn.io/e/vIGAk](<http://cdpn.io/e/vIGAk>).

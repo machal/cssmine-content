@@ -6,12 +6,12 @@ It specifies the size of the background within an element.
 Syntax
 ------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background-size:
     (cover/contain)
     _vertical_size_
     _horizontal_size_;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The default value `background-size: auto auto` tells the browser to keep the
 original size of the image.
@@ -48,10 +48,10 @@ element to which the property is applied. For example: stretching a gradient
 background to the full width and one half of the height of an element would look
 like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background: linear-gradient(to bottom, transparent, black) no-repeat bottom;
 background-size: 100% 50%;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Take a look at a live example at
 [codepen.io/machal/pen/cmpjE](<http://codepen.io/machal/pen/cmpjE>).
@@ -66,9 +66,9 @@ the inner edge or from the content of the element.
 If you are using [multiple background images](<css3-multiple-backgrounds.md>),
 simply use a comma-separated list of values:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 background-size: 50% auto, auto;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Browser Support
 ---------------
@@ -92,14 +92,14 @@ Detect properties and supply the browser with alternative styles using Modernizr
 Use the `filter` parameter. It can be only used if the background image has the
 same aspect ratio and if it is the same size or larger than the parent element:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .element {
     background-size: contain;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
         src='images/image.jpg',
         sizingMethod='scale');
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Use a polyfill. Just be careful - the polyfill is using `.htc` files so it may
 lower the web site performace – see

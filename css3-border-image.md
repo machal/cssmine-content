@@ -11,14 +11,14 @@ element, whatever it may be.
 Syntax
 ------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image:
     _image_source_
     _slice_size_
     _border_width_
     _slice_start_
     _repeat_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Image Source
 
@@ -58,12 +58,9 @@ border if the border has different size than the source image? We can set this
 by using the `border-image-repeat` property. There are four values available:
 
 -   `stretch` – the image will stretch to fill the border
-
 -   `repeat` – the image will not repeat
-
 -   `round` – if the area is not filled by an integer number of repetitions,
     each repetition will stretch to fill the area
-
 -   `space` – if the area is not filled by an integer number of repetitions, the
     empty area is evenly distributed among all repetitions (space is added to
     each repetition)
@@ -71,9 +68,9 @@ by using the `border-image-repeat` property. There are four values available:
 Remember that it is possible to set various values for the horizontal and
 vertical parts of the border. See an example:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-repeat: stretch repeat;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Useful Tips
 -----------
@@ -103,16 +100,16 @@ handling sizes, second for creating a fallback for browsers not supporting
 `border-image`. So, for the sake of this example, let's create a 20 pixel border
 around an element:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border: 20px solid green;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And now, we will tell the browser that instead of a green color, we we will use
 a color gradient:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-source: linear-gradient(lightgreen, darkgreen);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 To our surprise, the browser will render the gradient in the corners of the
 border only. The reason for that is the slice default value:
@@ -120,9 +117,9 @@ border only. The reason for that is the slice default value:
 corners. Therefore, we will set it so it corresponds with the width of our
 border:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-slice: 20;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 And that's it. You can try an example at
 [codepen.io/machal/pen/zdyIJ](<http://codepen.io/machal/pen/zdyIJ>).
@@ -132,37 +129,37 @@ An Example with a Bitmap Image as a Background
 
 First, let's define the border sizes and a fallback for older browsers:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-color: green;
 border-style: solid;
 border-width: 21px 23px;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Now add a background image:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-source: url(border-image-source.png);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Then define the slices. In this source image, the horizontal border is 21 pixels
 high and the vertical one is 23 pixels high.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-slice: 21 23;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Last, it is necessary to tell the browser that side slices need to be repeated
 if the size of the element increases:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image-repeat: repeat;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Now, let's try a shorthand notation of the last three declarations:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 border-image: url(border-image-source.png) 21 23 repeat;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Done. You can try an example at
 [codepen.io/machal/pen/DLkjm](<http://codepen.io/machal/pen/DLkjm>).

@@ -12,7 +12,7 @@ CSS declarations and have files with appropriate font cuts ready.
 This applies primarily to the italic and bold cut. If you declare the font like
 this…
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @font-face {
     font-family: 'WebFont';
     src: url('webfont.woff');
@@ -21,14 +21,14 @@ this…
 .element {
     font-family: 'WebFont', Georgia, sans-serif;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … and then you apply it in HTML like this…
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 <p>Grumpy wizards make toxic brew for 
 the <b>evil</b> Queen and <i>Jack</i>.</p>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … the word "evil" will be rendered as bold at first sight, as well as the word
 "Jack" will be rendered as italic thanks to the italic cut of the `WebFont`
@@ -41,7 +41,7 @@ the browser which file is connected to a particular font variant.
 
 Take a look at a simplified example:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @font-face {
     font-family: 'WebFont';
     src: url('webfont.woff');
@@ -62,7 +62,7 @@ Take a look at a simplified example:
     font-style: italic;
     font-weight: normal;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at
 [css-snippets.com/web-fonts-faux-bold-and-italic/](<http://css-snippets.com/web-fonts-faux-bold-and-italic/>).
@@ -75,20 +75,20 @@ another domain. This applies to all Internet Explorer versions and some older
 versions of Chrome and Firefox as well. You can see this problem in the console
 of your browser:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 CSS3117: @font-face failed cross-origin request. Resource access is restricted.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The solution is to set your `.htaccess` at a domain where your font files are
 located:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 <IfModule mod_headers.c>
   <FilesMatch "\.(eot|otf|tt[cf]|woff2?)$">
     Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If you do not use an Apache server, you will have to take a look in
 `server-configs` repositories - see

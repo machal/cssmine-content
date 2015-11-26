@@ -11,26 +11,26 @@ Just read on.
 Syntax
 ------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 box-sizing: content-box | border-box | padding-box;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Do you remember the [traditional
 box-model](<http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug>) value
 that IE6 and older versions used to handle the sizing of elements?
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 The width or height of an element = actual visible width or height of the content + padding + border.
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Are you getting it? This is `border-box` **box-model**.
 
 In contrast, all other modern browsers use the `content-box` value **or the „W3C
 box-model“**. And you know the drill:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 The width or height of an element = actual visible width or height of the content
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This is the initial value of the `box-sizing` property which we can – thankfully
 – change.
@@ -60,27 +60,27 @@ with layouts that are percentage based. Just imagine navigation with more than 5
 items and each item being 20% of the width. Plus the item separator is done
 using a fixed with border:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .nav li {
     width: 20%;
     display: inline-block;
     border-left: .25em solid #fff;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Unfortunately, when using this notation, the fifth navigation item will break
 onto the next line. To avoid this, all we need to do is to tell the browser that
 it would be a good idea to calculate the width of the navigation items using the
 `box-sizing: border-box` property:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .nav li {
     box-sizing: border-box;
     width: 20%;
     display: inline-block;
     border-left: .25em solid #fff;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See a live example at [cdpn.io/e/FeLkJ](<http://cdpn.io/e/FeLkJ>).
 

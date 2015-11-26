@@ -4,9 +4,9 @@ CSS3 Text Overflow – A Way To Wrap Text
 This is a way of limiting text that exceeds the width of the element and
 inserting 3 dots.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 text-overflow: ( clip | ellipsis | <_string_> );
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 When showing `text-overflow: ellipsis` in my lectures, I always get two kinds of
 reactions. One half of the audience is bored, saying: "Hm, I have been using
@@ -27,11 +27,11 @@ in.
 In such a case, just extend the `ellipsis` declaration by two other declarations
 that will ensure that the text stays on one line:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 text-overflow: ellipsis;
 overflow: hidden;
 white-space: nowrap;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Try resizing the browser window at this example URL:
 [cdpn.io/e/FeLkJ](<http://cdpn.io/e/FeLkJ>).

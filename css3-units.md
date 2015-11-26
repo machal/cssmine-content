@@ -23,22 +23,22 @@ using [media query](<css3-media-queries.md>), thus scaling the layout itself.
 Set all sizes of a document using the `rem` unit. If you set all H1 headings to
 `1.5rem`, the actual font size will be 1,5 × `16px` – therefore `24px`.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 h1 {
     font-size: 1.5rem;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If we then decide to set the base font size in media query to 25px if the
 viewport is 801 pixels or wider,…
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @media (min-width: 801px) {
     html {
         font-size: 25px;
     }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … all elements set in `rem` units will increase their sizes. The `<h1>` heading
 will then be 38 pixels (`25px` × 1,5).
@@ -49,10 +49,10 @@ You can see a live example at: [cdpn.io/e/mnbaA](<http://cdpn.io/e/mnbaA>)
 
 IE9+. It is also possible to create a pixel fallback for older browsers:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 font-size: 24px;
 font-size: 1.5rem;
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 It is better to have a fallback generated automatically using a CSS
 preprocessor.
@@ -66,12 +66,9 @@ They allow us to define CSS sizes relative to the viewport size - in other words
 "the width or height of the window".
 
 -   `vw` – stands for "viewport width" – `1vw` is 1% of the viewport width
-
 -   `vh` – stands for "viewport height" – `1vh` is 1% of the viewport height
-
 -   `vmin` – stands for "viewport minimum" – represents the shortest dimension
     (`1vw` or `1vh`)
-
 -   `vmax` – stands for "viewport maximum" – represents the longest dimension
     (`1vw` or `1vh`)
 
@@ -84,11 +81,11 @@ magic that was once possible just by using CSS hacks or Javascript.
 Let's show it on a simple example - stretching the height of a layout to the
 full height of the browser window:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .container {
     width: 100vw;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Browser Support
 
@@ -98,12 +95,9 @@ units: [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>)
 But don't celebrate just yet:
 
 -   IE9 uses `vm` instead of `vmin`.
-
 -   IE10 does not understand `vmax`.
-
 -   Safari on iOS6 and 7 experience several viewport unit bugs. Take a look at
     [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>).
-
 -   IE8, Android Browser up to version 4.3 and Opera Mini do not support these
     units at all.
 

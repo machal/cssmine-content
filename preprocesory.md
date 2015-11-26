@@ -18,26 +18,26 @@ For example, I can change the primary color of a Bootstrap implementation (using
 LESS) simply by changing it on another level - using a preprocessor. The LESS
 notation looks like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```less
 @brand-primary: #428bca;
 @import "bootstrap/bootstrap";
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 The rival Foundation framework (using SASS) can operate with variable queries.
 Let's explain it, shall we? The Foundation framework can operate with a
 `$medium-up` variable which contains an entire media query so you do not have to
 write it again and again. The SASS notation looks like this:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```scss
 $medium-up: "only screen and (min-width: 40em)";
 @media #{$medium-up} {
   // Your code for viewport width 40em an up
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Nesting
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .nav {
   // …
 
@@ -45,17 +45,17 @@ $medium-up: "only screen and (min-width: 40em)";
     width: 25%;
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This will be compiled into:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @media only screen and (min-width: 768px) {
   .nav {
     width: 25%;
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 It seems useless but this is one of the reasons I started to use CSS
 preprocessors. When using CSS, most browsers will not understand nested Media
@@ -73,7 +73,7 @@ by calling a class.
 This is a typical use of a non-parametric mixin to force an element to
 self-clear (LESS):
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```less
 .clearfix() {
   &:before,
   &:after {
@@ -88,11 +88,11 @@ self-clear (LESS):
 .el {
   .clearfix;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This will be compiled into:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .el {
   &:before,
   &:after {
@@ -103,7 +103,7 @@ This will be compiled into:
     clear: both;
   }
 }   
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Mixins can also have parameters and that's where the fun starts!
 
@@ -114,24 +114,23 @@ at-rule will not behave as you might expect in CSS where it creates additional
 requests. Moreover, these requests are a pain in the butt because they slow down
 the page load, especially on mobile devices.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```less
 @import "module.less";
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 If you import a standard CSS file, the preprocessors will keep the @import
 directive in the compiled code. You can change this behavior by setting the LESS
 property:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```less
 @import (less) "fancybox.css";
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 ### Additional Features
 
 Preprocessors have plenty of additional features. Let's take a look at them:
 
 -   [lesscss.org/features/](<http://lesscss.org/features/>)
-
 -   [sass-lang.com/guide](<http://sass-lang.com/guide>)
 
 However, every complex feature makes the code a little less comprehensive. Out
@@ -144,7 +143,6 @@ of great importance.
 If I make it simple, I will give you two recommendations:
 
 -   If you are a novice or a coder mainly dealing with CSS, choose LESS.
-
 -   If you are a programmer and you are familiar with Javascript or PHP, choose
     SASS.
 
@@ -158,7 +156,6 @@ The Disadvantages of CSS Preprocessors
     and sometimes imperative code, however it tends to be in-comprehensive and
     hard to maintain. You know what they say about the "good servant but a bad
     master", don't you?
-
 -   The code is proprietary – if you use preprocessors bluntly, teaching a
     novice or switching to another preprocessor is a piece of cake. However, it
     gets worse if you combine it with the previous point.

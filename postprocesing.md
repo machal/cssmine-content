@@ -13,23 +13,23 @@ Autoprefixer: Adding Prefixed Declarations
 
 Write code according to W3C syntax …
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 transform: scale(1.1);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … and the Autoprefixer will then add prefixed variants to your CSS:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 By default, it will add prefixes for the two latest versions of all browsers but
 you can easily change that. You just need to configure the grunt-autoprefixer, a
 Grunt plugin which sets broader support of prefixed variants of CSS properties:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 autoprefixer: {
   options: {
     browsers: [
@@ -42,7 +42,7 @@ autoprefixer: {
       dest: 'dist/css/style.css'
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at
 [github.com/postcss/autoprefixer](<https://github.com/postcss/autoprefixer>).
@@ -56,12 +56,12 @@ faced with a compatibility problem in older browsers.
 By using a pixrem plugin, you can define conversions between `rem` and `px`,
 thus adding fallbacks to your CSS code:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 .box {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at
 [github.com/robwierzbowski/grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>).
@@ -89,7 +89,7 @@ evolving even on the syntax level.
 
 As a result of this, CSS variables and media use the following piece of code...
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 :root {
   --fontSize: 1.2rem;
 }
@@ -99,15 +99,15 @@ As a result of this, CSS variables and media use the following piece of code...
 @media only screen and (--viewport-medium) {
   body { font-size: calc(var(--fontSize) * 1.2); }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 … which is then compiled into a well-known form:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```css
 @media only screen and (max-width: 600px) {
   body { font-size: 1.44rem; }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Postcss has a wonderful slogan:
 

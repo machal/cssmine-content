@@ -9,7 +9,6 @@ packages:
 
 -   web components – e.g. Bootstrap or jQuery and it's plugins (usually using
     Bower)
-
 -   software for developer's use – e.g. Grunt plugins improving your workflow
     (usually using npm)
 
@@ -69,15 +68,15 @@ Fortunately, Bower adopted the npm syntax so working with it is similar.
 
 Library search:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm|bower search jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Installing jQuery:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm|bower install jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Using `--save-dev` will save the library into the project's dependencies in a
 `bower.json` or `package.json` config file. However, jQuery is a user dependency
@@ -85,16 +84,16 @@ so it is better to use `--save` when developing a website.
 
 Let's move on: updating jQuery:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm|bower update jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Installing and updating can be done within the same project at once. Both Bower
 and npm compare the configuration file with the latest version of dependencies:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```bash
 npm|bower install|update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Bower vs npm
 ------------
@@ -103,7 +102,6 @@ Now, let's review differences based on their purpose:
 
 -   npm is a package system for Javascript. A coder uses it for personal
     development needs.
-
 -   Bower is a package system for front-end. It is used for web components.
 
 The package systems differ not only in purpose but in the way they save
@@ -113,7 +111,6 @@ dependencies as well:
     this, the directory the packages are installed into contains multiple
     package versions. This makes perfect sense when using Grunt plugins: every
     packages requires a different dependency.
-
 -   Bower, on the other hand, installs all dependencies at once. This also makes
     perfect sense - you want a single jQuery version on your web site.
 
