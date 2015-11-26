@@ -4,7 +4,7 @@ Thanks!
 Thank you for buying the „CSS Mine - dig into web UI development“ e-book . If
 you "accidentally" got the e-book without a license, do not worry, nothing is
 lost. You can still put things right by buying the e-book license at
-[www.cssmine.com/ebook](<http://www.cssmine.com/ebook>).
+[www.cssmine.com/ebook](http://www.cssmine.com/ebook).
 
 Feedback
 --------
@@ -46,10 +46,10 @@ life of a coder.
 The Author
 ----------
 
-![Martin Michalek](<images/autor.jpg>)
+![Martin Michalek](images/autor.jpg)
 
 Martin Michalek is a freelance front-end designer who writes about CSS3 and
-holds lectures – [www.cssmine.com/martin](<http://www.cssmine.com/martin>).
+holds lectures – [www.cssmine.com/martin](http://www.cssmine.com/martin).
 
 He organizes trainings focused on responsive design, Bootstrap framework and
 modern web front-end.

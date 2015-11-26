@@ -33,7 +33,7 @@ Try it Yourself
 ---------------
 
 Remember that an image can also be represented by a [CSS3
-gradient](<css3-gradients.md>) with a semi-transparent background. You can make
+gradient](css3-gradients.md) with a semi-transparent background. You can make
 use of this effect to cover the image even if you do not know the height of the
 element:
 
@@ -43,7 +43,7 @@ background:
   url('bg.jpg');
 ```
 
-See a live example at [cdpn.io/e/lvKkC](<http://cdpn.io/e/lvKkC>).
+See a live example at [cdpn.io/e/lvKkC](http://cdpn.io/e/lvKkC).
 
 Browser Support
 ---------------

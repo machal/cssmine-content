@@ -16,7 +16,7 @@ If you set all sizes that relate to typography (or the layout in general) in
 `html { font-size: … }` property, thus creating elastic layouts.
 
 Not unlike the example above, you can also change the overall document font size
-using [media query](<css3-media-queries.md>), thus scaling the layout itself.
+using [media query](css3-media-queries.md), thus scaling the layout itself.
 
 ### Example
 
@@ -43,7 +43,7 @@ viewport is 801 pixels or wider,…
 … all elements set in `rem` units will increase their sizes. The `<h1>` heading
 will then be 38 pixels (`25px` × 1,5).
 
-You can see a live example at: [cdpn.io/e/mnbaA](<http://cdpn.io/e/mnbaA>)
+You can see a live example at: [cdpn.io/e/mnbaA](http://cdpn.io/e/mnbaA)
 
 ### Browser Support
 
@@ -57,7 +57,7 @@ font-size: 1.5rem;
 It is better to have a fallback generated automatically using a CSS
 preprocessor.
 
-Here is more about browser support: [caniuse.com/rem](<http://caniuse.com/rem>)
+Here is more about browser support: [caniuse.com/rem](http://caniuse.com/rem)
 
 Viewport Units: `vw`, `vh`, `vmin`, `vmax`
 ------------------------------------------
@@ -90,14 +90,14 @@ full height of the browser window:
 ### Browser Support
 
 The latest versions of all browsers except Opera Mini are compatible with these
-units: [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>)
+units: [caniuse.com/viewport-units](http://caniuse.com/viewport-units)
 
 But don't celebrate just yet:
 
 -   IE9 uses `vm` instead of `vmin`.
 -   IE10 does not understand `vmax`.
 -   Safari on iOS6 and 7 experience several viewport unit bugs. Take a look at
-    [caniuse.com/viewport-units](<http://caniuse.com/viewport-units>).
+    [caniuse.com/viewport-units](http://caniuse.com/viewport-units).
 -   IE8, Android Browser up to version 4.3 and Opera Mini do not support these
     units at all.
 

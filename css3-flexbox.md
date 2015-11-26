@@ -45,7 +45,7 @@ Hurry up and try an example at CodePen – <http://cdpn.io/e/LhGuD>.
 
 It is nice, isn't it? However, a "grouch" would say that CSS has already learned
 what we could do with [table
-layout](<http://www.jakpsatweb.cz/tabulky-design.html>) back in 2001. Sure, but
+layout](http://www.jakpsatweb.cz/tabulky-design.html) back in 2001. Sure, but
 he would be just "somewhat" right. Flexbox can do much (*much!*) more than just
 tables.
 
@@ -100,7 +100,7 @@ All `<li>` items are thus flex items.
 In the following text, you will have to pay attention to axes so let's
 illustrate this in a simple scheme:
 
-![flexbox scheme](<content/schemes/flexbox-schema.jpg>)
+![flexbox scheme](content/schemes/flexbox-schema.jpg)
 
 -   flex container – parent element
 -   flex item – all direct children of a flex container

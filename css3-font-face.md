@@ -35,18 +35,18 @@ file formats:
 
 -   **WOFF** (Web Open Font Format) – it is the predominant file format.
     However, it is supported by MSIE from version 9 and by Android Browser from
-    version 4.4 – [caniuse.com/woff](<http://caniuse.com/woff>)
+    version 4.4 – [caniuse.com/woff](http://caniuse.com/woff)
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
     by almost all modern browsers, however MSIE supports them from version 9.
     Furthermore, you have to set the so called "embedding bits" (embedding
     permissions in the font's header) to "installable".
-    [caniuse.com/ttf](<http://caniuse.com/ttf>)
+    [caniuse.com/ttf](http://caniuse.com/ttf)
 -   **SVG** (SVG vector format defined fonts) – you will need it if you want to
     support really old versions of iOS Safari browser — 4.3 and lower.
-    [caniuse.com/svg-fonts](<http://caniuse.com/svg-fonts>)
+    [caniuse.com/svg-fonts](http://caniuse.com/svg-fonts)
 -   **EOT** (Embedded OpenType font) – it is supported by all Internet Explorers
     from version 4. You will need it if you want to support IE8 and lower.
-    [caniuse.com/eot](<http://caniuse.com/eot>)
+    [caniuse.com/eot](http://caniuse.com/eot)
 
 ### Syntax That Will Maximize Compatibility
 

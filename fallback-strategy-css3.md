@@ -183,7 +183,7 @@ or Picturefill which makes responsive images work – `<img srcset sizes>` a
 `<picture>`.
 
 However, apart from a proven
-[Respond.js](<https://github.com/scottjehl/Respond>) I do not recommend to use
+[Respond.js](https://github.com/scottjehl/Respond) I do not recommend to use
 CSS3 polyfills. They usually deteriorate performance of the web site and the
 visual part is dependent on Javascript.
 
@@ -195,8 +195,8 @@ with fallbacks, we have to do it one more time.
 
 A good alternative to Respond.js which will provide you with a functional web
 site even in browsers without Media Queries support, is
-[grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>) which
+[grunt-legacssy](https://github.com/robinpokorny/grunt-legacssy) which
 generates a CSS version without media queries.
 
 Generated fallback is just an automated way of a defined fallback as illustrated
-in the [grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>) example.
+in the [grunt-pixrem](https://github.com/robwierzbowski/grunt-pixrem) example.

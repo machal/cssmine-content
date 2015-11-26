@@ -42,12 +42,12 @@ background:
 
 In this example, the dark green color-stop starts at in one third of the way
 along of the gradient axis. You can see and try a live example at
-[cdpn.io/e/CcdBf](<http://cdpn.io/e/CcdBf>).
+[cdpn.io/e/CcdBf](http://cdpn.io/e/CcdBf).
 
 ### Colors
 
 A color gradient can be defined between two or multiple colors. And remember
-that you can use all color definitions including [rgba](<css3-rgba.md>) or
+that you can use all color definitions including [rgba](css3-rgba.md) or
 `transparent`.
 
 ```css
@@ -93,7 +93,7 @@ indicates the height, the second one the width of the ellipse.
 
 Comment: the current specification does not allow usage of percentage to define
 circle size. See
-[dev.w3.org/csswg/css-images-3/\#radial-size-circle](<http://dev.w3.org/csswg/css-images-3/#radial-size-circle>)
+[dev.w3.org/csswg/css-images-3/\#radial-size-circle](http://dev.w3.org/csswg/css-images-3/#radial-size-circle)
 
 The second option is to define the **size using key words**:
 
@@ -132,7 +132,7 @@ will be filled with dark green:
 ```
 
 And here is a live example which contains all four options of the radial
-gradient: [cdpn.io/e/cdyfx](<http://cdpn.io/e/cdyfx>).
+gradient: [cdpn.io/e/cdyfx](http://cdpn.io/e/cdyfx).
 
 Repeating Gradients
 -------------------
@@ -178,7 +178,7 @@ Browser Support
 Radial gradients are not compatible with IE in versions 8 and 9 and Opera Mini.
 Android Browser 2.3 is not able to render radial gradients at all and other
 browsers still have issues. See
-[caniuse.com/gradients](<http://caniuse.com/gradients>)
+[caniuse.com/gradients](http://caniuse.com/gradients)
 
 Therefore, do not forget to define a fallback. A gradient is considered a
 background image so a fallback can be easily pulled off using a standard
@@ -237,25 +237,25 @@ Tips and Tricks
 
 Remember that a gradient is actually the **background image of an element,** so
 it can be used as a background image for list bullets (`list-style-image`) or as
-a border image ([border-image](<css3-border-image.md>)).
+a border image ([border-image](css3-border-image.md)).
 
 The most common use of non trivial gradients is creating **graphic buttons**
 through CSS. See
-[cubiq.org/dropbox/cssgrad.html](<http://cubiq.org/dropbox/cssgrad.html>)
+[cubiq.org/dropbox/cssgrad.html](http://cubiq.org/dropbox/cssgrad.html)
 
 The following is almost a **scientific essay on gradients**: in this link, Ana
 Tudor goes really deep into the topic and explains it using math. See
-[hugogiraudel.com/2013/02/04/css-gradients/](<http://hugogiraudel.com/2013/02/04/css-gradients/>)
+[hugogiraudel.com/2013/02/04/css-gradients/](http://hugogiraudel.com/2013/02/04/css-gradients/)
 
 **ColorZilla Gradient Editor** will help you generate a gradient code applicable
 to older browsers including a fallback for IE8 and IE9. See
-[colorzilla.com/gradient-editor/](<http://colorzilla.com/gradient-editor/>)
+[colorzilla.com/gradient-editor/](http://colorzilla.com/gradient-editor/)
 
 Lea Verou has a nice gallery of **color patterns** created using CSS gradients
 only. But think of it mainly as a showcase of options. See
-[lea.verou.me/css3patterns](<http://lea.verou.me/css3patterns>)
+[lea.verou.me/css3patterns](http://lea.verou.me/css3patterns)
 
 The above-mentioned color patterns make use of the so called **sharp
 transition,** which is not really a transition because there is a sharp edge
 between colors. `background: linear-gradient(to bottom, transparent, lightgreen
-33%, darkgreen 33%);` See [cdpn.io/e/licEd](<http://cdpn.io/e/licEd>)
+33%, darkgreen 33%);` See [cdpn.io/e/licEd](http://cdpn.io/e/licEd)

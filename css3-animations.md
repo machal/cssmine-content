@@ -50,7 +50,7 @@ Set it in seconds (`.5s`) or milliseconds (`500ms`). The default value is
 
 ### `animation-timing-function`
 
-It is similar to [transition](<css3-transitions.md>). You can use the
+It is similar to [transition](css3-transitions.md). You can use the
 pre-defined function or define your own. A separate declaration with a default
 value looks like this: `animation-timing-function: ease`.
 
@@ -107,7 +107,7 @@ Browser Support
 ---------------
 
 CSS3 animations are not supported by IE prior to version 9:
-[caniuse.com/\#feat=css-animation](<http://caniuse.com/#feat=css-animation>)
+[caniuse.com/\#feat=css-animation](http://caniuse.com/#feat=css-animation)
 
 The strategy of supporting animations in older browsers gravely depends on the
 type of animation.

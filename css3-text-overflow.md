@@ -34,7 +34,7 @@ white-space: nowrap;
 ```
 
 Try resizing the browser window at this example URL:
-[cdpn.io/e/FeLkJ](<http://cdpn.io/e/FeLkJ>).
+[cdpn.io/e/FeLkJ](http://cdpn.io/e/FeLkJ).
 
 Browser Support
 ---------------

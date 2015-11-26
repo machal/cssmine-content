@@ -37,16 +37,16 @@ Safari, the form is displayed as planned. In IE8, the text input will not fill
 the whole area and the "Other" caption will not grow in size with increasing
 font size:
 
-![Fallback for IE8](<images/flexbox-ie8-fallback.jpg>)
+![Fallback for IE8](images/flexbox-ie8-fallback.jpg)
 
 This is an example we already have already seen:
-[cdpn.io/e/jEJbmg](<http://cdpn.io/e/jEJbmg>).
+[cdpn.io/e/jEJbmg](http://cdpn.io/e/jEJbmg).
 
 The form is still available, yet some features are not user friendly. Sure, why
 not? A layout can also be taken as enhanced user experience (it does not apply
 to rounded corners only):
 
-![Layout as an enhancement](<images/flexbox-layout-as-enhancement.jpg>)
+![Layout as an enhancement](images/flexbox-layout-as-enhancement.jpg)
 
 #### Feature Detection and Alternative Solution
 

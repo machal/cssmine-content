@@ -28,7 +28,7 @@ below.
 If you resize the browser window and there is not enough space for multiple
 columns, the browser itself will lose the multi-column layout.
 
-You can try it at [cdpn.io/e/ohLgJ](<http://cdpn.io/e/ohLgJ>).
+You can try it at [cdpn.io/e/ohLgJ](http://cdpn.io/e/ohLgJ).
 
 Browser Support
 ---------------

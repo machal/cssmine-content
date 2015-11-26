@@ -65,4 +65,4 @@ The `watchTask: true` option in your task config says that all files are watched
 by the `watch` plugin (when changing files, you perform other operations) and
 BrowserSync will not stand in its way.
 
-See more at [browsersync.io](<http://www.browsersync.io/>).
+See more at [browsersync.io](http://www.browsersync.io/).

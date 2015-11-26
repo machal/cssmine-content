@@ -31,7 +31,7 @@ Autoprefixer
 ------------
 
 Nowdays, this problem has a rather elegant solution - an Autoprefixer:
-[github.com/postcss/autoprefixer](<http://github.com/postcss/autoprefixer>).
+[github.com/postcss/autoprefixer](http://github.com/postcss/autoprefixer).
 
 You will simply write the CSS code as if all browsers could operate with
 standardized syntax – `transform: rotate(7.5deg)`. And because Autoprefixer

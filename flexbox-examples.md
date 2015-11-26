@@ -15,7 +15,7 @@ Take this HTML:
 This will not be nicely aligned in a browser so do not expect a pat on the
 shoulder from your client:
 
-![Unaligned text](<images/flexbox-priklady-1.jpg>)
+![Unaligned text](images/flexbox-priklady-1.jpg)
 
 We do not want the text to overflow the radio button. It can be done without
 using flex box, however if we use flexbox, it will be almost ridiculously
@@ -33,7 +33,7 @@ be considered a flexbox item. In our case, it is the "Really long caption…".
 
 Now let's display this situation in an image:
 
-![flexible button](<images/flexbox-priklady-2.jpg>)
+![flexible button](images/flexbox-priklady-2.jpg)
 
 Technically speaking, every item has a `flex` property and a default value set
 to `initial`. As you will find out in the "Reference Guide", the `flex` property
@@ -45,7 +45,7 @@ You can try an example at CodePen: <http://cdpn.io/e/raqXZX>.
 
 ### Second Example: Combining Units
 
-![combining units](<images/flexbox-priklady-3.jpg>)
+![combining units](images/flexbox-priklady-3.jpg)
 
 Let's extend our form. Take a look at the last line in the picture where we
 combine various units.
@@ -56,7 +56,7 @@ we want the text input to take up the rest of the space. At the same time, we do
 not want to change the size of the caption. This is easy when using flexbox. The
 browser will handle the combination of units.
 
-![combining units using different window sizes](<images/flexbox-priklady-4.jpg>)
+![combining units using different window sizes](images/flexbox-priklady-4.jpg)
 
 Notice that we set `flex: none` for the radio button and text because we do not
 want them to shrink or extend. They simply keep the width at all cost. On the
@@ -67,7 +67,7 @@ Try an example at CodePen: <http://cdpn.io/e/jEJbmg>.
 
 ### Third Example: Vertical Centering of a Box with Unknown Height
 
-![centering](<images/flexbox-priklady-5.jpg>)
+![centering](images/flexbox-priklady-5.jpg)
 
 Have you struggled with this problem too? No more struggling, use flexbox. We
 will turn `<body>` into a flex container and using a new `vh` unit, we will
@@ -87,7 +87,7 @@ If you need to set an order of items in HTML one way and display it another way,
 flexbox will help you. Just remember the `order` property which is used to
 change the order of flex items.
 
-![order change](<images/flexbox-priklady-6.jpg>)
+![order change](images/flexbox-priklady-6.jpg)
 
 Let's define the HTML order: A) C) B). And let's assume we want to change that
 order on small screens and B) will be followed by C). Since the order property
@@ -125,7 +125,7 @@ This is the HTML:
 
 And we want it to look like this:
 
-![navigation](<images/flexbox-priklady-7.jpg>)
+![navigation](images/flexbox-priklady-7.jpg)
 
 Without flexbox, we can solve this by using `display: table`. However, there are
 certain disadvantages such as the need of adding a `display: table-row` element
@@ -147,7 +147,7 @@ However, if we add another "exceptionally" long item, it will take up a lot of
 space. This is due to relative distribution of extra space when using
 `flex-basis: auto`, which is hidden in every `flex: auto` shorthand.
 
-![navigation with an extra item](<images/flexbox-priklady-8.jpg>)
+![navigation with an extra item](images/flexbox-priklady-8.jpg)
 
 We may need all items to be equally distributed, right? So we will change the
 flex model to absolute by setting `flex-basis: 0`.
@@ -157,7 +157,7 @@ space based on its own width. On the other hand, when using a relative model,
 the flex item will take up the remaining space based on the space that is left
 between the content and the total with of a parent container.
 
-![navigation with an extra item](<images/flexbox-priklady-9.jpg>)
+![navigation with an extra item](images/flexbox-priklady-9.jpg)
 
 This makes us happy, right? You can try a live example at
 <http://cdpn.io/e/NPevjg>.

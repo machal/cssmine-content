@@ -37,7 +37,7 @@ In this example, an animation called `my_blink_animation` will last for one
 second and will iterate an infinite (`infinite`) number of times.
 
 You can try the example at
-[cdnp.io/e/pKodf](<http://codepen.io/machal/pen/pKodf>). And just for the
+[cdnp.io/e/pKodf](http://codepen.io/machal/pen/pKodf). And just for the
 record: try it but avoid using it in practice! :-)
 
 Second: Multiple Animations
@@ -63,7 +63,7 @@ First, let's define both animations:
 }
 ```
 
-If you have already read about [transformations](<css3-transforms.md>), you know
+If you have already read about [transformations](css3-transforms.md), you know
 that a `rotate` animation will rotate an element by 45 degrees to the right and
 a `pulse` animation will scale it by 20 %. Notice that you do not have to
 declare the initial state (`from` or `0%`). CSS declarations that the element
@@ -84,4 +84,4 @@ previous one.
 ```
 
 You can try an example at
-[cdpn.io/e/xipAj](<http://codepen.io/machal/pen/xipAj>).
+[cdpn.io/e/xipAj](http://codepen.io/machal/pen/xipAj).

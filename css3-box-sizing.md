@@ -16,7 +16,7 @@ box-sizing: content-box | border-box | padding-box;
 ```
 
 Do you remember the [traditional
-box-model](<http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug>) value
+box-model](http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug) value
 that IE6 and older versions used to handle the sizing of elements?
 
 ```css
@@ -82,7 +82,7 @@ it would be a good idea to calculate the width of the navigation items using the
 }
 ```
 
-See a live example at [cdpn.io/e/FeLkJ](<http://cdpn.io/e/FeLkJ>).
+See a live example at [cdpn.io/e/FeLkJ](http://cdpn.io/e/FeLkJ).
 
 ### Changing the Size of Form Fields
 
@@ -93,14 +93,14 @@ the fields are handled using the `content-box` property, some using the
 make sure that all form elements in your design have the same height, just
 declare `box-sizing: border-box` before you even start to think about styling
 them. A live example of form fields can be found at
-[cdpn.io/e/iBquK](<http://cdpn.io/e/iBquK>).
+[cdpn.io/e/iBquK](http://cdpn.io/e/iBquK).
 
 Browser Support
 ---------------
 
 IE7+ and all modern browsers. If you previously did not know about this
 property, you will be surprised how well it is supported:
-[caniuse.com/box-sizing](<http://caniuse.com/box-sizing>).
+[caniuse.com/box-sizing](http://caniuse.com/box-sizing).
 
 On the other hand, it is good to know that the not-so-common `padding-box`
 property is supported by Firefox only.

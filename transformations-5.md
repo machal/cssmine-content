@@ -11,7 +11,7 @@ Interface Images: Icons, Logotypes, Enhancements
 ------------------------------------------------
 
 The only sustainable approach is to use vector graphics. [Font
-icons](<https://css-tricks.com/examples/IconFont/>) are a good but temporary
+icons](https://css-tricks.com/examples/IconFont/) are a good but temporary
 solution. The SVG vector format, on the other hand, offers much more interesting
 options.
 

@@ -79,4 +79,4 @@ To ensure the lowest specificity possible, avoid using:
     `.button-primary`)
 
 Find more on CSS specificity at
-[specificity.keegan.st](<http://specificity.keegan.st/>).
+[specificity.keegan.st](http://specificity.keegan.st/).

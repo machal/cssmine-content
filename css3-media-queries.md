@@ -57,7 +57,7 @@ not hard to tell what they will look like:
 ```
 
 You can try a live example of Media Queries here:
-[cdpn.io/e/aCBAr](<http://cdpn.io/e/aCBAr>).
+[cdpn.io/e/aCBAr](http://cdpn.io/e/aCBAr).
 
 ### Logical Operators
 
@@ -109,7 +109,7 @@ possible.
 ```
 
 So these were the most common types of queries, however, there are [a lot
-more](<http://www.opera.com/docs/specs/presto26/css/mediaqueries/>) of them.
+more](http://www.opera.com/docs/specs/presto26/css/mediaqueries/) of them.
 
 Browser Support
 ---------------
@@ -122,7 +122,7 @@ place. So if you got scared already, pull yourself together and move on.
 Below are three strategies on how to deal with the fact that IE8 does not
 support Media Queries.
 
-1.  Use a [Respond.js](<https://github.com/scottjehl/Respond>) polyfill. It is
+1.  Use a [Respond.js](https://github.com/scottjehl/Respond) polyfill. It is
     well tested and fast enough. Plus it is used by a very popular framework -
     Bootstrap.
 2.  Declare CSS so IE 8's shortcomings are not a problem. Declare CSS for

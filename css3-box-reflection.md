@@ -36,7 +36,7 @@ standard CSS units – `px`, `em` and others.
 ### Mask
 
 A mask defines the reflection overlay effect. A [CSS
-gradient](<css3-gradients.md>) is a commonly used tool for achieving the mirror
+gradient](css3-gradients.md) is a commonly used tool for achieving the mirror
 effect, however it can also be done using an image. The black area of a mask is
 visible, the transparent one is hidden.
 
@@ -44,18 +44,18 @@ visible, the transparent one is hidden.
 -webkit-box-reflect: below 5px linear-gradient(to bottom, transparent, black);
 ```
 
-Take a look at a live example at [cdpn.io/e/CLEhF](<http://cdpn.io/e/CLEhF>).
+Take a look at a live example at [cdpn.io/e/CLEhF](http://cdpn.io/e/CLEhF).
 
 Browser Support
 ---------------
 
 This is supported just by Webkit browsers. Nowdays, it works in all versions of
 Safari and even in Android Browser. It works even in Chrome which has its own
-Blink core. See [caniuse.com/box-reflect](<http://caniuse.com/box-reflect>)
+Blink core. See [caniuse.com/box-reflect](http://caniuse.com/box-reflect)
 
 In Firefox, we can achieve a reflection effect by using the `-moz-element()`
 property. See
-[lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/](<http://lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/>)
+[lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/](http://lea.verou.me/2011/06/css-reflections-for-firefox-with-moz-element-and-svg-masks/)
 
 This property is therefore not reliable when dealing with a big target group,
 however, it might come in handy for internal apps with a limited target

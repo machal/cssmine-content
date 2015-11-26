@@ -43,7 +43,7 @@ IE9+
 
 -   `:nth-child(n)`, `:nth-last-child(n)` – targets an n-th child from the start
     or end. You can master this crazy (yet very useful) selector using this
-    online tool: [NthMaster](<http://nthmaster.com/>).
+    online tool: [NthMaster](http://nthmaster.com/).
 
 -   `:first-of-type`, `:last-of-type`, `:only-of-type` – targets the first, last
     or one of a type element.

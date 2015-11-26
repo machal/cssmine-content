@@ -50,24 +50,24 @@ border-bottom-right-radius: 4em;
 border-bottom-left-radius: 4em;
 ```
 
-See a live border-radius example at [cdpn.io/e/EljFa](<http://cdpn.io/e/EljFa>).
+See a live border-radius example at [cdpn.io/e/EljFa](http://cdpn.io/e/EljFa).
 
 Tips and Tricks
 ---------------
 
 How to create **rounded avatars** using `border-radius`? See
-[trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/](<http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/>)
+[trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/](http://trentwalton.com/2010/08/03/css3-border-radius-rounded-avatars/)
 
 How to tackle **tables with rounded corners**? When dealing with tables that
 have the `border-collapse: collapse` property or a parent element with an image
 in it, it is necessary to apply `overflow: hidden`. See more at
-[cdpn.io/e/jpdFm](<http://cdpn.io/e/jpdFm>)
+[cdpn.io/e/jpdFm](http://cdpn.io/e/jpdFm)
 
 Browser Support
 ---------------
 
 There is absolutely no problem in modern browsers. If you need rounded corners
-in IE8, just use [css3pie.com](<http://css3pie.com/>) but watch out - it is
+in IE8, just use [css3pie.com](http://css3pie.com/) but watch out - it is
 going to slow your web site down.
 
 Therefore, I strongly recommend a zero fallback strategy. As a result, users
@@ -76,7 +76,7 @@ doesn't see, the heart doesn't grieve over.
 
 If the background color leaks outside of a rounded corner in some browsers, just
 add `background-clip: padding-box`. See
-[tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed](<http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed>)
+[tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed](http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed)
 
 MSIE9 supports `border-radius`, however it is not possible to combine it with
 the `filter` property that is widely used for color transitions. It can be

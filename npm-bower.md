@@ -43,7 +43,7 @@ know that web libraries such as jQuery can be installed using npm too.
 Npm uses a `package.json` config file and installs everything into a
 `node_modules` directory.
 
-See more at [npmjs.org](<http://npmjs.org>).
+See more at [npmjs.org](http://npmjs.org).
 
 Bower
 -----
@@ -59,7 +59,7 @@ such as Bootstrap.
 Bower uses a `bower.json` config file and installs everything into a
 `bower_components` directory.
 
-See more at [bower.io](<http://bower.io>).
+See more at [bower.io](http://bower.io).
 
 A Few Useful Commands
 ---------------------

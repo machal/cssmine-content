@@ -12,4 +12,4 @@ for building distribution versions of the code as well.
 We will be dealing with npm, Bower, Grunt or Gulp. It is good to know that all
 these tools come from the world of Node.js.
 
--   [nodejs.org](<https://nodejs.org/>)
+-   [nodejs.org](https://nodejs.org/)

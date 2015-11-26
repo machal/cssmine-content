@@ -33,7 +33,7 @@ with the globe icon, labeled "Internet".
 Unlike its "older cousin", the mobile Chrome will have an automatic update on
 some devices. Not to mention that it is much better at supporting CSS3 and other
 HTML5 technologies. See
-[html5test.com](<https://html5test.com/results/mobile.html>).
+[html5test.com](https://html5test.com/results/mobile.html).
 
 Chrome comes in an iOS version as well, however it is a kind of pseudo-Chrome.
 

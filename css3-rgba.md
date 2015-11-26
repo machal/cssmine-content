@@ -9,8 +9,8 @@ rgba(_red_, _green_, _blue_, _transparency_);
 ```
 
 Semi-transparent RGBa colors can be applied anywhere in CSS where a color is
-commonly used. Just to mention a few: borders, [shadows](<css3-box-shadow.md>)
-or [gradients](<css3-gradients.md>).
+commonly used. Just to mention a few: borders, [shadows](css3-box-shadow.md)
+or [gradients](css3-gradients.md).
 
 A Comparison With `opacity`
 ---------------------------
@@ -21,7 +21,7 @@ RGBa is a color that can be applied to any element without influencing the rest
 of it (e.g. its children). In other words, you can use it for background color
 like this: `background: rgba(20%, 100%, 20%, .5)`.
 
-Take a look at [cdpn.io/e/HrBsD](<http://cdpn.io/e/HrBsD>).
+Take a look at [cdpn.io/e/HrBsD](http://cdpn.io/e/HrBsD).
 
 Browser Support
 ---------------
@@ -40,4 +40,4 @@ transparency. IE8 will render it as a dark shade of red. A fallback color must
 be defined with respect to the background color which is black in this case.
 
 You can alternatively use
-[CSS3Pie](<http://css3pie.com/documentation/supported-css3-features/>).
+[CSS3Pie](http://css3pie.com/documentation/supported-css3-features/).

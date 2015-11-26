@@ -24,4 +24,4 @@ In this e-book, we will take a look at typography from the technical point of
 view – we will deal with the `@font-face` CSS3 property. However, bear in mind
 that typography is also extremely interesting from the graphical point of view.
 If you want to dig into this topic, I suggest you start with
-[webtypography.net](<http://webtypography.net/>).
+[webtypography.net](http://webtypography.net/).

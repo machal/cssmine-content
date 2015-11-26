@@ -10,7 +10,7 @@ There are two things to be cautious with if you are a web font newbie:
     are using is rendered nicely in the given size in Windows XP (mainly in
     alternative browsers) and older versions of Android. To learn more about
     this problem, go to
-    [blog.typekit.com/2010/10/15/type-rendering-operating-systems/](<http://blog.typekit.com/2010/10/15/type-rendering-operating-systems/>)
+    [blog.typekit.com/2010/10/15/type-rendering-operating-systems/](http://blog.typekit.com/2010/10/15/type-rendering-operating-systems/)
 
 Learn Typography
 ----------------
@@ -21,14 +21,14 @@ suitable for every website, as well as not all font pairs work together.
 
 If you are looking for study recourses, I recommend these:
 
--   [webtypography.net](<http://webtypography.net/>) – it is an older web site,
+-   [webtypography.net](http://webtypography.net/) – it is an older web site,
     but still a valid guide to type, typesetting and font composition on a web
     site, written by Robert Bringhurst.
 
 -   On Web Typography - it is an impeccable book by Jason Santa Maria,
     especially if you want to understand this topic in the broader context. See
     more at
-    [abookapart.com/products/on-web-typography](<http://abookapart.com/products/on-web-typography>)
+    [abookapart.com/products/on-web-typography](http://abookapart.com/products/on-web-typography)
 
 Where To Look For Fonts?
 ------------------------
@@ -41,23 +41,23 @@ they will charge you for their services but you will avoid a lot of problems.
 
 Visiting typographers' web sites directly is not a bad choice either. Even here,
 in the Czech Republic, we have several good typographers. For example – Tomas
-Brousil ([suitcasetype.com](<http://suitcasetype.com>)) or Frantisek Storm
-([stormtype.com](<http://stormtype.com>)).
+Brousil ([suitcasetype.com](http://suitcasetype.com)) or Frantisek Storm
+([stormtype.com](http://stormtype.com)).
 
 ### Good Alternatives: Google Fonts, Fontsquirrel, etc.
 
 **Google Fonts** is a good service offering a large number of font families for
 free. However, not all of them are good and not all of the support languages
 with special characters. For more information go to
-[google.com/fonts](<http://www.google.com/fonts/>)
+[google.com/fonts](http://www.google.com/fonts/)
 
 **Fontsquirrel** not only have their own database of fonts with similar
 advantages and disadvantages like Google does but a well-known font generator
 that will make a web font out of your OTF format or any other non-web formats.
 
--   [fontsquirrel.com](<http://www.fontsquirrel.com/>)
+-   [fontsquirrel.com](http://www.fontsquirrel.com/)
 
--   [fontsquirrel.com/tools/webfont-generator](<http://www.fontsquirrel.com/tools/webfont-generator>)
+-   [fontsquirrel.com/tools/webfont-generator](http://www.fontsquirrel.com/tools/webfont-generator)
 
 ### Beware of Free Fonts
 

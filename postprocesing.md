@@ -45,7 +45,7 @@ autoprefixer: {
 ```
 
 See more at
-[github.com/postcss/autoprefixer](<https://github.com/postcss/autoprefixer>).
+[github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer).
 
 Pixrem
 ------
@@ -64,7 +64,7 @@ thus adding fallbacks to your CSS code:
 ```
 
 See more at
-[github.com/robwierzbowski/grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>).
+[github.com/robwierzbowski/grunt-pixrem](https://github.com/robwierzbowski/grunt-pixrem).
 
 Legaccsy
 --------
@@ -74,7 +74,7 @@ without Media Queries that are not recognized by older browsers. This is a true
 life saver for IE8 or IE9.
 
 See ore at
-[github.com/robinpokorny/grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>).
+[github.com/robinpokorny/grunt-legacssy](https://github.com/robinpokorny/grunt-legacssy).
 
 Postcss
 -------
@@ -113,4 +113,4 @@ Postcss has a wonderful slogan:
 
 >   Use tomorrow’s CSS syntax, today.
 
-See more at [cssnext.io](<http://cssnext.io/>).
+See more at [cssnext.io](http://cssnext.io/).

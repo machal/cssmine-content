@@ -49,7 +49,7 @@ If the `auto` value is applied, the width is calculated from the slice size.
 
 The value of the `border-image-outset` property defines how far the image border
 extends past the element. It is calculated as if the element had a [box-sizing:
-border-box](<css3-box-sizing.md>) property.
+border-box](css3-box-sizing.md) property.
 
 ### Repeating
 
@@ -75,7 +75,7 @@ border-image-repeat: stretch repeat;
 Useful Tips
 -----------
 
-[border-image.com](<http://border-image.com/>) - a very nice generator which
+[border-image.com](http://border-image.com/) - a very nice generator which
 will make your life easier especially when looking for size of the slices.
 
 -   Attention! According to the latest specification, the `border-image`
@@ -92,7 +92,7 @@ detection using Modernizr: `.no-borderimage .box { … }`. Or simply by using a
 A Simple Example with a Color Gradient
 --------------------------------------
 
-[CSS gradients](<css3-gradients.md>) count as images, therefore you can use a
+[CSS gradients](css3-gradients.md) count as images, therefore you can use a
 color gradient as a border.
 
 But remember that you always have to define a native image border. First for
@@ -122,7 +122,7 @@ border-image-slice: 20;
 ```
 
 And that's it. You can try an example at
-[codepen.io/machal/pen/zdyIJ](<http://codepen.io/machal/pen/zdyIJ>).
+[codepen.io/machal/pen/zdyIJ](http://codepen.io/machal/pen/zdyIJ).
 
 An Example with a Bitmap Image as a Background
 ----------------------------------------------
@@ -162,4 +162,4 @@ border-image: url(border-image-source.png) 21 23 repeat;
 ```
 
 Done. You can try an example at
-[codepen.io/machal/pen/DLkjm](<http://codepen.io/machal/pen/DLkjm>).
+[codepen.io/machal/pen/DLkjm](http://codepen.io/machal/pen/DLkjm).

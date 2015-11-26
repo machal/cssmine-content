@@ -130,8 +130,8 @@ property:
 
 Preprocessors have plenty of additional features. Let's take a look at them:
 
--   [lesscss.org/features/](<http://lesscss.org/features/>)
--   [sass-lang.com/guide](<http://sass-lang.com/guide>)
+-   [lesscss.org/features/](http://lesscss.org/features/)
+-   [sass-lang.com/guide](http://sass-lang.com/guide)
 
 However, every complex feature makes the code a little less comprehensive. Out
 of my experience, I tend to make simpler code and use the most important

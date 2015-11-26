@@ -65,7 +65,7 @@ Take a look at a simplified example:
 ```
 
 See more at
-[css-snippets.com/web-fonts-faux-bold-and-italic/](<http://css-snippets.com/web-fonts-faux-bold-and-italic/>).
+[css-snippets.com/web-fonts-faux-bold-and-italic/](http://css-snippets.com/web-fonts-faux-bold-and-italic/).
 
 Cross-origin Web Font in Internet Explorer
 ------------------------------------------
@@ -92,7 +92,7 @@ located:
 
 If you do not use an Apache server, you will have to take a look in
 `server-configs` repositories - see
-[github.com/h5bp](<https://github.com/h5bp>).
+[github.com/h5bp](https://github.com/h5bp).
 
 Font Icons
 ----------
@@ -105,8 +105,8 @@ you to use one icon for all sizes of the parent element and all high-resolution
 displays.
 
 The IcoMoon app will generate fonts with custom icons - see
-[icomoon.io](<http://icomoon.io>).
+[icomoon.io](http://icomoon.io).
 
 However, before looking into font icons, consider using the SVG vector format –
 see
-[css-tricks.com/icon-fonts-vs-svg/](<http://css-tricks.com/icon-fonts-vs-svg/>).
+[css-tricks.com/icon-fonts-vs-svg/](http://css-tricks.com/icon-fonts-vs-svg/).

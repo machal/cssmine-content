@@ -18,9 +18,9 @@ alternative browsers and provide you with remote access.
 It will cost you an insignificant amount of money and compared to the time spent
 on maintenance of Android emulators and VirtualBox, it is a bargain.
 
--   [browserstack.com](<http://browserstack.com>)
+-   [browserstack.com](http://browserstack.com)
 
--   Alternative: [crossbrowsertesting.com](<http://crossbrowsertesting.com>)
+-   Alternative: [crossbrowsertesting.com](http://crossbrowsertesting.com)
 
 How To Test Responsive Websites?
 --------------------------------
