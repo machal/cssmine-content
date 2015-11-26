@@ -1,5 +1,5 @@
-Browser Support
----------------
+Flexbox Browser Support
+=======================
 
 The browser support is not bad. At the time of writing, the support was 92–95 %
 and when using reasonable fallbacks for older browsers, there so no reason for

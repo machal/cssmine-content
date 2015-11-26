@@ -1,5 +1,5 @@
 Interesting Links to Flexbox
-----------------------------
+============================
 
 -   **A Complete Guide to Flexbox**  
     A visual reference guide by Chris Coyier:

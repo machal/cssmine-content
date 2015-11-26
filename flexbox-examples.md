@@ -1,9 +1,5 @@
-This knowledge will do for now. Now, let's dig into the problem a little deeper
-and make several practical examples. I have chosen them carefully so you can use
-them in your next project.
-
 Flexbox – Practical Examples
-----------------------------
+============================
 
 ### First Example: Flexibility Basics
 
