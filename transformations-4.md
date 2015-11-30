@@ -16,7 +16,7 @@ For the ratio between hardware and CSS resolution, we use a technical term
 `device-pixel-ratio` or a newer one: `resolution`. The latter one might be a
 little confusing so for the sake of clarity, we will use the first term.
 
-![HW to CSS resolution ratio of selected devices](images/hw-css-pixely-tabulka.jpg)
+![HW to CSS resolution ratio of selected devices](dist/images/original/hw-css-pixely-tabulka.jpg)
 
 So what impact will the `device-pixel-ratio` have on UI designers? Let's find
 out!

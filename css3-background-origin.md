@@ -7,9 +7,7 @@ positions of other properties such as
 particular element:
 
 -   `content-box` – starts from the element content
-
 -   `padding-box` (default) – starts from the element padding edge
-
 -   `border-box` – starts from the element padding edge but counts with the
     element `border` as well
 

@@ -1,7 +1,7 @@
 Responsive Web Design = Web Design
 ==================================
 
-![Responsive design = web design.](images/prokop-webdesign.jpg)
+![Responsive design = web design.](dist/images/original/prokop-webdesign.jpg)
 
 You can face the advent of mobile phone by creating a special mobile web site -
 the "m dot" version with separate style templates. However, many of us have

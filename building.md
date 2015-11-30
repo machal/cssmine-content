@@ -25,7 +25,7 @@ This is a representative of simplified building tools. I usually recommend to
 start with it as it is supported by all platforms and it has a point-and-click
 user interfaces.
 
-![Prepros](images/prepros.jpg)
+![Prepros](dist/images/original/prepros.jpg)
 
 Apart from all basic CSS, Javascript and image tasks it also has an FTP
 deployment feature and synchronized website testing tool for multiple devices.

@@ -155,7 +155,7 @@ However, I think you are more likely to use pre-defined "intelligent" values:
     `flex: 1 1 0` so the default size of the item and flex model will be
     changed. I have already mentioned it in the `flex-basis` property section.
 
-![flex property](images/flexbox-reference-flex.jpg)
+![flex property](dist/images/original/flexbox-reference-flex.jpg)
 
 It is also good to know that flex items will never shrink below their minimum
 content size. This size is defined by the length of the longest word or
@@ -214,7 +214,7 @@ Let's apply the `justify-content` property to the flex container, saying how
 flex items will be aligned along the main axis. The default value is
 `flex-start`, aligning the items to the start of the main axis.
 
-![justify-content](images/flexbox-justify-content.jpg)
+![justify-content](dist/images/original/flexbox-justify-content.jpg)
 
 #### `align-items` – Aligning Cross Axis Items Within a Container
 
@@ -226,7 +226,7 @@ The `align-items` property can also be applied to the flex container. The
 default value is `stretch` which stretches the item to the full width of the
 cross axis.
 
-![align-items](images/flexbox-align-items.jpg)
+![align-items](dist/images/original/flexbox-align-items.jpg)
 
 Be careful! The `stretch` value will not work if the items' size of the cross
 axis is defined. In other words, if `height` is set, it will not work.
@@ -258,6 +258,6 @@ align-content: stretch, flex-start, flex-end, center, space-between, space-aroun
 And here is another alignment property. This time it applies only to flex
 containers whose items are wrapped onto multiple lines.
 
-![align-content.jpg](images/flexbox-align-content.jpg)
+![align-content.jpg](dist/images/original/flexbox-align-content.jpg)
 
 So, is that clear now? Ok, now let's move to browser support.

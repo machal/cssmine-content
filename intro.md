@@ -46,7 +46,7 @@ life of a coder.
 The Author
 ----------
 
-![Martin Michalek](images/autor.jpg)
+![Martin Michalek](dist/images/original/autor.jpg)
 
 Martin Michalek is a freelance front-end designer who writes about CSS3 and
 holds lectures – [www.cssmine.com/martin](http://www.cssmine.com/martin).
