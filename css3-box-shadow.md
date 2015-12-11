@@ -111,7 +111,8 @@ In IE8, a box shadow can be rendered using the `filter` proprietary property.
 Example:
 
 ```css
-filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc', Direction=145, Strength=3);
+filter: progid:DXImageTransform.Microsoft.Shadow(color='#cccccc',
+  Direction=145, Strength=3);
 ```
 
 However, not all types of shadows can be substituted like this.

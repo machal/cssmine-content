@@ -25,7 +25,7 @@ Set all sizes of a document using the `rem` unit. If you set all H1 headings to
 
 ```css
 h1 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 ```
 
@@ -34,9 +34,9 @@ viewport is 801 pixels or wider,…
 
 ```css
 @media (min-width: 801px) {
-    html {
-        font-size: 25px;
-    }
+  html {
+    font-size: 25px;
+  }
 }
 ```
 
@@ -83,7 +83,7 @@ full height of the browser window:
 
 ```css
 .container {
-    width: 100vw;
+  width: 100vw;
 }
 ```
 

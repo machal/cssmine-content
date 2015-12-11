@@ -49,7 +49,8 @@ background to the full width and one half of the height of an element would look
 like this:
 
 ```css
-background: linear-gradient(to bottom, transparent, black) no-repeat bottom;
+background: linear-gradient(to bottom, transparent, black)
+  no-repeat bottom;
 background-size: 100% 50%;
 ```
 
@@ -94,10 +95,9 @@ same aspect ratio and if it is the same size or larger than the parent element:
 
 ```css
 .element {
-    background-size: contain;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
-        src='images/image.jpg',
-        sizingMethod='scale');
+  background-size: contain;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+    src='images/image.jpg', sizingMethod='scale');
 }
 ```
 

@@ -17,7 +17,7 @@ You can insert media queries directly into a CSS file:
 
 ```css
 @media (_conditions_) {
-    /* css code which will apply if _conditions_ are met */
+  /* css code which will apply if _conditions_ are met */
 }
 ```
 
@@ -34,9 +34,9 @@ A typical media query looks like this:
 
 ```css
 @media (max-width: 480px) {
-    .container {
-        width: auto
-    }
+  .container {
+      width: auto
+  }
 }
 ```
 
@@ -83,10 +83,10 @@ The `not` operator is used to negate the result.
 
 ```css
 @media
-    (-webkit-min-device-pixel-ratio: 1.5),
-    (min-resolution: 144dpi) {
-        background-image: url(image_hd.png);
-    }
+  (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi) {
+    background-image: url(image_hd.png);
+  }
 ```
 
 If the device-pixel-ratio is 1.5 or greater, the `image_hd.png` will be loaded.

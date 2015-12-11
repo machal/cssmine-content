@@ -20,20 +20,20 @@ can call it anywhere and adjust it to your needs.
 
 ```css
 @keyframes _animation_name_ {
-    _duration_ { _property_declaration_ }
-    _duration_ { _property_declaration_ }
+  _duration_ { _property_declaration_ }
+  _duration_ { _property_declaration_ }
 }
 
 #example {
-    animation:
-        _animation_name_
-        _animation_duration_
-        _animation_timing_function
-        _animation_delay_
-        _animation_iteration_count_
-        _animation_direction_
-        _animation_fill_mode_
-        (,_additional_animations_);
+  animation:
+    _animation_name_
+    _animation_duration_
+    _animation_timing_function
+    _animation_delay_
+    _animation_iteration_count_
+    _animation_direction_
+    _animation_fill_mode_
+    (,_additional_animations_);
 }
 ```
 

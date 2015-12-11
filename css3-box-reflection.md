@@ -9,10 +9,10 @@ Syntax
 The syntax is based on the Webkit core:
 
 ```css
--webkit-box-reflect: 
-    _reflection_direction 
-    _offset_ 
-    _mask_;
+-webkit-box-reflect:
+  _reflection_direction
+  _offset_
+  _mask_;
 ```
 
 ### Direction of the Reflection
@@ -41,7 +41,8 @@ effect, however it can also be done using an image. The black area of a mask is
 visible, the transparent one is hidden.
 
 ```css
--webkit-box-reflect: below 5px linear-gradient(to bottom, transparent, black);
+-webkit-box-reflect:
+  below 5px linear-gradient(to bottom, transparent, black);
 ```
 
 Take a look at a live example at [cdpn.io/e/CLEhF](http://cdpn.io/e/CLEhF).

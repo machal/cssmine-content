@@ -19,8 +19,10 @@ Do you remember the [traditional
 box-model](http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug) value
 that IE6 and older versions used to handle the sizing of elements?
 
-```css
-The width or height of an element = actual visible width or height of the content + padding + border.
+```
+The width or height of an element =
+actual visible width or height of the content
++ padding + border.
 ```
 
 Are you getting it? This is `border-box` **box-model**.
@@ -28,8 +30,9 @@ Are you getting it? This is `border-box` **box-model**.
 In contrast, all other modern browsers use the `content-box` value **or the „W3C
 box-model“**. And you know the drill:
 
-```css
-The width or height of an element = actual visible width or height of the content
+```
+The width or height of an element =
+actual visible width or height of the content
 ```
 
 This is the initial value of the `box-sizing` property which we can – thankfully
@@ -62,9 +65,9 @@ using a fixed with border:
 
 ```css
 .nav li {
-    width: 20%;
-    display: inline-block;
-    border-left: .25em solid #fff;
+  width: 20%;
+  display: inline-block;
+  border-left: .25em solid #fff;
 }
 ```
 
@@ -75,10 +78,10 @@ it would be a good idea to calculate the width of the navigation items using the
 
 ```css
 .nav li {
-    box-sizing: border-box;
-    width: 20%;
-    display: inline-block;
-    border-left: .25em solid #fff;
+  box-sizing: border-box;
+  width: 20%;
+  display: inline-block;
+  border-left: .25em solid #fff;
 }
 ```
 

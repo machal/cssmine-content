@@ -26,7 +26,7 @@ this…
 … and then you apply it in HTML like this…
 
 ```css
-<p>Grumpy wizards make toxic brew for 
+<p>Grumpy wizards make toxic brew for
 the <b>evil</b> Queen and <i>Jack</i>.</p>
 ```
 
@@ -76,7 +76,8 @@ versions of Chrome and Firefox as well. You can see this problem in the console
 of your browser:
 
 ```
-CSS3117: @font-face failed cross-origin request. Resource access is restricted.
+CSS3117: @font-face failed cross-origin request.
+Resource access is restricted.
 ```
 
 The solution is to set your `.htaccess` at a domain where your font files are

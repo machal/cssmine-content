@@ -111,8 +111,8 @@ property. You just need to add an `at` key word:
 
 ```css
 .box-3 {
-    background:
-      radial-gradient(at top left, lightgreen, darkgreen);
+  background:
+    radial-gradient(at top left, lightgreen, darkgreen);
 }
 ```
 
@@ -144,9 +144,9 @@ hits the last color-stop but it will repeat the defined gradient instead.
 
 ```css
 .repeating-linear {
-    background:
-      repeating-linear-gradient(to bottom right,
-        transparent, transparent 10%, green 10%, green 20%);
+  background:
+    repeating-linear-gradient(to bottom right,
+      transparent, transparent 10%, green 10%, green 20%);
 }
 ```
 
@@ -161,9 +161,9 @@ Now, let's try a repeating radial gradient:
 
 ```css
 .repeating-radial {
-    background:
-      repeating-radial-gradient(transparent, transparent 10%,
-        green 10%, green 20%);
+  background:
+    repeating-radial-gradient(transparent,
+      transparent 10%, green 10%, green 20%);
 }
 ```
 
@@ -225,7 +225,8 @@ Internet Explorers by using the proprietary filter property:
 ```css
 -ms-filter:
   "progid:DXImageTransform.Microsoft.gradient(
-    GradientType=0, startColorstr=#00ff00, endColorstr=#008800)";
+    GradientType=0, startColorstr=#00ff00,
+    endColorstr=#008800)";
 ```
 
 In the `GradientType` parameter you can set a vertical (`0`) or horizontal (`1`)

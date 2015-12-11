@@ -11,9 +11,9 @@ First, define the progress of the animation using `@keyframes`:
 
 ```css
 @keyframes my_blink_animation {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 ```
 
@@ -29,7 +29,7 @@ using alternative ways for that matter:
 .example:hover,
 .example:focus,
 .example:active {
-    animation: my_blink_animation 1s infinite;
+  animation: my_blink_animation 1s infinite;
 }
 ```
 
@@ -51,15 +51,15 @@ First, let's define both animations:
 
 ```css
 @keyframes rotate {
-    to {
-        transform: rotate(45deg);
-    }
-}   
+  to {
+    transform: rotate(45deg);
+  }
+}
 
 @keyframes pulse {
-    to {
-        transform: scale(1.2);  
-    }       
+  to {
+    transform: scale(1.2);
+  }
 }
 ```
 
@@ -77,9 +77,9 @@ previous one.
 .element:hover,
 .element:focus,
 .element:active {
-    animation: 
-        rotate 250ms, 
-        pulse 500ms 1s infinite;
+  animation:
+    rotate 250ms,
+    pulse 500ms 1s infinite;
 }
 ```
 

@@ -108,7 +108,8 @@ And now, we will tell the browser that instead of a green color, we we will use
 a color gradient:
 
 ```css
-border-image-source: linear-gradient(lightgreen, darkgreen);
+border-image-source:
+  linear-gradient(lightgreen, darkgreen);
 ```
 
 To our surprise, the browser will render the gradient in the corners of the
@@ -158,7 +159,8 @@ border-image-repeat: repeat;
 Now, let's try a shorthand notation of the last three declarations:
 
 ```css
-border-image: url(border-image-source.png) 21 23 repeat;
+border-image:
+  url(border-image-source.png) 21 23 repeat;
 ```
 
 Done. You can try an example at
