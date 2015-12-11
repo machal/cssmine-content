@@ -46,8 +46,10 @@ the chapters:
 
 ```css
 .element {
-  font-size: 16px; /* Dinosaur browsers */
-  font-size: 1rem; /* Modern browsers */
+  /* Dinosaur browsers */
+  font-size: 16px;
+  /* Modern browsers */
+  font-size: 1rem;
 }
 ```
 
@@ -143,7 +145,7 @@ query the availability of a particular CSS property:
 }
 ```
 
-See more at <https://developer.mozilla.org/en-US/docs/Web/CSS/@supports>.
+See more at [developer.mozilla.org/en-US/docs/Web/CSS/@supports](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports).
 
 ### Empty Media Query
 
@@ -154,14 +156,14 @@ It is suitable if you want to declare layout for modern browsers only:
 
 ```css
 .component {
-  /* Basic rules for 
-typography and linear design */
+  /* Basic rules for
+  typography and linear design */
 }
 
 @media only screen {
   .component {
     /* Layout and other
-  non-trivial rules */
+    non-trivial rules */
   }
 }
 ```
