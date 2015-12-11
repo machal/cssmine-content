@@ -83,7 +83,7 @@ full height of the browser window:
 
 ```css
 .container {
-  width: 100vw;
+  width: 100vh;
 }
 ```
 
