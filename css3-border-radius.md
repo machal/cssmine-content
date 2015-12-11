@@ -8,11 +8,11 @@ Syntax
 
 ```css
 border-radius:
-    _top_right_radius_
-    _bottom_right_radius_
-    _bottom_left_radius_
-    _top_left_radius_
-    (/ _elliptical_variations_);
+  _top_left_radius_
+  _top_right_radius_
+  _bottom_right_radius_
+  _bottom_left_radius_
+  (/ _elliptical_variations_);
 ```
 
 Evenly rounded corners with a 10 pixel radius can be pulled off like this:
