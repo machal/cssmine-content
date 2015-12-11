@@ -67,13 +67,12 @@ Take a look at a simplified example:
 See more at
 [css-snippets.com/web-fonts-faux-bold-and-italic/](http://css-snippets.com/web-fonts-faux-bold-and-italic/).
 
-Cross-origin Web Font in Internet Explorer
-------------------------------------------
+Cross-origin Web Font
+---------------------
 
-Thanks to the "same origin policy", it is not permitted to load font files from
-another domain. This applies to all Internet Explorer versions and some older
-versions of Chrome and Firefox as well. You can see this problem in the console
-of your browser:
+Thanks to the "Same Origin Policy", it is not permitted to load font files from
+another domain. You can see this problem for example in the console
+of your Internet Explorer:
 
 ```
 CSS3117: @font-face failed cross-origin request.
@@ -94,6 +93,9 @@ located:
 If you do not use an Apache server, you will have to take a look in
 `server-configs` repositories - see
 [github.com/h5bp](https://github.com/h5bp).
+
+Worth mentioning that the loading from other domains slightly slows fonts displaying because
+of the extra DNS lookup.
 
 Font Icons
 ----------
