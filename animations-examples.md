@@ -69,7 +69,7 @@ a `pulse` animation will scale it by 20 %. Notice that you do not have to
 declare the initial state (`from` or `0%`). CSS declarations that the element
 already has will take effect when the animation is applied.
 
-The animation will be applied if a user takes action: first the `move` animation
+The animation will be applied if a user takes action: first the `rotate` animation
 will be executed, then the `pulse` animation with a 1 second delay from the
 previous one.
 
