@@ -77,7 +77,7 @@ self-clear (LESS):
 .clearfix() {
   &:before,
   &:after {
-    content: " "; 
+    content: " ";
     display: table;
   }
   &:after {
@@ -93,16 +93,14 @@ self-clear (LESS):
 This will be compiled into:
 
 ```css
-.el {
-  &:before,
-  &:after {
-    content: " "; 
-    display: table;
-  }
-  &:after {
-    clear: both;
-  }
-}   
+.el:before,
+.el:after {
+  content: " ";
+  display: table;
+}
+.el:after {
+  clear: both;
+}
 ```
 
 Mixins can also have parameters and that's where the fun starts!
