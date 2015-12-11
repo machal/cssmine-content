@@ -58,14 +58,18 @@ If you need to support all browsers, the code is a little more complicated:
     /* IE9 in compatibility mode: */
     src: url('webfont.eot');
     src:
-    /* IE6-IE8: */
-      url('webfont.eot?#iefix') format('embedded-opentype'),
-    /* All modern browsers: */
-      url('webfont.woff') format('woff'),
-    /* Older Safari, Android, iOS: */
-      url('webfont.ttf')  format('truetype'),
-    /* iOS 4.3 and lower */
-      url('webfont.svg') format('svg');
+      /* IE6-IE8: */
+      url('webfont.eot?#iefix')
+        format('embedded-opentype'),
+      /* All modern browsers: */
+      url('webfont.woff')
+        format('woff'),
+      /* Older Safari, Android, iOS: */
+      url('webfont.ttf')
+        format('truetype'),
+      /* iOS 4.3 and lower */
+      url('webfont.svg')
+        format('svg');
 }
 ```
 
