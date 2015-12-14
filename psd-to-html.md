@@ -11,10 +11,8 @@ to give you an example.
 
 A slightly different approach might be seen when using tools that add an export
 functionality to traditional graphic editors. A typical example of this is CSS
-Hat ([csshat.com](https://csshat.com/)). Another option is to use Sketch
-editor which is a direct competitor of Photoshop and contains lots of plugins
-with an export option
-([bohemiancoding.com/sketch](http://bohemiancoding.com/sketch/)).
+Hat ([csshat.com](https://csshat.com/)). Today's dominating design tools such
+as Adobe Photoshop or Bohemian Coding Sketch are doing export to CSS by themselves.
 
 And finally, there are tools which connect the world of graphic designers and
 coders. Let's mention Avocode ([avocode.com](http://avocode.com/)) or Brackets

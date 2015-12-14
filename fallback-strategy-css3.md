@@ -129,6 +129,8 @@ Or a multi-column layout:
 }
 ```
 
+"Detection" classes like `.no-svg` adds Modernizr, javascript library which we mention [in the chapter on tools](nastroje-atd.md). You can write your own detection javascript.
+
 ### Feature Queries
 
 Modernizr is currently *sort of* natively supported by W3C. This support comes
