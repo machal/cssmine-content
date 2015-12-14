@@ -105,7 +105,6 @@ illustrate this in a simple scheme:
 -   flex container – parent element
 -   flex item – all direct children of a flex container
 -   main axis – horizontal is default but it can be changed
--   cross axis – perpendicular to the main-axis, so it is similar to the main
-    axis when default
+-   cross axis – perpendicular to the main-axis, vertical is default
 -   main size – width is default but is dependent on the main axis setting
 -   cross size – width is default
