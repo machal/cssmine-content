@@ -16,16 +16,11 @@ What Does Bootstrap Offer?
 --------------------------
 
 -   Basic document styles
-
 -   Fully responsive grid for creating layout
-
 -   Advanced styling of basic web site components: forms, buttons, tables...
-
 -   UI components such as navigation tabs, accordions, modal windows…
-
 -   jQuery plugins to support the functionality of the above-mentioned UI
     components
-
 -   The ability to change the look and behavior of components using LESS
     variables
 

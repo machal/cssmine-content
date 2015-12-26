@@ -4,7 +4,7 @@ A Dinosaur-resistant CSS3 Technical Solution
 There are five available strategies: zero or defined fallback, feature detection
 or polyfills, and a special category of a so called generated fallback.
 
-1. Zero Fallback
+1) Zero Fallback
 ----------------
 
 Number of fallback characters: zero... You simply do not write any alternative
@@ -37,7 +37,7 @@ Therefore, the zero fallback presents a solution for getting away with
 animations, rounded corners, shadows, custom fonts and many other CSS3
 properties in older browsers.
 
-2. Defined Fallback
+2) Defined Fallback
 -------------------
 
 This is a fallback that takes advantage of the fact that a browser applies the
@@ -69,7 +69,7 @@ with prefixed variants of CSS properties:
 }
 ```
 
-3. Detecting CSS Properties Support
+3) Detecting CSS Properties Support
 -----------------------------------
 
 Unfortunately, it is not possible to use a natural fallback for some properties.
@@ -176,7 +176,7 @@ Let's remember this motto:
     not following the graphic design to the letter.
 -   Linear display is better than a broken site layout.
 
-4. Polyfills
+4) Polyfills
 ------------
 
 These are Javascript libraries simulating the support of new features in
@@ -191,7 +191,7 @@ However, apart from a proven
 CSS3 polyfills. They usually deteriorate performance of the web site and the
 visual part is dependent on Javascript.
 
-5. Generated Fallback
+5) Generated Fallback
 ---------------------
 
 We have already mentioned cssnext and post processing but since we are dealing

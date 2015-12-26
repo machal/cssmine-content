@@ -9,7 +9,6 @@ So let's take a look at what a relevant browser is:
 
 -   Desktops: Chrome, Firefox, Internet Explorer (versions 11, 10, 9, 8), Opera,
     *Safari*
-
 -   Mobile devices: Android Browser (*versions 2.3*, 4.x and 5), Safari Mobile,
     Chrome Mobile, *Internet Explorer Mobile*, *Opera Mini*, *Opera Mobile*
 
