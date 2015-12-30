@@ -14,13 +14,13 @@ left in the e-book. Therefore, do not hesitate and report any errors you might
 find as all users will get an updated version of the e-book.
 
 I will also be glad for any feedback in general or an e-book review. Send your
-comment to <martin@cssmine.com>.
+comment to [martin@cssmine.com](mailto:martin@cssmine.com).
 
 Who Is the E-book For and Why Did It Come to Life?
 --------------------------------------------------
 
 The very basis of this e-book lies in several years of writing a CSS3 guide at
-Vzhuru dolu – <http://www.vzhurudolu.cz/> - a Czech version of CSS Mine.
+Vzhuru dolu – [vzhurudolu.cz](http://www.vzhurudolu.cz/) - a Czech version of CSS Mine.
 
 The text you have just started to read guides developers through the current
 state of the web user interface (UI).
@@ -49,7 +49,7 @@ The Author
 ![Martin Michalek](dist/images/original/autor.jpg)
 
 Martin Michalek is a freelance front-end designer who writes about CSS3 and
-holds lectures – [www.cssmine.com/martin](http://www.cssmine.com/martin).
+holds lectures – [cssmine.com/martin](http://www.cssmine.com/martin).
 
 He organizes trainings focused on responsive design, Bootstrap framework and
 modern web front-end.
