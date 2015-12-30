@@ -27,6 +27,8 @@ actual visible width or height of the content
 
 Are you getting it? This is `border-box` **box-model**.
 
+![Box Sizing](dist/images/original/css3-box-sizing.svg)
+
 In contrast, all other modern browsers use the `content-box` value **or the „W3C
 box-model“**. And you know the drill:
 

@@ -100,7 +100,7 @@ All `<li>` items are thus flex items.
 In the following text, you will have to pay attention to axes so let's
 illustrate this in a simple scheme:
 
-![flexbox scheme](content/schemes/flexbox-schema.jpg)
+![flexbox scheme](dist/images/original/flexbox-schema.jpg)
 
 -   flex container – parent element
 -   flex item – all direct children of a flex container
