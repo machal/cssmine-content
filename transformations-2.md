@@ -1,7 +1,9 @@
 Responsive Web Design = Web Design
 ==================================
 
-![Responsive design = web design.](dist/images/original/prokop-webdesign.jpg)
+> Today, anything that’s fixed and unresponsive isn’t web design, it’s something else. If you don’t embrace the inherent fluidity of the web, you’re not a web designer, you’re something else. Web design is responsive design, Responsive Web Design is web design, done right.
+
+– <cite>Andy Clarke in [I don’t care about Responsive Web Design](https://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design)</cite>
 
 You can face the advent of mobile phone by creating a special mobile web site -
 the "m dot" version with separate style templates. However, many of us have
