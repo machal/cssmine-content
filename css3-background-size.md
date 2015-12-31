@@ -24,7 +24,7 @@ As with other CSS properties, we can set the width and height simultaneously –
 The key word `cover` tells the browser to cover the whole area of an element.
 `contain`, on the other hand, tells the browser to show the whole image.
 
-![background-size: cover/contain](dist/images/original/CSS3-background-size-cover-contain.png)
+![background-size: cover/contain](dist/images/original/background-size-cover-contain.svg)
 
 `background-size: cover` is typically used to make sure an image covers the
 whole website background – see an example at
