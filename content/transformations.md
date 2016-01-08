@@ -1,5 +1,5 @@
-Transformations in the Coding Business
-======================================
+Transformations in the Web UI Development
+=========================================
 
 Like any profession, development of web interfaces reflects changes of the
 environment it operates in. Recent changes of the coding environment can be

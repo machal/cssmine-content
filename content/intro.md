@@ -30,16 +30,16 @@ state of the web user interface (UI).
 
 It will be your everyday buddy when applying CSS in practice, helping especially
 beginners and intermediate developers. The experienced ones will appreciate a
-detailed flexbox guide and summed principles of coding contemporary websites.
+detailed flexbox guide and summed principles of contemporary websites UI development.
 
-We do coding, i.e. UI development - not front-end programming and Javascript.
+We do front-end coding, i.e. UI development - not front-end programming and Javascript.
 
 What Is It About?
 -----------------
 
 The e-book consists of two parts:
 
-**Contemporary Website Coding** – how the development of user interface has
+**Contemporary Website UI Development** – how the development of user interface has
 changed in recent years and what tools, technologies and approaches are nowadays
 commonly used.
 
