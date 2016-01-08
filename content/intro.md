@@ -1,8 +1,11 @@
+A few words about ebook
+=======================
+
 Thanks!
 -------
 
-Thank you for buying the „CSS Mine - dig into web UI development“ e-book . If
-you "accidentally" got the e-book without a license, do not worry, nothing is
+Thank you for reading the „CSS Mine - dig into web UI development“ e-book . If
+you got the e-book without a license, do not worry, nothing is
 lost. You can still put things right by buying the e-book license at
 [www.cssmine.com/ebook](http://www.cssmine.com/ebook).
 
@@ -53,3 +56,10 @@ holds lectures – [cssmine.com/martin](http://www.cssmine.com/martin).
 
 He organizes trainings focused on responsive design, Bootstrap framework and
 modern web front-end.
+
+Version
+-------
+
+„CSS Mine - dig into web UI development“  
+Version 1.1  
+August 3rd 2015
