@@ -1,5 +1,5 @@
-Tips & Tricks & Links
-=====================
+CSS Animations – Tips, Tricks & Links
+=====================================
 
 If the animations seem slow or you experience a blinking effect of the whole
 page, force **hardware acceleration**: Example: `.animated_element { transform:
