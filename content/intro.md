@@ -1,4 +1,4 @@
-A few words about ebook
+A Few Words About Ebook
 =======================
 
 Thanks!
