@@ -54,30 +54,56 @@ module.exports = function(grunt) {
     // -------------------------------------------
 
     responsive_images: {
-      options: {
-        sizes: [
-        {
-          name: "small",
-          width: 650, // Aby se v ODT veslo na sirku stranky
-          quality: 100
+      default: {
+        options: {
+          sizes: [{
+            name: "small",
+            width: 650, // Aby se v ODT veslo na sirku stranky
+            quality: 100
+          },
+          {
+            name: "medium",
+            width: 1024,
+            quality: 100
+          },
+          {
+            name: "large",
+            width: 1600,
+            quality: 100
+          }]
         },
-        {
-          name: "medium",
-          width: 1024,
-          quality: 100
-        },
-        {
-          name: "large",
-          width: 1600,
-          quality: 100
-        }
-        ]
+        files: [{
+          expand: true,
+          src: ['**.{jpg,gif,png}'],
+          cwd: 'dist/images/original/',
+          custom_dest: 'dist/images/{%= name %}/'
+        }]
       },
-      files: {
-        expand: true,
-        src: ['**.{jpg,gif,png}'],
-        cwd: 'dist/images/original/',
-        custom_dest: 'dist/images/{%= name %}/'
+      all: {
+        options: {
+          newFilesOnly: false, // Zpracuje vsechny soubory, i upravene 
+          sizes: [{
+            name: "small",
+            width: 650, // Aby se v ODT veslo na sirku stranky
+            quality: 100
+          },
+          {
+            name: "medium",
+            width: 1024,
+            quality: 100
+          },
+          {
+            name: "large",
+            width: 1600,
+            quality: 100
+          }]
+        },
+        files: [{
+          expand: true,
+          src: ['**.{jpg,gif,png}'],
+          cwd: 'dist/images/original/',
+          custom_dest: 'dist/images/{%= name %}/'
+        }]
       }
     }
 
@@ -85,7 +111,8 @@ module.exports = function(grunt) {
 
 
   // pust po zmene obrazku (resi i svg)
-  grunt.registerTask('img', ['copy', 'svg2png', 'responsive_images']);
+  grunt.registerTask('img', ['copy', 'svg2png', 'responsive_images:default']);
+  grunt.registerTask('imgall', ['copy', 'svg2png', 'responsive_images:all']);
 
   // kdyz menis CSS a javascript, trva dele
   grunt.registerTask('default', ['img']);
