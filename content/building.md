@@ -37,7 +37,7 @@ It is necessary to mention that in order to use Grunt, you have to be familiar
 with the command line. No other advanced knowledge is needed. To be honest, I
 tiptoe around the command line, however Grunt has become my "buddy" quite fast.
 
-Grunt can be installed using npm…
+Grunt can be installed using NPM…
 
 ```bash
 npm install -g grunt-cli

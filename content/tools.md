@@ -17,7 +17,7 @@ years.
 
 1.  [CSS Preprocessors](preprocessors.md)
 2.  [Node.js Invasion](node-js.md)
-3.  [Package Managers: npm and Bower](npm-bower.md)
+3.  [Package Managers: NPM and Bower](npm-bower.md)
 4.  [Building stuff: Prepros, Grunt, Gulp](building.md)
 5.  [Post-processing: Autoprefixer, Pixrem and Other](postprocessing.md)
 6.  [Sustainable Code Using OOCSS](oocss.md)

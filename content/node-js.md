@@ -9,7 +9,7 @@ will need to, let's say, install a jQuery plugin.
 Therefore we need tools for installing and maintaining packages and something
 for building distribution versions of the code as well.
 
-We will be dealing with npm, Bower, Grunt or Gulp. It is good to know that all
+We will be dealing with NPM, Bower, Grunt or Gulp. It is good to know that all
 these tools come from the world of Node.js.
 
 More at [nodejs.org](https://nodejs.org/).
