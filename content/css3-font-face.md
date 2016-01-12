@@ -12,9 +12,9 @@ First declare the font family and path to a file using the `@font-face` at-rule:
 
 ```css
 @font-face {
-    font-family: _font_family_name_;
-    src: url(_path_to_a_font_file_)
-      format(_file_format_);
+  font-family: _font_family_name_;
+  src: url(_path_to_a_font_file_)
+    format(_file_format_);
 }
 ```
 
@@ -22,7 +22,7 @@ Then simply call the font family in standard CSS:
 
 ```css
 .element {
-        font-family: _font_family_name_;
+  font-family: _font_family_name_;
 }
 ```
 
@@ -54,22 +54,22 @@ If you need to support all browsers, the code is a little more complicated:
 
 ```css
 @font-face {
-    font-family: 'MyWebFont';
-    /* IE9 in compatibility mode: */
-    src: url('webfont.eot');
-    src:
-      /* IE6-IE8: */
-      url('webfont.eot?#iefix')
-        format('embedded-opentype'),
-      /* All modern browsers: */
-      url('webfont.woff')
-        format('woff'),
-      /* Older Safari, Android, iOS: */
-      url('webfont.ttf')
-        format('truetype'),
-      /* iOS 4.3 and lower */
-      url('webfont.svg')
-        format('svg');
+  font-family: 'MyWebFont';
+  /* IE9 in compatibility mode: */
+  src: url('webfont.eot');
+  src:
+    /* IE6-IE8: */
+    url('webfont.eot?#iefix')
+      format('embedded-opentype'),
+    /* All modern browsers: */
+    url('webfont.woff')
+      format('woff'),
+    /* Older Safari, Android, iOS: */
+    url('webfont.ttf')
+      format('truetype'),
+    /* iOS 4.3 and lower */
+    url('webfont.svg')
+      format('svg');
 }
 ```
 
@@ -84,8 +84,8 @@ thing we will need:
 
 ```css
 @font-face {
-    font-family: 'WebFont';
-    src: url('webfont.woff');
+  font-family: 'WebFont';
+  src: url('webfont.woff');
 }
 ```
 
@@ -99,6 +99,6 @@ fallback system font. Here is an example:
 
 ```css
 .element {
-    font-family: 'WebFont', Georgia, sans-serif;
+  font-family: 'WebFont', Georgia, sans-serif;
 }
 ```

@@ -126,8 +126,8 @@ will be filled with dark green:
 
 ```css
 .box-4 {
-    background:
-      radial-gradient(lightgreen 25%, darkgreen 50%);
+  background:
+    radial-gradient(lightgreen 25%, darkgreen 50%);
 }
 ```
 

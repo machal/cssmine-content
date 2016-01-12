@@ -14,12 +14,12 @@ this…
 
 ```css
 @font-face {
-    font-family: 'WebFont';
-    src: url('webfont.woff');
+  font-family: 'WebFont';
+  src: url('webfont.woff');
 }
 
 .element {
-    font-family: 'WebFont', Georgia, sans-serif;
+  font-family: 'WebFont', Georgia, sans-serif;
 }
 ```
 
@@ -43,24 +43,24 @@ Take a look at a simplified example:
 
 ```css
 @font-face {
-    font-family: 'WebFont';
-    src: url('webfont.woff');
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'WebFont';
+  src: url('webfont.woff');
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: 'WebFont';
-    src: url('webfont-bold.woff');
-    font-style: normal;
-    font-weight: bold;
+  font-family: 'WebFont';
+  src: url('webfont-bold.woff');
+  font-style: normal;
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: 'WebFont';
-    src: url('webfont-italic.woff');
-    font-style: italic;
-    font-weight: normal;
+  font-family: 'WebFont';
+  src: url('webfont-italic.woff');
+  font-style: italic;
+  font-weight: normal;
 }
 ```
 

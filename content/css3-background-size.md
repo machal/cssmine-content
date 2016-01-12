@@ -8,9 +8,9 @@ Syntax
 
 ```css
 background-size:
-    (cover/contain)
-    _vertical_size_
-    _horizontal_size_;
+  (cover/contain)
+  _vertical_size_
+  _horizontal_size_;
 ```
 
 The default value `background-size: auto auto` tells the browser to keep the
@@ -51,9 +51,11 @@ background to the full width and one half of the height of an element would look
 like this:
 
 ```css
-background: linear-gradient(to bottom, transparent, black)
+background:
+  linear-gradient(to bottom, transparent, black)
   no-repeat bottom;
-background-size: 100% 50%;
+background-size:
+  100% 50%;
 ```
 
 Take a look at a live example at

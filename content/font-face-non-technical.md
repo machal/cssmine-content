@@ -5,7 +5,6 @@ There are two things to be cautious with if you are a web font newbie:
 
 1.  **Copyright (license).** Not all fonts and typefaces are usable on a web
     site free of charge.
-
 2.  **Font rendering in older systems.** You have to check whether a font you
     are using is rendered nicely in the given size in Windows XP (mainly in
     alternative browsers) and older versions of Android. To learn more about
@@ -24,7 +23,6 @@ If you are looking for study recourses, I recommend these:
 -   [webtypography.net](http://webtypography.net/) – it is an older web site,
     but still a valid guide to type, typesetting and font composition on a web
     site, written by Robert Bringhurst.
-
 -   On Web Typography - it is an impeccable book by Jason Santa Maria,
     especially if you want to understand this topic in the broader context. See
     more at
@@ -56,7 +54,6 @@ advantages and disadvantages like Google does but a well-known font generator
 that will make a web font out of your OTF format or any other non-web formats.
 
 -   [fontsquirrel.com](http://www.fontsquirrel.com/)
-
 -   [fontsquirrel.com/tools/webfont-generator](http://www.fontsquirrel.com/tools/webfont-generator)
 
 ### Beware of Free Fonts

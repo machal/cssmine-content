@@ -4,8 +4,8 @@ Thanks for reading!
 Where Else to Go?
 -----------------
 
--   CSS Mine Blog - [cssmine.com](http://www.cssmine.com)
--   My Twitter – [twitter.com/machal](http://twitter.com/machal)
+- CSS Mine Blog - [cssmine.com](http://www.cssmine.com)
+- My Twitter – [twitter.com/machal](http://twitter.com/machal)
 
 Acknowledgment
 --------------

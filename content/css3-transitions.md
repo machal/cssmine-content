@@ -7,11 +7,11 @@ It may sound complicated but just imagine this situation:
 
 ```css
 .box {
-    background: green;
+  background: green;
 }
 
 .box:hover {
-    background: blue;
+  background: blue;
 }
 ```
 
@@ -20,12 +20,12 @@ And that is what transitions are for. They animate property changes.
 
 ```css
 .box {
-    background: green;
-    transition: 300ms;
+  background: green;
+  transition: 300ms;
 }
 
 .box:hover {
-    background: blue;
+  background: blue;
 }
 ```
 
@@ -56,11 +56,11 @@ Syntax
 
 ```css
 transition:
-    (_transition_property_)
-    _transition_duration_
-    (_transition_timing_function_)
-    (_transition_delay_)
-    (, _additional_transition_);
+  (_transition_property_)
+  _transition_duration_
+  (_transition_timing_function_)
+  (_transition_delay_)
+  (, _additional_transition_);
 ```
 
 ### Transition Duration
@@ -77,13 +77,13 @@ Example:
 
 ```
 .box {
-    background: green;
-    transition: margin 300ms;
+  background: green;
+  transition: margin 300ms;
 }
 
 .box:hover {
-    background: blue;
-    margin-left: 200px;
+  background: blue;
+  margin-left: 200px;
 }
 ```
 
@@ -116,7 +116,8 @@ second one which animates the `background-color` property is executed 1s after
 the first one has ended:
 
 ```
-transition: transform 200ms, 
+transition:
+  transform 200ms,
   background-color 200ms 1s;
 ```
 

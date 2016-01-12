@@ -9,13 +9,13 @@ Syntax
 
 ```css
 box-shadow:
-    (inset)
-    _horizontal_offset_
-    _vertical_offset_
-    (_blur_)
-    (_spread_)
-    _color_,
-    (_other_shadows_);
+  (inset)
+  _horizontal_offset_
+  _vertical_offset_
+  (_blur_)
+  (_spread_)
+  _color_,
+  (_other_shadows_);
 ```
 
 The basic shadow can be created in a jiffy. The first number indicates the
@@ -52,7 +52,7 @@ first shadow is the topmost:
 
 ```css
 box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .5),
-    inset 5px 5px 10px 10px rgba(0, 0, 0, .5);
+  inset 5px 5px 10px 10px rgba(0, 0, 0, .5);
 ```
 
 You can see a live example at [cdpn.io/e/lAoDv](http://cdpn.io/e/lAoDv).

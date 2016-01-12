@@ -22,11 +22,11 @@ image properties will also be divided by a comma:
 
 ```css
 background-image:
-    url('image.png'),
-    url('next_image.png');
+  url('image.png'),
+  url('next_image.png');
 background-repeat:
-    no-repeat,
-    repeat;
+  no-repeat,
+  repeat;
 ```
 
 Try it Yourself
@@ -55,7 +55,7 @@ a fallback for older browsers such as IE8. See an example:
 ```css
 background: #ddccaa;
 background:
-        url('top_image.png'),
-        url('center_image.png'),
-        #ddccaa;
+  url('top_image.png'),
+  url('center_image.png'),
+  #ddccaa;
 ```

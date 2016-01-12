@@ -13,11 +13,11 @@ Syntax
 
 ```css
 border-image:
-    _image_source_
-    _slice_size_
-    _border_width_
-    _slice_start_
-    _repeat_
+  _image_source_
+  _slice_size_
+  _border_width_
+  _slice_start_
+  _repeat_
 ```
 
 ### Image Source
@@ -80,9 +80,9 @@ Useful Tips
 [border-image.com](http://border-image.com/) - a very nice generator which
 will make your life easier especially when looking for size of the slices.
 
--   Attention! According to the latest specification, the `border-image`
-    property will not work if you forget to declare `border-style` and
-    `border-width` properties.
+- Attention! According to the latest specification, the `border-image`
+  property will not work if you forget to declare `border-style` and
+  `border-width` properties.
 
 Browser Support
 ---------------
