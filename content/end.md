@@ -10,13 +10,9 @@ Where Else to Go?
 Acknowledgment
 --------------
 
-I would like to thank Petr Stastny ([raist.cz](http://raist.cz/)) for the book
-cover and Petr Behun ([www.proofreading.cz](http://www.proofreading.cz/)) for
-language corrections. My photo was taken by Jan Forejt
-([about.me/janforejt](https://about.me/janforejt)).
-
-Also, I want to thank Bohumil Jahoda ([jecas.cz](http://jecas.cz/)) and Daniel
-Strelec ([topdigital.cz](http://www.topdigital.cz/)) for comments of the 1.1
-version and all others that reported some minor errors.
+- Text, schemes: Martin Michalek [cssmine.com/martin](http://cssmine.com/martin)
+- English translation: Michal Stanek ([michalstanek.cz](http://michalstanek.cz/))
+- Book cover: Petr Stastny ([raist.cz](http://raist.cz/))
+- Author photo: Jan Forejt ([about.me/janforejt](https://about.me/janforejt))
 
 © 2013-2016 Martin Michalek

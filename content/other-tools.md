@@ -1,4 +1,4 @@
-# Other Tools and Websites 
+# Other Tools and Websites
 
 (TODO) Teď už to vezmeme hodně stručně.
 
@@ -32,7 +32,7 @@ Spoustu (i docela složitých) šablon pro start projektu obsahují generátory 
 
 Vynikající dokumentaci nových webových technologií najdete na Mozilla Developer Network. Třeba i pro CSS3 – [developer.mozilla.org/en-US/docs/Web/CSS/CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
-Část obsahu tohoto e-booku najdete na webu – [vrdl.cz/prirucka/css3](http://www.vzhurudolu.cz/prirucka/css3).
+A asi víte, že obsah tohoto ebooku je k přečtení na webu – [cssmine.com](http://www.cssmine.com).
 
 ## Pokročilejší nástroje
 

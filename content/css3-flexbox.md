@@ -42,8 +42,7 @@ what? Let's see how to meet them using flexbox.
 Hurry up and try an example at CodePen – [http://cdpn.io/e/LhGuD>.
 
 It is nice, isn't it? However, a “grouch” would say that CSS has already learned
-what we could do with [table
-layout](http://www.jakpsatweb.cz/tabulky-design.html) back in 2001. Sure, but
+what we could do with table layout back in 2001. Sure, but
 he would be just “somewhat” right. Flexbox can do much (*much!*) more than just
 tables.
 
