@@ -9,9 +9,9 @@ text-overflow: ( clip | ellipsis | <_string_> );
 ```
 
 When showing `text-overflow: ellipsis` in my lectures, I always get two kinds of
-reactions. One half of the audience is bored, saying: "Hm, I have been using
-this for two years already…" And the other half? Enthusiastically taking notes:
-"I must use this first thing tomorrow!"
+reactions. One half of the audience is bored, saying: “Hm, I have been using
+this for two years already…” And the other half? Enthusiastically taking notes:
+“I must use this first thing tomorrow!”
 
 However, the catch when using the `ellipsis` value is that it will apply to a
 single line of text in block elements and 3 dots ("…") will be shown if the line

@@ -1,8 +1,8 @@
 Too Many Browsers Will Give You a Headache
 ==========================================
 
-The arrival of the Chrome desktop browser launched new "Browser Wars" and the
-first "Battle of Browsers" took place on the mobile device battlefield. Yes,
+The arrival of the Chrome desktop browser launched new “Browser Wars” and the
+first “Battle of Browsers” took place on the mobile device battlefield. Yes,
 coders have been better.
 
 So let's take a look at what a relevant browser is:
@@ -27,9 +27,9 @@ Mobile Chrome
 
 The usage share of Chrome on mobile devices is rapidly increasing so it is good
 to mention that it has replaced the original browser on new Androids. The one
-with the globe icon, labeled "Internet".
+with the globe icon, labeled “Internet”.
 
-Unlike its "older cousin", the mobile Chrome will have an automatic update on
+Unlike its “older cousin”, the mobile Chrome will have an automatic update on
 some devices. Not to mention that it is much better at supporting CSS3 and other
 HTML5 technologies. See
 [html5test.com](https://html5test.com/results/mobile.html).
