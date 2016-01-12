@@ -64,8 +64,8 @@ The solution would look like this:
   /* Flexbox centering */
 }
 
-.no-brainer .vertical-centered {
-  /* No flexbox centering */
+.no-flexbox .vertical-centered {
+  /* Centering without flexbox */
 }
 ```
 
