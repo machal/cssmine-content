@@ -152,8 +152,8 @@ The Disadvantages of CSS Preprocessors
 
 -   They are too powerful – stepping away from a dumb CSS leads to elaborated
     and sometimes imperative code, however it tends to be in-comprehensive and
-    hard to maintain. You know what they say about the "good servant but a bad
-    master", don't you?
+    hard to maintain. You know what they say about the “good servant but a bad
+    master”, don't you?
 -   The code is proprietary – if you use preprocessors bluntly, teaching a
     novice or switching to another preprocessor is a piece of cake. However, it
     gets worse if you combine it with the previous point.

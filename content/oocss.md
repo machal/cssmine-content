@@ -1,7 +1,7 @@
 Sustainable Code Using OOCSS
 ============================
 
-OOCSS stands for „Object Oriented CSS”. It is code organization system by Nicole
+OOCSS stands for “Object Oriented CSS”. It is code organization system by Nicole
 Sullivan.
 
 A CSS object is a repeating visual component which can be expressed as a piece

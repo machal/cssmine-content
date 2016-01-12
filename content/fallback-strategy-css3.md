@@ -77,8 +77,8 @@ The solution for older browsers is either to create a different user interface
 or apply a different code structure.
 
 Here feature detection comes into play. However, I would like to express a mild
-outrage over using browser detection. You may ask: "What the hell is browser
-detection"? In the past, by using CSS hacks or detecting User Agent signature we
+outrage over using browser detection. You may ask: “What the hell is browser
+detection”? In the past, by using CSS hacks or detecting User Agent signature we
 were able to pinpoint a particular browser that does not understand certain
 properties. That was OK to do when there were two or three older versions of
 Internet Explorer.
@@ -129,7 +129,7 @@ Or a multi-column layout:
 }
 ```
 
-"Detection" classes like `.no-svg` adds Modernizr, javascript library which we mention [in the chapter on tools](nastroje-atd.md). You can write your own detection javascript.
+“Detection” classes like `.no-svg` adds Modernizr, javascript library which we mention [in the chapter on tools](nastroje-atd.md). You can write your own detection javascript.
 
 ### Feature Queries
 
@@ -153,7 +153,7 @@ See more at [developer.mozilla.org/en-US/docs/Web/CSS/@supports](https://develop
 
 An interesting use of feature detection (and a by-the-book example of
 Progressive Enhancement!) is an empty media query. Older browsers like IE8 and
-other "pre-historic dinosaurs" will simply not recognize this part of the code.
+other “pre-historic dinosaurs” will simply not recognize this part of the code.
 It is suitable if you want to declare layout for modern browsers only:
 
 ```css

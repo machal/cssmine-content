@@ -29,24 +29,22 @@ what? Let's see how to meet them using flexbox.
 1.  **Equal column height.** That's right - even if one column has more content
     than the remaining ones. This is easy. All you need to do is add `.container
     { display: flex; }` to the parent element.
-
 2.  **One fifth grid**. The first and third column should take up one fifth –
     `.mandatory-1, .mandatory-2 { flex: 1; }`. The second column should take up
     three fifths – `.content { flex: 3 }`. Did you notice that we do not operate
     with percentage or that we do not calculate the dimensions again when adding
     a new column?
-
 3.  **Change element order on lower resolution screens.** Simply add the
     `.content { order: -1; }` declaration to your media query and the `.content`
     column will appear first. That's a real stunner for responsive design, isn't
     it?
 
-Hurry up and try an example at CodePen – <http://cdpn.io/e/LhGuD>.
+Hurry up and try an example at CodePen – [http://cdpn.io/e/LhGuD>.
 
-It is nice, isn't it? However, a "grouch" would say that CSS has already learned
+It is nice, isn't it? However, a “grouch” would say that CSS has already learned
 what we could do with [table
 layout](http://www.jakpsatweb.cz/tabulky-design.html) back in 2001. Sure, but
-he would be just "somewhat" right. Flexbox can do much (*much!*) more than just
+he would be just “somewhat” right. Flexbox can do much (*much!*) more than just
 tables.
 
 ### Why Do We Need Flexbox?
@@ -56,10 +54,10 @@ Let me ask you a question first. How do we handle layouts in CSS?
 Using floats, inline-blocks, absolute positioning or `display: table`. And do
 you know what these terms all have in common? Not a single one of them was meant
 for today's layouts. Yes, flexbox is truly the first CSS layout tool. And our
-grouch might add: "The first one in twenty years…".
+grouch might add: “The first one in twenty years…”.
 
 Floats, tables and all other *layout techniques soon to be dead* will still come
-in handy over the next few years. Every member of this "layout tools family" has
+in handy over the next few years. Every member of this “layout tools family” has
 more or less disadvantages when it comes to creating layouts. They come from
 specifications that did not involve today's layout.
 

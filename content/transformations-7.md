@@ -9,7 +9,7 @@ soon end up in a museum, right next to a floppy disk.
 
 How does this relate to CSS3? Somewhat like Tom to Jerry. Meaning very.
 
-In this "dark age", all website graphics that was not possible to tackle using
+In this “dark age”, all website graphics that was not possible to tackle using
 CSS, was exported from Photoshop as images. CSS3 has brought a way of creating
 not only static graphics but simple interactions as well.
 

@@ -150,10 +150,10 @@ hits the last color-stop but it will repeat the defined gradient instead.
 }
 ```
 
-In this example we will outline a colored "zebra" using transparent color and
+In this example we will outline a colored “zebra” using transparent color and
 green.
 
-Also note that we have defined a "sharp" gradient by using adjacent color-stops
+Also note that we have defined a “sharp” gradient by using adjacent color-stops
 (`transparent 10%, green 10%`). In other words, the neighboring colors will be
 displayed without any blending.
 
@@ -167,10 +167,10 @@ Now, let's try a repeating radial gradient:
 }
 ```
 
-By defining repeating green stripes we are able to create a "target-like"
+By defining repeating green stripes we are able to create a “target-like”
 pattern. But watch out here! Some browsers such as Chrome or Firefox are
 currently not able to render these complicated gradients smoothly. As a result,
-the circle will be "pixelated".
+the circle will be “pixelated”.
 
 Browser Support
 ---------------
@@ -191,7 +191,7 @@ background-image:
   linear-gradient(lightgreen, darkgreen);
 ```
 
-### Gradient, Formerly Known as the Thing From "prefix" Hell
+### Gradient, Formerly Known as the Thing From “prefix” Hell
 
 Nowdays, gradients are not a big deal. However, browsers in various stages of
 specification development have implemented various stages of the actual

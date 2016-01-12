@@ -22,7 +22,7 @@ Flexbox Reference Guide
     `writing-mode`. Therefore, if we created a layout of a Japanese page using
     flex box, all values would change their order.
 
-Now let's dig into the "Reference Guide". We already know that there are two
+Now let's dig into the “Reference Guide”. We already know that there are two
 types of flex elements – a flex container and a flex item. Therefore, we also
 divide the properties according to the element types.
 
@@ -139,7 +139,7 @@ like this:
 flex: 1 1 150px
 ```
 
-However, I think you are more likely to use pre-defined "intelligent" values:
+However, I think you are more likely to use pre-defined “intelligent” values:
 
 -   `flex: auto`
     It corresponds to `flex: 1 1 auto` and the items in question will become
@@ -174,7 +174,7 @@ browser. It does not affect the actual order of items, i.e. when using a
 document reader or going through the navigation using the `Tab` key.
 
 The default value is `0` which basically means that it will correspond with the
-"actual HTML order".
+“actual HTML order”.
 
 When using the following notation, you can make the third item visually appear
 as the first one:
@@ -203,7 +203,7 @@ This allows you to set `margin-left: auto`, filling the left side of an element
 with left margin and pinning the item to the right. You can use it instead of
 the `float` property.
 
-All other "alignment properties" have similar values, however they apply to
+All other “alignment properties” have similar values, however they apply to
 different sets of flex items or different container axes.
 
 #### `justify-content` – Aligning Main Axis Items Within a Container

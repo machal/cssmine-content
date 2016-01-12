@@ -62,7 +62,7 @@ value is defined in seconds and milliseconds and the default value is null:
 
 ### `animation-iteration-count`
 
-The interaction can be set as a number or an "infinite number" using the
+The interaction can be set as a number or an “infinite number” using the
 `infinite` key word. The default value is `animation-iteration-count: 1`.
 
 ### `animation-direction`

@@ -29,12 +29,12 @@ many visitors use these older browsers and address the issue accordingly:
 
 #### Zero fallback – We Do Not Care About Support
 
-It is good to realize and test in practice what it truly means "not to bother
-with flex box support in older browsers".
+It is good to realize and test in practice what it truly means “not to bother
+with flex box support in older browsers”.
 
 You can see it in the following picture where the form makes use of flexbox. In
 Safari, the form is displayed as planned. In IE8, the text input will not fill
-the whole area and the "Other" caption will not grow in size with increasing
+the whole area and the “Other” caption will not grow in size with increasing
 font size:
 
 ![Fallback for IE8](dist/images/original/flexbox-ie8-fallback.jpg)

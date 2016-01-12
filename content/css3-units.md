@@ -4,7 +4,7 @@ New CSS3 Units – `rem`, `vw`, `vh`
 ### `rem`
 
 This is a size that corresponds with the `font-size` value at the root, i.e the
-`<html>` element. The *"root-em"* is thus just a variant of the well-known `em`
+`<html>` element. The “root-em” is thus just a variant of the well-known `em`
 unit. Unlike the standard `em` units, `rem` units are not based on the font size
 of the parent element.
 
@@ -63,13 +63,13 @@ Viewport Units: `vw`, `vh`, `vmin`, `vmax`
 ------------------------------------------
 
 They allow us to define CSS sizes relative to the viewport size - in other words
-"the width or height of the window".
+”the width or height of the window”.
 
--   `vw` – stands for "viewport width" – `1vw` is 1% of the viewport width
--   `vh` – stands for "viewport height" – `1vh` is 1% of the viewport height
--   `vmin` – stands for "viewport minimum" – represents the shortest dimension
+-   `vw` – stands for “viewport width” – `1vw` is 1% of the viewport width
+-   `vh` – stands for “viewport height” – `1vh` is 1% of the viewport height
+-   `vmin` – stands for “viewport minimum” – represents the shortest dimension
     (`1vw` or `1vh`)
--   `vmax` – stands for "viewport maximum" – represents the longest dimension
+-   `vmax` – stands for “viewport maximum” – represents the longest dimension
     (`1vw` or `1vh`)
 
 ### Practical Example

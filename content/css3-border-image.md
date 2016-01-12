@@ -5,7 +5,7 @@ This is a way which allows you to create custom boxes around elements instead of
 using the native ones.
 
 Take any image that contains a border and tell the browser how to slice it. Then
-there is the "magic" part - the border will adapt to the width and height of the
+there is the “magic” part - the border will adapt to the width and height of the
 element, whatever it may be.
 
 Syntax

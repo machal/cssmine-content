@@ -10,7 +10,7 @@ with Retina display for instance.
 
 However, web designers do not have to worry about displaying their websites
 using hardware resolutions. Browsers will calculate the resolution and display
-it in a "CSS resolution".
+it in a “CSS resolution”.
 
 For the ratio between hardware and CSS resolution, we use a technical term
 `device-pixel-ratio` or a newer one: `resolution`. The latter one might be a

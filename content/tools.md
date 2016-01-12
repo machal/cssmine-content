@@ -5,7 +5,7 @@ First, let me say that web interface development has been recently focusing on
 development tools a tad too much. We spend a lot of time setting a perfect
 workflow in Grunt at the expense of creating a user oriented product.
 
-The UI developer's "tool box" should contain more design thinking and less
+The UI developer's “tool box” should contain more design thinking and less
 debugging tools.
 
 Therefore, we will not plunge into the knowledge pool. A lumberjack can get

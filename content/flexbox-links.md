@@ -4,7 +4,7 @@ Interesting Links to Flexbox
 -   **A Complete Guide to Flexbox**
     A visual reference guide by Chris Coyier: [css-tricks.com/snippets/css/a-guide-to-flexbox/](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 -   **Flexy Boxes**
-    A user friendly tool for generating flex box layouts and "playing around":
+    A user friendly tool for generating flex box layouts and “playing around”:
     [the-echoplex.net/flexyboxes](http://the-echoplex.net/flexyboxes/)
 -   **Flexbox in 5 minutes**
     Was my e-book not enough? Here you can find the principles of flexbox from

@@ -27,8 +27,8 @@ Browser Support
 ---------------
 
 All browsers except IE8 and older versions have no problem with rendering RGBa.
-However, by using a defined fallback, you can respectfully deal with "the
-elderly":
+However, by using a defined fallback, you can respectfully deal with “the
+elderly”:
 
 ```css
 color: rgb(128, 0, 0);

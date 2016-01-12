@@ -29,14 +29,14 @@ This turned our `<label>` into a flexbox container and its direct children into
 flex box items.
 
 You can clearly see that an empty text node (i.e. text not wrapped in a div) can
-be considered a flexbox item. In our case, it is the "Really long caption…".
+be considered a flexbox item. In our case, it is the “Really long caption…".
 
 Now let's display this situation in an image:
 
 ![flexible button](dist/images/original/flexbox-priklady-2.jpg)
 
 Technically speaking, every item has a `flex` property and a default value set
-to `initial`. As you will find out in the "Reference Guide", the `flex` property
+to `initial`. As you will find out in the “Reference Guide”, the `flex` property
 is a shorthand for additional properties. The `initial` value means that an item
 can shrink when there is not enough space, however it will not extend when there
 is extra space.
@@ -76,8 +76,8 @@ flex item to center itself using the `align-self` property.
 
 Both vertical and horizontal centering using flexbox is literally trouble-free.
 In addition to the `align-self` property, also take a look at the
-`justify-content` and `align-items` properties when reading the "Reference
-Guide".
+`justify-content` and `align-items` properties when reading the “Reference
+Guide”.
 
 Try an example at CodePen: <http://cdpn.io/e/zxydom>.
 
@@ -100,7 +100,7 @@ counts from zero, we will do it this way:
 Try a live example at <http://cdpn.io/e/JoqxJe>.
 
 Changing the visual order might also come in handy when ordering items from Z to
-A. Also, take a look into the "Reference Guide" at the `flex-direction`
+A. Also, take a look into the “Reference Guide” at the `flex-direction`
 property.
 
 ### Fifth Example: Navigation With an Unknown Number of Items
@@ -129,7 +129,7 @@ And we want it to look like this:
 
 Without flexbox, we can solve this by using `display: table`. However, there are
 certain disadvantages such as the need of adding a `display: table-row` element
-or the inability of using absolute positioning within the "table cells".
+or the inability of using absolute positioning within the “table cells".
 
 We know enough about flexbox so the following solution will not surprise us:
 
@@ -143,7 +143,7 @@ We know enough about flexbox so the following solution will not surprise us:
 }
 ```
 
-However, if we add another "exceptionally" long item, it will take up a lot of
+However, if we add another “exceptionally” long item, it will take up a lot of
 space. This is due to relative distribution of extra space when using
 `flex-basis: auto`, which is hidden in every `flex: auto` shorthand.
 

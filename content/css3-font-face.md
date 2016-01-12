@@ -1,7 +1,7 @@
-CSS3 Font Face – BYOF (bring your own font...)
-==============================================
+CSS3 Font Face
+==============
 
-Web fonts a.k.a. "your own fonts in a website"? The `@font-face` property is
+Web fonts a.k.a. “your own fonts in a website”? The `@font-face` property is
 nowdays a standard technique with almost full compatibility with all browsers so
 there is no need to fear it from the technological point of view.
 
@@ -38,8 +38,8 @@ file formats:
     version 4.4 – [caniuse.com/woff](http://caniuse.com/woff)
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
     by almost all modern browsers, however MSIE supports them from version 9.
-    Furthermore, you have to set the so called "embedding bits" (embedding
-    permissions in the font's header) to "installable".
+    Furthermore, you have to set the so called “embedding bits” (embedding
+    permissions in the font's header) to “installable”.
     [caniuse.com/ttf](http://caniuse.com/ttf)
 -   **SVG** (SVG vector format defined fonts) – you will need it if you want to
     support really old versions of iOS Safari browser — 4.3 and lower.

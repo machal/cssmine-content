@@ -2,7 +2,7 @@ SVG and srcset/sizes, a New Challenge for Image Inserting
 =========================================================
 
 Thanks to the CSS pixels and the need to reduce file size, there are a lot more
-problems to solve than a simple question - "Should I use PNG or JPG?".
+problems to solve than a simple question - “Should I use PNG or JPG?”.
 
 Before we start, we have to divide web site images into two categories –
 interface images and content images.

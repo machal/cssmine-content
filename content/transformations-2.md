@@ -6,15 +6,15 @@ Responsive Web Design = Web Design
 – <cite>Andy Clarke in [I don’t care about Responsive Web Design](https://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design)</cite>
 
 You can face the advent of mobile phone by creating a special mobile web site -
-the "m dot" version with separate style templates. However, many of us have
+the “m dot” version with separate style templates. However, many of us have
 already found out this approach presents a longterm disadvantage both for the
 user and for the web site operator as well.
 
 Therefore, I dare to say that sooner or later we will all end up creating one
-web site version - a responsive web site. The "responsive" attribute will then
+web site version - a responsive web site. The “responsive” attribute will then
 eventually lose its meaning.
 
-Taken from a certain point of view, the "responsive" term is just an indication
+Taken from a certain point of view, the “responsive” term is just an indication
 of a temporary web design phase.
 
 At first sight, Media Queries are the only thing that help us tackle CSS3

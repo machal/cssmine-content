@@ -30,8 +30,8 @@ this…
 the <b>evil</b> Queen and <i>Jack</i>.</p>
 ```
 
-… the word "evil" will be rendered as bold at first sight, as well as the word
-"Jack" will be rendered as italic thanks to the italic cut of the `WebFont`
+… the word “evil” will be rendered as bold at first sight, as well as the word
+“Jack” will be rendered as italic thanks to the italic cut of the `WebFont`
 family. But don't be fooled - this is the case of faux italics and bold cuts
 that the browser tried to render from a normal cut of the font.
 
@@ -70,7 +70,7 @@ See more at
 Cross-origin Web Font
 ---------------------
 
-Thanks to the "Same Origin Policy", it is not permitted to load font files from
+Thanks to the “Same Origin Policy”, it is not permitted to load font files from
 another domain. You can see this problem for example in the console
 of your Internet Explorer:
 

@@ -5,7 +5,7 @@ When it comes to rendering CSS code, there are not many differences among modern
 browsers.
 
 Unfortunately, there are tons of browsers plus new arrivals on the mobile field.
-And then there are "retired" browsers such as Internet Explorer 8.
+And then there are “retired” browsers such as Internet Explorer 8.
 
 Therefore, a coder will not do without alternative browser testing.
 
