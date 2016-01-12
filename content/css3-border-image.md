@@ -125,7 +125,7 @@ border-image-slice: 20;
 ```
 
 And that's it. You can try an example at
-[codepen.io/machal/pen/zdyIJ](http://codepen.io/machal/pen/zdyIJ).
+[cdpn.io/e/zdyIJ](http://cdpn.io/e/zdyIJ).
 
 An Example with a Bitmap Image as a Background
 ----------------------------------------------
@@ -166,4 +166,4 @@ border-image:
 ```
 
 Done. You can try an example at
-[codepen.io/machal/pen/DLkjm](http://codepen.io/machal/pen/DLkjm).
+[cdpn.io/e/DLkjm](http://cdpn.io/e/DLkjm).

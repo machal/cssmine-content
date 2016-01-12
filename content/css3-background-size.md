@@ -59,7 +59,7 @@ background-size:
 ```
 
 Take a look at a live example at
-[codepen.io/machal/pen/cmpjE](http://codepen.io/machal/pen/cmpjE).
+[cdpn.io/e/cmpjE](http://cdpn.io/e/cmpjE).
 
 And do not forget that background width and height are based on the setting of
 the [background-origin](css3-background-origin.md) property. Thus, by default

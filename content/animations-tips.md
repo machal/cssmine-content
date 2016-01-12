@@ -11,7 +11,7 @@ A newer (and more “by-the-book”) way of solving this issue is using the
 
 **The running cat by Rachel Nabors** is an awesome animation proving that
 fleshless animations are our future (it will take some time though) – see
-[codepen.io/rachelnabors/pen/rCost](http://codepen.io/rachelnabors/pen/rCost)
+[cdpn.io/e/rCost](http://cdpn.io/e/rCost)
 +
 [24ways.org/2012/flashless-animation/](http://24ways.org/2012/flashless-animation/).
 

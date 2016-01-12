@@ -25,7 +25,7 @@ If you are still not sure how to use the `border-`, `padding-` and `content-box`
 values, take a look at the [box-sizing](css3-box-sizing.md) property example.
 
 See a live example at
-[codepen.io/machal/pen/yamFI](http://codepen.io/machal/pen/yamFI).
+[cdpn.io/e/yamFI](http://cdpn.io/e/yamFI).
 
 Browser Support
 ---------------

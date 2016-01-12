@@ -11,7 +11,7 @@ Interesting Links to Flexbox
     another point of view: [flexboxin5.com](http://flexboxin5.com/)
 -   **Flexbox demos**
     A collection of flexbox examples. It supplements this e-book:
-    [codepen.io/collection/Dmrzxz](http://codepen.io/collection/Dmrzxz/)
+    [cdpn.io/collection/Dmrzxz](http://cdpn.io/collection/Dmrzxz/)
 -   **Solved by Flexbox**
     Common problems of the layout solved using Flexbox:
     [philipwalton.github.io/solved-by-flexbox/](http://philipwalton.github.io/solved-by-flexbox/)
