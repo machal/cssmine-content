@@ -1,3 +1,5 @@
+# Introduction
+
 Let's get to the bottom of this. The “CSS Mine - dig into web UI development”
 guide is divided into categories according to what they affect. First, we will
 look into text properties, then background properties and the we will gradually
