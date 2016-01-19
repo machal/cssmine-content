@@ -17,7 +17,7 @@ eventually lose its meaning.
 Taken from a certain point of view, the “responsive” term is just an indication
 of a temporary web design phase.
 
-At first sight, Media Queries are the only thing that help us tackle CSS3
+At first sight, [Media Queries](css3-media-queries.md) are the only thing that help us tackle CSS3
 responsive properties but don't be fooled! From the responsive design point of
 view, almost every CSS property explained in the second part of this e-book, is
 valuable.

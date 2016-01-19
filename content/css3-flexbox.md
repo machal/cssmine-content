@@ -35,9 +35,9 @@ what? Let's see how to meet them using flexbox.
     with percentage or that we do not calculate the dimensions again when adding
     a new column?
 3.  **Change element order on lower resolution screens.** Simply add the
-    `.content { order: -1; }` declaration to your media query and the `.content`
-    column will appear first. That's a real stunner for responsive design, isn't
-    it?
+    `.content { order: -1; }` declaration to your [media query](css3-media-queries.md)
+    and the `.content` column will appear first. That's a real stunner for
+    responsive design, isn't it?
 
 Hurry up and try an example at CodePen – [http://cdpn.io/e/LhGuD>.
 

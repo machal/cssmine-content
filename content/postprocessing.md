@@ -70,7 +70,7 @@ Legaccsy
 --------
 
 This is a plugin by Robin Pokorny that is able to create a version of your CSS
-without Media Queries that are not recognized by older browsers. This is a true
+without [Media Queries](css3-media-queries.md) that are not recognized by older browsers. This is a true
 life saver for IE8 or IE9.
 
 See ore at

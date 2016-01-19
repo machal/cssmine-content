@@ -25,7 +25,7 @@ notation looks like this:
 
 The rival Foundation framework (using SASS) can operate with variable queries.
 Let's explain it, shall we? The Foundation framework can operate with a
-`$medium-up` variable which contains an entire media query so you do not have to
+`$medium-up` variable which contains an entire [media query](css3-media-queries.md) so you do not have to
 write it again and again. The SASS notation looks like this:
 
 ```scss
