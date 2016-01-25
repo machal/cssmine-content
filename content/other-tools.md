@@ -1,39 +1,78 @@
-# Other Tools and Websites
+Other Tools and Websites
+========================
 
-(TODO) Teď už to vezmeme hodně stručně.
+Now, let's take it briefly.
 
-## HTML5 Please
+HTML5 Please
+------------
 
-Pro každou CSS3 (nebo HTML5) vlastnost vám tento web řekne, zda a za jakých podmínek ji doporučuje používat. Takže – zda vlastnost použít a zda použít s prefixy, nebo s polyfillem. U některých samozřejmě raději počkat. Berte to jako obecná doporučení a vždy se dívejte na cílovou skupinu vašeho konkrétního projektu. [html5please.com](http://html5please.com)
+For each CSS3 (or HTML5) property, this website will tell you under what
+conditions it is recommended to use it. In other word, it will tell you whether
+to use a particular property, whether to use it using a prefix or a polyfill.
+When using certain properties, it is better to wait until they are fully
+supported. Just take it as a general recommendation and always take a particular
+target audience of your website into account.
+[html5please.com](http://html5please.com)
 
+Can I Use
+---------
 
-## Can I use
+“Can I Use” is a web site containing tables with information on which browsers
+do support a specific property and which do not. If you want to remember just
+one web site, this is the one. This web site can also be interconnected with
+your Google Analytics stats. However, it is quite clear that support of browser
+properties on a global scale has no real validity when it comes to your own
+project. [caniuse.com](http://caniuse.com)
 
-Jsou to tabulky s informací, které prohlížeče vaši vlastnost podporují a které naopak ne. Pokud si chcete zapamatovat jen jeden web, tohle je on. Can I use je možné si propojit s vašimi statistikami z Google Analytics. Podíly podpory vlastností na globální úrovni samozřejmě pro konkrétní projekt nemají vypovídající hodnotu. [caniuse.com](http://caniuse.com)
+Should I Prefix
+---------------
 
+Shall I use a prefixed version when using specific CSS3 properties? This website
+might come in handy but using an Autoprefixer is a much better solution. You may
+find reference to Autoprefixer in the previous chapters of the is e-book.
+[shouldiprefix.com](http://shouldiprefix.com)
 
-## Should I prefix
+Modernizr
+---------
 
-Musím u konkrétní CSS3 vlastnosti použít prefixované verze, nebo ne? Může se hodit, ale obecně je lepším řešením Autoprefixer zmíněný v předchozích částech webu. [shouldiprefix.com](http://shouldiprefix.com)
+This is a javascript library for feature detection. Pick a CSS3 or HTML5
+features you are using on a particular project and the Modernizr webiste will
+generate a piece of code you will insert into your own code. In CSS, you can
+then use conditions such as `.no-flexbox .form` and in javascript something like
+this: `if (Modernizr.canvas) { … }`. [modernizr.com](https://modernizr.com)
 
-## Modernizr
+Project Templates
+-----------------
 
-Toto je javascriptová knihovna pro detekci vlastností. Vyberete si CSS3 nebo HTML5 vlastnosti, které na svém projektu využíváte, a web Modernizru vám vytvoří kus kódu, který pak vložíte do vlastního zdrojového kódu. V CSS pak můžete využívat podmínky jako `.no-flexbox .form`, v Javascriptu třeba něco jako `if (Modernizr.canvas) { … }`. [modernizr.com](http://modernizr.com)
+If you do not fancy doing projects from scratch, take a look at HTML5
+Boilerplate - a default HTML template. It has proved to be effective as a
+knowledge base but I do not recommend to use it on real projects.
+[html5boilerplate.com](https://html5boilerplate.com)
 
-## Šablony projektů
+A more massive project base is Web Starter Kit by Google. Apart from ready-made
+HTML, CSS and JS files, you can find a complete Gulp workflow there.
+[developers.google.com/web/starter-kit/](https://developers.google.com/web/starter-kit/)
 
-Pokud vás nebaví začínat projekty úplně od nuly, podívejte se na HTML5 Boilerplate, šablonu výchozího HTML souboru. Osvědčilo se mi brát ji jako zdroj znalostí, ale nepoužívat ji na reálných projektech. [html5boilerplate.com](https://html5boilerplate.com)
+Moreover, a lot of templates (and even quite complex ones) can be found in
+Yeoman generators. [yeoman.io/generators/](http://yeoman.io/generators/)
 
-Masivnější základna projektu je pak Web Starter Kit od Google. Kromě výchozích HTML, CSS a JS souborů je tam rovnou hotové Gulp workflow. [developers.google.com/web/starter-kit/](https://developers.google.com/web/starter-kit/)
+Documentation
+-------------
 
-Spoustu (i docela složitých) šablon pro start projektu obsahují generátory v rámci nástroje Yeoman. [yeoman.io/generators/](http://yeoman.io/generators/)
+A superb documentation of new web technologies and CSS3 properties can be found
+in Mozilla Developer Network.
+[developer.mozilla.org/en-US/docs/Web/CSS/CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
 
-## Dokumentace
+And just for the record: the content of this e-book can also be found at
+[cssmine.com](http://www.cssmine.com).
 
-Vynikající dokumentaci nových webových technologií najdete na Mozilla Developer Network. Třeba i pro CSS3 – [developer.mozilla.org/en-US/docs/Web/CSS/CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3).
+More Advanced Tools
+-------------------
 
-A asi víte, že obsah tohoto ebooku je k přečtení na webu – [cssmine.com](http://www.cssmine.com).
+As I have already mentioned in the introduction, it is not wise overrate tools
+in general. In this e-book, I focus on beginner and intermediate front-end
+developers. If you see yourselves as advanced developers, you should not miss
+tools such as Broccoli, Browserify, Webpack or CSSNext. If you are into
+Javascript, take a look at Babel and Traceur.
 
-## Pokročilejší nástroje
-
-Jak už jsem psal v úvodu, s nástroji se to nemá přehánět. V e-booku se soustředím na méně až středně pokročilého vývojáře uživatelského rozhraní. Pokud se počítáte k pokročilým, neměly by vám utéct nástroje Broccoli, Browserify, Webpack či CSSNext. Případně Babel a Traceur, pokud píšete hodně v Javascriptu.
+That's it. Enjoy!

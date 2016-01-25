@@ -1,127 +1,168 @@
-# Instalace Node.js ekosystému pro použití na frontendu
+Installing Node.js Ecosystem For Front-end Use
+==============================================
 
-Node.js na frontendu potřebujeme hlavně kvůli usnadnění vývojářské práce a správě vývojářských závislostí.
+We need Node.js on the front-end mainly for making the developers' work easier
+and for managing developer dependencies.
 
-## Nástroje, které si nainstalujeme
+Tools We Will Install
+---------------------
 
-- [Node.js](https://nodejs.org/) – běh javascriptu na příkazové řádce.
-- [NPM](https://www.npmjs.com/) – správce javascriptových balíčků.
-- [Bower](http://bower.io/) - správce frontend balíčků (např. jQuery nebo framework Bootstrap).
-- [Grunt](http://gruntjs.com/) - sestavovač nebo buildovač; nástroj pro běh vývojářských úloh.
-- [Grunt pluginy](http://gruntjs.com/plugins) – samotné úlohy pro Grunt (např. kompilace preprocesorů do CSS, minifikace souborů).
+-   [Node.js](https://nodejs.org/) – a javascript runner from the command
+    line.
+-   [NPM](https://www.npmjs.com/) – a javascript package manager.
+-   [Bower](http://bower.io/) - a front-end package manager (e.g. jQuery or
+    Bootstrap framework).
+-   [Grunt](http://gruntjs.com/) - an assembler or builder; a task runner for
+    developers.
+-   [Grunt plugins](http://gruntjs.com/plugins) – Grunt task plugins (e.g.
+    compiling preprocessors into CSS, files minification).
 
-Časem si můžete oblíbit automatizátor [Yeoman](http://yeoman.io/) a další nástroje jako [Gulp](http://gulpjs.com/) nebo [WebPack](https://webpack.github.io/). Vycházejí také z Node.js, ale pro zjednodušení se jim tady nebudeme vůbec věnovat.
+In time, you may take a fancy to [Yeoman](http://yeoman.io/) automators or
+other tools such as [Gulp](http://gulpjs.com/) or
+[WebPack](https://webpack.github.io/). They are also based on Node.js, however
+to make things simple, we will not deal with them just now.
 
 ![Node.js](dist/images/original/node-js.svg)
 
-Budeme pracovat s příkazovou řádkou, takže se hodí znát její základy. Návod pro [Windows](http://dosprompt.info/basics.asp) a [Linux &amp; Mac](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/).
+Now we will focus on the command line so it is good to know some basics. Here
+are guides for installing it on [Windows](http://dosprompt.info/basics.asp)
+and [Linux &
+Mac](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-basics/).
 
-## Node.js a NPM
+Node.js and NPM
+---------------
 
-NPM je balíčkovací systém Node.js – musíte stáhnout a nainstalovat celé Node.
+NPM is a packaging system of Node.js – you have to download an install a
+complete Node.js.
 
-### Jste na Windows? Úplně nejdřív tohle
+### Are You a Windows Guy? First Things First Then
 
-1. Hodí se [nainstalovat Visual Studio Code](https://www.visualstudio.com/products/code-vs). Editor kódu, který zároveň nainstalujte podporu Node.js pro Windows.
-2. [Nainstalovat Git](http://git-scm.com/downloads) do příkazové řádky. V kroku „Adjusting your PATH environment“ vybrat „Run Git from the Windows Command Prompt“.
+1.  It is good to [install Visual Studio
+    Code](https://www.visualstudio.com/products/code-vs). It is a code editor
+    which also installs Node.js support for Windows.
+2.  [Then install Git](http://git-scm.com/downloads) using the command line.
+    In the "Adjusting your PATH environment" step, choose "Run Git from the
+    Windows Command Prompt".
 
-A teď všichni, bez ohledu na platformu. Globálně nainstalujeme Node.js. Všechny způsoby jsou tady: [nodejs.org/en/download/](https://nodejs.org/en/download/)
+And now for everybody, regardless of the platform. Install Node.js globally. All
+ways are described here:
+[nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-Jestli vše funguje, zjistíte příkazem pro zobrazení verze NPM:
+Test if everything's OK by using a command for displaying the NPM version:
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 npm -v
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Všechny ostatní potvůrky se pak instalují jako Node balíčky.
+All other dependencies will be installed as Node packages.
 
-Na Macu se občas radí všechny NPM příkazy spouštět jako administrátor (`sudo npm …`). To je [není dobré z hlediska bezpečnosti](https://gist.github.com/leommoore/4420860#important-security-note). Raději si aktuálnímu uživateli přidejte práva k zápisu do `usr/local`:
+Sometimes, it is recommended to run all NPM commands as an admin (`sudo npm …`).
+However, this is not good [from the security point of
+view](https://gist.github.com/leommoore/4420860#important-security-note). It
+is much better to grant the current user privileges to write into `usr/local`:
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 sudo chown -R $USER /usr/local
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Konec bezpečnostní odbočky. Pojďme instalovat užitečné balíčky.
+This is the end of this "security diversion". Now, let's install useful
+packages.
 
-## Grunt, Bower a další Node balíčky
+Grunt, Bower and Other Packages
+-------------------------------
 
-Budete používat [sestavovač Grunt](grunt.md)? V příkazové řádce potřebujete globálně nainstalovat balíček `grunt-cli`:
+Will you use a [Grunt assembler](building.md)? Then, using the command line, you
+will have to install a global package: `grunt-cli`:
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 npm install -g grunt-cli
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-A co frontend [balíčkovač Bower](bower.md)? To už je jednoduché. Opět jej nainstalujeme globálně:
+And what about the front-end [Bower packager](npm-bower.md)? That is easy. Just
+install it globally like this:
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 npm install -g bower
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Úplně stejným způsobem si pak můžete nainstalovat [Grunt pluginy](grunt-pluginy.md), alternativní sestavovač Gulp nebo třeba Webpack.
+Using the very same procedure, you can install Grunt
+plugins, an alternative Gulp assembler or the Webpack.
 
-## Grunt pluginy
+Grunt Plugins
+-------------
 
-```bash
-npm install <nazev-pluginu> --save-dev
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+npm install <plugin-name> --save-dev
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Všimněte si, že už neinstalujeme globálně – bez přepínače `-g`. Ano, Grunt pluginy nebo třeba Bower balíčky instalujeme ke konkrétnímu projektu. Zároveň je chceme uložit do konfiguráků balíčkovacího systému (`packages.json`).
+Notice that we do not install plugins globally, therefore we do not use the `-g`
+switch. And yes, Grunt plugins or Bower packages can be installed on a
+particular project. Also, we really want to save them to the config files of the
+package manager (`packages.json`).
 
-Jste na Windows? Pak pozor, některé Grunt pluginy vyžadují poněkud speciálnější péči. Vím o [PhantomJS](http://attester.ariatemplates.com/usage/phantom.html), na kterém závisí třeba plugin pro generování [kritického CSS](http://www.vzhurudolu.cz/blog/35-critical-css) ([grunt-criticalcss](https://github.com/filamentgroup/grunt-criticalcss)) nebo [ImageMagick](http://www.imagemagick.org/script/binary-releases.php), na které zase potřebují pluginy pro práci s obrázky jako [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin).
+Are you using Windows? Then watch out! Some Grunt plugins require special
+attention. I know of
+[PhantomJS](http://attester.ariatemplates.com/usage/phantom.html) which is a
+dependency of the critical CSS
+([grunt-criticals](https://github.com/filamentgroup/grunt-criticalcss)) plugin
+or [ImageMagick](http://www.imagemagick.org/script/binary-releases.php) which
+is indispensable for plugins that deal with images, such as
+[grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin).
 
+Bower Packages
+--------------
 
-## Bower balíčky
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+bower install <plugin-name> --save
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-```bash
-bower install <nazev-pluginu> --save
-```
+The `--save-dev` switch will save a plugin into developer dependencies.
+Beginners use it in connection with Grunt and its plugins. They can be installed
+using NPM.
 
-`--save-dev` přepínač uloží plugin do vývojářských závislostí. U začátečníků se používá hlavně v souvislosti s Gruntem a jeho pluginy. Ty instalujeme pomocí NPM.
+If you want to install jQuery, it will be a user dependency. We will use the
+`--save` switch but for such dependencies, it is better to use Bower.
 
-Pokud bychom instalovali jQuery, půjde o uživatelskou závislost. Použijeme `--save` přepínač. Pro takové závislosti se více hodí Bower.
+Cheatsheet for Packaging Systems
+--------------------------------
 
-## Tahák pro práci s balíčkovacími systémy
+Both Bower and NPM fortunately have similar commands:
 
-Bower i NPM mají naštěstí podobné příkazy:
-
-```bash
-
-# Vyhledávání balíčku v centrálním repozitáři:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+# Searching a package in the central repository:
 npm/bower search jquery-ui
 
-# Zobrazit detaily o balíčku:
+# Displaying package details:
 npm view jquery-ui
 bower info jquery-ui
 
-# Instalace všech balíčků projektu:
+# Installing all packages on a project:
 npm/bower install
-# Instalace balíčku a přidání do uživatelských závislostí:
+# Installing a package and adding it to user dependencies:
 npm/bower install jquery-ui --save
-# Instalace balíčku a přidání do vývojářských závislostí:
+# Installing a package and adding it to developer dependencies:
 npm/bower install jquery-ui --save-dev
-# Instalace specifické verze balíčku:
+# Installing a version specific package:
 npm/bower install jquery-ui@1.11.x
 
-# Aktualizace všech balíčků:
+# Updating all packages:
 npm/bower update
 
-# Výpis stromu závislostí:
+# Listing a tree of dependencies:
 npm/bower list
-# Výpis stromu závislostí a verze konkrétního balíčku:
+# Listing a tree of dependencies and a package version:
 npm/bower list jquery-ui
 
-# Odstranění balíčku:
+# Removing a package:
 npm/bower uninstall jquery-ui
 
-# Smazání cache. Hodí se v případě reinstalace sady balíčků:
+# Deleting cache. Ideal when re-installing a package set:
 npm cache clean
 
-# Zobrazení balíčků co je potřeba aktualizovat:
+# Displaying packages that need to be updated:
 npm outdated
 bower list
 
-# Nápověda:
+# Help:
 npm help
-
-```
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
