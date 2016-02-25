@@ -1,17 +1,17 @@
 Sustainable Code Using OOCSS
 ============================
 
-OOCSS stands for “Object Oriented CSS”. It is code organization system by Nicole
-Sullivan.
+OOCSS stands for “Object Oriented CSS”. It is a code organization system by
+Nicole Sullivan.
 
 A CSS object is a repeating visual component which can be expressed as a piece
-of HTML and CSS / Javascript. Also, it is reusable in various places in your
-code and across multiple projects.
+of HTML and CSS/Javascript. It is reusable in various places in your code and
+across multiple projects.
 
 The objective of OOCSS is to provide developers with reusable code, improve its
-maintenance and reduce the CSS file size.
+maintenance and reduce CSS file size.
 
-Let's make an example of a simple CSS button:
+Let's take the example of a simple CSS button:
 
 ```css
 /* Component */
@@ -25,7 +25,7 @@ Let's make an example of a simple CSS button:
 .button-login { … }
 ```
 
-In my concept, OOCSS has five principles:
+In my understanding, OOCSS has five principles:
 
 1) Visual Presentation Independent of Structure
 -----------------------------------------------
@@ -42,12 +42,12 @@ Never reflect the HTML structure in CSS as it may change. Use
 3) Component Oriented Development, Reusability
 ----------------------------------------------
 
-Components (i.e. objects) that are not dependent on the HTML structure, can be
-easily used on other projects and they form a closed unit that we can import
-using a preprocessor.
+Components (i.e. objects) that are not dependent on the HTML structure can be
+easily used on other projects. They form a closed unit that we can import using
+a preprocessor.
 
 ```css
-@import "button";
+@import 'button';
 ```
 
 They make both our code and repository commits uncluttered.
@@ -57,25 +57,26 @@ They make both our code and repository commits uncluttered.
 
 We have three types of elements:
 
--   object – i.e. a component or a block (`.button`)
--   element – an entity inside the object or a sub-object (`.button-icon`
+-   object – a component or a block (`.button`)
+-   element – an entity inside an object or a sub-object (`.button-icon`
     representing an icon within a button)
--   modifier – object property (`.button-primary` representing the main
+-   modifier – an object property (`.button-primary` representing the main
     call-to-action button)
 
-It might come in handy to visually distinguish these three element types when
-dealing with bigger projects.
+It might come in handy to distinguish these three element types visually when
+working with bigger projects.
 
 5) The Lowest Specificity
 -------------------------
 
-In CSS, do not use identificator selectors (`#id`) and the `!important` clause
-is reserved for debugging purposes only.
+In CSS, do not use identificator selectors (`#id`). The `!important` clause is
+reserved for debugging purposes only.
 
 To ensure the lowest specificity possible, avoid using:
 
--   child selector (do not use `.button .button-icon`, just `.button-icon`)
--   combined selectors (do not use `.button.button-primary`, just
+-   child selector (do not use `.button .button-icon`, but rather
+    `.button-icon`)
+-   combined selectors (do not use `.button.button-primary`, but rather
     `.button-primary`)
 
 Find more on CSS specificity at

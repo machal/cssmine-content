@@ -8,20 +8,20 @@ This is a size that corresponds with the `font-size` value at the root, i.e the
 unit. Unlike the standard `em` units, `rem` units are not based on the font size
 of the parent element.
 
-Font size of the `<html>` element is usually set in browsers to correspond with
+Font size of the `<html>` element is usually set in browsers to correspond to
 `16px`.
 
-If you set all sizes that relate to typography (or the layout in general) in
+If you set all sizes that relate to the typography (or the layout in general) in
 `rems`, you can then easily scale a document just by changing the value of the
 `html { font-size: … }` property, thus creating elastic layouts.
 
-Not unlike the example above, you can also change the overall document font size
-using [media query](css3-media-queries.md), thus scaling the layout itself.
+Not unlike the above example, you can also change the overall document font size
+using [Media Queries](css3-media-queries.md), thus scaling the layout itself.
 
 ### Example
 
 Set all sizes of a document using the `rem` unit. If you set all H1 headings to
-`1.5rem`, the actual font size will be 1,5 × `16px` – therefore `24px`.
+`1.5rem`, the actual font size will be 1.5 × `16px` – therefore `24px`.
 
 ```css
 h1 {
@@ -29,7 +29,8 @@ h1 {
 }
 ```
 
-If we then decide to set the base font size in media query to 25px if the
+
+If we then decide to set the base font size in Media Queries to 25px, where the
 viewport is 801 pixels or wider,…
 
 ```css
@@ -41,7 +42,7 @@ viewport is 801 pixels or wider,…
 ```
 
 … all elements set in `rem` units will increase their sizes. The `<h1>` heading
-will then be 38 pixels (`25px` × 1,5).
+will then be 38 pixels (`25px` × 1.5).
 
 You can see a live example at: [cdpn.io/e/mnbaA](http://cdpn.io/e/mnbaA)
 
@@ -54,36 +55,35 @@ font-size: 24px;
 font-size: 1.5rem;
 ```
 
-It is better to have a fallback generated automatically using a CSS
-preprocessor.
+It is better to generate a fallback automatically using a CSS preprocessor.
 
 Here is more about browser support: [caniuse.com/rem](http://caniuse.com/rem)
 
 Viewport Units: `vw`, `vh`, `vmin`, `vmax`
 ------------------------------------------
 
-They allow us to define CSS sizes relative to the viewport size - in other words
-”the width or height of the window”.
+These allow us to define CSS sizes relative to the viewport size - in other
+words “the width or height of the window”.
 
 -   `vw` – stands for “viewport width” – `1vw` is 1% of the viewport width
 -   `vh` – stands for “viewport height” – `1vh` is 1% of the viewport height
--   `vmin` – stands for “viewport minimum” – represents the shortest dimension
-    (`1vw` or `1vh`)
--   `vmax` – stands for “viewport maximum” – represents the longest dimension
-    (`1vw` or `1vh`)
+-   `vmin` – stands for “viewport minimum” – this represents the shortest
+    dimension (`1vw` or `1vh`)
+-   `vmax` – stands for “viewport maximum” – this represents the longest
+    dimension (`1vw` or `1vh`)
 
 ### Practical Example
 
-Unlike percentage, viewport units do not relate to the size of the direct parent
-but to the width and height of the browser window instead. We can literally do
-magic that was once possible just by using CSS hacks or Javascript.
+Unlike percentages, viewport units do not relate to the size of the direct
+parent but to the width and height of the browser window instead. We can
+literally do magic that was once possible just by using CSS hacks or Javascript.
 
-Let's show it on a simple example - stretching the height of a layout to the
+Let's show this with a simple example - stretching the height of a layout to the
 full height of the browser window:
 
 ```css
 .container {
-  width: 100vh;
+  width: 100vw;
 }
 ```
 

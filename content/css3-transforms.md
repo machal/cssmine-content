@@ -1,7 +1,7 @@
 CSS3 Transforms – Object Transformations
 ========================================
 
-It can be a transformation of a shape, position or element size.
+These can be the transformation of a shape, position or element size.
 
 There are four available functions: skew, rotate, translate and scale:
 
@@ -27,9 +27,9 @@ There are four available functions: skew, rotate, translate and scale:
 }
 ```
 
-Try it at <http://cdpn.io/e/wxoil>.
+Try it at [cdpn.io/e/wxoil](http://cdpn.io/e/wxoil).
 
-All four functions transform an element around a corresponding axis. For example
+All four functions transform an element around a designated axis. For example,
 `skewX()`, `skewY()`.
 
 Combination of Transformations
@@ -38,15 +38,17 @@ Combination of Transformations
 Remember that combinations of transformations are not separated by a comma:
 
 ```css
-transform: scale(1.5) skew(-15deg);
+transform: 
+  scale(1.5) skew(-15deg);
 ```
+
 
 Transformation Origin
 ---------------------
 
-It is sets the point of origin of a transformation. By default, the origin is in
+This sets the point of origin of a transformation. By default, the origin is in
 the center of an element: `transform-origin: center center`. If we set the
-origin to the top left corner, it will cause the element to scale from that
+origin in the top left corner, it will cause the element to scale from that
 point:
 
 ```css
@@ -61,9 +63,9 @@ See more at [cdpn.io/e/brBgk](http://cdpn.io/e/brBgk)
 Browser Support
 ---------------
 
-IE10+. For older browsers, you will probably need feature detection using
+IE10+. For older browsers, you will probably need to use feature detection using
 Modernizr and then come up with an alternative solution. Basic 2D
-transformations can be carried away in older Internet Explorers using a
+transformations can be carried out in older Internet Explorers using a
 proprietary
 [filter](http://msdn.microsoft.com/en-us/library/ms533014%28VS.85%29.aspx)
 function. Also, there is a [smart

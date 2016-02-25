@@ -1,14 +1,16 @@
-CSS3 Font Face
-==============
+CSS3 Font Face – BYOF (bring your own font...)
+==============================================
 
-Web fonts a.k.a. “your own fonts in a website”? The `@font-face` property is
-nowdays a standard technique with almost full compatibility with all browsers so
-there is no need to fear it from the technological point of view.
+Web fonts - a.k.a. “your own fonts in a website?” Nowdays, the `@font-face`
+property is a standard technique that has almost full compatibility with all
+browsers so there is no need to fear using it from a technological point of
+view.
 
 Syntax
 ------
 
-First declare the font family and path to a file using the `@font-face` at-rule:
+First declare the font family and the path to a file using the `@font-face`
+at-rule:
 
 ```css
 @font-face {
@@ -18,6 +20,7 @@ First declare the font family and path to a file using the `@font-face` at-rule:
 }
 ```
 
+
 Then simply call the font family in standard CSS:
 
 ```css
@@ -26,26 +29,27 @@ Then simply call the font family in standard CSS:
 }
 ```
 
+
 File Formats of Web Fonts
 -------------------------
 
-If you are not using a cloud solution such as Typekit or Google Fonts and you
-are using your own font files, you need to have at least a minimum knowledge of
-file formats:
+If you are not using a cloud-based solution such as Typekit or Google Fonts and
+you are using your own font files, you need to have at least minimum knowledge
+of file formats:
 
--   **WOFF** (Web Open Font Format) – it is the predominant file format.
-    However, it is supported by MSIE from version 9 and by Android Browser from
-    version 4.4 – [caniuse.com/woff](http://caniuse.com/woff)
+-   **WOFF** (Web Open Font Format) – the predominant file format. However, it
+    is supported by MSIE from version 9 and by Android Browser from version 4.4.
+    [caniuse.com/woff](http://caniuse.com/woff)
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
-    by almost all modern browsers, however MSIE supports them from version 9.
-    Furthermore, you have to set the so called “embedding bits” (embedding
+    by almost all modern browsers. However, MSIE only supports them from version
+    9. Furthermore, you have to set the so-called “embedding bits” (embedding
     permissions in the font's header) to “installable”.
     [caniuse.com/ttf](http://caniuse.com/ttf)
--   **SVG** (SVG vector format defined fonts) – you will need it if you want to
-    support really old versions of iOS Safari browser — 4.3 and lower.
+-   **SVG** (SVG vector format defined fonts) – you will need this if you want
+    to support really old versions of iOS Safari browser, i.e. 4.3 and lower.
     [caniuse.com/svg-fonts](http://caniuse.com/svg-fonts)
--   **EOT** (Embedded OpenType font) – it is supported by all Internet Explorers
-    from version 4. You will need it if you want to support IE8 and lower.
+-   **EOT** (Embedded OpenType font) – supported by all Internet Explorers from
+    version 4. You will need this if you want to support IE8 and lower.
     [caniuse.com/eot](http://caniuse.com/eot)
 
 ### Syntax That Will Maximize Compatibility
@@ -73,14 +77,14 @@ If you need to support all browsers, the code is a little more complicated:
 }
 ```
 
-These days, we will most likely need just the WOFF and TTF formats (due to older
-Androids) and EOT (due to IE8−). But there is a bright future ahead of us. It is
+These days, we will most likely need just the WOFF and TTF formats (for
+Androids) and EOT (for IE8−). But there is a bright future ahead of us. It is
 call WOFF.
 
-### WOFF Is Our Future
+### WOFF Is the Future
 
-In a few years, or months for that matter, the WOFF format will be the only
-thing we will need:
+In a few years, or for that matter, months, the WOFF format will be the only
+thing we need:
 
 ```css
 @font-face {
@@ -89,7 +93,8 @@ thing we will need:
 }
 ```
 
-But be careful. There will always be browsers (or situations) that are not
+
+But be careful. There will always be browsers (and situations) that are not
 compatible with any of these web font formats. Opera Mini is a good example. Or
 imagine a situation where a modern browser does not load the web font – let's
 say due to a slow mobile internet connection.

@@ -1,7 +1,7 @@
 CSS3 RGBa Color – Semi-transparent Color
 ========================================
 
-It is a RGB color with a fourth parameter (a number) which is the alpha
+This is an RGB color with a fourth parameter (a number) which is the alpha
 transparency channel.
 
 ```css
@@ -28,7 +28,7 @@ Browser Support
 
 All browsers except IE8 and older versions have no problem with rendering RGBa.
 However, by using a defined fallback, you can respectfully deal with “the
-elderly”:
+elderly”.
 
 ```css
 color: rgb(128, 0, 0);
@@ -37,7 +37,7 @@ color: rgba(255, 0, 0, 0.5);
 
 This fallback will be rendered by modern browsers as a red color with a 50%
 transparency. IE8 will render it as a dark shade of red. A fallback color must
-be defined with respect to the background color which is black in this case.
+be defined with respect to the background color, which is black in this case.
 
 You can alternatively use
 [CSS3Pie](http://css3pie.com/documentation/supported-css3-features/).

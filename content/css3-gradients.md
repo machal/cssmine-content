@@ -58,7 +58,7 @@ background:
 
 This CSS code will render a color gradient from the top left corner to the
 bottom right corner like this: a gradient from transparent color to light green
-will take up one quarter of an element and a gradient from light to dark green
+will take up one quarter of the element and a gradient from light to dark green
 will take up the area from one quarter to one half of an element. This time we
 used the RGB color model.
 
@@ -74,13 +74,14 @@ A simple circle (radial) gradient can be created like this:
 }
 ```
 
+
 ### Shape and Size
 
 The default shape is a `circle` but it can be changed to an `ellipse`.
 
 Right after the shape, you can define the size of the gradient. The first option
 is to define the **size by the radius of the circle**. When using a circle, one
-number will do, when using an ellipse, you will need two. The first number
+number will do. When using an ellipse, you will need two. The first number
 indicates the height, the second one the width of the ellipse.
 
 ```css
@@ -116,13 +117,14 @@ property. You just need to add an `at` key word:
 }
 ```
 
+
 ### Color-stops
 
-Color-stops work similarly to the linear gradient. In the example below, the
+Color-stops work similarly to the linear gradients. In the example below, the
 browser will render a color gradient from light green which will take up one
 quarter of the element and a gradient from light to dark green which will take
 up the area from one quarter to one half of the element. The rest of the circle
-will be filled with dark green:
+will be filled in dark green:
 
 ```css
 .box-4 {
@@ -131,14 +133,15 @@ will be filled with dark green:
 }
 ```
 
+
 And here is a live example which contains all four options of the radial
 gradient: [cdpn.io/e/cdyfx](http://cdpn.io/e/cdyfx).
 
 Repeating Gradients
 -------------------
 
-Repeating gradients are declared the same way as normal gradients except we will
-use the `repeating-linear-gradient()` or `repeating-radial-gradient()`
+Repeating gradients are declared the same way as normal gradients, except we
+will use the `repeating-linear-gradient()` or `repeating-radial-gradient()`
 functions. Unlike normal gradients, the browser will not render a color when it
 hits the last color-stop but it will repeat the defined gradient instead.
 
@@ -149,6 +152,7 @@ hits the last color-stop but it will repeat the defined gradient instead.
       transparent, transparent 10%, green 10%, green 20%);
 }
 ```
+
 
 In this example we will outline a colored “zebra” using transparent color and
 green.
@@ -167,6 +171,7 @@ Now, let's try a repeating radial gradient:
 }
 ```
 
+
 By defining repeating green stripes we are able to create a “target-like”
 pattern. But watch out here! Some browsers such as Chrome or Firefox are
 currently not able to render these complicated gradients smoothly. As a result,
@@ -181,7 +186,7 @@ browsers still have issues. See
 [caniuse.com/gradients](http://caniuse.com/gradients)
 
 Therefore, do not forget to define a fallback. A gradient is considered a
-background image so a fallback can be easily pulled off using a standard
+background image so a fallback can easily be pulled off using a standard
 background color:
 
 ```css
@@ -191,7 +196,8 @@ background-image:
   linear-gradient(lightgreen, darkgreen);
 ```
 
-### Gradient, Formerly Known as the Thing From “prefix” Hell
+
+### Gradient, Formerly Known as the Thing From “Prefix” Hell
 
 Nowdays, gradients are not a big deal. However, browsers in various stages of
 specification development have implemented various stages of the actual
@@ -212,10 +218,9 @@ background-image:
   -webkit-linear-gradient(top, lightgreen, green);
 ```
 
-This is not likely to be a big deal for most web sites and you will settle for a
+This is not likely to be a big deal for most websites and you can settle for a
 fallback using a background color. The latest versions of all browsers comply
-with the W3C syntax we are using in our examples. And without prefixes, I might
-add!
+with the W3C syntax we are using in our examples. Without prefixes, I might add!
 
 ### `filter` in IE8 and IE9
 
@@ -224,9 +229,8 @@ Internet Explorers by using the proprietary filter property:
 
 ```css
 -ms-filter:
-  "progid:DXImageTransform.Microsoft.gradient(
-    GradientType=0, startColorstr=#00ff00,
-    endColorstr=#008800)";
+  'progid:DXImageTransform.Microsoft.gradient(
+    GradientType=0, startColorstr=#00ff00, endColorstr=#008800)';
 ```
 
 In the `GradientType` parameter you can set a vertical (`0`) or horizontal (`1`)
@@ -240,13 +244,13 @@ Remember that a gradient is actually the **background image of an element,** so
 it can be used as a background image for list bullets (`list-style-image`) or as
 a border image ([border-image](css3-border-image.md)).
 
-The most common use of non trivial gradients is creating **graphic buttons**
-through CSS. See
+The most common use of non-trivial gradients is creating **graphic buttons**
+with CSS. See
 [cubiq.org/dropbox/cssgrad.html](http://cubiq.org/dropbox/cssgrad.html)
 
-The following is almost a **scientific essay on gradients**: in this link, Ana
-Tudor goes really deep into the topic and explains it using math. See
-[hugogiraudel.com/2013/02/04/css-gradients/](http://hugogiraudel.com/2013/02/04/css-gradients/)
+The following is almost a **scientific essay on gradients**:
+[hugogiraudel.com/2013/02/04/css-gradients/]. In this link, Ana Tudor goes
+really deep into the topic and explains it using math.
 
 **ColorZilla Gradient Editor** will help you generate a gradient code applicable
 to older browsers including a fallback for IE8 and IE9. See
@@ -256,7 +260,7 @@ Lea Verou has a nice gallery of **color patterns** created using CSS gradients
 only. But think of it mainly as a showcase of options. See
 [lea.verou.me/css3patterns](http://lea.verou.me/css3patterns)
 
-The above-mentioned color patterns make use of the so called **sharp
+The above-mentioned color patterns make use of the so-called **sharp
 transition,** which is not really a transition because there is a sharp edge
-between colors. `background: linear-gradient(to bottom, transparent, lightgreen
-33%, darkgreen 33%);` See [cdpn.io/e/licEd](http://cdpn.io/e/licEd)
+between colors: `background: linear-gradient(to bottom, transparent, lightgreen
+33%, darkgreen 33%)`. See [cdpn.io/e/licEd](http://cdpn.io/e/licEd)

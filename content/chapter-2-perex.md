@@ -1,10 +1,10 @@
 # Introduction
 
-Let's get to the bottom of this. The “CSS Mine - dig into web UI development”
-guide is divided into categories according to what they affect. First, we will
-look into [text properties](css3-text-overflow.md), then [background properties](css3-background-clip.md) and the we will gradually
-cover everything from [transformations](css3-transforms.md) and [animations](css3-animations.md) to [the layout](css3-multicolumn.md).
+Let's get to the bottom of things. The “CSS Mine - Dig into Web UI Development”
+guide is divided into categories according to what is affected. First, we will
+look into text properties, then background properties and then we will gradually
+cover everything from transformations and animations to layout.
 
-Almost every property is accompanied by a live example at [Codepen.io](http://www.codepen.io). Therefore,
-to get the full experience when learning new technologies, it is good to be
-online.
+Almost every property is accompanied by a live example at Codepen.io. Therefore,
+to get the full experience, it is good to be online when learning new
+technologies.

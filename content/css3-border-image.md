@@ -1,11 +1,11 @@
 CSS3 Border Image – Custom Borders
 ==================================
 
-This is a way which allows you to create custom boxes around elements instead of
-using the native ones.
+This is a way to create custom boxes around elements instead of using the native
+ones.
 
 Take any image that contains a border and tell the browser how to slice it. Then
-there is the “magic” part - the border will adapt to the width and height of the
+comes the “magic” part - the border will adapt to the width and height of the
 element, whatever it may be.
 
 Syntax
@@ -32,13 +32,11 @@ cut-outs for the horizontal and vertical sides are.
 
 The value consists of one, two or four numbers. Two numbers represent the
 horizontal and vertical slice and four numbers represent the top, right, bottom
-and left slices. The value can be defined in pixels or as percentage of the
+and left slices. The value can be defined in pixels or as a percentage of the
 source image size. The default value is `border-image-slice: 100%`.
 
 If the `fill` key word is used, the browser will apply the center part of the
 image to the element's background.
-
-![Slice Sizes within border-image](dist/images/original/border-image.svg)
 
 ### Border Width
 
@@ -49,23 +47,23 @@ If the `auto` value is applied, the width is calculated from the slice size.
 
 ### Start of the Slice
 
-The value of the `border-image-outset` property defines how far the image border
-extends past the element. It is calculated as if the element had a [box-sizing:
-border-box](css3-box-sizing.md) property.
+The value given for the `border-image-outset` property defines how far the image
+border extends past the element. It is calculated as if the element had a
+[box-sizing: border-box](css3-box-sizing.md) property.
 
 ### Repeating
 
-How will the browser work with the vertical and horizontal side of the image
-border if the border has different size than the source image? We can set this
-by using the `border-image-repeat` property. There are four values available:
+How will the browser work with the vertical and horizontal sides of the image
+border if the border has a different size than the source image? We can set this
+by using the `border-image-repeat` property. There are four available values:
 
 -   `stretch` – the image will stretch to fill the border
--   `repeat` – the image will not repeat
--   `round` – if the area is not filled by an integer number of repetitions,
+-   `repeat` – the image will repeat
+-   `round` – if the area is not filled in by an integer number of repetitions,
     each repetition will stretch to fill the area
--   `space` – if the area is not filled by an integer number of repetitions, the
-    empty area is evenly distributed among all repetitions (space is added to
-    each repetition)
+-   `space` – if the area is not filled in by an integer number of repetitions,
+    the empty area is evenly distributed among all repetitions (space is added
+    to each repetition)
 
 Remember that it is possible to set various values for the horizontal and
 vertical parts of the border. See an example:
@@ -78,16 +76,16 @@ Useful Tips
 -----------
 
 [border-image.com](http://border-image.com/) - a very nice generator which
-will make your life easier especially when looking for size of the slices.
+will make your life easier, especially when looking for size of the slices.
 
-- Attention! According to the latest specification, the `border-image`
-  property will not work if you forget to declare `border-style` and
-  `border-width` properties.
+-   Attention! According to the latest specification, the `border-image`
+    property will not work if you forget to declare `border-style` and
+    `border-width` properties.
 
 Browser Support
 ---------------
 
-IE11+. Older browsers can be tackled by a defined alternative and by feature
+IE11+. Older browsers can be served by a defined alternative and by feature
 detection using Modernizr: `.no-borderimage .box { … }`. Or simply by using a
 `border-color` fallback.
 
@@ -97,9 +95,9 @@ A Simple Example with a Color Gradient
 [CSS gradients](css3-gradients.md) count as images, therefore you can use a
 color gradient as a border.
 
-But remember that you always have to define a native image border. First for
-handling sizes, second for creating a fallback for browsers not supporting
-`border-image`. So, for the sake of this example, let's create a 20 pixel border
+But remember that you always have to define a native image border  -first for
+handling sizes and second, for creating a fallback for browsers not supporting
+`border-image`. So for the sake of this example, let's create a 20 pixel border
 around an element:
 
 ```css
@@ -124,7 +122,7 @@ border:
 border-image-slice: 20;
 ```
 
-And that's it. You can try an example at
+And that's all there is to it. You can try an example at
 [cdpn.io/e/zdyIJ](http://cdpn.io/e/zdyIJ).
 
 An Example with a Bitmap Image as a Background
@@ -165,5 +163,5 @@ border-image:
   url(border-image-source.png) 21 23 repeat;
 ```
 
-Done. You can try an example at
+Done. You can view an example at
 [cdpn.io/e/DLkjm](http://cdpn.io/e/DLkjm).

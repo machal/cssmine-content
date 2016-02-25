@@ -1,22 +1,22 @@
 Package Managers: NPM and Bower
 ===============================
 
-Two package managers? This might be a pretty pickle for novices. In the
-following paragraphs, you will find out when to use NPM and when Bower.
+Two package managers? This might get novices into a pretty pickle. In the
+following paragraphs, you will find out when to use NPM and when to use Bower.
 
-When dealing with UI, you can use these two managers for installing two types of
+When dealing with UI, you can use these two managers to install two types of
 packages:
 
--   web components – e.g. Bootstrap or jQuery and it's plugins (usually using
+-   web components – e.g. Bootstrap or jQuery and its plugins (usually using
     Bower)
--   software for developer's use – e.g. Grunt plugins improving your workflow
+-   software for developers' use – e.g. Grunt plugins improving your workflow
     (usually using NPM)
 
-What Is a Packaging System For, anyway?
+What Is a Packaging System for, Anyway?
 ---------------------------------------
 
-Coders are not used to using any packaging system so let's explain why it is
-good.
+Coders are not used to using a packaging system so let's explain why it is good
+to do so.
 
 First, **installation is easier** – just type `bower install jquery` and an
 up-to-date version of jQuery will be installed into the `bower_components`
@@ -25,19 +25,19 @@ directory.
 Second, **updates are easier** – when a new version of jQuery is released, all
 you need to do is type `bower update jquery` and you have it in your project.
 
-Also, all this **improves project manageability** – both NPM and Bower
+Third, all this **improves project manageability** – both NPM and Bower
 components are stored in special directories which are not versioned. Project
 dependencies are versioned in NPM or Bower configuration files. Thanks to that,
-our repository and its history is simpler.
+our repository and its history are simplified.
 
-Node Package Manager – NPM
---------------------------
+Node Package Manager - NPM.js
+-----------------------------
 
 This is a packaging system for Javascript. In the PHP world, they have Composer,
 in the Javascript world, we have NPM.
 
-In my workflow, I use it mainly for installing libraries such as Grunt and its
-plugins. However, there are several approaches to packaging so it is good to
+In my workflow, I use NPM mainly for installing libraries such as Grunt and its
+plugins. However, there are several approaches to packaging, so it is good to
 know that web libraries such as jQuery can be installed using NPM too.
 
 Npm uses a `package.json` config file and installs everything into a
@@ -49,8 +49,8 @@ Bower
 -----
 
 Bower is a package manager system for the front-end. Components that I handle
-using Bower are well beyond Javascript and they sometimes contain even CSS and
-images.
+using Bower are well beyond Javascript and they sometimes even contain even CSS
+and images.
 
 In my case, Bower manages project dependencies - not just the usual jQuery
 packages but also polyfills like Respond.js or Picturefill and other libraries
@@ -64,7 +64,8 @@ See more at [bower.io](http://bower.io).
 A Few Useful Commands
 ---------------------
 
-Fortunately, Bower adopted the NPM syntax so working with it is similar.
+Fortunately, Bower has adopted the NPM syntax so working with it is similar to
+using NPM.
 
 Library search:
 
@@ -88,12 +89,14 @@ Let's move on: updating jQuery:
 npm|bower update jquery
 ```
 
+
 Installing and updating can be done within the same project at once. Both Bower
-and npm compare the configuration file with the latest version of dependencies:
+and NPM compare the configuration file with the latest version of dependencies:
 
 ```bash
 npm|bower install|update
 ```
+
 
 Bower vs NPM
 ------------
@@ -107,12 +110,12 @@ Now, let's review differences based on their purpose:
 The package systems differ not only in purpose but in the way they save
 dependencies as well:
 
--   NPM installs packages and their dependencies, one at a time. As a result of
-    this, the directory the packages are installed into contains multiple
-    package versions. This makes perfect sense when using Grunt plugins: every
+-   NPM installs packages and their dependencies one at a time. As a result of
+    this, the directory into which the packages are installed contains multiple
+    package versions. This makes perfect sense when using Grunt plugins - every
     packages requires a different dependency.
 -   Bower, on the other hand, installs all dependencies at once. This also makes
-    perfect sense - you want a single jQuery version on your web site.
+    perfect sense - you want a single jQuery version on your website.
 
 Therefore, when running a standard project, the `bower_components` directory
 will contain much less data than the `node_modules` directory.

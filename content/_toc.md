@@ -22,7 +22,7 @@ transformations-8.md
 tools.md
 preprocessors.md
 node-js.md
-npm-bower.md
+NPM-bower.md
 building.md
 postprocessing.md
 oocss.md

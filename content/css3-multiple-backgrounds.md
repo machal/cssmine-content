@@ -3,7 +3,7 @@ CSS3 Multiple Backgrounds
 
 How to layer multiple images or colors in one element?
 
-In fact, multiple backgrounds are not a CSS property - just a new way of using
+In fact, multiple backgrounds are not a CSS property, just a new way of using
 the existing `background` property.
 
 And what is the syntax? Simply divide the layer using a comma:
@@ -14,6 +14,7 @@ background:
   url('center_image.png'),
   #ddccaa;
 ```
+
 
 The image before the first comma will always be the top one.
 
@@ -28,6 +29,7 @@ background-repeat:
   no-repeat,
   repeat;
 ```
+
 
 Try it Yourself
 ---------------
@@ -57,5 +59,5 @@ background: #ddccaa;
 background:
   url('top_image.png'),
   url('center_image.png'),
-  #ddccaa;
+    #ddccaa;
 ```

@@ -30,5 +30,5 @@ See a live example at
 Browser Support
 ---------------
 
-Let's put it simply: IE9+. Polyfills for IE8 do not even exists and there is no
-wonder… It's hard to find an example where they would be necessary.
+Let's put it simply: IE9+. Polyfills for IE8 do not even exists and no wonder -
+it's hard to find a situation where they would be necessary.

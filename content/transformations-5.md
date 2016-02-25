@@ -1,36 +1,37 @@
-SVG and srcset/sizes, a New Challenge for Image Inserting
+SVG and srcset/sizes, a New Challenge for Image Insertion
 =========================================================
 
-Thanks to the CSS pixels and the need to reduce file size, there are a lot more
-problems to solve than a simple question - “Should I use PNG or JPG?”.
+Thanks to CSS pixels and the need to reduce file size, there are a lot more
+problems to solve than simply, “should I use PNG or JPG?”
 
-Before we start, we have to divide web site images into two categories –
-interface images and content images.
+Before we start, we have to divide website images into two categories: interface
+images and content images.
 
 Interface Images: Icons, Logotypes, Enhancements
 ------------------------------------------------
 
-The only sustainable approach is to use vector graphics. [Font
+The only sustainable approach here is to use vector graphics. [Font
 icons](https://css-tricks.com/examples/IconFont/) are a good but temporary
 solution. The SVG vector format, on the other hand, offers much more interesting
 options.
 
-When dealing with interface enhancement (custom shadows, buttons or borders…),
-the best way is to use CSS3 or alternatively SVG.
+When dealing with interface enhancement (custom shadows, buttons or borders) the
+best choice is to use CSS3 or alternatively, SVG.
 
 Content Images: Photos
 ----------------------
 
-You can export images in huge resolutions (e.g. four times higher) and reduce
-their sizes in HTML.
+You can export images in huge resolutions (e.g. four times higher than the
+original) and reduce their sizes in HTML.
 
-This way, you will solve the `device-pixel-ratio` problem, however the file size
-of your web site will be so high, the users will track you down and beat you to
-death with their mobile phones.
+You can solve the `device-pixel-ratio` problem that way.
+
+However, the file size of your website will be so large that users will track
+you down and beat you to death with their mobile phones.
 
 Just a reminder: an image optimized for Retina displays (2x) does not contain
 twice the number of pixels but four times the number of pixels (4x). So its file
-size can also be four times the size.
+size will also be four times larger.
 
-Therefore, I recommend to use new attributes of the `<img>` tag — `srcset` and
-`sizes`.
+Therefore, I recommend using the new attributes of the `<img>` tag — `srcset`
+and `sizes`.
