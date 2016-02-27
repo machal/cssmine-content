@@ -21,7 +21,7 @@ Caution! The `background-origin` property is ignored by the browser if the
 Background Clip vs Background Origin
 ------------------------------------
 
-Everyone gets confused by this so let's shed some light on it:
+Everyone gets confused by this so let’s shed some light on it:
 
 [Background Clip](css3-background-clip.md) determines whether the background
 color or image is visible under a border (`border-box`) or only around the

@@ -43,7 +43,7 @@ of file formats:
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
     by almost all modern browsers. However, MSIE only supports them from version
     9. Furthermore, you have to set the so-called “embedding bits” (embedding
-    permissions in the font's header) to “installable”.
+    permissions in the font’s header) to “installable”.
     [caniuse.com/ttf](http://caniuse.com/ttf)
 -   **SVG** (SVG vector format defined fonts) – you will need this if you want
     to support really old versions of iOS Safari browser, i.e. 4.3 and lower.
@@ -96,7 +96,7 @@ thing we need:
 
 But be careful. There will always be browsers (and situations) that are not
 compatible with any of these web font formats. Opera Mini is a good example. Or
-imagine a situation where a modern browser does not load the web font – let's
+imagine a situation where a modern browser does not load the web font – let’s
 say due to a slow mobile internet connection.
 
 Remember that these scenarios might happen and do not forget to define a

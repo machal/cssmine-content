@@ -26,6 +26,6 @@ Taken from a certain point of view, the “responsive” term is just an indicat
 of a temporary web design phase.
 
 At first sight, Media Queries are the only things that help us tackle CSS3
-responsive properties, but don't be fooled! From the responsive design point of
+responsive properties, but don’t be fooled! From the responsive design point of
 view, almost every CSS property explained in the second part of this e-book is
 valuable.

@@ -8,7 +8,7 @@ operations. We also want to reduce the size of images and merge them into a CSS
 sprite.
 
 Therefore, the direct link to source files in HTML has been replaced by
-optimized distribution versions. And now we're getting there: to make these
+optimized distribution versions. And now we’re getting there: to make these
 distribution versions, we need building tools.
 
 The building tools for the front-end come in two types:
@@ -59,7 +59,7 @@ is a simplified example of such a file:
 
 ```javascript
 module.exports = function(grunt) {
-  “use strict";
+  'use strict';
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -105,7 +105,7 @@ See more at [gruntjs.com](http://gruntjs.com/).
 Gulp
 ----
 
-Gulp can do basically the same things as Grunt but it's faster and configures
+Gulp can do basically the same things as Grunt but it’s faster and configures
 tasks using Javascript. Therefore, it is easier to generalize stuff and is more
 suitable for programmers and larger projects.
 

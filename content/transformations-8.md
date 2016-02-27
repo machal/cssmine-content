@@ -8,7 +8,7 @@ The motives are rather practical. In the responsive web design era, it is not
 certain how big an element will eventually be and what the rendering
 capabilities of a device will be.
 
-Ornament-rich graphics, in combination with today's imperfect workflow, would
+Ornament-rich graphics, in combination with today’s imperfect workflow, would
 gobble up lot of money.
 
 Many web developers complain about this approach because it seems limiting from

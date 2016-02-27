@@ -37,7 +37,7 @@ can call it anywhere and adjust it to your needs.
 }
 ```
 
-Now, let's explain all properties:
+Now, let’s explain all properties:
 
 ### `animation-name`
 

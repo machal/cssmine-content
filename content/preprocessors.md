@@ -1,7 +1,7 @@
 CSS Preprocessors
 =================
 
-LESS, SASS and other preprocessors make the front-end developer's life a little
+LESS, SASS and other preprocessors make the front-end developer’s life a little
 easier. Preprocessors precede CSS. They add new properties and simplify the
 code. They then are complied into CSS so all web browsers can understand. It is
 as simple as that.
@@ -25,7 +25,7 @@ notation looks like this:
 
 
 The rival Foundation framework (using SASS) can operate using variable queries.
-Let's explain it, shall we? The Foundation framework can operate using a
+let’s explain it, shall we? The Foundation framework can operate using a
 `$medium-up` variable which contains an entire media query so you do not have to
 write it again and again. The SASS notation looks like this:
 
@@ -63,7 +63,7 @@ preprocessors. When using CSS, most browsers will not understand nested Media
 Queries and as a result, you tend to organize your code using Media Queries
 alone. Component organization is more favorable though. In the above example,
 the `.nav` module will be the main organizational unit and Media Queries will be
-nested in it. That's what we want.
+nested in it. That’s what we want.
 
 ### Mixins
 
@@ -106,7 +106,7 @@ This will be compiled into:
 }
 ```
 
-Mixins themselves can also have parameters and that's where the fun starts!
+Mixins themselves can also have parameters and that’s where the fun starts!
 
 ### @import
 
@@ -159,11 +159,11 @@ The Disadvantages of CSS Preprocessors
 -   They are too powerful. Stepping away from dumb CSS leads to elaborated and
     sometimes imperative code; however it tends to be incomprehensible and hard
     to maintain. You know what they say about a “good servant but a bad master”,
-    don't you?
+    don’t you?
 -   The code is proprietary – if you are not too particular about how you use a
     preprocessor, teaching a novice or switching to another preprocessor is a
     piece of cake. It gets worse if you consider the previous point.
 
 I think that some problems that are now solved by preprocessors will be
-addressed in the post-processing phase in the near future. So let's dig into
+addressed in the post-processing phase in the near future. So let’s dig into
 Node.js, shall we?

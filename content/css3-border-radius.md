@@ -72,7 +72,7 @@ going to slow your website down.
 
 Therefore, I strongly recommend a zero fallback strategy. As a result, users
 with older browsers simply will not see rounded corners. And what the eye
-doesn't see, the heart doesn't grieve over.
+doesn’t see, the heart doesn’t grieve over.
 
 If the background color bleeds outside of a rounded corner in some browsers,
 just add `background-clip: padding-box`. See

@@ -13,7 +13,7 @@ text-shadow:
 ```
 
 
-Let's take a look at a live example at
+let’s take a look at a live example at
 [cdpn.io/e/aDLCl](http://cdpn.io/e/aDLCl).
 
 The `text-shadow` property has a twin: [box-shadow](css3-box-shadow.md). Go to

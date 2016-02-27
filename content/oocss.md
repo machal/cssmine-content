@@ -11,7 +11,7 @@ across multiple projects.
 The objective of OOCSS is to provide developers with reusable code, improve its
 maintenance and reduce CSS file size.
 
-Let's take the example of a simple CSS button:
+let’s take the example of a simple CSS button:
 
 ```css
 /* Component */

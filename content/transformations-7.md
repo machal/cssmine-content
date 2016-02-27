@@ -16,7 +16,7 @@ not only static graphics but simple interactions as well.
 If we can express something using code, it is very simple to interlink the
 visual parts with a browser experience. Certain attempts have already been made
 - take Sketch, Adobe Edge Reflow or WebFlow, for instance. They export code or
-parts of it and are certainly much better adapted to the needs of today's web
+parts of it and are certainly much better adapted to the needs of today’s web
 design in terms of workflow in that they support SVG and responsive design.
 
 Coders really appreciate tools such as Brackets or Avocode, which address the
@@ -34,8 +34,8 @@ will.
 
 As a front-end designer, I have had interesting experiences with designing
 responsive websites in a browser. However, combining HTML and CSS design using a
-graphic editor would force me to write a whole book on this topic. So let's not
+graphic editor would force me to write a whole book on this topic. So let’s not
 go there.
 
-If your team's workflow allows you to do so, try to experiment and use one of
+If your team’s workflow allows you to do so, try to experiment and use one of
 the above-mentioned approaches.

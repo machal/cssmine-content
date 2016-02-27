@@ -17,4 +17,4 @@ Interesting Links to Flexbox
     [philipwalton.github.io/solved-by-flexbox/](http://philipwalton.github.io/solved-by-flexbox/)
 -   **CSS Flexible Box Layout**
     W3.org specification. Do not worry, this is nicely written even from the
-    developer's point of view: [w3.org/TR/css3-flexbox/](http://www.w3.org/TR/css3-flexbox/)
+    developer’s point of view: [w3.org/TR/css3-flexbox/](http://www.w3.org/TR/css3-flexbox/)

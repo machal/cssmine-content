@@ -21,9 +21,9 @@ box-model](http://en.wikipedia.org/wiki/Internet_Explorer_box_model_bug) value
 that IE6 and older versions used to handle the sizing of elements?
 
 ```
-The width or height of an element = 
-actual visible width or height of the content 
-+ padding 
+The width or height of an element =
+actual visible width or height of the content
++ padding
 + border.
 ```
 
@@ -31,7 +31,7 @@ actual visible width or height of the content
 Do you get it? This is the `border-box` **box-model**.
 
 In contrast, all other modern browsers use the `content-box` value **or the “W3C
-box-model"**. You know the drill:
+box-model”**. You know the drill:
 
 ```css
 The width or height of an element = actual visible width or height of the content
@@ -40,12 +40,12 @@ The width or height of an element = actual visible width or height of the conten
 This is the initial value of the `box-sizing` property which we can – thankfully
 – change.
 
-Just for the record: let's explain how the width and height of an element is
+Just for the record: let’s explain how the width and height of an element is
 calculated when using the `box-sizing: padding-box` declaration. It is in fact a
 `border-box` value, but the width of the `border` property is not added into the
 calculation.
 
-Good, but how can we make use of it? Let's take a look at a few scenarios.
+Good, but how can we make use of it? Let’s take a look at a few scenarios.
 
 Examples of Use
 ---------------
@@ -96,7 +96,7 @@ See a live example at [cdpn.io/e/FeLkJ](http://cdpn.io/e/FeLkJ).
 The `box-sizing` property is very handy when it comes to unifying how the width
 and height of form fields are calculated. Depending on the browser, some of the
 fields are handled using the `content-box` property, some using the `border-box`
-property (e.g. `input type="submit"` vs `select`). If you want to make sure that
+property (e.g. `input type='submit'` vs `select`). If you want to make sure that
 all form elements in your design have the same height, just declare `box-sizing:
 border-box` before you even start to think about styling them. A live example of
 form fields can be found at [cdpn.io/e/iBquK](http://cdpn.io/e/iBquK).

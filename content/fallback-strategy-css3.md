@@ -27,7 +27,7 @@ ignore it and continue rendering the code.
 ```
 
 In this example, we do not worry about the fact that older browsers do not
-render transitions. The transition's only purpose is to enhance the user
+render transitions. The transition’s only purpose is to enhance the user
 experience in modern browsers.
 
 If, however, a transition carries information (e.g. a file upload indication),
@@ -87,7 +87,7 @@ Internet Explorer.
 Nowdays, every CSS3 property is supported (or not supported) by a different
 group of browsers. Sometimes, it is just Internet Explorer prior to version 8,
 sometimes Internet Explorer 9 and lower, sometimes Opera Mini - and sometimes
-even older Android browsers join the club. Who knows what will come in a year's
+even older Android browsers join the club. Who knows what will come in a year’s
 time. Therefore, it is much easier to detect feature support, not browser
 support. We can then forget about the browsers.
 
@@ -105,7 +105,7 @@ already mentioned:
 ```
 
 When it comes to CSS3 properties, it is useful for the layout-related ones.
-Let's make a flexbox example:
+let’s make a flexbox example:
 
 ```css
 .component {
@@ -173,7 +173,7 @@ typography and linear design */
 }
 ```
 
-Let's remember this motto:
+let’s remember this motto:
 
 -   In older browsers, the key thing is the availability of the main content,
     not following the graphic design to the letter.

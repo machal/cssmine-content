@@ -1,6 +1,6 @@
 # Introduction
 
-Before we dig into CSS3 properties, we have to take a look at today's way of
+Before we dig into CSS3 properties, we have to take a look at today’s way of
 developing user interfaces.
 
 How has workflow changed in recent years? Quite a lot.

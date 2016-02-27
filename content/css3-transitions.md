@@ -49,7 +49,7 @@ However, this is not a fully-fledged animation tool. If you want to have the
 progress of the animation completely under control, take a look at [CSS3
 animations](css3-animations.md).
 
-But that does not mean you can't steal the show using transitions. Just read on.
+But that does not mean you can’t steal the show using transitions. Just read on.
 
 Syntax
 ------
@@ -118,7 +118,7 @@ second one, which animates the `background-color` property is executed one
 second after the first one has ended:
 
 ```css
-transition: transform 200ms, 
+transition: transform 200ms,
   background-color 200ms 1s;
 ```
 

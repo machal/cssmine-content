@@ -1,7 +1,7 @@
 Bootstrap and Ready-made UI Libraries
 =====================================
 
-Bootstrap claims to be a front-end framework but, in fact, it's more like a
+Bootstrap claims to be a front-end framework but, in fact, it’s more like a
 library of user interface components.
 
 Bootstrap has made it easy for programmers who sometimes need to create user
@@ -9,7 +9,7 @@ interfaces but are not good at it. If you use Bootstrap this way, all you need
 to know is HTML and you can avoid CSS and Javascript.
 
 Another and more interesting way to use Bootstrap is to make it the starting
-point of your custom code. I use it this way and I can't speak highly enough of
+point of your custom code. I use it this way and I can’t speak highly enough of
 it.
 
 What Does Bootstrap Offer?
@@ -24,7 +24,7 @@ What Does Bootstrap Offer?
 -   The ability to change the look and behavior of components using LESS
     variables
 
-Isn't Bootstrap Overkill?
+Isn’t Bootstrap Overkill?
 -------------------------
 
 Yes it is. If you use it wrong. :-)
@@ -35,7 +35,7 @@ components.
 If you choose just the components you will use on a project, both the complexity
 and the file size will be reduce.
 
-When Does Bootstrap Help and When Doesn't It?
+When Does Bootstrap Help and When Doesn’t It?
 ---------------------------------------------
 
 Bootstrap will help you create web application interfaces like administration

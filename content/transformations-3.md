@@ -5,7 +5,7 @@ The arrival of the Chrome desktop browser launched the new “Browser Wars” an
 first “Battle of the Browsers” took place on the battlefield of mobile devices.
 Yes, coders have been better.
 
-So let's take a look at what browsers are relevant:
+So let’s take a look at what browsers are relevant:
 
 -   Desktops: Chrome, Firefox, Internet Explorer (versions 8, 9, 10 and 11),
     Opera and *Safari.*
@@ -20,7 +20,7 @@ You may ask: do I have to optimize for all these browsers? Don’t worry. Ensuri
 availability of the main content is possible in all browsers even if you are
 using the CSS3 technologies described in this text.
 
-Now, let's take an example and focus on one browser.
+Now, let’s take an example and focus on one browser.
 
 Chrome Mobile
 -------------

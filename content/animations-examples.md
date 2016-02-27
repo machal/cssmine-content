@@ -47,7 +47,7 @@ The second example is a little more advanced. It combines two animations and
 makes use of the animation direction along with other methods we have learned
 before.
 
-First, let's define both animations:
+First, let’s define both animations:
 
 ```css
 @keyframes rotate {

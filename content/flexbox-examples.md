@@ -33,7 +33,7 @@ flexbox items.
 You can clearly see that an empty text node (i.e. text not wrapped in a div) can
 be considered a flexbox item. In our case, this is the “Really long caption…”.
 
-Now let's display this situation in an image:
+Now let’s display this situation in an image:
 
 ![flexible button](dist/images/original/flexbox-priklady-2.jpg)
 
@@ -49,7 +49,7 @@ You can try an example at CodePen: <http://cdpn.io/e/raqXZX>.
 
 ![combining units](dist/images/original/flexbox-priklady-3.jpg)
 
-Let's extend our example. Take a look at the last line in the picture, where we
+let’s extend our example. Take a look at the last line in the picture, where we
 combine various units.
 
 We want to define the width of the radio button in pixels, however, the width of
@@ -63,7 +63,7 @@ browser will handle the combination of units.
 Notice that we set `flex: none` for the radio button and text because we do not
 want them to shrink or extend. They simply keep the same width at all costs. On
 the other hand, by using `flex: auto`, we forced the text field to shrink or
-extend based on the parent's width.
+extend based on the parent’s width.
 
 Try an example at CodePen: <http://cdpn.io/e/jEJbmg>.
 
@@ -90,7 +90,7 @@ change the order of flex items.
 
 ![order change](dist/images/original/flexbox-priklady-6.jpg)
 
-Let's define the HTML order: A) C) B). And let's assume we want to change that
+let’s define the HTML order: A) C) B). And let’s assume we want to change that
 order on small screens so that B) will be followed by C). Since the order
 property counts from zero, we will do it this way:
 

@@ -1,7 +1,7 @@
 Other Tools and Websites
 ========================
 
-Now, let's move quickly.
+Now, let’s move quickly.
 
 HTML5 Please
 ------------
@@ -17,7 +17,7 @@ particular target audience of your website.
 Can I Use
 ---------
 
-"Can I Use” is a website containing tables with information on which browsers
+“Can I Use” is a website containing tables with information on which browsers
 can and do support a specific property and which do not. If you must remember
 just one website, this is the one. This website can also be interconnected with
 your Google Analytics stats. However, it is quite clear that support of browser
@@ -75,4 +75,4 @@ developers. If you see yourself as an advanced developer, you should not miss
 tools such as Broccoli, Browserify, Webpack or CSSNext. If you are into
 Javascript, take a look at Babel and Traceur.
 
-That's it. Enjoy!
+That’s it. Enjoy!

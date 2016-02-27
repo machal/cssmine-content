@@ -78,7 +78,7 @@ Unlike percentages, viewport units do not relate to the size of the direct
 parent but to the width and height of the browser window instead. We can
 literally do magic that was once possible just by using CSS hacks or Javascript.
 
-Let's show this with a simple example - stretching the height of a layout to the
+let’s show this with a simple example - stretching the height of a layout to the
 full height of the browser window:
 
 ```css
@@ -92,7 +92,7 @@ full height of the browser window:
 The latest versions of all browsers except Opera Mini are compatible with these
 units: [caniuse.com/viewport-units](http://caniuse.com/viewport-units)
 
-But don't celebrate just yet:
+But don’t celebrate just yet:
 
 -   IE9 uses `vm` instead of `vmin`.
 -   IE10 does not understand `vmax`.

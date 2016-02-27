@@ -11,12 +11,12 @@ background-clip: border-box;
 ```
 
 This means that the background is clipped to the border box, i.e. the background
-is visible under the element's border.
+is visible under the element’s border.
 
 Other values for background clipping:
 
-`padding-box` – clips the background at the outside edge of the element's
-padding, i.e. the background is not visible under the element's border
+`padding-box` – clips the background at the outside edge of the element’s
+padding, i.e. the background is not visible under the element’s border
 
 `content-box` – clips the background at the edge of the content box, i.e. does
 not apply the padding or border
@@ -30,5 +30,5 @@ See a live example at
 Browser Support
 ---------------
 
-Let's put it simply: IE9+. Polyfills for IE8 do not even exists and no wonder -
-it's hard to find a situation where they would be necessary.
+Let’s put it simply: IE9+. Polyfills for IE8 do not even exists and no wonder -
+it’s hard to find a situation where they would be necessary.

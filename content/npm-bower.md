@@ -9,13 +9,13 @@ packages:
 
 -   web components – e.g. Bootstrap or jQuery and its plugins (usually using
     Bower)
--   software for developers' use – e.g. Grunt plugins improving your workflow
+-   software for developers’ use – e.g. Grunt plugins improving your workflow
     (usually using NPM)
 
 What Is a Packaging System for, Anyway?
 ---------------------------------------
 
-Coders are not used to using a packaging system so let's explain why it is good
+Coders are not used to using a packaging system so let’s explain why it is good
 to do so.
 
 First, **installation is easier** – just type `bower install jquery` and an
@@ -79,11 +79,11 @@ Installing jQuery:
 npm|bower install jquery
 ```
 
-Using `--save-dev` will save the library into the project's dependencies in a
+Using `--save-dev` will save the library into the project’s dependencies in a
 `bower.json` or `package.json` config file. However, jQuery is a user dependency
 so it is better to use `--save` when developing a website.
 
-Let's move on: updating jQuery:
+let’s move on: updating jQuery:
 
 ```bash
 npm|bower update jquery
@@ -101,7 +101,7 @@ npm|bower install|update
 Bower vs NPM
 ------------
 
-Now, let's review differences based on their purpose:
+Now, let’s review differences based on their purpose:
 
 -   NPM is a package system for Javascript. A coder uses it for personal
     development needs.

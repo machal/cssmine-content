@@ -1,7 +1,7 @@
 Installing Node.js Ecosystem For Front-end Use
 ==============================================
 
-We need Node.js on the front-end mainly for making the developers' work easier
+We need Node.js on the front-end mainly for making the developers’ work easier
 and for managing developer dependencies.
 
 Tools We Will Install
@@ -48,7 +48,7 @@ And now for everyone, regardless of the platform they use. Install Node.js
 globally. All the ways to do it are described here:
 [nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-Test if everything's OK by using the command for displaying the NPM version:
+Test if everything’s OK by using the command for displaying the NPM version:
 
 ```bash
 npm -v
@@ -67,7 +67,7 @@ sudo chown -R $USER /usr/local
 ```
 
 
-That is the end of this “lecture about security”. Now, let's install useful
+That is the end of this “lecture about security”. Now, let’s install useful
 packages.
 
 Grunt, Bower and Other Packages
@@ -81,7 +81,7 @@ npm install -g grunt-cli
 ```
 
 
-And what about the front-end [Bower packager](bower.md)? That's easy. Just
+And what about the front-end [Bower packager](bower.md)? That’s easy. Just
 install it globally like this:
 
 ```bash

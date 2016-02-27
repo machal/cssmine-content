@@ -11,10 +11,10 @@ text-overflow: ( clip | ellipsis | <_string_> );
 When showing `text-overflow: ellipsis` in my lectures, I always get two
 reactions. One half of the audience is bored, saying: “Hm, I have been using
 this for two years already…” And the other half? Enthusiastically taking notes:
-"I must use this first thing tomorrow!”
+“I must use this first thing tomorrow!”
 
 However, the catch when using the `ellipsis` value is that it will apply to any
-single line of text in block elements and three dots ("…") will be shown if the
+single line of text in block elements and three dots (“…”) will be shown if the
 line overflows. Nevertheless, it is still a time saver.
 
 Navigation Example

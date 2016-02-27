@@ -36,7 +36,7 @@ Typekit.com, Fonts.com and other companies employ top-notch typographers and
 technicians and offer their own licensing of great and well-known fonts. Sure,
 they will charge you for their services, but you will avoid a lot of problems.
 
-Visiting typographers' websites directly is not a bad idea either. Even here, in
+Visiting typographers’ websites directly is not a bad idea either. Even here, in
 the Czech Republic, we have several good typographers. For example, Tomas
 Brousil ([suitcasetype.com](http://suitcasetype.com)) and Frantisek Storm
 ([stormtype.com](http://stormtype.com)).

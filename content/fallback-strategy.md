@@ -38,8 +38,8 @@ Progressive Enhancement
 *Jeremy Keith*
 
 The aim of progressive enhancement is to guarantee content and main function
-accessibility, regardless of the user's technological equipment.
+accessibility, regardless of the user’s technological equipment.
 
 Progressive enhancement is an approach that will guarantee the
-"*dinosaur-resistance*” of your code. So now let's take a look at various
+“*dinosaur-resistance*” of your code. So now let’s take a look at various
 strategies for older browsers.

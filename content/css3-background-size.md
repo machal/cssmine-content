@@ -93,7 +93,7 @@ Detect properties and supply the browser with alternative styles using
 Modernizr: `.no-backgroundsize .element { … }`.
 
 Use the `filter` parameter. This can be only used if the background image has
-equal aspect ratio and if it's the same size or larger than the parent element:
+equal aspect ratio and if it’s the same size or larger than the parent element:
 
 ```css
 .element {
@@ -104,5 +104,5 @@ equal aspect ratio and if it's the same size or larger than the parent element:
 ```
 
 Use a polyfill. Just be careful - the polyfill is using `.htc` files so it may
-lower the website's performance. See
+lower the website’s performance. See
 [github.com/louisremi/background-size-polyfill](https://github.com/louisremi/background-size-polyfill).

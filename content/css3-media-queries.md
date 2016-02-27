@@ -50,7 +50,7 @@ Alternatively, you can detect the width of the display screen using: `@media
 (max-device-width: 480px)`. Unlike using `max-width`, window resize will not
 affect it.
 
-Now, let's get back to the remaining queries based on viewport dimensions. It is
+Now, let’s get back to the remaining queries based on viewport dimensions. It is
 not hard to tell what they will look like:
 
 ```css
@@ -122,7 +122,7 @@ Browser Support
 IE8 does not support even the simplest Media Query. Fortunately, there are
 several strategies for handling them without becoming discouraged. But for those
 strategies, responsive web design could never have come to life in the first
-place. So if you are scared now, pull yourself together and let's move on.
+place. So if you are scared now, pull yourself together and let’s move on.
 
 Below are three strategies for dealing with the fact that IE8 does not support
 Media Queries.
@@ -130,7 +130,7 @@ Media Queries.
 1.  Use a [Respond.js](https://github.com/scottjehl/Respond) polyfill. This is
     well tested and fast enough. Plus, it is used by a very popular framework -
     Bootstrap.
-2.  Declare CSS so IE8's shortcomings are not a problem. Declare CSS for desktop
+2.  Declare CSS so IE8’s shortcomings are not a problem. Declare CSS for desktop
     by default and then put the declarations for smaller displays into Media
     Queries.
 3.  Make use of a CSS preprocessor and then use body classes or compile an extra

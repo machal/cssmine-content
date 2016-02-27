@@ -1,7 +1,7 @@
 CSS Pixel Is Coming
 ===================
 
-"CSS pixel.” “Reference pixel.” You may call it either one, but a pixel is not
+“CSS pixel.” “Reference pixel.” You may call it either one, but a pixel is not
 what it used to be when we were young.
 
 Retina, Amoled, QuadHD…. You may have noticed that mobile devices have crazy
@@ -18,4 +18,4 @@ little confusing so for the sake of clarity we will use the first one.
 
 ![HW to CSS resolution ratio of selected devices](dist/images/original/hw-css-pixely-tabulka.jpg)
 
-So what impact will `device-pixel-ratio` have on UI designers? Let's find out!
+So what impact will `device-pixel-ratio` have on UI designers? let’s find out!

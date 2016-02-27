@@ -5,7 +5,7 @@ Post-processing or subsequent processing of CSS code is an interesting trend in
 the world of CSS.
 
 It usually means adding code to fallbacks for older browsers, but it could also
-partially replace pre-processors in a few years' time. Let's demonstrate their
+partially replace pre-processors in a few years’ time. let’s demonstrate their
 use on some post-processing tools.
 
 Autoprefixer: Adding Prefixed Declarations

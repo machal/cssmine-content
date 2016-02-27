@@ -33,7 +33,7 @@ the <b>evil</b> Queen and <i>Jack</i>.</p>
 
 … then the word “evil” will be rendered as bold when it first appears and the
 word “Jack” will be rendered in italics thanks to the italic cut of the
-`WebFont` family. But don't be fooled - this is the case of faux italic and bold
+`WebFont` family. But don’t be fooled - this is the case of faux italic and bold
 cuts that the browser tries to render from a normal cut of the font.
 
 If you need all three font cuts, i.e. normal, bold and italic, the only way to
@@ -78,7 +78,7 @@ versions of Chrome and Firefox as well. You can see an example of this problem
 in the console of your browser:
 
 ```
-CSS3117: @font-face failed cross-origin request. 
+CSS3117: @font-face failed cross-origin request.
 Resource access is restricted.
 ```
 
@@ -88,8 +88,8 @@ located:
 
 ```
 <IfModule mod_headers.c>
-  <FilesMatch “\.(eot|otf|tt[cf]|woff2?)$">
-    Header set Access-Control-Allow-Origin “*”
+  <FilesMatch "\.(eot|otf|tt[cf]|woff2?)$">
+    Header set Access-Control-Allow-Origin "*"
   </FilesMatch>
 </IfModule>
 ```

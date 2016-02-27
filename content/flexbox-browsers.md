@@ -50,7 +50,7 @@ apply to rounded corners only):
 
 #### Feature Detection and an Alternative Solution
 
-On the other hand, zero fallback can't be used when aligning a box with the
+On the other hand, zero fallback can’t be used when aligning a box with the
 center of the page. If it is necessary to keep a similar look, we would need to
 use an alternative solution using CSS or Javascript.
 

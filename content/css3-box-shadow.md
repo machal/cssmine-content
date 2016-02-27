@@ -22,7 +22,7 @@ The basic kind of shadow can be created in a jiffy. The first number indicates
 the **horizontal offset, the second the vertical one** - a positive value
 offsets the shadow down or right, a negative one up or left. The third value is
 color and believe it or not, the best practice is to use a semi-transparent
-[RGBa color](css3-rgba.md). Let's show this using several examples.
+[RGBa color](css3-rgba.md). Let’s show this using several examples.
 
 ```css
 box-shadow: 5px 5px rgba(0, 0, 0, .5);
@@ -92,7 +92,7 @@ IE9+. There is almost no problem in any modern browser:
 
 A slight problem in older webkit browsers is that they ignore the null value of
 the spread if a value for blur is missing. Therefore, the following notation
-won't work in iOS6 Safari or Android Browser 2.3:
+won’t work in iOS6 Safari or Android Browser 2.3:
 
 ```css
 box-shadow: 5px 5px 0 rgba(0, 0, 0, .5);

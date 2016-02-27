@@ -5,14 +5,14 @@ First, let me say that web interface development has recently been focusing a
 bit too much on development tools. We spend a lot of time setting up a perfect
 workflow in Grunt at the expense of creating a user-oriented product.
 
-The UI developer's “tool box” should contain more design thinking and less
+The UI developer’s “tool box” should contain more design thinking and less
 debugging tools.
 
 Therefore, we will not plunge into the knowledge pool. A lumberjack can get
-along with an old chainsaw, if it's maintained properly and he knows how to use
+along with an old chainsaw, if it’s maintained properly and he knows how to use
 it. Right?
 
-Let's create an overview of new stuff that CSS has brought out over the past few
+let’s create an overview of new stuff that CSS has brought out over the past few
 years.
 
 1.  [CSS Preprocessors](preprocessors.md)

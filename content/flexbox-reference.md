@@ -22,7 +22,7 @@ Flexbox Reference Guide
     `writing-mode`. Therefore, if we created a layout of a page in Japanese
     using flex box, all values would change their order.
 
-Now let's dig into the “Reference Guide”. We already know that there are two
+Now let’s dig into the “Reference Guide”. We already know that there are two
 types of flex elements: a flex container and a flex item. Therefore, we divide
 the properties according to the element type.
 
@@ -55,7 +55,7 @@ The default `nowrap` value tells us that all elements will stay on a single line
 next to each other (or under each other when using `flex-direction: column`).
 
 Then we have the `wrap` value. This value will wrap the items onto multiple
-lines if the items' content can't fit onto a single line. The last flex item on
+lines if the items’ content can’t fit onto a single line. The last flex item on
 the first line will break onto the next line and align under the first item.
 
 The `wrap-reverse` value does the opposite - the last item will jump onto the
@@ -63,13 +63,13 @@ previous line and align over the first item.
 
 #### Flex-flow - A Shorthand for Flex-direction and Flex-wrap
 
-Let's explain this in examples:
+let’s explain this in examples:
 
 -   `flex-flow: row` – this is the default value. Items are placed in a single
     line and do not break.
 -   `flex-flow: column wrap` – items are placed in a column and break.
 
-We have explained the flex container properties. Now, let's explain flex items
+We have explained the flex container properties. Now, let’s explain flex items
 as there is more to explain.
 
 ### Flex Item Properties
@@ -127,7 +127,7 @@ flex: 0 1 auto
 -   `flex-shrink: 1` - it will shrink just as all other items.
 -   `flex-basis: auto` - it will take up space defined by its own content.
 
-Let's assume you want your items to take up a minimum of `150px` and if there is
+let’s assume you want your items to take up a minimum of `150px` and if there is
 enough free space available, to expand equally. On the other hand, if there is
 not enough free space, you want them to shrink equally. You will do it like
 this:
@@ -171,7 +171,7 @@ browser. It does not affect the actual order of items, i.e. when using a
 document reader or going through the navigation using the `Tab` key.
 
 The default value is `0` which basically means that it will correspond to the
-"actual HTML order”.
+“actual HTML order”.
 
 When using the following notation, you can make the third item visually appear
 to be the first one:
@@ -182,7 +182,7 @@ to be the first one:
 }
 ```
 
-But remember that you can't use `order` on other elements of the page except the
+But remember that you can’t use `order` on other elements of the page except the
 direct children of the flex container.
 
 ### Aligning Flex Items
@@ -209,7 +209,7 @@ different sets of flex items or different container axes.
 justify-content: flex-start | flex-end | center | space-between | space-around
 ```
 
-Let's apply the `justify-content` property to the flex container, dictating how
+let’s apply the `justify-content` property to the flex container, dictating how
 flex items will be aligned along the main axis. The default value is
 `flex-start`, aligning the items to the start of the main axis.
 
@@ -259,4 +259,4 @@ whose items are wrapped onto multiple lines.
 
 ![align-content.jpg](dist/images/original/flexbox-align-content.jpg)
 
-So, is all clear now? Ok, now let's move on to browser support.
+So, is all clear now? Ok, now let’s move on to browser support.

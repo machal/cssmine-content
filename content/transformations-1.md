@@ -15,4 +15,4 @@ website stats.
 In the rest of the world, web developers must expect the share of mobile devices
 to be over 50%.
 
-You can't really hide from mobiles.
+You can’t really hide from mobiles.

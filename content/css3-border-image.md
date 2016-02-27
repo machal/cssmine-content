@@ -36,7 +36,7 @@ and left slices. The value can be defined in pixels or as a percentage of the
 source image size. The default value is `border-image-slice: 100%`.
 
 If the `fill` key word is used, the browser will apply the center part of the
-image to the element's background.
+image to the element’s background.
 
 ### Border Width
 
@@ -97,7 +97,7 @@ color gradient as a border.
 
 But remember that you always have to define a native image border  -first for
 handling sizes and second, for creating a fallback for browsers not supporting
-`border-image`. So for the sake of this example, let's create a 20 pixel border
+`border-image`. So for the sake of this example, let’s create a 20 pixel border
 around an element:
 
 ```css
@@ -122,13 +122,13 @@ border:
 border-image-slice: 20;
 ```
 
-And that's all there is to it. You can try an example at
+And that’s all there is to it. You can try an example at
 [cdpn.io/e/zdyIJ](http://cdpn.io/e/zdyIJ).
 
 An Example with a Bitmap Image as a Background
 ----------------------------------------------
 
-First, let's define the border sizes and a fallback for older browsers:
+First, let’s define the border sizes and a fallback for older browsers:
 
 ```css
 border-color: green;
@@ -156,7 +156,7 @@ if the size of the element increases:
 border-image-repeat: repeat;
 ```
 
-Now, let's try a shorthand notation of the last three declarations:
+Now, let’s try a shorthand notation of the last three declarations:
 
 ```css
 border-image:

@@ -161,7 +161,7 @@ Also note that we have defined a “sharp” gradient by using adjacent color-st
 (`transparent 10%, green 10%`). In other words, the neighboring colors will be
 displayed without any blending.
 
-Now, let's try a repeating radial gradient:
+Now, let’s try a repeating radial gradient:
 
 ```css
 .repeating-radial {
