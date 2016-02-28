@@ -22,6 +22,7 @@ understand it, you have to declare it multiple times:
   /* Firefox 16+, IE 10+, Opera 12.10+, Chrome 36+: */
   transform: rotate(7.5deg);
 }
+```
 
 If we choose to leave out browsers that are little used, we can drop the `-moz`,
 `-o` and sometimes even `-ms` prefixes. The bottom line is that it is reasonable

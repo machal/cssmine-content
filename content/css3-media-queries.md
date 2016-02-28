@@ -17,8 +17,10 @@ You can insert Media Queries directly into a CSS file:
 
 ```css
 @media (_conditions_) {
-    /* css code which will apply
-if _conditions_are_met_ */
+  /*
+    css code which will apply
+    if _conditions_ are met
+  */
 }
 ```
 
@@ -70,7 +72,7 @@ combine them with media types:
 
 ```css
 @media screen and (min-width: 400px)
-and (max-height: 600px) { … }
+  and (max-height: 600px) { … }
 ```
 
 The `or` operator can be substituted with a comma:

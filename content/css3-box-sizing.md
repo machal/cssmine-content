@@ -22,9 +22,9 @@ that IE6 and older versions used to handle the sizing of elements?
 
 ```
 The width or height of an element =
-actual visible width or height of the content
-+ padding
-+ border.
+  actual visible width or height of the content
+  + padding
+  + border
 ```
 
 
@@ -34,7 +34,8 @@ In contrast, all other modern browsers use the `content-box` value **or the “W
 box-model”**. You know the drill:
 
 ```css
-The width or height of an element = actual visible width or height of the content
+The width or height of an element =
+  actual visible width or height of the content
 ```
 
 This is the initial value of the `box-sizing` property which we can – thankfully
@@ -50,10 +51,11 @@ Good, but how can we make use of it? Let’s take a look at a few scenarios.
 Examples of Use
 ---------------
 
-### `* { box-sizing: border-box }`
+### Border Box Everywhere
 
-Some people may use the box-sizing property if using the W3C box model is too
-hard to tackle. The W3C box model is also considered to be counter-intuitive by
+`* { box-sizing: border-box }` Some people may use the box-sizing property
+if using the W3C box model is too hard to tackle. The W3C box model is also
+considered to be counter-intuitive by
 the vast majority of developers. Therefore they let browsers calculate all sizes
 using the border-box value. A similar approach can be found in modern front-end
 frameworks such as Bootstrap or Foundation.

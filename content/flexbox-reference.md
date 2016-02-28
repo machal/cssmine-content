@@ -33,7 +33,8 @@ the properties according to the element type.
 This property will set the direction of the main flexbox axis.
 
 ```css
-flex-direction: row | row-reverse | column | column-reverse
+flex-direction:
+  row | row-reverse | column | column-reverse
 ```
 
 The default (`row`) value will place all flex items in a row. If you want to
@@ -48,7 +49,8 @@ have noticed that we can use this property to change the order of list items.
 #### Flex-wrap – Forcing Items to Break
 
 ```css
-flex-wrap: nowrap | wrap | wrap-reverse
+flex-wrap:
+  nowrap | wrap | wrap-reverse
 ```
 
 The default `nowrap` value tells us that all elements will stay on a single line
@@ -114,7 +116,8 @@ It is good to know that the authors of the specification recommend using the
 is because the shorthand itself can set default values.
 
 ```css
-flex: <flex-grow> <flex-shrink> <flex-basis>
+flex:
+  _flex-grow_ _flex-shrink_ _flex-basis_
 ```
 
 The default value is:
@@ -206,7 +209,9 @@ different sets of flex items or different container axes.
 #### `justify-content` – Aligning Main Axis Items Within a Container
 
 ```css
-justify-content: flex-start | flex-end | center | space-between | space-around
+justify-content:
+  flex-start | flex-end | center |
+  space-between | space-around
 ```
 
 let’s apply the `justify-content` property to the flex container, dictating how
@@ -218,7 +223,9 @@ flex items will be aligned along the main axis. The default value is
 #### `align-items` – Aligning Cross Axis Items Within a Container
 
 ```css
-align-items: stretch | flex-start | flex-end | center | baseline
+align-items:
+  stretch | flex-start | flex-end |
+  center | baseline
 ```
 
 The `align-items` property can also be applied to the flex container. The
@@ -233,7 +240,9 @@ cross-axis is defined. In other words, if `height` is set, it will not work.
 #### `align-self` – Aligning Cross Axis Items Within an Item
 
 ```css
-align-self: auto | flex-start | flex-end | center | baseline | stretch
+align-self:
+  auto | flex-start | flex-end |
+  center | baseline | stretch
 ```
 
 This property is applied to each item, so it is suitable for creating alignment
@@ -248,10 +257,12 @@ image or at [cdpn.io/e/QwobXz](http://cdpn.io/e/QwobXz).
 
 Note that flexbox will not corrupt the upper pixel padding.
 
-#### align-content – Aligning Main Axis Items Within a Multiple Line Container
+#### `align-content` – Aligning Main Axis Items Within a Multiple Line Container
 
 ```css
-align-content: stretch, flex-start, flex-end, center, space-between, space-around
+align-content:
+  stretch | flex-start | flex-end |
+  center | space-between | space-around
 ```
 
 And here is another alignment property. This one applies only to flex containers

@@ -1,7 +1,7 @@
-New CSS3 Units – `rem`, `vw`, `vh`
-==================================
+New CSS3 Units: Root EM and Viewport Units
+=========================================
 
-### `rem`
+### Root EM
 
 This is a size that corresponds with the `font-size` value at the root, i.e the
 `<html>` element. The “root-em” is thus just a variant of the well-known `em`
@@ -59,8 +59,8 @@ It is better to generate a fallback automatically using a CSS preprocessor.
 
 Here is more about browser support: [caniuse.com/rem](http://caniuse.com/rem)
 
-Viewport Units: `vw`, `vh`, `vmin`, `vmax`
-------------------------------------------
+Viewport Units
+--------------
 
 These allow us to define CSS sizes relative to the viewport size - in other
 words “the width or height of the window”.

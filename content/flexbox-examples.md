@@ -8,8 +8,9 @@ Take this HTML:
 
 ```html
 <label>
-  <input type="radio"> Really long caption which will make
-  the line break.
+  <input type="radio"> Lorem ipsum dolor
+  sit amet, consectetur adipisicing
+  elit error quo
 </label>
 ```
 

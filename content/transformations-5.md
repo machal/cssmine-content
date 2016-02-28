@@ -16,7 +16,7 @@ solution. The SVG vector format, on the other hand, offers much more interesting
 options.
 
 When dealing with interface enhancement (custom shadows, buttons or borders) the
-best choice is to use CSS3 or alternatively, SVG.
+best choice is to use CSS3 or alternatively, SVG. [css-tricks.com/using-svg/](https://css-tricks.com/using-svg/)
 
 Content Images: Photos
 ----------------------
@@ -34,4 +34,4 @@ twice the number of pixels but four times the number of pixels (4x). So its file
 size will also be four times larger.
 
 Therefore, I recommend using the new attributes of the `<img>` tag — `srcset`
-and `sizes`.
+and `sizes`. [ericportis.com/posts/2014/srcset-sizes/](https://ericportis.com/posts/2014/srcset-sizes/)

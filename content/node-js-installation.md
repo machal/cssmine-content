@@ -32,7 +32,7 @@ Mac](http://mac.appstorm.net/how-to/utilities-how-to/how-to-use-terminal-the-bas
 Node.js and NPM
 ---------------
 
-Npm is a packaging system of Node.js. You have to download and install a
+NPM is a packaging system of Node.js. You have to download and install a
 complete version of Node.js.
 
 ### Are You a Windows Guy? First Things First Then
@@ -57,7 +57,7 @@ npm -v
 
 All other dependencies will be installed as Node packages.
 
-Sometimes, it is recommended to run all NPM commands as an admin (`sudo NPM …`).
+Sometimes, it is recommended to run all NPM commands as an admin (`sudo npm …`).
 However, this is not good [from a security point of
 view](https://gist.github.com/leommoore/4420860#important-security-note). It
 is much better to grant the current user privileges to write into `usr/local`:

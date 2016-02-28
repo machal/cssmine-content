@@ -42,7 +42,7 @@ quickly.
 Grunt can be installed using NPM…
 
 ```bash
-NPM install -g grunt-cli
+npm install -g grunt-cli
 ```
 
 
@@ -50,7 +50,7 @@ NPM install -g grunt-cli
 CSS:
 
 ```bash
-NPM install grunt-contrib-less --save-dev
+npm install grunt-contrib-less --save-dev
 ```
 
 

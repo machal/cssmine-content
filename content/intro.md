@@ -4,7 +4,7 @@ A Few Words About Ebook
 Thanks!
 -------
 
-Thank you for reading the “CSS Mine - Dig into Web UI Development” e-book . If
+Thank you for reading the “CSS Mine: Dig into Web UI Development” e-book . If
 you got this e-book without a license, do not worry, nothing is lost. You can
 still put things right by buying the e-book license at
 [www.cssmine.com/ebook](http://www.cssmine.com/ebook).
@@ -53,16 +53,14 @@ The Author
 
 ![Martin Michalek](dist/images/original/autor.jpg)
 
-Martin Michalek is a freelance front-end designer who writes about CSS3 and
-gives lectures – [cssmine.com/martin](http://www.cssmine.com/martin).
-
-He organizes trainings focused on responsive design, Bootstrap framework and
-modern web front-end.
+Martin Michalek is a freelance front-end designer based in Prague, Czech republic.
+He writes well know Czech blog vzhurudolu.cz and gives lectures about CSS3,
+responsive design and modern web UI development. [cssmine.com/martin](http://www.cssmine.com/martin).
 
 Version
 -------
 
-„CSS Mine - dig into web UI development“  
-Version 1.1  
-August 3rd 2015
+“CSS Mine: Dig into Web UI Development”
+Version 1.0
+March 2016
 

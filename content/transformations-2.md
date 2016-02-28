@@ -5,14 +5,6 @@ Web Design = Responsive Web Design 
 
 – <cite>Andy Clarke in [I don’t care about Responsive Web Design](https://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design)</cite>
 
-Today, anything that’s fixed and unresponsive isn’t web design, it’s something
-else. If you don’t embrace the inherent fluidity of the web, you’re not a web
-designer, you’re something else. Web design is responsive design, Responsive Web
-Design is web design, done right.
-
-– Andy Clarke in [I Don’t Care about Responsive Web
-Design](https://stuffandnonsense.co.uk/blog/about/i_dont_care_about_responsive_web_design)
-
 You can deal with the advent of mobile phones by creating a special mobile
 website - an “m dot” version with separate style templates. However, many of us
 have already found that this approach represents a long-term disadvantage both

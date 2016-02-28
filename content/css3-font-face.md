@@ -41,8 +41,7 @@ of file formats:
     is supported by MSIE from version 9 and by Android Browser from version 4.4.
     [caniuse.com/woff](http://caniuse.com/woff)
 -   **TTF/OTF** (TrueType/OpenType) – these are two formats which are supported
-    by almost all modern browsers. However, MSIE only supports them from version
-    9. Furthermore, you have to set the so-called “embedding bits” (embedding
+    by almost all modern browsers. However, MSIE only supports them from version 9. Furthermore, you have to set the so-called “embedding bits” (embedding
     permissions in the font’s header) to “installable”.
     [caniuse.com/ttf](http://caniuse.com/ttf)
 -   **SVG** (SVG vector format defined fonts) – you will need this if you want

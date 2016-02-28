@@ -23,7 +23,7 @@ There are four available functions: skew, rotate, translate and scale:
 
 /* Scale */
 .scale {
-    transform: scale(1.5);
+  transform: scale(1.5);
 }
 ```
 
@@ -38,7 +38,7 @@ Combination of Transformations
 Remember that combinations of transformations are not separated by a comma:
 
 ```css
-transform: 
+transform:
   scale(1.5) skew(-15deg);
 ```
 
