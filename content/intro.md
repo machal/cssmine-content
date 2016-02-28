@@ -60,7 +60,7 @@ responsive design and modern web UI development. [cssmine.com/martin](http://www
 Version
 -------
 
-“CSS Mine: Dig into Web UI Development”
-Version 1.0
+“CSS Mine: Dig into Web UI Development”  
+Version 1.0  
 March 2016
 
