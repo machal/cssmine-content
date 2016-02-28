@@ -4,10 +4,10 @@ A Few Words About Ebook
 Thanks!
 -------
 
-Thank you for reading the “CSS Mine: Dig into Web UI Development” e-book . If
+Thank you for reading the “CSS Mine: Dig into Web UI Development” e-book. If
 you got this e-book without a license, do not worry, nothing is lost. You can
 still put things right by buying the e-book license at
-[www.cssmine.com/ebook](http://www.cssmine.com/ebook).
+[www.cssmine.com](http://www.cssmine.com).
 
 Feedback
 --------
