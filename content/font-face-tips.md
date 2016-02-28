@@ -1,5 +1,5 @@
-Font Face – Tips & Tricks
-=========================
+Font Face: Tips & Tricks
+========================
 
 Beware of Faux Bold and Faux Italics
 ------------------------------------

@@ -1,4 +1,4 @@
-Flexbox – Practical Examples
+Flexbox: Practical Examples
 ============================
 
 

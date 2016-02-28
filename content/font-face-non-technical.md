@@ -1,5 +1,5 @@
-Font Face – Non-technical Aspects
-=================================
+Font Face: Non-technical Aspects
+================================
 
 There are two things to be cautious about if you are a web font newbie:
 

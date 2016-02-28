@@ -1,5 +1,5 @@
-Flexbox Reference Guide
-=======================
+Flexbox: Reference Guide
+========================
 
 ### What Is Good To Know
 
