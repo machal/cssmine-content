@@ -16,11 +16,16 @@ What Does Bootstrap Offer?
 --------------------------
 
 -   Basic document styles
+
 -   Fully responsive grid for creating layout
+
 -   Advanced styling of basic website components: forms, buttons, tables etc.
+
 -   UI components such as navigation tabs, accordions, modal windows etc.
+
 -   jQuery plugins to support the functionality of the above-mentioned UI
     components
+
 -   The ability to change the look and behavior of components using LESS
     variables
 
@@ -29,11 +34,11 @@ Isn’t Bootstrap Overkill?
 
 Yes it is. If you use it wrong. :-)
 
-Sadly, Bootstrap operates as a whole been though its guts are divided into small
+Sadly, Bootstrap operates as a whole even though its guts are divided into small
 components.
 
 If you choose just the components you will use on a project, both the complexity
-and the file size will be reduce.
+and the file size will be reduced.
 
 When Does Bootstrap Help and When Doesn’t It?
 ---------------------------------------------

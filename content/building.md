@@ -15,17 +15,18 @@ The building tools for the front-end come in two types:
 
 -   simplified – they are simple to use, but their functions are limited
     (Prepros, CodeKit and other)
+
 -   full-featured – their functions are almost unlimited but they are hard for
     beginners or non-programmers to tackle (Grunt, Gulp and other)
 
 Prepros
 -------
 
-This is an example of a simplified building tools I usually recommend starting
+This is an example of a simplified building tool. I usually recommend starting
 with it as it is supported by all platforms and it has a point-and-click user
 interface.
 
-![Prepros](dist/images/original/prepros.jpg)
+![Prepros](<dist/images/original/prepros.jpg>)
 
 Apart from the ability to perform all basic CSS, Javascript and image tasks,
 Prepos also has an FTP deployment feature and a synchronized website testing
@@ -41,23 +42,21 @@ quickly.
 
 Grunt can be installed using NPM…
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 npm install -g grunt-cli
-```
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 … and then you install one of the plugins, e.g. a plugin for compiling LESS to
 CSS:
 
-```bash
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
 npm install grunt-contrib-less --save-dev
-```
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 By using plugins, namely using `Gruntfile.js`, you can create Grunt tasks. This
 is a simplified example of such a file:
 
-```javascript
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ javascript
 module.exports = function(grunt) {
   'use strict';
   grunt.initConfig({
@@ -90,8 +89,7 @@ module.exports = function(grunt) {
   grunt.registerTask('css', ['less', 'cssmin']);
   grunt.registerTask('default', ['watch']);
 };
-```
-
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 First, you need to configure `less`, `cssmin` and `watch` plugins in order to
 create `css` and `default` “task aliases”. Then you can add a queue of other
@@ -100,7 +98,7 @@ tasks.
 At the beginning of a project, you just run a `default` task using the `grunt`
 command and then you can track file changes.
 
-See more at [gruntjs.com](http://gruntjs.com/).
+See more at [gruntjs.com](<http://gruntjs.com/>).
 
 Gulp
 ----
@@ -109,4 +107,4 @@ Gulp can do basically the same things as Grunt but it’s faster and configures
 tasks using Javascript. Therefore, it is easier to generalize stuff and is more
 suitable for programmers and larger projects.
 
-See more at [gulpjs.com](http://gulpjs.com/).
+See more at [gulpjs.com](<http://gulpjs.com/>).

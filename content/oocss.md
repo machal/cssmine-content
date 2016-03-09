@@ -11,9 +11,9 @@ across multiple projects.
 The objective of OOCSS is to provide developers with reusable code, improve its
 maintenance and reduce CSS file size.
 
-let’s take the example of a simple CSS button:
+Let’s take the example of a simple CSS button:
 
-```css
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
 /* Component */
 .button { … }
 
@@ -23,7 +23,7 @@ let’s take the example of a simple CSS button:
 /* Component modifiers */
 .button-primary { … }
 .button-login { … }
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In my understanding, OOCSS has five principles:
 
@@ -46,9 +46,9 @@ Components (i.e. objects) that are not dependent on the HTML structure can be
 easily used on other projects. They form a closed unit that we can import using
 a preprocessor.
 
-```css
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
 @import 'button';
-```
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 They make both our code and repository commits uncluttered.
 
@@ -58,8 +58,10 @@ They make both our code and repository commits uncluttered.
 We have three types of elements:
 
 -   object – a component or a block (`.button`)
+
 -   element – an entity inside an object or a sub-object (`.button-icon`
     representing an icon within a button)
+
 -   modifier – an object property (`.button-primary` representing the main
     call-to-action button)
 
@@ -74,10 +76,10 @@ reserved for debugging purposes only.
 
 To ensure the lowest specificity possible, avoid using:
 
--   child selector (do not use `.button .button-icon`, but rather
-    `.button-icon`)
+-   child selector (do not use `.button.button-icon`, but rather `.button-icon`)
+
 -   combined selectors (do not use `.button.button-primary`, but rather
     `.button-primary`)
 
 Find more on CSS specificity at
-[specificity.keegan.st](http://specificity.keegan.st/).
+[specificity.keegan.st](<http://specificity.keegan.st/>).
