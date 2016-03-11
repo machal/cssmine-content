@@ -5,7 +5,7 @@ Post-processing or subsequent processing of CSS code is an interesting trend in
 the world of CSS.
 
 It usually means adding code to fallbacks for older browsers, but it could also
-partially replace pre-processors in a few years’ time. Let’s demonstrate their
+partially replace pre-processors in a few years’ time. let’s demonstrate their
 use on some post-processing tools.
 
 Autoprefixer: Adding Prefixed Declarations
@@ -13,24 +13,26 @@ Autoprefixer: Adding Prefixed Declarations
 
 Write code according to W3C syntax:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 transform: scale(1.1);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 and the Autoprefixer will then add prefixed variants to your CSS:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 By default, it will add prefixes for the two latest versions of all browsers but
 you can easily change that. You just need to configure the grunt-autoprefixer, a
 Grunt plugin which sets up broader support for the prefixed variants of CSS
 properties:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ javascript
+```javascript
 autoprefixer: {
   options: {
     browsers: [
@@ -43,10 +45,10 @@ autoprefixer: {
       dest: 'dist/css/style.css'
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at
-[github.com/postcss/autoprefixer](<https://github.com/postcss/autoprefixer>).
+[github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer).
 
 Pixrem
 ------
@@ -57,15 +59,15 @@ faced with a compatibility problem in older browsers.
 By using a pixrem plugin, you can define conversions between `rem` and `px`,
 thus adding fallbacks to your CSS code:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .box {
   margin-bottom: 24px;
   margin-bottom: 1.5rem;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 See more at
-[github.com/robwierzbowski/grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>).
+[github.com/robwierzbowski/grunt-pixrem](https://github.com/robwierzbowski/grunt-pixrem).
 
 Legaccsy
 --------
@@ -75,7 +77,7 @@ CSS without Media Queries that are not recognized by older browsers. This is a
 true life-saver for IE8 or IE9.
 
 See more at
-[github.com/robinpokorny/grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>).
+[github.com/robinpokorny/grunt-legacssy](https://github.com/robinpokorny/grunt-legacssy).
 
 Postcss
 -------
@@ -90,7 +92,7 @@ evolving even on the level of syntax.
 
 As a result, CSS variables and media use the following piece of code:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 :root {
   --fontSize: 1.2rem;
 }
@@ -100,18 +102,19 @@ As a result, CSS variables and media use the following piece of code:
 @media only screen and (--viewport-medium) {
   body { font-size: calc(var(--fontSize) * 1.2); }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 which is then compiled into a well-known form:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 @media only screen and (max-width: 600px) {
   body { font-size: 1.44rem; }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 Postcss has a wonderful slogan:
 
 >   Use tomorrow’s CSS syntax, today.
 
-See more at [cssnext.io](<http://cssnext.io/>).
+See more at [cssnext.io](http://cssnext.io/).

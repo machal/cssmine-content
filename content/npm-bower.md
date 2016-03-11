@@ -9,7 +9,6 @@ packages:
 
 -   web components – e.g. Bootstrap or jQuery and its plugins (usually using
     Bower)
-
 -   software for developers’ use – e.g. Grunt plugins improving your workflow
     (usually using NPM)
 
@@ -41,10 +40,10 @@ In my workflow, I use NPM mainly for installing libraries such as Grunt and its
 plugins. However, there are several approaches to packaging, so it is good to
 know that web libraries such as jQuery can be installed using NPM too.
 
-NPM uses a `package.json` config file and installs everything into a
+Npm uses a `package.json` config file and installs everything into a
 `node_modules` directory.
 
-See more at [npmjs.org](<http://npmjs.org>).
+See more at [npmjs.org](http://npmjs.org).
 
 Bower
 -----
@@ -60,7 +59,7 @@ such as Bootstrap.
 Bower uses a `bower.json` config file and installs everything into a
 `bower_components` directory.
 
-See more at [bower.io](<http://bower.io>).
+See more at [bower.io](http://bower.io).
 
 A Few Useful Commands
 ---------------------
@@ -70,32 +69,34 @@ using NPM.
 
 Library search:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+```bash
 npm|bower search jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Installing jQuery:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+```bash
 npm|bower install jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Using `--save-dev` will save the library into the project’s dependencies in a
 `bower.json` or `package.json` config file. However, jQuery is a user dependency
 so it is better to use `--save` when developing a website.
 
-Let’s move on: updating jQuery:
+let’s move on: updating jQuery:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+```bash
 npm|bower update jquery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 Installing and updating can be done within the same project at once. Both Bower
 and NPM compare the configuration file with the latest version of dependencies:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ bash
+```bash
 npm|bower install|update
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 Bower vs NPM
 ------------
@@ -104,7 +105,6 @@ Now, let’s review differences based on their purpose:
 
 -   NPM is a package system for Javascript. A coder uses it for personal
     development needs.
-
 -   Bower is a package system for front-end. It is used for web components.
 
 The package systems differ not only in purpose but in the way they save
@@ -114,7 +114,6 @@ dependencies as well:
     this, the directory into which the packages are installed contains multiple
     package versions. This makes perfect sense when using Grunt plugins - every
     packages requires a different dependency.
-
 -   Bower, on the other hand, installs all dependencies at once. This also makes
     perfect sense - you want a single jQuery version on your website.
 

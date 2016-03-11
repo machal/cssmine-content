@@ -15,7 +15,7 @@ Browsers have always processed both languages in the following way: if they
 encounter a tag, attribute, property or value they do not recognize, they simply
 ignore it and continue rendering the code.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .box {
   color: red;
   transition: .5s;
@@ -24,7 +24,7 @@ ignore it and continue rendering the code.
 .box:hover {
   color: darkred;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 In this example, we do not worry about the fact that older browsers do not
 render transitions. The transition’s only purpose is to enhance the user
@@ -44,21 +44,21 @@ This is a fallback that takes advantage of the fact that a browser applies the
 last known declaration. Just recall the grunt-pixrem post-processor from one of
 the previous chapters:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .element {
   /* Dinosaur browsers */
   font-size: 16px;
   /* Modern browsers */
   font-size: 1rem;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 This is a good solution for all new CSS3 units, RGBa values and flexbox layouts.
 
 You will most certainly remember that we used a defined fallback when dealing
 with prefixed variants of CSS properties:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .element {
   /* Chrome, Safari, Android:  */
   -webkit-column-count: 2;
@@ -67,7 +67,8 @@ with prefixed variants of CSS properties:
   /* IE 10, Op 11.1+: */
   column-count: 2;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
+
 
 3) Detecting CSS Properties Support
 -----------------------------------
@@ -93,7 +94,7 @@ support. We can then forget about the browsers.
 Feature detection is useful when using the SVG vector format which I have
 already mentioned:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .icon {
   background-image: url(icon.svg);
 }
@@ -101,12 +102,12 @@ already mentioned:
 .no-svg .icon {
   background-image: url(icon.png);
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 When it comes to CSS3 properties, it is useful for the layout-related ones.
 let’s make a flexbox example:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .component {
   display: flex;
 }
@@ -114,11 +115,11 @@ let’s make a flexbox example:
 .no-flexbox .component {
   display: table;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Or a multi-column layout:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .text {
   columns: 2;
 }
@@ -127,7 +128,7 @@ Or a multi-column layout:
   float: left;
   width: 50%;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
 Modernizr adds “detection” classes like .no-svg. This javascript library is
 mentioned in the chapter on tools. Alternatively, you can write your own
@@ -135,11 +136,11 @@ detection javascript.
 
 ### Feature Queries
 
-Currently, Modernizr is *sort of* natively supported by W3C. This support comes
-in the form of CSS Feature Queries. Thanks to the `@supports` at-rule, you can
-query the availability of a particular CSS property:
+Currently, Modernizr is currently *sort of* natively supported by W3C. This
+support comes in the form of CSS Feature Queries. Thanks to the `@supports`
+at-rule, you can query the availability of a particular CSS property:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .component {
   display: table;
 }
@@ -147,10 +148,9 @@ query the availability of a particular CSS property:
 @supports (display: flex) {
   display: flex;
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-See more at [developer.mozilla.org/en-US/docs/Web/CSS/
-@supports](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports).
+See more at [developer.mozilla.org/en-US/docs/Web/CSS/@supports](https://developer.mozilla.org/en-US/docs/Web/CSS/@supports).
 
 ### Empty Media Query
 
@@ -159,7 +159,7 @@ Progressive Enhancement!) is an empty media query. Older browsers like IE8 and
 other “prehistoric dinosaurs” will simply not recognize this part of the code.
 This is suitable if you want to declare layout for modern browsers only:
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ css
+```css
 .component {
   /* Basic rules for
 typography and linear design */
@@ -171,13 +171,12 @@ typography and linear design */
   non-trivial rules */
   }
 }
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+```
 
-Let’s remember this motto:
+let’s remember this motto:
 
 -   In older browsers, the key thing is the availability of the main content,
     not following the graphic design to the letter.
-
 -   Linear display is better than a broken site layout.
 
 4) Polyfills
@@ -191,7 +190,7 @@ Explorers and Picturefill, which makes responsive images work – `<img srcset
 sizes>` and `<picture>`.
 
 However, apart from the proven
-[Respond.js](<https://github.com/scottjehl/Respond>) I do not recommend using
+[Respond.js](https://github.com/scottjehl/Respond) I do not recommend using
 CSS3 polyfills. They usually deteriorate performance of the website and the
 visual part is dependent on Javascript.
 
@@ -203,9 +202,9 @@ dealing with fallbacks, we have to do it one more time.
 
 A good alternative to Respond.js, which will provide you with a functional
 website even in browsers without Media Queries support, is
-[grunt-legacssy](<https://github.com/robinpokorny/grunt-legacssy>), which
-generates a CSS version without Media Queries.
+[grunt-legacssy](https://github.com/robinpokorny/grunt-legacssy), which
+generates a CSS version without media queries.
 
 Generated fallback is just an automated way to create a defined fallback as
 illustrated in the
-[grunt-pixrem](<https://github.com/robwierzbowski/grunt-pixrem>) example.
+[grunt-pixrem](https://github.com/robwierzbowski/grunt-pixrem) example.
