@@ -7,7 +7,7 @@ Flexbox: Reference Guide
     properties such as `display: block`, `inline` or `inline-block` to the
     parent element or its children. Nor can we apply `float`, `clear` or
     `vertical-align`. To be precise, we can apply these properties, however they
-    will not have any effect when the website is displayed in a browser without
+    will not have any effect when the website is displayed in a browser with
     flexbox support. But it is useful when creating fallbacks for older
     browsers.
 2.  In relation to the previous point, `margins` of adjacent items will not be
@@ -65,7 +65,7 @@ previous line and align over the first item.
 
 #### Flex-flow - A Shorthand for Flex-direction and Flex-wrap
 
-let’s explain this in examples:
+Let’s explain this in examples:
 
 -   `flex-flow: row` – this is the default value. Items are placed in a single
     line and do not break.
@@ -130,7 +130,7 @@ flex: 0 1 auto
 -   `flex-shrink: 1` - it will shrink just as all other items.
 -   `flex-basis: auto` - it will take up space defined by its own content.
 
-let’s assume you want your items to take up a minimum of `150px` and if there is
+Let’s assume you want your items to take up a minimum of `150px` and if there is
 enough free space available, to expand equally. On the other hand, if there is
 not enough free space, you want them to shrink equally. You will do it like
 this:
@@ -214,7 +214,7 @@ justify-content:
   space-between | space-around
 ```
 
-let’s apply the `justify-content` property to the flex container, dictating how
+Let’s apply the `justify-content` property to the flex container, dictating how
 flex items will be aligned along the main axis. The default value is
 `flex-start`, aligning the items to the start of the main axis.
 

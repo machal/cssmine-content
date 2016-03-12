@@ -78,7 +78,7 @@ Unlike percentages, viewport units do not relate to the size of the direct
 parent but to the width and height of the browser window instead. We can
 literally do magic that was once possible just by using CSS hacks or Javascript.
 
-let’s show this with a simple example - stretching the height of a layout to the
+Let’s show this with a simple example - stretching the height of a layout to the
 full height of the browser window:
 
 ```css

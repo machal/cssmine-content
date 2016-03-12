@@ -19,7 +19,7 @@ items, image thumbnails and online store items.
 Example
 -------
 
-let’s define a column width using the `column-width: 15em` declaration and
+Let’s define a column width using the `column-width: 15em` declaration and
 define a gap between the columns using `column-gap: 2em`.
 
 You can see a vertical line example, `column-rule: 1px dotted #ddd`, at the link

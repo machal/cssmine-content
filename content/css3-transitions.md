@@ -91,7 +91,7 @@ Example:
 
 As mentioned before, animated transitions cannot be applied to all CSS
 properties. For instance, animating the `display` property would be absolutely
-useless. So here is [list of animatable
+useless. So here is a [list of animatable
 properties](http://www.w3.org/TR/css3-transitions/#animatable-properties).
 
 ### Transition Timing Function

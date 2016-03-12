@@ -106,7 +106,7 @@ form fields can be found at [cdpn.io/e/iBquK](http://cdpn.io/e/iBquK).
 Browser Support
 ---------------
 
-IE7+ and all modern browsers. If you previously did not previously know about
+IE7+ and all modern browsers. If you previously did not know about
 this property, you will be surprised how well it is supported:
 [caniuse.com/box-sizing](http://caniuse.com/box-sizing).
 

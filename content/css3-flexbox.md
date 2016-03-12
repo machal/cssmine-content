@@ -30,7 +30,7 @@ what? Let’s see how to fulfill them using flexbox.
 1.  **Equal column height.** That’s right - even if one column has more content
     than the others. This is easy. All you need to do is add `.container {
     display: flex; }` to the parent element.
-2.  **One-fifth grid**. The first and third column should take up one- fifth of
+2.  **One-fifth grid**. The first and third column should take up one fifth of
     the available space: `.mandatory-1, .mandatory-2 { flex: 1; }`. The second
     column should take up three fifths: `.content { flex: 3 }`. Did you notice
     that we do not use percentages and that we do not re-calculate the

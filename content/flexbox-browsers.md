@@ -2,7 +2,7 @@ Flexbox: Browser Support
 ========================
 
 Browser support is not bad. At the time of this writing, the level of support
-was 92–95% and when using reasonable fallbacks for older browsers, so there is
+was 92–95% when using reasonable fallbacks for older browsers, so there is
 no reason not to use flexbox right away.
 
 ### Three Types of Syntax in Modern Browsers

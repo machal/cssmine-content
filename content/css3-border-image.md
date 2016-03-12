@@ -95,7 +95,7 @@ A Simple Example with a Color Gradient
 [CSS gradients](css3-gradients.md) count as images, therefore you can use a
 color gradient as a border.
 
-But remember that you always have to define a native image border  -first for
+But remember that you always have to define a native image border - first for
 handling sizes and second, for creating a fallback for browsers not supporting
 `border-image`. So for the sake of this example, let’s create a 20 pixel border
 around an element:

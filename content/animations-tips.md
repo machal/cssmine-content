@@ -15,8 +15,7 @@ fleshless animations are our future (although it will take some time). See
 +
 [24ways.org/2012/flashless-animation/](http://24ways.org/2012/flashless-animation/).
 
-If you want to set the **trajectory of an animated object**, take a look at this
-Stylie tool:
+If you want to set the **trajectory of an animated object**, take a look at the Stylie tool:
 [jeremyckahn.github.io/stylie/](http://jeremyckahn.github.io/stylie/).
 
 The Ceaser tool will let you define your **own animation timing function**. See

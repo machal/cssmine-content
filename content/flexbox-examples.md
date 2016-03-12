@@ -39,7 +39,7 @@ Now let’s display this situation in an image:
 ![flexible button](dist/images/original/flexbox-priklady-2.jpg)
 
 Technically speaking, every item has a `flex` property and a default value set
-to `initial`. As you will learn from the “Reference Guide”, the `flex` property
+to `initial`. As you will learn from the “Flexbox Reference Guide”, the `flex` property
 is shorthand for additional properties. The `initial` value means that an item
 can shrink when there is not enough space, however, it will not extend to fill
 up extra space.
@@ -50,7 +50,7 @@ You can try an example at CodePen: <http://cdpn.io/e/raqXZX>.
 
 ![combining units](dist/images/original/flexbox-priklady-3.jpg)
 
-let’s extend our example. Take a look at the last line in the picture, where we
+Let’s extend our example. Take a look at the last line in the picture, where we
 combine various units.
 
 We want to define the width of the radio button in pixels, however, the width of
@@ -79,7 +79,7 @@ center itself using the `align-self` property.
 
 Both vertical and horizontal centering using flexbox is literally trouble-free.
 Take a look at the `justify-content` and `align-items` properties in addition to
-the `align-self` property, when reading the “Reference Guide”.
+the `align-self` property, when reading the “Flexbox Reference Guide”.
 
 Try an example at CodePen: <http://cdpn.io/e/zxydom>.
 
@@ -91,7 +91,7 @@ change the order of flex items.
 
 ![order change](dist/images/original/flexbox-priklady-6.jpg)
 
-let’s define the HTML order: A) C) B). And let’s assume we want to change that
+Let’s define the HTML order: A) C) B). And let’s assume we want to change that
 order on small screens so that B) will be followed by C). Since the order
 property counts from zero, we will do it this way:
 
@@ -102,7 +102,7 @@ property counts from zero, we will do it this way:
 Try a live example at [cdpn.io/e/JoqxJe](http://cdpn.io/e/JoqxJe).
 
 Changing the visual order might also come in handy when ordering items from Z to
-A. Also, take a look in the “Reference Guide” at the `flex-direction` property.
+A. Also, take a look in the “Flexbox Reference Guide” at the `flex-direction` property.
 
 ### Fifth Example: Navigation With an Unknown Number of Items
 

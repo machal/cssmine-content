@@ -1,7 +1,7 @@
 CSS3 Selectors
 ==============
 
-CSS3 marches in with an army of new selectors. let’s look at it through the lens
+CSS3 marches in with an army of new selectors. Let’s look at it through the lens
 of Internet Explorer. Depending on what version of IE you have to support, you
 can use the following selectors:
 
