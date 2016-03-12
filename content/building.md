@@ -21,7 +21,7 @@ The building tools for the front-end come in two types:
 Prepros
 -------
 
-This is an example of a simplified building tools I usually recommend starting
+This is an example of a simplified building tool I usually recommend starting
 with it as it is supported by all platforms and it has a point-and-click user
 interface.
 

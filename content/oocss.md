@@ -11,7 +11,7 @@ across multiple projects.
 The objective of OOCSS is to provide developers with reusable code, improve its
 maintenance and reduce CSS file size.
 
-let’s take the example of a simple CSS button:
+Let’s take the example of a simple CSS button:
 
 ```css
 /* Component */
@@ -74,7 +74,7 @@ reserved for debugging purposes only.
 
 To ensure the lowest specificity possible, avoid using:
 
--   child selector (do not use `.button .button-icon`, but rather
+-   child selector (do not use `.button.button-icon`, but rather
     `.button-icon`)
 -   combined selectors (do not use `.button.button-primary`, but rather
     `.button-primary`)

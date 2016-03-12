@@ -59,7 +59,7 @@ that will make a web font out of your OTF format and any other non-web formats.
 
 There are literally hundreds of free fonts scattered around the internet.
 However, there are very few good ones. A high quality font should have some
-essential technical (i.e. file size), typographical (i.e. optimized web font
+essential technical (e.g. file size), typographical (e.g. optimized web font
 rendering and readability) and aesthetic parameters.
 
 If you do not have a technician or a typographer at your disposal (or your own

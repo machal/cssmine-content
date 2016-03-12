@@ -1,4 +1,4 @@
-A Few Words About Ebook
+A Few Words About This E-book
 =======================
 
 Thanks!
@@ -33,7 +33,7 @@ helpful for beginners and intermediate developers. Experienced users will
 appreciate the detailed flexbox guide and the summing up of contemporary website
 UI development.
 
-We do front-end coding, i.e. UI development—not front-end programming and
+We do front-end coding, i.e. UI development — not front-end programming and
 Javascript.
 
 What Is It About?
@@ -53,7 +53,7 @@ The Author
 
 ![Martin Michalek](dist/images/original/autor.jpg)
 
-Martin Michalek is a freelance front-end designer based in Prague, Czech republic.
+Martin Michalek is a freelance front-end designer based in Prague, Czech Republic.
 He writes well know Czech blog vzhurudolu.cz and gives lectures about CSS3,
 responsive design and modern web UI development. [cssmine.com/martin](http://www.cssmine.com/martin).
 

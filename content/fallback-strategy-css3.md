@@ -136,7 +136,7 @@ detection javascript.
 
 ### Feature Queries
 
-Currently, Modernizr is currently *sort of* natively supported by W3C. This
+Currently, Modernizr is *sort of* natively supported by W3C. This
 support comes in the form of CSS Feature Queries. Thanks to the `@supports`
 at-rule, you can query the availability of a particular CSS property:
 
@@ -173,7 +173,7 @@ typography and linear design */
 }
 ```
 
-let’s remember this motto:
+Let’s remember this motto:
 
 -   In older browsers, the key thing is the availability of the main content,
     not following the graphic design to the letter.
@@ -203,7 +203,7 @@ dealing with fallbacks, we have to do it one more time.
 A good alternative to Respond.js, which will provide you with a functional
 website even in browsers without Media Queries support, is
 [grunt-legacssy](https://github.com/robinpokorny/grunt-legacssy), which
-generates a CSS version without media queries.
+generates a CSS version without Media Queries.
 
 Generated fallback is just an automated way to create a defined fallback as
 illustrated in the

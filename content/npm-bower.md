@@ -40,7 +40,7 @@ In my workflow, I use NPM mainly for installing libraries such as Grunt and its
 plugins. However, there are several approaches to packaging, so it is good to
 know that web libraries such as jQuery can be installed using NPM too.
 
-Npm uses a `package.json` config file and installs everything into a
+NPM uses a `package.json` config file and installs everything into a
 `node_modules` directory.
 
 See more at [npmjs.org](http://npmjs.org).
@@ -83,7 +83,7 @@ Using `--save-dev` will save the library into the project’s dependencies in a
 `bower.json` or `package.json` config file. However, jQuery is a user dependency
 so it is better to use `--save` when developing a website.
 
-let’s move on: updating jQuery:
+Let’s move on: updating jQuery:
 
 ```bash
 npm|bower update jquery
