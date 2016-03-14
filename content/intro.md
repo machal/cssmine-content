@@ -55,7 +55,7 @@ The Author
 
 Martin Michalek is a freelance front-end designer based in Prague, Czech Republic.
 He writes well know Czech blog vzhurudolu.cz and gives lectures about CSS3,
-responsive design and modern web UI development. [cssmine.com/martin](http://www.cssmine.com/martin).
+responsive design and modern web UI development. 
 
 Version
 -------
