@@ -30,6 +30,8 @@ The width or height of an element =
 
 Do you get it? This is the `border-box` **box-model**.
 
+![Box Sizing](dist/images/original/box-sizing.svg)
+
 In contrast, all other modern browsers use the `content-box` value **or the “W3C
 box-model”**. You know the drill:
 

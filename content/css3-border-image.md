@@ -38,6 +38,8 @@ source image size. The default value is `border-image-slice: 100%`.
 If the `fill` key word is used, the browser will apply the center part of the
 image to the element’s background.
 
+![Slice Sizes within border-image](dist/images/original/border-image.svg)
+
 ### Border Width
 
 The `border-image-width` property defines the border width in pixels or as a

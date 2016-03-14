@@ -40,6 +40,8 @@ border-radius: 15% 15% 0 0 / 30% 15% 0 0;
 
 The following scheme shows how the ellipse-rounding works in practice:
 
+![border-radius: 15% 0 0 0 / 30% 0 0 0](dist/images/original/border-radius.svg)
+
 It is good to know that `border-radius` is in fact a shorthand property for
 setting four `border-radius` properties **individually**:
 
