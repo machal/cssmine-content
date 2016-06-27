@@ -4,7 +4,7 @@
 
 Besides `display: flex` flexbox container can be defined as an inline element -` display: inline-flex`. In both cases, all direct descendants become flexbox items.
 
-## Flex Direction – Direction of Flexible Items {#flex-direction}
+## Flex Direction – Direction of Flexible Items 
 
 This property will set the direction of the main flexbox axis.
 
@@ -25,7 +25,7 @@ affect the visual rendering of the items, not the actual order - i.e., when
 rendering a site or going through the navigation using tab key. Some of you might
 have noticed that we can use this property to change the order of list items.
 
-## Flex Wrap – Forcing Items to Break {#flex-wrap}
+## Flex Wrap – Forcing Items to Break 
 
 ```css
 flex-wrap:
@@ -46,7 +46,7 @@ previous line and align over the first item.
 
 Live demo: [http://cdpn.io/e/mERZxB](http://cdpn.io/e/mERZxB)
 
-## Flex Flow - A Shorthand for Flex-direction and Flex-wrap {#flex-flow}
+## Flex Flow - A Shorthand for Flex-direction and Flex-wrap 
 
 Let’s explain this in examples:
 
@@ -57,7 +57,7 @@ Let’s explain this in examples:
 We have explained the flex container properties. Now, let’s explain flex items
 as there is more to explain.
 
-## Justify Content – Aligning Main Axis Items {#justify-content}
+## Justify Content – Aligning Main Axis Items 
 
 ```css
 justify-content:
@@ -73,7 +73,7 @@ flex items will be aligned along the main axis. The default value is
 
 Live demo: [http://cdpn.io/e/doGjaZ](http://cdpn.io/e/doGjaZ)
 
-## Align Items – Aligning Cross Axis Items {#align-items}
+## Align Items – Aligning Cross Axis Items 
 
 ```css
 align-items:
@@ -92,7 +92,7 @@ cross-axis is defined. In other words, if `height` is set, it will not work.
 
 Live demo: [http://cdpn.io/e/RNmvmr](http://cdpn.io/e/RNmvmr)
 
-## Align Content – Aligning Main Axis Items Within a Multiple Line Container {#align-content}
+## Align Content – Aligning Main Axis Items Within a Multiple Line Container 
 
 ```css
 align-content:

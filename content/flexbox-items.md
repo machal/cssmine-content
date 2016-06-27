@@ -1,6 +1,6 @@
 # Flex Item Properties
 
-## `flex-grow` – The Ability To Grow {#flex-grow}
+## `flex-grow` – The Ability To Grow
 
 How much can the item grow relative to the rest of the flexible items when there
 is free space? When a user resizes the browser window for example?  
@@ -14,7 +14,7 @@ The possible values:
 
 Live demo: [http://cdpn.io/e/GqrVzL](http://cdpn.io/e/GqrVzL)
 
-## `flex-shrink` – The Ability To Shrink {#flex-shrink}
+## `flex-shrink` – The Ability To Shrink
 
 How much will the flex item shrink relative to other items when there is not
 enough space in the parent element? When a user resizes the browser window or a
@@ -29,7 +29,7 @@ The possible values:
 
 Live demo: [http://cdpn.io/e/PzWMvM](http://cdpn.io/e/PzWMvM)
 
-## `flex-basis` – Default Item Size {#flex-basis}
+## `flex-basis` – Default Item Size
 
 This is the default width of the item (or default height when using
 `flex-direction: column`).
@@ -47,7 +47,7 @@ This is the default width of the item (or default height when using
 
 Live demo: [http://cdpn.io/e/oLZvgQ](http://cdpn.io/e/oLZvgQ)
 
-## `flex` – Overall Item Flexibility {#flex}
+## `flex` – Overall Item Flexibility
 
 This is a shorthand for all properties that define the flexibility of an item:
 `flex-grow`, `flex-shrink` and `flex-basis`. It sets the default element size
@@ -106,7 +106,7 @@ content size. This size is defined by the length of the longest word or
 fixed-size element – e.g. an image. It can be changed by setting the `min-width`
 or `min-height` properties to a low value.
 
-## `order` – Changing the Order of Elements {#order}
+## `order` – Changing the Order of Elements
 
 The order of flex items corresponds to the HTML code. However, we can change
 that using the `order` property.
@@ -132,7 +132,7 @@ direct children of the flex container.
 
 Live demo: [http://cdpn.io/e/JoqxJe](http://cdpn.io/e/JoqxJe)
 
-## `margin` – Aligning Main Axis Items Within an Item {#margin}
+## `margin` – Aligning Main Axis Items Within an Item
 
 The `margin: auto` declaration works similarly to block elements. When
 calculating the size of flex items, the `auto` value does not matter. Free space
@@ -146,7 +146,7 @@ All other “alignment properties” use similar values, however they apply to
 different sets of flex items or different container axes.
 
 
-## `align-self` – Aligning Cross Axis Items Within an Item {#align-self}
+## `align-self` – Aligning Cross Axis Items Within an Item
 
 ```css
 align-self:
