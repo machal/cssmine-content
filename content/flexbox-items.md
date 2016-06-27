@@ -3,22 +3,38 @@
 ## `flex-grow` – The Ability To Grow
 
 How much can the item grow relative to the rest of the flexible items when there
-is free space? When a user resizes the browser window for example? The items
-will distribute across the newly gained space beyond their default width. The
-values can only be positive integers, defaulting to 0, which means that items
-will not grow.
+is free space? When a user resizes the browser window for example?  
+
+![flex-grow property](../dist/images/original/flexbox-flex-grow.jpg)
+
+The possible values:
+
+- `0` (default), which means that items will not grow.
+- Positive integers. The items will distribute across the newly gained space beyond their default width.
+
+Live demo: [http://cdpn.io/e/GqrVzL](http://cdpn.io/e/GqrVzL)
 
 ## `flex-shrink` – The Ability To Shrink
 
 How much will the flex item shrink relative to other items when there is not
 enough space in the parent element? When a user resizes the browser window or a
-new item is added, for example. The values can only be positive integers,
-defaulting to 1, which means that items will reduce their widths equally.
+new item is added, for example. 
+
+![flex-shrink property](../dist/images/original/flexbox-flex-shrink.jpg)
+
+The possible values:
+
+- `1` (default), which means that items will reduce their widths equally.
+- Positive integers.
+
+Live demo: [http://cdpn.io/e/PzWMvM](http://cdpn.io/e/PzWMvM)
 
 ## `flex-basis` – Default Item Size
 
 This is the default width of the item (or default height when using
 `flex-direction: column`).
+
+![flex-basis property](../dist/images/original/flexbox-flex-basis.jpg)
 
 -   `auto` (default) – the width is defined by the content, similar to `width:
     auto`. The distribution of free space using the `flex-grow/flex-basis`
@@ -28,6 +44,8 @@ This is the default width of the item (or default height when using
     using the `flex-grow/flex-basis` properties will then affect the whole width
     of the item – the absolute flex model.
 -   `100px`, `15em`, `50%` - or any other CSS size.
+
+Live demo: [http://cdpn.io/e/oLZvgQ](http://cdpn.io/e/oLZvgQ)
 
 ## `flex` – Overall Item Flexibility
 
@@ -65,6 +83,8 @@ flex: 1 1 150px
 
 However, I think you are better off using pre-defined “intelligent” values:
 
+![flex property](../dist/images/original/flexbox-reference-flex.jpg)
+
 -   `flex: auto`
     This corresponds to `flex: 1 1 auto`. The items in question will become
     fully flexible, having a default width based on their contents. This is
@@ -80,8 +100,6 @@ However, I think you are better off using pre-defined “intelligent” values:
     Watch out if you use a single number here! The `flex: 1` declaration stands
     for `flex: 1 1 0` so the default size of the item and flex model will be
     changed. I have already mentioned this in the `flex-basis` property section.
-
-![flex property](dist/images/original/flexbox-reference-flex.jpg)
 
 It is also good to know that flex items will never shrink below their minimum
 content size. This size is defined by the length of the longest word or
@@ -112,6 +130,8 @@ to be the first one:
 But remember that you can’t use `order` on other elements of the page except the
 direct children of the flex container.
 
+Live demo: [http://cdpn.io/e/JoqxJe](http://cdpn.io/e/JoqxJe)
+
 ## `margin` – Aligning Main Axis Items Within an Item
 
 The `margin: auto` declaration works similarly to block elements. When
@@ -136,6 +156,8 @@ align-self:
 
 This property is applied to each item, so it is suitable for creating alignment
 exceptions. The default value is `auto`.
+
+Live demo: [http://cdpn.io/e/OXWKwe](http://cdpn.io/e/OXWKwe)
 
 ## Note: Baseline Alignment
 
