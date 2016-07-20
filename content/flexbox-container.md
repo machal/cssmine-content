@@ -25,6 +25,8 @@ affect the visual rendering of the items, not the actual order - i.e., when
 rendering a site or going through the navigation using tab key. Some of you might
 have noticed that we can use this property to change the order of list items.
 
+Live demo: [http://cdpn.io/e/pbarBw](http://cdpn.io/e/pbarBw)
+
 ## Flex Wrap – Forcing Items to Break 
 
 ```css
